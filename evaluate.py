@@ -71,7 +71,7 @@ def _call_openai(user_prompt: str, system_prompt: str, model_name: str) -> str:
 
     client = OpenAI(api_key=api_key)
 
-    # gpt-5.6-sol is a reasoning model: no temperature, no system role
+    # Reasoning models (gpt-5.6-sol, o1, o3): no temperature, no system role
     is_reasoning = "5.6-sol" in model_name or "o1" in model_name or "o3" in model_name
 
     if is_reasoning:
@@ -220,8 +220,8 @@ if __name__ == "__main__":
     all_results.append(run_eval(args.test, test_count,
         lambda u, s: call_finetuned_model(u, s), "Fine-tuned Qwen2.5-3B (ours)"))
     all_results.append(run_eval(args.test, test_count,
-        lambda u, s: call_frontier_model(u, s, "gpt-5.6-sol"),
-        "GPT-5.6-sol", sleep_between=0.5))
+        lambda u, s: call_frontier_model(u, s, "gpt-4.1-mini"),
+        "GPT-4.1-mini", sleep_between=0.3))
     all_results.append(run_eval(args.test, test_count,
         lambda u, s: call_frontier_model(u, s, "gemini-3-flash"),
         "Gemini 3 Flash", sleep_between=1.5))
