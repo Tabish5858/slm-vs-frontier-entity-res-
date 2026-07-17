@@ -50,6 +50,10 @@ SUFFIX_VARIANTS = {
     "ltd.": ["Ltd", "LTD", "Limited", "Ltd."],
     "holdings": ["Holdings", "Hldgs", "HOLDINGS"],
     "group": ["Group", "Grp", "GROUP"],
+    # New: failure-analysis patterns
+    "l.p.": ["LP", "L.P.", "Limited Partnership"],
+    "plc": ["PLC", "Public Limited Company", "plc"],
+    "n.v.": ["N.V.", "NV", "Naamloze Vennootschap"],
 }
 
 NOISE_WRAPPERS = [
@@ -62,6 +66,11 @@ NOISE_WRAPPERS = [
     "dba {name}",
     "{name}, the Company",
     "{name} (the \"Company\")",
+    # New: patterns from failure analysis
+    "{name} (successor to former entity)",
+    "{name} /DE/",
+    "{name}, a Delaware corporation",
+    "{name} /formerly/",
 ]
 
 
@@ -98,16 +107,17 @@ def punctuation_noise(name: str) -> str:
 
 
 def make_messy_variant(canonical: str) -> tuple[str, int]:
-    """Return (messy_name, noise_count)."""
+    """Return (messy_name, noise_count). Aggressive noise for suffix-heavy failures."""
     name = canonical
     noise_count = 0
-    if random.random() < 0.6:
+    # Boost suffix swap — 58% of failures are suffix mismatches
+    if random.random() < 0.85:
         name = swap_suffix(name)
         noise_count += 1
-    if random.random() < 0.4:
+    if random.random() < 0.50:
         name = punctuation_noise(name)
         noise_count += 1
-    if random.random() < 0.3:
+    if random.random() < 0.40:
         name = noisy_casing(name)
         noise_count += 1
     wrapper = random.choice(NOISE_WRAPPERS)
@@ -138,7 +148,7 @@ def to_chat_example(messy_input: str, output_obj: dict, difficulty: str) -> dict
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", default="../data/edgar_raw.jsonl")
-    ap.add_argument("--synthetic_per_company", type=int, default=3,
+    ap.add_argument("--synthetic_per_company", type=int, default=5,
                      help="How many synthetic noisy variants to generate per company")
     ap.add_argument("--out_dir", default="../data")
     args = ap.parse_args()
@@ -166,6 +176,15 @@ def main():
             out = build_output(r, is_former=False)
             diff = "hard" if noise_count >= 2 else "easy"
             examples.append(to_chat_example(messy, out, diff))
+
+        # 2b. Extra suffix-swap-only passes — 58% of failures are suffix mismatches
+        for _ in range(2):
+            name = r["name"]
+            if random.random() < 0.9:
+                name = swap_suffix(name)
+            wrapper = random.choice(NOISE_WRAPPERS)
+            out = build_output(r, is_former=False)
+            examples.append(to_chat_example(wrapper.format(name=name).strip(), out, "hard"))
 
         # 3. One clean "identity" example so the model learns not to over-correct
         #    already-clean canonical names

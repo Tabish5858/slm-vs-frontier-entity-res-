@@ -52,8 +52,39 @@ def call_finetuned_model(user_prompt: str, system_prompt: str) -> str:
 
 
 def call_frontier_model(user_prompt: str, system_prompt: str, model_name: str) -> str:
-    """Call a frontier model API (OpenAI GPT). Set OPENAI_API_KEY env var."""
+    """Call a frontier model API. Supports Claude and GPT.
+    Set CLAUDE_API_KEY or OPENAI_API_KEY env var."""
+    if "claude" in model_name.lower():
+        return _call_claude(user_prompt, system_prompt, model_name)
     return _call_openai(user_prompt, system_prompt, model_name)
+
+
+def _call_claude(user_prompt: str, system_prompt: str, model_name: str) -> str:
+    import os, sys
+    from anthropic import Anthropic
+
+    api_key = os.environ.get("CLAUDE_API_KEY")
+    if not api_key:
+        print("  Claude skipped: CLAUDE_API_KEY not set", file=sys.stderr)
+        return ""
+
+    client = Anthropic(api_key=api_key)
+    try:
+        kwargs = {"model": model_name, "max_tokens": 200,
+                  "system": system_prompt,
+                  "messages": [{"role": "user", "content": user_prompt}]}
+        # Newer Claude models deprecate temperature
+        if "opus-4-8" not in model_name and "sonnet-5" not in model_name:
+            kwargs["temperature"] = 0
+        response = client.messages.create(**kwargs)
+        # Claude returns content blocks; first text block
+        for block in response.content:
+            if block.type == "text":
+                return block.text
+        return ""
+    except Exception as e:
+        print(f"  Claude error ({model_name}): {e}", file=sys.stderr)
+        return ""
 
 
 def _call_openai(user_prompt: str, system_prompt: str, model_name: str) -> str:
@@ -66,12 +97,12 @@ def _call_openai(user_prompt: str, system_prompt: str, model_name: str) -> str:
 
     client = OpenAI(api_key=api_key)
 
-    # Reasoning models (gpt-5.6-sol, o1, o3): no temperature, no system role
-    is_reasoning = "5.6-sol" in model_name or "o1" in model_name or "o3" in model_name
+    # Reasoning models: no temperature, use max_completion_tokens, no system role
+    is_reasoning = "5.6" in model_name or "5.5" in model_name or "o1" in model_name or "o3" in model_name
 
     if is_reasoning:
         messages = [{"role": "user", "content": system_prompt + "\n\n" + user_prompt}]
-        kwargs = {"model": model_name}
+        kwargs = {"model": model_name, "max_completion_tokens": 300}
     else:
         messages = [
             {"role": "system", "content": system_prompt},
@@ -165,8 +196,8 @@ if __name__ == "__main__":
     all_results.append(run_eval(args.test, test_count,
         lambda u, s: call_finetuned_model(u, s), "Fine-tuned Qwen2.5-3B (ours)"))
     all_results.append(run_eval(args.test, test_count,
-        lambda u, s: call_frontier_model(u, s, "gpt-5.6-sol"),
-        "GPT-5.6-sol", sleep_between=0.5))
+        lambda u, s: call_frontier_model(u, s, "claude-opus-4-8"),
+        "Claude Opus 4.8", sleep_between=0.2))
 
     print("\n" + "=" * 50)
     print(json.dumps(all_results, indent=2))
