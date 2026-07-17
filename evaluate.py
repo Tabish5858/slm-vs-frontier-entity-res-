@@ -123,10 +123,10 @@ def score(example, prediction: dict) -> dict:
     if prediction is None:
         return {"name_match": False, "cik_match": False, "full_match": False}
     name_match = (
-        prediction.get("canonical_name", "").strip().lower()
+        (prediction.get("canonical_name") or "").strip().lower()
         == expected["canonical_name"].strip().lower()
     )
-    cik_match = str(prediction.get("cik", "")).lstrip("0") == str(expected["cik"]).lstrip("0")
+    cik_match = str(prediction.get("cik") or "").lstrip("0") == str(expected["cik"]).lstrip("0")
     return {
         "name_match": name_match,
         "cik_match": cik_match,
