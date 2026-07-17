@@ -52,11 +52,44 @@ def call_finetuned_model(user_prompt: str, system_prompt: str) -> str:
 
 
 def call_frontier_model(user_prompt: str, system_prompt: str, model_name: str) -> str:
-    """Call a frontier model API. Currently supports Gemini via REST.
-    Set GEMINI_API_KEY env var before running."""
+    """Call a frontier model API. Supports OpenAI (GPT) and Gemini.
+    Set OPENAI_API_KEY or GEMINI_API_KEY env var before running."""
+    if "gpt" in model_name:
+        return _call_openai(user_prompt, system_prompt, model_name)
     if "gemini" in model_name:
         return _call_gemini(user_prompt, system_prompt, model_name)
     raise NotImplementedError(f"Frontier model '{model_name}' not configured. Add API key + SDK.")
+
+
+def _call_openai(user_prompt: str, system_prompt: str, model_name: str) -> str:
+    import os, sys
+    from openai import OpenAI
+
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        raise RuntimeError("Set OPENAI_API_KEY environment variable")
+
+    client = OpenAI(api_key=api_key)
+
+    # gpt-5.6-sol is a reasoning model: no temperature, no system role
+    is_reasoning = "5.6-sol" in model_name or "o1" in model_name or "o3" in model_name
+
+    if is_reasoning:
+        messages = [{"role": "user", "content": system_prompt + "\n\n" + user_prompt}]
+        kwargs = {"model": model_name}
+    else:
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ]
+        kwargs = {"model": model_name, "temperature": 0, "max_tokens": 200}
+
+    try:
+        response = client.chat.completions.create(messages=messages, **kwargs)
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"  OpenAI error ({model_name}): {e}", file=sys.stderr)
+        return ""
 
 
 def _call_gemini(user_prompt: str, system_prompt: str, model_name: str) -> str:
@@ -64,7 +97,8 @@ def _call_gemini(user_prompt: str, system_prompt: str, model_name: str) -> str:
 
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        raise RuntimeError("Set GEMINI_API_KEY environment variable")
+        print("  Gemini skipped: GEMINI_API_KEY not set", file=sys.stderr)
+        return ""
 
     model_map = {
         "gemini-3.1-pro": "gemini-3.1-pro-preview",
@@ -186,8 +220,11 @@ if __name__ == "__main__":
     all_results.append(run_eval(args.test, test_count,
         lambda u, s: call_finetuned_model(u, s), "Fine-tuned Qwen2.5-3B (ours)"))
     all_results.append(run_eval(args.test, test_count,
-        lambda u, s: call_frontier_model(u, s, "gemini-3.1-pro"),
-        "Gemini 3.1 Pro", sleep_between=1.0))
+        lambda u, s: call_frontier_model(u, s, "gpt-5.6-sol"),
+        "GPT-5.6-sol", sleep_between=0.5))
+    all_results.append(run_eval(args.test, test_count,
+        lambda u, s: call_frontier_model(u, s, "gemini-3-flash"),
+        "Gemini 3 Flash", sleep_between=1.5))
 
     print("\n" + "=" * 50)
     print(json.dumps(all_results, indent=2))
