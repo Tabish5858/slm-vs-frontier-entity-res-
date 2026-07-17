@@ -60,19 +60,18 @@ def call_frontier_model(user_prompt: str, system_prompt: str, model_name: str) -
 
 
 def _call_gemini(user_prompt: str, system_prompt: str, model_name: str) -> str:
-    import os, json, sys
-    import urllib.request, urllib.error
+    import os, json, subprocess, sys
 
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("Set GEMINI_API_KEY environment variable")
 
-    # Map shorthand names to full model IDs
     model_map = {
         "gemini-3.1-pro": "gemini-3.1-pro-preview",
         "gemini-3-pro": "gemini-3-pro-preview",
         "gemini-3-flash": "gemini-3-flash-preview",
         "gemini-2.5-pro": "gemini-2.5-pro",
+        "gemini-2.0-flash": "gemini-2.0-flash",
     }
     model_id = model_map.get(model_name, model_name)
 
@@ -80,24 +79,29 @@ def _call_gemini(user_prompt: str, system_prompt: str, model_name: str) -> str:
         "https://generativelanguage.googleapis.com/v1beta/models/"
         f"{model_id}:generateContent?key={api_key}"
     )
-    body = {
+    body = json.dumps({
         "system_instruction": {"parts": [{"text": system_prompt}]},
         "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
-        "generationConfig": {"temperature": 0, "maxOutputTokens": 200},
-    }
+        "generationConfig": {"temperature": 0, "maxOutputTokens": 512},
+    })
 
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(body).encode(),
-        headers={"Content-Type": "application/json"},
-    )
     try:
-        with urllib.request.urlopen(req, timeout=45) as resp:
-            data = json.loads(resp.read())
-            return data["candidates"][0]["content"]["parts"][0]["text"]
-    except urllib.error.HTTPError as e:
-        error_body = e.read().decode() if e.fp else str(e)
-        print(f"  Gemini API error ({e.code}): {error_body[:300]}", file=sys.stderr)
+        result = subprocess.run(
+            ["curl", "-s", "--max-time", "45", url,
+             "-H", "Content-Type: application/json",
+             "-d", body],
+            capture_output=True, text=True, timeout=50,
+        )
+        if result.returncode != 0:
+            print(f"  curl failed (rc={result.returncode}): {result.stderr[:200]}", file=sys.stderr)
+            return ""
+        data = json.loads(result.stdout)
+        if "error" in data:
+            print(f"  Gemini API error: {data['error'].get('message','')[:200]}", file=sys.stderr)
+            return ""
+        return data["candidates"][0]["content"]["parts"][0]["text"]
+    except subprocess.TimeoutExpired:
+        print(f"  Gemini call timed out", file=sys.stderr)
         return ""
     except Exception as e:
         print(f"  Gemini call failed: {e}", file=sys.stderr)
@@ -112,7 +116,7 @@ def score(example, prediction: dict) -> dict:
         prediction.get("canonical_name", "").strip().lower()
         == expected["canonical_name"].strip().lower()
     )
-    cik_match = str(prediction.get("cik", "")) == str(expected["cik"])
+    cik_match = str(prediction.get("cik", "")).lstrip("0") == str(expected["cik"]).lstrip("0")
     return {
         "name_match": name_match,
         "cik_match": cik_match,
