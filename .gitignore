@@ -1,4 +1,5 @@
 adapters/
+adapters_rag/
 models/
 .cache/
 __pycache__/

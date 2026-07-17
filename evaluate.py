@@ -14,6 +14,26 @@ import argparse
 import json
 import re
 import time
+import sys
+
+# ── Hybrid matcher (no model, just rules + database) ─────────────────
+
+from evaluate_hybrid import HybridMatcher
+
+def call_hybrid_matcher(messy_input: str, _system_prompt: str = "") -> str:
+    """Zero-model entity resolution: clean → normalize → database match."""
+    global _hybrid_matcher
+    result = _hybrid_matcher.match(messy_input)
+    if result:
+        return json.dumps({
+            "canonical_name": result["name"],
+            "cik": result["cik"],
+            "entity_type": result.get("entity_type", "unknown"),
+            "is_former_name_input": False,
+        })
+    return "{}"
+
+_hybrid_matcher = None
 
 
 def extract_json(text: str):
@@ -193,6 +213,14 @@ if __name__ == "__main__":
     print(f"Evaluating {test_count} test examples...")
 
     all_results = []
+    
+    # 0. Hybrid matcher (rules + database, zero model)
+    import evaluate_hybrid
+    _hybrid_matcher = HybridMatcher("./data/edgar_raw.jsonl")
+    all_results.append(run_eval(args.test, test_count,
+        lambda u, s: call_hybrid_matcher(u, s),
+        "Hybrid (rules + DB, no model)"))
+    
     all_results.append(run_eval(args.test, test_count,
         lambda u, s: call_finetuned_model(u, s), "Fine-tuned Qwen2.5-3B (ours)"))
     all_results.append(run_eval(args.test, test_count,
