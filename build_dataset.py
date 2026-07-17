@@ -97,17 +97,22 @@ def punctuation_noise(name: str) -> str:
     return name
 
 
-def make_messy_variant(canonical: str) -> str:
+def make_messy_variant(canonical: str) -> tuple[str, int]:
+    """Return (messy_name, noise_count)."""
     name = canonical
+    noise_count = 0
     if random.random() < 0.6:
         name = swap_suffix(name)
+        noise_count += 1
     if random.random() < 0.4:
         name = punctuation_noise(name)
+        noise_count += 1
     if random.random() < 0.3:
         name = noisy_casing(name)
+        noise_count += 1
     wrapper = random.choice(NOISE_WRAPPERS)
     name = wrapper.format(name=name)
-    return name.strip()
+    return name.strip(), noise_count
 
 
 def build_output(record, is_former):
@@ -119,13 +124,14 @@ def build_output(record, is_former):
     }
 
 
-def to_chat_example(messy_input: str, output_obj: dict) -> dict:
+def to_chat_example(messy_input: str, output_obj: dict, difficulty: str) -> dict:
     return {
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": messy_input},
             {"role": "assistant", "content": json.dumps(output_obj, separators=(",", ":"))},
-        ]
+        ],
+        "difficulty": difficulty,
     }
 
 
@@ -152,18 +158,19 @@ def main():
             fname = fn.get("name")
             if fname and fname.strip().lower() != r["name"].strip().lower():
                 out = build_output(r, is_former=True)
-                examples.append(to_chat_example(fname, out))
+                examples.append(to_chat_example(fname, out, "hard"))
 
         # 2. Synthetic noisy variants of the canonical name
         for _ in range(args.synthetic_per_company):
-            messy = make_messy_variant(r["name"])
+            messy, noise_count = make_messy_variant(r["name"])
             out = build_output(r, is_former=False)
-            examples.append(to_chat_example(messy, out))
+            diff = "hard" if noise_count >= 2 else "easy"
+            examples.append(to_chat_example(messy, out, diff))
 
         # 3. One clean "identity" example so the model learns not to over-correct
         #    already-clean canonical names
         out = build_output(r, is_former=False)
-        examples.append(to_chat_example(r["name"], out))
+        examples.append(to_chat_example(r["name"], out, "easy"))
 
     random.shuffle(examples)
     n = len(examples)

@@ -51,12 +51,56 @@ def call_finetuned_model(user_prompt: str, system_prompt: str) -> str:
 
 
 def call_frontier_model(user_prompt: str, system_prompt: str, model_name: str) -> str:
-    """
-    TODO: wire this up to whichever frontier API you have keys for.
-    Keep the SAME system_prompt and user_prompt as the fine-tuned model gets --
-    apples-to-apples is the whole point of this eval.
-    """
-    raise NotImplementedError
+    """Call a frontier model API. Currently supports Gemini via google-genai SDK.
+    Set GEMINI_API_KEY env var before running."""
+    if model_name.startswith("gemini"):
+        return _call_gemini(user_prompt, system_prompt, model_name)
+    raise NotImplementedError(f"Frontier model '{model_name}' not configured. Add API key + SDK.")
+
+
+def _call_gemini(user_prompt: str, system_prompt: str, model_name: str) -> str:
+    import os, json, urllib.request, urllib.error, sys
+
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise RuntimeError("Set GEMINI_API_KEY environment variable")
+
+    model_map = {
+        "gemini-3.1-pro": "gemini-3.1-pro-preview",
+        "gemini-3-pro": "gemini-3-pro-preview",
+        "gemini-3-flash": "gemini-3-flash-preview",
+        "gemini-flash": "gemini-flash-latest",
+    }
+    model_id = model_map.get(model_name, model_name)
+
+    # ponytail: systemInstruction hangs on v1beta; inline system prompt instead
+    combined = system_prompt + "\n\nUser input: " + user_prompt
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent"
+    body = {
+        "contents": [{"parts": [{"text": combined}]}],
+        "generationConfig": {"temperature": 0, "maxOutputTokens": 200},
+    }
+
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(body).encode(),
+        headers={
+            "Content-Type": "application/json",
+            "X-goog-api-key": api_key,
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read())
+            return data["candidates"][0]["content"]["parts"][0]["text"]
+    except urllib.error.HTTPError as e:
+        error_body = e.read().decode() if e.fp else str(e)
+        print(f"  Gemini API error ({e.code}): {error_body[:300]}", file=sys.stderr)
+        return ""
+    except Exception as e:
+        print(f"  Gemini call failed: {e}", file=sys.stderr)
+        return ""
 
 
 def score(example, prediction: dict) -> dict:
@@ -88,17 +132,38 @@ def run_eval(test_path: str, n: int, model_fn, model_label: str):
         user_prompt = ex["messages"][1]["content"]
         raw = model_fn(user_prompt, system_prompt)
         pred = extract_json(raw)
-        results.append(score(ex, pred))
+        difficulty = ex.get("difficulty", "unknown")
+        result = score(ex, pred)
+        result["difficulty"] = difficulty
+        results.append(result)
 
-    name_acc = sum(r["name_match"] for r in results) / len(results)
-    cik_acc = sum(r["cik_match"] for r in results) / len(results)
-    full_acc = sum(r["full_match"] for r in results) / len(results)
+    def bucket_accuracy(rs, key):
+        if not rs:
+            return 0.0
+        return sum(r[key] for r in rs) / len(rs)
+
+    hard_results = [r for r in results if r["difficulty"] == "hard"]
+    easy_results = [r for r in results if r["difficulty"] == "easy"]
 
     print(f"\n=== {model_label} (n={len(results)}) ===")
-    print(f"  canonical_name exact match: {name_acc:.1%}")
-    print(f"  cik exact match:            {cik_acc:.1%}")
-    print(f"  full match (both):         {full_acc:.1%}")
-    return {"model": model_label, "name_acc": name_acc, "cik_acc": cik_acc, "full_acc": full_acc}
+    print(f"  canonical_name exact match (primary metric):")
+    print(f"    Overall:  {bucket_accuracy(results, 'name_match'):.1%}")
+    print(f"    Hard:     {bucket_accuracy(hard_results, 'name_match'):.1%}  ({len(hard_results)} examples)")
+    print(f"    Easy:     {bucket_accuracy(easy_results, 'name_match'):.1%}  ({len(easy_results)} examples)")
+    print(f"  ---")
+    print(f"  cik exact match (bonus, needs lookup table in production):")
+    print(f"    Overall:  {bucket_accuracy(results, 'cik_match'):.1%}")
+    print(f"  ---")
+    print(f"  full match (name + cik): {bucket_accuracy(results, 'full_match'):.1%}")
+
+    return {
+        "model": model_label,
+        "name_acc_overall": bucket_accuracy(results, "name_match"),
+        "name_acc_hard": bucket_accuracy(hard_results, "name_match"),
+        "name_acc_easy": bucket_accuracy(easy_results, "name_match"),
+        "cik_acc": bucket_accuracy(results, "cik_match"),
+        "full_acc": bucket_accuracy(results, "full_match"),
+    }
 
 
 if __name__ == "__main__":
