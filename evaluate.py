@@ -52,13 +52,8 @@ def call_finetuned_model(user_prompt: str, system_prompt: str) -> str:
 
 
 def call_frontier_model(user_prompt: str, system_prompt: str, model_name: str) -> str:
-    """Call a frontier model API. Supports OpenAI (GPT) and Gemini.
-    Set OPENAI_API_KEY or GEMINI_API_KEY env var before running."""
-    if "gpt" in model_name:
-        return _call_openai(user_prompt, system_prompt, model_name)
-    if "gemini" in model_name:
-        return _call_gemini(user_prompt, system_prompt, model_name)
-    raise NotImplementedError(f"Frontier model '{model_name}' not configured. Add API key + SDK.")
+    """Call a frontier model API (OpenAI GPT). Set OPENAI_API_KEY env var."""
+    return _call_openai(user_prompt, system_prompt, model_name)
 
 
 def _call_openai(user_prompt: str, system_prompt: str, model_name: str) -> str:
@@ -89,56 +84,6 @@ def _call_openai(user_prompt: str, system_prompt: str, model_name: str) -> str:
         return response.choices[0].message.content
     except Exception as e:
         print(f"  OpenAI error ({model_name}): {e}", file=sys.stderr)
-        return ""
-
-
-def _call_gemini(user_prompt: str, system_prompt: str, model_name: str) -> str:
-    import os, json, subprocess, sys
-
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        print("  Gemini skipped: GEMINI_API_KEY not set", file=sys.stderr)
-        return ""
-
-    model_map = {
-        "gemini-3.1-pro": "gemini-3.1-pro-preview",
-        "gemini-3-pro": "gemini-3-pro-preview",
-        "gemini-3-flash": "gemini-3-flash-preview",
-        "gemini-2.5-pro": "gemini-2.5-pro",
-        "gemini-2.0-flash": "gemini-2.0-flash",
-    }
-    model_id = model_map.get(model_name, model_name)
-
-    url = (
-        "https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{model_id}:generateContent?key={api_key}"
-    )
-    body = json.dumps({
-        "system_instruction": {"parts": [{"text": system_prompt}]},
-        "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
-        "generationConfig": {"temperature": 0, "maxOutputTokens": 512},
-    })
-
-    try:
-        result = subprocess.run(
-            ["curl", "-s", "--max-time", "45", url,
-             "-H", "Content-Type: application/json",
-             "-d", body],
-            capture_output=True, text=True, timeout=50,
-        )
-        if result.returncode != 0:
-            print(f"  curl failed (rc={result.returncode}): {result.stderr[:200]}", file=sys.stderr)
-            return ""
-        data = json.loads(result.stdout)
-        if "error" in data:
-            print(f"  Gemini API error: {data['error'].get('message','')[:200]}", file=sys.stderr)
-            return ""
-        return data["candidates"][0]["content"]["parts"][0]["text"]
-    except subprocess.TimeoutExpired:
-        print(f"  Gemini call timed out", file=sys.stderr)
-        return ""
-    except Exception as e:
-        print(f"  Gemini call failed: {e}", file=sys.stderr)
         return ""
 
 
@@ -220,11 +165,8 @@ if __name__ == "__main__":
     all_results.append(run_eval(args.test, test_count,
         lambda u, s: call_finetuned_model(u, s), "Fine-tuned Qwen2.5-3B (ours)"))
     all_results.append(run_eval(args.test, test_count,
-        lambda u, s: call_frontier_model(u, s, "gpt-4.1-mini"),
-        "GPT-4.1-mini", sleep_between=0.3))
-    all_results.append(run_eval(args.test, test_count,
-        lambda u, s: call_frontier_model(u, s, "gemini-3-flash"),
-        "Gemini 3 Flash", sleep_between=1.5))
+        lambda u, s: call_frontier_model(u, s, "gpt-5.6-sol"),
+        "GPT-5.6-sol", sleep_between=0.5))
 
     print("\n" + "=" * 50)
     print(json.dumps(all_results, indent=2))
