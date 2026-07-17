@@ -13,6 +13,7 @@ Usage:
 import argparse
 import json
 import re
+import time
 
 
 def extract_json(text: str):
@@ -51,47 +52,47 @@ def call_finetuned_model(user_prompt: str, system_prompt: str) -> str:
 
 
 def call_frontier_model(user_prompt: str, system_prompt: str, model_name: str) -> str:
-    """Call a frontier model API. Currently supports Gemini via google-genai SDK.
+    """Call a frontier model API. Currently supports Gemini via REST.
     Set GEMINI_API_KEY env var before running."""
-    if model_name.startswith("gemini"):
+    if "gemini" in model_name:
         return _call_gemini(user_prompt, system_prompt, model_name)
     raise NotImplementedError(f"Frontier model '{model_name}' not configured. Add API key + SDK.")
 
 
 def _call_gemini(user_prompt: str, system_prompt: str, model_name: str) -> str:
-    import os, json, urllib.request, urllib.error, sys
+    import os, json, sys
+    import urllib.request, urllib.error
 
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("Set GEMINI_API_KEY environment variable")
 
+    # Map shorthand names to full model IDs
     model_map = {
         "gemini-3.1-pro": "gemini-3.1-pro-preview",
         "gemini-3-pro": "gemini-3-pro-preview",
         "gemini-3-flash": "gemini-3-flash-preview",
-        "gemini-flash": "gemini-flash-latest",
+        "gemini-2.5-pro": "gemini-2.5-pro",
     }
     model_id = model_map.get(model_name, model_name)
 
-    # ponytail: systemInstruction hangs on v1beta; inline system prompt instead
-    combined = system_prompt + "\n\nUser input: " + user_prompt
-
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent"
+    url = (
+        "https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{model_id}:generateContent?key={api_key}"
+    )
     body = {
-        "contents": [{"parts": [{"text": combined}]}],
+        "system_instruction": {"parts": [{"text": system_prompt}]},
+        "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
         "generationConfig": {"temperature": 0, "maxOutputTokens": 200},
     }
 
     req = urllib.request.Request(
         url,
         data=json.dumps(body).encode(),
-        headers={
-            "Content-Type": "application/json",
-            "X-goog-api-key": api_key,
-        },
+        headers={"Content-Type": "application/json"},
     )
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=45) as resp:
             data = json.loads(resp.read())
             return data["candidates"][0]["content"]["parts"][0]["text"]
     except urllib.error.HTTPError as e:
@@ -119,7 +120,7 @@ def score(example, prediction: dict) -> dict:
     }
 
 
-def run_eval(test_path: str, n: int, model_fn, model_label: str):
+def run_eval(test_path: str, n: int, model_fn, model_label: str, sleep_between: float = 0):
     examples = []
     with open(test_path) as f:
         for line in f:
@@ -127,7 +128,7 @@ def run_eval(test_path: str, n: int, model_fn, model_label: str):
     examples = examples[:n]
 
     results = []
-    for ex in examples:
+    for i, ex in enumerate(examples):
         system_prompt = ex["messages"][0]["content"]
         user_prompt = ex["messages"][1]["content"]
         raw = model_fn(user_prompt, system_prompt)
@@ -136,6 +137,8 @@ def run_eval(test_path: str, n: int, model_fn, model_label: str):
         result = score(ex, pred)
         result["difficulty"] = difficulty
         results.append(result)
+        if sleep_between and i < len(examples) - 1:
+            time.sleep(sleep_between)
 
     def bucket_accuracy(rs, key):
         if not rs:
@@ -178,10 +181,9 @@ if __name__ == "__main__":
     all_results = []
     all_results.append(run_eval(args.test, test_count,
         lambda u, s: call_finetuned_model(u, s), "Fine-tuned Qwen2.5-3B (ours)"))
-    # TODO: uncomment when frontier API keys are configured
-    # all_results.append(run_eval(args.test, test_count, lambda u,s: call_frontier_model(u,s,"gpt-5.6"), "GPT-5.6"))
-    # all_results.append(run_eval(args.test, test_count, lambda u,s: call_frontier_model(u,s,"claude-opus-4-8"), "Claude Opus 4.8"))
-    # all_results.append(run_eval(args.test, test_count, lambda u,s: call_frontier_model(u,s,"gemini-3.1-pro"), "Gemini 3.1 Pro"))
+    all_results.append(run_eval(args.test, test_count,
+        lambda u, s: call_frontier_model(u, s, "gemini-3.1-pro"),
+        "Gemini 3.1 Pro", sleep_between=1.0))
 
     print("\n" + "=" * 50)
     print(json.dumps(all_results, indent=2))
