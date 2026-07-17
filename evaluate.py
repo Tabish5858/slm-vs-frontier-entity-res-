@@ -29,23 +29,25 @@ def extract_json(text: str):
         return None
 
 
-def call_finetuned_model(user_prompt: str, system_prompt: str) -> str:
-    """
-    TODO: wire this up to your MLX fine-tuned model, e.g.:
+# ponytail: lazy-loaded module-level cache, reload if adapter path changes
+_ft_model = None
+_ft_tokenizer = None
 
-        from mlx_lm import load, generate
-        model, tokenizer = load(
-            "path/to/base-model",
-            adapter_path="path/to/adapters"
+def call_finetuned_model(user_prompt: str, system_prompt: str) -> str:
+    global _ft_model, _ft_tokenizer
+    if _ft_model is None:
+        from mlx_lm import load
+        _ft_model, _ft_tokenizer = load(
+            "./models/qwen2.5-3b-instruct-4bit",
+            adapter_path="./adapters",
         )
-        prompt = tokenizer.apply_chat_template(
-            [{"role": "system", "content": system_prompt},
-             {"role": "user", "content": user_prompt}],
-            add_generation_prompt=True
-        )
-        return generate(model, tokenizer, prompt=prompt, max_tokens=200)
-    """
-    raise NotImplementedError
+    from mlx_lm import generate
+    prompt = _ft_tokenizer.apply_chat_template(
+        [{"role": "system", "content": system_prompt},
+         {"role": "user", "content": user_prompt}],
+        add_generation_prompt=True,
+    )
+    return generate(_ft_model, _ft_tokenizer, prompt=prompt, max_tokens=200)
 
 
 def call_frontier_model(user_prompt: str, system_prompt: str, model_name: str) -> str:
@@ -101,15 +103,20 @@ def run_eval(test_path: str, n: int, model_fn, model_label: str):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--test", default="../data/test.jsonl")
-    ap.add_argument("--n", type=int, default=100)
+    ap.add_argument("--test", default="./data/test.jsonl")
+    ap.add_argument("--n", type=int, default=0, help="Number of test examples (0 = all)")
     args = ap.parse_args()
 
-    all_results = []
-    # Uncomment once call_finetuned_model / call_frontier_model are implemented:
-    # all_results.append(run_eval(args.test, args.n, lambda u,s: call_finetuned_model(u,s), "Fine-tuned (ours)"))
-    # all_results.append(run_eval(args.test, args.n, lambda u,s: call_frontier_model(u,s,"gpt-5.6"), "GPT-5.6"))
-    # all_results.append(run_eval(args.test, args.n, lambda u,s: call_frontier_model(u,s,"claude-opus-4-8"), "Claude Opus 4.8"))
-    # all_results.append(run_eval(args.test, args.n, lambda u,s: call_frontier_model(u,s,"gemini-3.1-pro"), "Gemini 3.1 Pro"))
+    test_count = args.n if args.n > 0 else sum(1 for _ in open(args.test))
+    print(f"Evaluating {test_count} test examples...")
 
+    all_results = []
+    all_results.append(run_eval(args.test, test_count,
+        lambda u, s: call_finetuned_model(u, s), "Fine-tuned Qwen2.5-3B (ours)"))
+    # TODO: uncomment when frontier API keys are configured
+    # all_results.append(run_eval(args.test, test_count, lambda u,s: call_frontier_model(u,s,"gpt-5.6"), "GPT-5.6"))
+    # all_results.append(run_eval(args.test, test_count, lambda u,s: call_frontier_model(u,s,"claude-opus-4-8"), "Claude Opus 4.8"))
+    # all_results.append(run_eval(args.test, test_count, lambda u,s: call_frontier_model(u,s,"gemini-3.1-pro"), "Gemini 3.1 Pro"))
+
+    print("\n" + "=" * 50)
     print(json.dumps(all_results, indent=2))
