@@ -32,7 +32,7 @@ The negative results (37.0% pure-FT on clean holdout, 100% lookup-table false wi
 
 ## Final results (clean company-level holdout, 200 unseen companies)
 
-All results on `data/test_clean_holdout.jsonl` — 644 examples from 200 SEC companies with **zero CIK overlap** with training/validation data. Test file checksum: `2244d851...` (never modified).
+All results on `data/test_clean_holdout.jsonl` — 644 examples from 200 SEC companies with **zero CIK overlap** with training/validation data. Test file checksum: `3c3003b7dc6c3f7cc5fc37e69d0fd5d396044fd770e5c5da83d18f58988e6bdd` (SHA-256; file never modified since commit `53e0b8c`). Verify with: `shasum -a 256 data/test_clean_holdout.jsonl`.
 
 | System | Clean Identity (200) | Full 644 (hard + easy) |
 |--------|---------------------|------------------------|
@@ -141,7 +141,7 @@ python3 demo.py
 | `fetch_edgar.py` | SEC EDGAR data fetcher (company_tickers.json + submissions API) |
 | `train_config_rag_v2.yaml` | Training config for the RAG-aware fine-tuning (the winning run) |
 | `train_config_v3_continue.yaml` | Training config for the pure fine-tuning (memorization experiment) |
-| `data/test_clean_holdout.jsonl` | Clean holdout — 200 companies, zero train/valid overlap, checksum-verified |
+| `data/test_clean_holdout.jsonl` | Clean holdout — 200 companies, zero train/valid overlap, SHA-256: `3c3003b7...` |
 | `data/edgar_holdout.jsonl` | 200 unseen companies from SEC tickers |
 | `data/rag_index_1700.jsonl` | RAG retrieval index (1,500 training + 200 holdout companies) |
 | `data/edgar_raw.jsonl` | 1,500 SEC company records with former names |
