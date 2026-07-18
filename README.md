@@ -91,14 +91,12 @@ python3 build_dataset_v3.py                     # → data/train_v3.jsonl, data/
 ### 2. Build RAG-aware training data
 
 ```bash
-# Uses the inline script at the top of the RAG training pipeline.
-# Requires: data/edgar_raw.jsonl, data/edgar_holdout.jsonl
-python3 -c "
-# (see build_dataset_rag_v2 logic — generates train_rag_v2.jsonl / valid_rag_v2.jsonl)
-"
+# Generates train_rag_v2.jsonl + valid_rag_v2.jsonl + data_rag_v2/ symlinks
+# Uses the full 1,700-company fuzzy search index to create realistic
+# retrieval distractors (NOT random — the key insight from Phase 3).
+# Takes ~2 minutes on M1 Pro.
+python3 build_rag_dataset.py
 ```
-
-Or run the generation script inline (it's self-contained).
 
 ### 3. Train the RAG-aware model
 
@@ -110,15 +108,14 @@ mlx_lm.lora -c train_config_rag_v2.yaml         # → adapters_rag_v2/ (800 iter
 ### 4. Evaluate
 
 ```bash
-# On the clean holdout (200 unseen companies, 644 examples)
-python3 -c "
-import json, sys; sys.path.insert(0, '.')
-# Load model from adapters_rag_v2, run RAG pipeline
-# See demo.py for the full evaluation loop
-"
+# Full evaluation on the clean holdout (200 unseen companies, 644 examples)
+python3 evaluate_rag_model.py
 
-# Quick demo — no API keys, runs in <1 minute
-python3 demo.py
+# Company-identity subset only (200 clean examples)
+python3 evaluate_rag_model.py --ci
+
+# Quick sanity check (first 50 examples)
+python3 evaluate_rag_model.py --n 50
 ```
 
 ### 5. Run the demo
@@ -136,16 +133,21 @@ python3 demo.py
 | File | Purpose |
 |------|---------|
 | `demo.py` | Standalone demo — 10 examples through the full RAG pipeline |
-| `evaluate.py` | Eval harness with scoring, Claude/GPT API wrappers |
-| `fetch_edgar.py` | SEC EDGAR data fetcher (company_tickers.json + submissions API) |
+| `evaluate_rag_model.py` | Eval harness for the RAG-aware model on the clean holdout |
+| `evaluate.py` | Eval harness for pure-FT model, Claude/GPT API wrappers |
+| `build_rag_dataset.py` | Build RAG-aware training data with real retrieval distractors |
 | `build_dataset_v3.py` | Improved dataset builder with comma-precision training |
 | `build_dataset.py` | Original dataset builder (v1/v2, superseded) |
+| `fetch_edgar.py` | SEC EDGAR data fetcher (company_tickers.json + submissions API) |
 | `train_config_rag_v2.yaml` | Training config for the RAG-aware fine-tuning (the winning run) |
 | `train_config_v3_continue.yaml` | Training config for the pure fine-tuning (memorization experiment) |
 | `data/test_clean_holdout.jsonl` | Clean holdout — 200 companies, zero train/valid overlap, checksum-verified |
 | `data/edgar_holdout.jsonl` | 200 unseen companies from SEC tickers |
 | `data/rag_index_1700.jsonl` | RAG retrieval index (1,500 training + 200 holdout companies) |
 | `data/edgar_raw.jsonl` | 1,500 SEC company records with former names |
+| `data/train_rag_v2.jsonl` | RAG training data (6,373 examples with real retrieval distractors) |
+| `data/valid_rag_v2.jsonl` | RAG validation data (1,124 examples) |
+| `data_rag_v2/` | Symlink directory (train.jsonl → train_rag_v2.jsonl, for mlx_lm.lora) |
 | `adapters_rag_v2/` | Trained LoRA weights (rank 16, ~53MB, 800 iterations) |
 | `final_comparison.json` | Final Claude comparison results on clean holdout |
 | `error_analysis.json` | Error categorization from pure fine-tune (464 failures) |

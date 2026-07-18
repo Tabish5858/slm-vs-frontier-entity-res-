@@ -1,8 +1,9 @@
 adapters/
 adapters_v3/
 adapters_rag/
-adapters_rag_v2/
 adapters_7b/
+# Only track the final adapter weights + config (not training checkpoints)
+adapters_rag_v2/*_adapters.safetensors
 models/
 .cache/
 __pycache__/
@@ -13,14 +14,10 @@ gemini.api
 # Large training data (rebuild locally)
 data/train_v3.jsonl
 data/valid_v3.jsonl
-# RAG training data (large)
-data/train_rag_v2.jsonl
-data/valid_rag_v2.jsonl
-# Symlink directories
-data_v3/
-data_rag_v2/
 # Shelved RAG experiment data
 data_rag/
+# Symlink directory for old experiment
+data_v3/
 # Temp files
 data/holdout_ciks.json
 *.log

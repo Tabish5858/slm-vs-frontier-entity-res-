@@ -10,10 +10,6 @@ The winning submission uses RAG-aware fine-tuned Qwen2.5-3B (adapters_rag_v2/).
 See README.md and demo.py for the final approach.
 """
 
-Usage:
-  python evaluate_hybrid.py --test ./data/test.jsonl --n 200
-"""
-
 import argparse
 import json
 import re
