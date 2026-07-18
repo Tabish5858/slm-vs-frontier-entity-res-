@@ -1,0 +1,24 @@
+# 7B model training with higher capacity
+model: mlx-community/Qwen2.5-7B-Instruct-4bit
+train: true
+data: ./data_v3
+fine_tune_type: lora
+optimizer: adam
+mask_prompt: true
+num_layers: 28
+batch_size: 4
+iters: 2000
+val_batches: 50
+learning_rate: 1.0e-4
+lr_schedule: null
+steps_per_report: 100
+steps_per_eval: 200
+save_every: 200
+adapter_path: ./adapters_7b
+max_seq_length: 1024
+seed: 42
+grad_checkpoint: true
+lora_parameters:
+  rank: 64
+  dropout: 0.0
+  scale: 20.0

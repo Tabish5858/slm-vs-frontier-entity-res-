@@ -9,3 +9,13 @@ __pycache__/
 .DS_Store
 gemini.api
 .env
+# Large training data (rebuild locally)
+data/train_v3.jsonl
+data/valid_v3.jsonl
+# Symlink directories
+data_v3/
+# Shelved RAG experiment data
+data_rag/
+# Temp files
+data/holdout_ciks.json
+*.log

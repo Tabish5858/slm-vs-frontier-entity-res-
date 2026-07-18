@@ -1,0 +1,1407 @@
+{
+  "accuracy": 0.0,
+  "total": 200,
+  "correct": 0,
+  "predictions": [
+    {
+      "input": "Triller Group Inc.",
+      "expected": "Triller Group Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "CHINA PETROLEUM & CHEMICAL CORP",
+      "expected": "CHINA PETROLEUM & CHEMICAL CORP",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Fluent, Inc.",
+      "expected": "Fluent, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "TCL Electronics Holdings Limited/ADR",
+      "expected": "TCL Electronics Holdings Limited/ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Emmaus Life Sciences, Inc.",
+      "expected": "Emmaus Life Sciences, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Lahontan Gold Corp.",
+      "expected": "Lahontan Gold Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "SPECIAL OPPORTUNITIES FUND, INC.",
+      "expected": "SPECIAL OPPORTUNITIES FUND, INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Pyxis Tankers Inc.",
+      "expected": "Pyxis Tankers Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Firefly Aerospace Inc.",
+      "expected": "Firefly Aerospace Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Via Transportation, Inc.",
+      "expected": "Via Transportation, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Wintergreen Acquisition Corp.",
+      "expected": "Wintergreen Acquisition Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Noba Bank Group AG/ADR",
+      "expected": "Noba Bank Group AG/ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Zoned Properties, Inc.",
+      "expected": "Zoned Properties, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "NSTS Bancorp, Inc.",
+      "expected": "NSTS Bancorp, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Emerald Holding, Inc.",
+      "expected": "Emerald Holding, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Vroom, Inc.",
+      "expected": "Vroom, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Capital Power Corp/ADR",
+      "expected": "Capital Power Corp/ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Ocugen, Inc.",
+      "expected": "Ocugen, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Spartacus Acquisition Corp. II",
+      "expected": "Spartacus Acquisition Corp. II",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Organogenesis Holdings Inc.",
+      "expected": "Organogenesis Holdings Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "KKR Income Opportunities Fund",
+      "expected": "KKR Income Opportunities Fund",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "BANK OF SOUTH CAROLINA CORP",
+      "expected": "BANK OF SOUTH CAROLINA CORP",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Heidmar Maritime Holdings Corp.",
+      "expected": "Heidmar Maritime Holdings Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "APPlife Digital Solutions Inc",
+      "expected": "APPlife Digital Solutions Inc",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "EDP Renewables S.A./ADR",
+      "expected": "EDP Renewables S.A./ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "General Purpose Acquisition Corp.",
+      "expected": "General Purpose Acquisition Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "IOVANCE BIOTHERAPEUTICS, INC.",
+      "expected": "IOVANCE BIOTHERAPEUTICS, INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "LINCOLN EDUCATIONAL SERVICES CORP",
+      "expected": "LINCOLN EDUCATIONAL SERVICES CORP",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "CENTRAL SECURITIES CORP",
+      "expected": "CENTRAL SECURITIES CORP",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Nature's Miracle Holding Inc.",
+      "expected": "Nature's Miracle Holding Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "NV Gold Corp",
+      "expected": "NV Gold Corp",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Innovative Payment Solutions, Inc.",
+      "expected": "Innovative Payment Solutions, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Archimedes Tech SPAC Partners II Co.",
+      "expected": "Archimedes Tech SPAC Partners II Co.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "ALAMO GROUP INC",
+      "expected": "ALAMO GROUP INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "CapForce Inc.",
+      "expected": "CapForce Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Scorpio Gold Corp",
+      "expected": "Scorpio Gold Corp",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "MITEK SYSTEMS INC",
+      "expected": "MITEK SYSTEMS INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Disc Medicine, Inc.",
+      "expected": "Disc Medicine, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "First Bancorp, Inc /ME/",
+      "expected": "First Bancorp, Inc /ME/",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "ClearBridge Energy Midstream Opportunity Fund Inc.",
+      "expected": "ClearBridge Energy Midstream Opportunity Fund Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "NOVAVAX INC",
+      "expected": "NOVAVAX INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Corbus Pharmaceuticals Holdings, Inc.",
+      "expected": "Corbus Pharmaceuticals Holdings, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Grace Therapeutics, Inc.",
+      "expected": "Grace Therapeutics, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Cantor Equity Partners I, Inc.",
+      "expected": "Cantor Equity Partners I, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Fenbo Holdings Ltd",
+      "expected": "Fenbo Holdings Ltd",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Lifeloc Technologies, Inc",
+      "expected": "Lifeloc Technologies, Inc",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "BioStem Technologies, Inc.",
+      "expected": "BioStem Technologies, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "McKinley Acquisition Corp",
+      "expected": "McKinley Acquisition Corp",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Fortior Technology (Shenzhen) Co., Ltd./ADR",
+      "expected": "Fortior Technology (Shenzhen) Co., Ltd./ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "AVISTA CORP",
+      "expected": "AVISTA CORP",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "FULLNET COMMUNICATIONS INC",
+      "expected": "FULLNET COMMUNICATIONS INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "FURY GOLD MINES LTD",
+      "expected": "FURY GOLD MINES LTD",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "ACCO BRANDS Corp",
+      "expected": "ACCO BRANDS Corp",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "NOAH HOLDINGS LTD",
+      "expected": "NOAH HOLDINGS LTD",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "NEWELL BRANDS INC.",
+      "expected": "NEWELL BRANDS INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "ADDENTAX GROUP CORP.",
+      "expected": "ADDENTAX GROUP CORP.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "MSC INCOME FUND, INC.",
+      "expected": "MSC INCOME FUND, INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Flaherty & Crumrine Dynamic Preferred & Income Fund Inc",
+      "expected": "Flaherty & Crumrine Dynamic Preferred & Income Fund Inc",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Jackson Acquisition Co II",
+      "expected": "Jackson Acquisition Co II",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Vend Marketplaces ASA/ADR",
+      "expected": "Vend Marketplaces ASA/ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Bridger Aerospace Group Holdings, Inc.",
+      "expected": "Bridger Aerospace Group Holdings, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "MOZAYYX Acquisition Corp.",
+      "expected": "MOZAYYX Acquisition Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "MID AMERICA APARTMENT COMMUNITIES INC.",
+      "expected": "MID AMERICA APARTMENT COMMUNITIES INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Ranger Energy Services, Inc.",
+      "expected": "Ranger Energy Services, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "New Horizon Aircraft Ltd.",
+      "expected": "New Horizon Aircraft Ltd.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Roman DBDR Acquisition Corp. II",
+      "expected": "Roman DBDR Acquisition Corp. II",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "GREAT SOUTHERN BANCORP, INC.",
+      "expected": "GREAT SOUTHERN BANCORP, INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Techlott Inc.",
+      "expected": "Techlott Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "CS Disco, Inc.",
+      "expected": "CS Disco, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Global Bio-chem Technology Group Co. Ltd / ADR",
+      "expected": "Global Bio-chem Technology Group Co. Ltd / ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "NET Power Inc.",
+      "expected": "NET Power Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "STAAR SURGICAL CO",
+      "expected": "STAAR SURGICAL CO",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "SpringBig Holdings, Inc.",
+      "expected": "SpringBig Holdings, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Soluna Holdings, Inc",
+      "expected": "Soluna Holdings, Inc",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Flaherty & Crumrine PREFERRED & INCOME OPPORTUNITY FUND INC",
+      "expected": "Flaherty & Crumrine PREFERRED & INCOME OPPORTUNITY FUND INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "UNIVERSAL SAFETY PRODUCTS, INC.",
+      "expected": "UNIVERSAL SAFETY PRODUCTS, INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Alternative Strategies Income Fund",
+      "expected": "Alternative Strategies Income Fund",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Myseum.AI, Inc.",
+      "expected": "Myseum.AI, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "MGX Resources Limited/ADR",
+      "expected": "MGX Resources Limited/ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Costamare Inc.",
+      "expected": "Costamare Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "EQUITY BANCSHARES INC",
+      "expected": "EQUITY BANCSHARES INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Nasus Pharma Ltd",
+      "expected": "Nasus Pharma Ltd",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Eledon Pharmaceuticals, Inc.",
+      "expected": "Eledon Pharmaceuticals, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Enerflex Ltd.",
+      "expected": "Enerflex Ltd.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "First Tracks Biotherapeutics, Inc.",
+      "expected": "First Tracks Biotherapeutics, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Central Plains Bancshares, Inc.",
+      "expected": "Central Plains Bancshares, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Air Water Ventures Ltd",
+      "expected": "Air Water Ventures Ltd",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "SunPower Inc.",
+      "expected": "SunPower Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "CITIUS ONCOLOGY, INC.",
+      "expected": "CITIUS ONCOLOGY, INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Mercury NZ Ltd./ADR",
+      "expected": "Mercury NZ Ltd./ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Bolt Biotherapeutics, Inc.",
+      "expected": "Bolt Biotherapeutics, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "TOP SHIPS INC.",
+      "expected": "TOP SHIPS INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "BioXcel Therapeutics, Inc.",
+      "expected": "BioXcel Therapeutics, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "CODEXIS, INC.",
+      "expected": "CODEXIS, INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "ENERPAC TOOL GROUP CORP",
+      "expected": "ENERPAC TOOL GROUP CORP",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Abits Group Inc",
+      "expected": "Abits Group Inc",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Heritage Insurance Holdings, Inc.",
+      "expected": "Heritage Insurance Holdings, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "FUSE GROUP HOLDING INC.",
+      "expected": "FUSE GROUP HOLDING INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Datavault AI Inc.",
+      "expected": "Datavault AI Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "LION COPPER & GOLD CORP.",
+      "expected": "LION COPPER & GOLD CORP.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Forbright, Inc.",
+      "expected": "Forbright, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Proem Acquisition Corp. I",
+      "expected": "Proem Acquisition Corp. I",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "GRUPO TELEVISA, S.A.B.",
+      "expected": "GRUPO TELEVISA, S.A.B.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Claros Mortgage Trust, Inc.",
+      "expected": "Claros Mortgage Trust, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Ostin Technology Group Co., Ltd.",
+      "expected": "Ostin Technology Group Co., Ltd.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Bankwell Financial Group, Inc.",
+      "expected": "Bankwell Financial Group, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Mountain Crest Acquisition Corp. V",
+      "expected": "Mountain Crest Acquisition Corp. V",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Genius Sports Ltd",
+      "expected": "Genius Sports Ltd",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "GABELLI GLOBAL UTILITY & INCOME TRUST",
+      "expected": "GABELLI GLOBAL UTILITY & INCOME TRUST",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Valuence Merger Corp. I",
+      "expected": "Valuence Merger Corp. I",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Louis Hachette Group/ADR",
+      "expected": "Louis Hachette Group/ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Aclarion, Inc.",
+      "expected": "Aclarion, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Bakkt, Inc.",
+      "expected": "Bakkt, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Waystar Holding Corp.",
+      "expected": "Waystar Holding Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "ENCISION INC",
+      "expected": "ENCISION INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Archimedes Tech SPAC Partners II Co.",
+      "expected": "Archimedes Tech SPAC Partners II Co.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Viking Therapeutics, Inc.",
+      "expected": "Viking Therapeutics, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Market Technology Acquisition Corp",
+      "expected": "Market Technology Acquisition Corp",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "JOHNSON OUTDOORS INC",
+      "expected": "JOHNSON OUTDOORS INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Samos Energy Acquisition Corp",
+      "expected": "Samos Energy Acquisition Corp",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "HCM IV Acquisition Corp.",
+      "expected": "HCM IV Acquisition Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Ninepoint Energy Fund",
+      "expected": "Ninepoint Energy Fund",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Peace Acquisition Corp.",
+      "expected": "Peace Acquisition Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Iveda Solutions, Inc.",
+      "expected": "Iveda Solutions, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "AMERICAN PUBLIC EDUCATION INC",
+      "expected": "AMERICAN PUBLIC EDUCATION INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Renalytix plc",
+      "expected": "Renalytix plc",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "PPX Mining Corp.",
+      "expected": "PPX Mining Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Enthusiast Gaming Holdings Inc. / Canada",
+      "expected": "Enthusiast Gaming Holdings Inc. / Canada",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "NUVEEN NEW YORK MUNICIPAL VALUE FUND",
+      "expected": "NUVEEN NEW YORK MUNICIPAL VALUE FUND",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Stoke Therapeutics, Inc.",
+      "expected": "Stoke Therapeutics, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "FOSTER L B CO",
+      "expected": "FOSTER L B CO",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Bumrungrad Hospital Public Co Limited/ADR",
+      "expected": "Bumrungrad Hospital Public Co Limited/ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "HAEMONETICS CORP",
+      "expected": "HAEMONETICS CORP",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Medicus Pharma Ltd.",
+      "expected": "Medicus Pharma Ltd.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Gores Holdings X, Inc. / CI",
+      "expected": "Gores Holdings X, Inc. / CI",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Agriculture & Natural Solutions Acquisition Corp",
+      "expected": "Agriculture & Natural Solutions Acquisition Corp",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "ENDEAVOUR SILVER CORP",
+      "expected": "ENDEAVOUR SILVER CORP",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Grayscale Decentralized Finance (DeFi) Fund LLC",
+      "expected": "Grayscale Decentralized Finance (DeFi) Fund LLC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Clearmind Medicine Inc.",
+      "expected": "Clearmind Medicine Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "SOLVAY S A /ADR/",
+      "expected": "SOLVAY S A /ADR/",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "APARTMENT INVESTMENT & MANAGEMENT CO",
+      "expected": "APARTMENT INVESTMENT & MANAGEMENT CO",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Orion Bliss Corp.",
+      "expected": "Orion Bliss Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Mirasol Resources Ltd",
+      "expected": "Mirasol Resources Ltd",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "New Horizon Aircraft Ltd.",
+      "expected": "New Horizon Aircraft Ltd.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Global-Smart.Tech Inc.",
+      "expected": "Global-Smart.Tech Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Digital Brands Group, Inc.",
+      "expected": "Digital Brands Group, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "UTAH MEDICAL PRODUCTS INC",
+      "expected": "UTAH MEDICAL PRODUCTS INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Nextel Medical Corp.",
+      "expected": "Nextel Medical Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "SPRUCE BIOSCIENCES, INC.",
+      "expected": "SPRUCE BIOSCIENCES, INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Polestar Automotive Holding UK PLC",
+      "expected": "Polestar Automotive Holding UK PLC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Chery Automobile Co., Ltd./ADR",
+      "expected": "Chery Automobile Co., Ltd./ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "COTWO ADVISORS PHYSICAL EUROPEAN CARBON ALLOWANCE TRUST",
+      "expected": "COTWO ADVISORS PHYSICAL EUROPEAN CARBON ALLOWANCE TRUST",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Okeanis Eco Tankers Corp.",
+      "expected": "Okeanis Eco Tankers Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "HomeTrust Bancshares, Inc.",
+      "expected": "HomeTrust Bancshares, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "NEKTAR THERAPEUTICS",
+      "expected": "NEKTAR THERAPEUTICS",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "BREAD FINANCIAL HOLDINGS, INC.",
+      "expected": "BREAD FINANCIAL HOLDINGS, INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Gloo Holdings, Inc.",
+      "expected": "Gloo Holdings, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "FOCUS UNIVERSAL INC.",
+      "expected": "FOCUS UNIVERSAL INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Turning Point Brands, Inc.",
+      "expected": "Turning Point Brands, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Prime Impact Acquisition I",
+      "expected": "Prime Impact Acquisition I",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND",
+      "expected": "FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Brookfield Property Partners L.P.",
+      "expected": "Brookfield Property Partners L.P.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "ECA Marcellus Trust I",
+      "expected": "ECA Marcellus Trust I",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Warby Parker Inc.",
+      "expected": "Warby Parker Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Southern Cross Acquisition II Corp.",
+      "expected": "Southern Cross Acquisition II Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Athena Technology Acquisition Corp. II",
+      "expected": "Athena Technology Acquisition Corp. II",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "MAGNITE, INC.",
+      "expected": "MAGNITE, INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "KRONOS WORLDWIDE INC",
+      "expected": "KRONOS WORLDWIDE INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Nuvau Minerals Corp",
+      "expected": "Nuvau Minerals Corp",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "DigitalBridge Group, Inc.",
+      "expected": "DigitalBridge Group, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "BRB Foods Inc.",
+      "expected": "BRB Foods Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Compass Diversified Holdings",
+      "expected": "Compass Diversified Holdings",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "MidCap Financial Investment Corp",
+      "expected": "MidCap Financial Investment Corp",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Caesarstone Ltd.",
+      "expected": "Caesarstone Ltd.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Pathfinder Bancorp, Inc.",
+      "expected": "Pathfinder Bancorp, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "KENNAMETAL INC",
+      "expected": "KENNAMETAL INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "ANDINA BOTTLING CO INC",
+      "expected": "ANDINA BOTTLING CO INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Commercial Bancgroup, Inc.",
+      "expected": "Commercial Bancgroup, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Art Technology Acquisition Corp.",
+      "expected": "Art Technology Acquisition Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "BioRestorative Therapies, Inc.",
+      "expected": "BioRestorative Therapies, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "National Healthcare Properties, Inc.",
+      "expected": "National Healthcare Properties, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Turbo Energy, S.A.",
+      "expected": "Turbo Energy, S.A.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Bubblr Inc.",
+      "expected": "Bubblr Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "K-TECH SOLUTIONS CO LTD",
+      "expected": "K-TECH SOLUTIONS CO LTD",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "INNOVATE Corp.",
+      "expected": "INNOVATE Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Synbio International, Inc.",
+      "expected": "Synbio International, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Knowledge Atlas Technology Joint Stock Co Limited/ADR",
+      "expected": "Knowledge Atlas Technology Joint Stock Co Limited/ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Calisa Acquisition Corp",
+      "expected": "Calisa Acquisition Corp",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Clean Energy Technologies, Inc.",
+      "expected": "Clean Energy Technologies, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Data Storage Corp",
+      "expected": "Data Storage Corp",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "AiXin Life International, Inc.",
+      "expected": "AiXin Life International, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Cresco Labs Inc.",
+      "expected": "Cresco Labs Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "YORK WATER CO",
+      "expected": "YORK WATER CO",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Perfect Corp.",
+      "expected": "Perfect Corp.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "ProShares Trust II",
+      "expected": "ProShares Trust II",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Tyra Biosciences, Inc.",
+      "expected": "Tyra Biosciences, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Nuvectis Pharma, Inc.",
+      "expected": "Nuvectis Pharma, Inc.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "ZIPRECRUITER, INC.",
+      "expected": "ZIPRECRUITER, INC.",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "TCW STRATEGIC INCOME FUND INC",
+      "expected": "TCW STRATEGIC INCOME FUND INC",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    },
+    {
+      "input": "Beijer Ref AB/ADR",
+      "expected": "Beijer Ref AB/ADR",
+      "claude_raw": "",
+      "claude_name": "",
+      "match": false
+    }
+  ]
+}
