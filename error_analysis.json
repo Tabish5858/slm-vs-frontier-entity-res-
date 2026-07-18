@@ -1,0 +1,4193 @@
+{
+  "summary": {
+    "total": 1311,
+    "failures": 464,
+    "accuracy": 64.60717009916095,
+    "hard_failures": 374,
+    "easy_failures": 90,
+    "categories": {
+      "suffix/casing": 325,
+      "wrong-company": 124,
+      "punctuation-only": 14,
+      "null/malformed": 1
+    }
+  },
+  "failures": [
+    {
+      "idx": 3,
+      "difficulty": "hard",
+      "input": "NEUROCRINE BIOSCIENCES, Inc.",
+      "expected_name": "NEUROCRINE BIOSCIENCES INC",
+      "pred_name": "NEUROCRINE BIOSCIENCES, INC.",
+      "pred_raw": "{\"canonical_name\":\"NEUROCRINE BIOSCIENCES, INC.\",\"cik\":1001005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 4,
+      "difficulty": "hard",
+      "input": "FIRST SOLAR HOLDINGS LLC",
+      "expected_name": "FIRST SOLAR, INC.",
+      "pred_name": "FIRST SOLAR HOLDINGS LLC",
+      "pred_raw": "{\"canonical_name\":\"FIRST SOLAR HOLDINGS LLC\",\"cik\":1056855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 8,
+      "difficulty": "hard",
+      "input": "DOCUSIGN Inc.",
+      "expected_name": "DOCUSIGN, INC.",
+      "pred_name": "DOCUSIGN INC",
+      "pred_raw": "{\"canonical_name\":\"DOCUSIGN INC\",\"cik\":1070100,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 12,
+      "difficulty": "easy",
+      "input": "CISCO SYSTEMS Inc. (the \"Company\")",
+      "expected_name": "CISCO SYSTEMS, INC.",
+      "pred_name": "CISCO SYSTEMS INC",
+      "pred_raw": "{\"canonical_name\":\"CISCO SYSTEMS INC\",\"cik\":1000155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 15,
+      "difficulty": "hard",
+      "input": "Ingredion Inc - formerly known as",
+      "expected_name": "Ingredion Inc",
+      "pred_name": "Ingredion Inc.",
+      "pred_raw": "{\"canonical_name\":\"Ingredion Inc.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 19,
+      "difficulty": "hard",
+      "input": "AFLAC, Incorporated /formerly/",
+      "expected_name": "AFLAC INC",
+      "pred_name": "AFLAC, Inc.",
+      "pred_raw": "{\"canonical_name\":\"AFLAC, Inc.\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 22,
+      "difficulty": "hard",
+      "input": "INTEGRATED ELECTRICAL SERVICES INC",
+      "expected_name": "IES Holdings, Inc.",
+      "pred_name": "INTEGRATIVE ELECTRICAL SERVICES, INC.",
+      "pred_raw": "{\"canonical_name\":\"INTEGRATIVE ELECTRICAL SERVICES, INC.\",\"cik\":1051055,\"entity_type\":\"operating\",\"is_former_name_input\":true}",
+      "match": false
+    },
+    {
+      "idx": 23,
+      "difficulty": "hard",
+      "input": "MERCURY SYSTEMS, Inc..",
+      "expected_name": "MERCURY SYSTEMS INC",
+      "pred_name": "MERCURY SYSTEMS, INC.",
+      "pred_raw": "{\"canonical_name\":\"MERCURY SYSTEMS, INC.\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 25,
+      "difficulty": "easy",
+      "input": "Aon plc",
+      "expected_name": "Aon plc",
+      "pred_name": "AON PLC",
+      "pred_raw": "{\"canonical_name\":\"AON PLC\",\"cik\":1051355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 26,
+      "difficulty": "easy",
+      "input": "Zeta Global Holdings Corp. - formerly known as",
+      "expected_name": "Zeta Global Holdings Corp.",
+      "pred_name": "Zeta Global Holdings Corp",
+      "pred_raw": "{\"canonical_name\":\"Zeta Global Holdings Corp\",\"cik\":1891105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 29,
+      "difficulty": "hard",
+      "input": "VinFast Auto Pte. Ltd.",
+      "expected_name": "VinFast Auto Ltd.",
+      "pred_name": "VinFast Auto Pte. Ltd.",
+      "pred_raw": "{\"canonical_name\":\"VinFast Auto Pte. Ltd.\",\"cik\":1910885,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 32,
+      "difficulty": "hard",
+      "input": "Sphere Entertainment Company (fka)",
+      "expected_name": "Sphere Entertainment Co.",
+      "pred_name": "Sphere Entertainment Company",
+      "pred_raw": "{\"canonical_name\":\"Sphere Entertainment Company\",\"cik\":1791355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 33,
+      "difficulty": "easy",
+      "input": "RB GLOBAL Inc /DE/",
+      "expected_name": "RB GLOBAL INC.",
+      "pred_name": "RB GLOBAL INC",
+      "pred_raw": "{\"canonical_name\":\"RB GLOBAL INC\",\"cik\":1060155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 35,
+      "difficulty": "hard",
+      "input": "Virginia Holdco, Inc.",
+      "expected_name": "Vulcan Materials CO",
+      "pred_name": "Virginia Holdco, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Virginia Holdco, Inc.\",\"cik\":1891255,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 37,
+      "difficulty": "hard",
+      "input": "CHART INDUSTRIES Incorporated",
+      "expected_name": "CHART INDUSTRIES INC",
+      "pred_name": "CHART INDUSTRIES, INC.",
+      "pred_raw": "{\"canonical_name\":\"CHART INDUSTRIES, INC.\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 39,
+      "difficulty": "hard",
+      "input": "CHEMICAL AND MINING CO OF CHILE, Incorporated",
+      "expected_name": "CHEMICAL & MINING CO OF CHILE INC",
+      "pred_name": "CHEMICAL & MINING CO OF CHILE, INC.",
+      "pred_raw": "{\"canonical_name\":\"CHEMICAL & MINING CO OF CHILE, INC.\",\"cik\":1000005,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 40,
+      "difficulty": "easy",
+      "input": "dba Paramount Skydance, Corp.",
+      "expected_name": "Paramount Skydance Corp",
+      "pred_name": "Skydance Inc.",
+      "pred_raw": "{\"canonical_name\":\"Skydance Inc.\",\"cik\":1791305,\"entity_type\":\"operating\",\"is_former_name_input\":true}",
+      "match": false
+    },
+    {
+      "idx": 43,
+      "difficulty": "hard",
+      "input": "Extra  Space  Storage  Incorporated,",
+      "expected_name": "Extra Space Storage Inc.",
+      "pred_name": "Extra Space Storage, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Extra Space Storage, Inc.\",\"cik\":1106335,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 48,
+      "difficulty": "hard",
+      "input": "FACTSET  RESEARCH  SYSTEMS,  Incorporated (fka)",
+      "expected_name": "FACTSET RESEARCH SYSTEMS INC",
+      "pred_name": "FACTSET RESEARCH SYSTEMS, INC.",
+      "pred_raw": "{\"canonical_name\":\"FACTSET RESEARCH SYSTEMS, INC.\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 49,
+      "difficulty": "hard",
+      "input": "pjt partners, inc,",
+      "expected_name": "PJT Partners Inc.",
+      "pred_name": "PJT Partners, Inc.",
+      "pred_raw": "{\"canonical_name\":\"PJT Partners, Inc.\",\"cik\":1001035,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 50,
+      "difficulty": "hard",
+      "input": "dba POSCO HOLDINGS INC",
+      "expected_name": "POSCO HOLDINGS INC.",
+      "pred_name": "POSCO HOLDINGS INC",
+      "pred_raw": "{\"canonical_name\":\"POSCO HOLDINGS INC\",\"cik\":1000005,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 51,
+      "difficulty": "easy",
+      "input": "MSA Safety Inc",
+      "expected_name": "MSA Safety Inc",
+      "pred_name": "MSA Safety Inc.",
+      "pred_raw": "{\"canonical_name\":\"MSA Safety Inc.\",\"cik\":1781305,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 53,
+      "difficulty": "hard",
+      "input": "Intercorp Financial Services, INC.",
+      "expected_name": "Intercorp Financial Services Inc.",
+      "pred_name": "Intercorp Financial Services, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Intercorp Financial Services, Inc.\",\"cik\":1891255,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 57,
+      "difficulty": "hard",
+      "input": "Pandora A/S / ADR /DE/",
+      "expected_name": "Pandora A/S / ADR",
+      "pred_name": "Pandora A/S",
+      "pred_raw": "{\"canonical_name\":\"Pandora A/S\",\"cik\":1891055,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 60,
+      "difficulty": "hard",
+      "input": "BANCO BILBAO VIZCAYA ARGENTARIA S A",
+      "expected_name": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+      "pred_name": "BANCO BILBAO VIZCAYA S.A.",
+      "pred_raw": "{\"canonical_name\":\"BANCO BILBAO VIZCAYA S.A.\",\"cik\":1000055,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 62,
+      "difficulty": "hard",
+      "input": "OWENS CORNING",
+      "expected_name": "Owens Corning",
+      "pred_name": "OWENS CORNING",
+      "pred_raw": "{\"canonical_name\":\"OWENS CORNING\",\"cik\":1000055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 63,
+      "difficulty": "hard",
+      "input": "Fiat Investments N.V.",
+      "expected_name": "Stellantis N.V.",
+      "pred_name": "Fiat Investments N.V.",
+      "pred_raw": "{\"canonical_name\":\"Fiat Investments N.V.\",\"cik\":1791855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 68,
+      "difficulty": "hard",
+      "input": "ROPER TECHNOLOGIES Incorporated,",
+      "expected_name": "ROPER TECHNOLOGIES INC",
+      "pred_name": "ROPER TECHNOLOGIES, INC.",
+      "pred_raw": "{\"canonical_name\":\"ROPER TECHNOLOGIES, INC.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 75,
+      "difficulty": "easy",
+      "input": "JONES LANG LASALLE INC.",
+      "expected_name": "JONES LANG LASALLE INC",
+      "pred_name": "JONES LANG LASALLE INC.",
+      "pred_raw": "{\"canonical_name\":\"JONES LANG LASALLE INC.\",\"cik\":1001015,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 77,
+      "difficulty": "easy",
+      "input": "LENNOX INTERNATIONAL, INC, a Delaware corporation",
+      "expected_name": "LENNOX INTERNATIONAL INC",
+      "pred_name": "LENNOX INTERNATIONAL, INC.",
+      "pred_raw": "{\"canonical_name\":\"LENNOX INTERNATIONAL, INC.\",\"cik\":1055155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 79,
+      "difficulty": "hard",
+      "input": "UNITED THERAPEUTICS Corporation /formerly/",
+      "expected_name": "UNITED THERAPEUTICS Corp",
+      "pred_name": "UNITED THERAPEUTICS CORP",
+      "pred_raw": "{\"canonical_name\":\"UNITED THERAPEUTICS CORP\",\"cik\":1000155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 80,
+      "difficulty": "hard",
+      "input": "Ingredion, Inc..",
+      "expected_name": "Ingredion Inc",
+      "pred_name": "Ingredion, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Ingredion, Inc.\",\"cik\":1001035,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 81,
+      "difficulty": "hard",
+      "input": "CASELLA WASTE SYSTEMS Inc.,",
+      "expected_name": "CASELLA WASTE SYSTEMS INC",
+      "pred_name": "CASELLA WASTE SYSTEMS, INC.",
+      "pred_raw": "{\"canonical_name\":\"CASELLA WASTE SYSTEMS, INC.\",\"cik\":1001015,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 84,
+      "difficulty": "easy",
+      "input": "GameStop Corp.",
+      "expected_name": "GameStop Corp.",
+      "pred_name": "GameStop Corp",
+      "pred_raw": "{\"canonical_name\":\"GameStop Corp\",\"cik\":1790185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 85,
+      "difficulty": "hard",
+      "input": "PDD HOLDINGS, INC.",
+      "expected_name": "PDD Holdings Inc.",
+      "pred_name": "PDD HOLDINGS, INC.",
+      "pred_raw": "{\"canonical_name\":\"PDD HOLDINGS, INC.\",\"cik\":1063885,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 86,
+      "difficulty": "hard",
+      "input": "Vistra Energy Corp",
+      "expected_name": "Vistra Corp.",
+      "pred_name": "Vistra Energy Corp",
+      "pred_raw": "{\"canonical_name\":\"Vistra Energy Corp\",\"cik\":1781355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 87,
+      "difficulty": "hard",
+      "input": "OLD NATIONAL BANCORP",
+      "expected_name": "OLD NATIONAL BANCORP /IN/",
+      "pred_name": "OLD NATIONAL BANCORP",
+      "pred_raw": "{\"canonical_name\":\"OLD NATIONAL BANCORP\",\"cik\":1050555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 89,
+      "difficulty": "hard",
+      "input": "STERLING INFRASTRUCTURE Inc /formerly/",
+      "expected_name": "STERLING INFRASTRUCTURE, INC.",
+      "pred_name": "STERLING INFRASTRUCTURE INC",
+      "pred_raw": "{\"canonical_name\":\"STERLING INFRASTRUCTURE INC\",\"cik\":1058855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 91,
+      "difficulty": "hard",
+      "input": "BP,  Public  Limited  Company - formerly known as",
+      "expected_name": "BP PLC",
+      "pred_name": "BP plc",
+      "pred_raw": "{\"canonical_name\":\"BP plc\",\"cik\":1791055,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 93,
+      "difficulty": "hard",
+      "input": "Allison Transmission Holdings, Incorporated",
+      "expected_name": "Allison Transmission Holdings Inc",
+      "pred_name": "Allison Transmission Holdings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Allison Transmission Holdings, Inc.\",\"cik\":1101155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 98,
+      "difficulty": "easy",
+      "input": "MANHATTAN ASSOCIATES, INC.",
+      "expected_name": "MANHATTAN ASSOCIATES INC",
+      "pred_name": "MANHATTAN ASSOCIATES, INC.",
+      "pred_raw": "{\"canonical_name\":\"MANHATTAN ASSOCIATES, INC.\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 100,
+      "difficulty": "hard",
+      "input": "ASR NEDERLAND N.V./ADR,",
+      "expected_name": "ASR Nederland N.V./ADR",
+      "pred_name": "ASR NEDERLAND N.V./ADR",
+      "pred_raw": "{\"canonical_name\":\"ASR NEDERLAND N.V./ADR\",\"cik\":1058885,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 102,
+      "difficulty": "hard",
+      "input": "COMMVAULT  SYSTEMS,  Inc. - formerly known as",
+      "expected_name": "COMMVAULT SYSTEMS INC",
+      "pred_name": "COMMVAULT SYSTEMS, INC.",
+      "pred_raw": "{\"canonical_name\":\"COMMVAULT SYSTEMS, INC.\",\"cik\":1051105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 104,
+      "difficulty": "hard",
+      "input": "Embraer - Empresa Brasileira de Aeronautica S.A.",
+      "expected_name": "EMBRAER S.A.",
+      "pred_name": "Embraer S.A.",
+      "pred_raw": "{\"canonical_name\":\"Embraer S.A.\",\"cik\":1000135,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 105,
+      "difficulty": "hard",
+      "input": "silicon motion technology, corporation, a Delaware corporation",
+      "expected_name": "Silicon Motion Technology CORP",
+      "pred_name": "Silicon Motion Technology Corp",
+      "pred_raw": "{\"canonical_name\":\"Silicon Motion Technology Corp\",\"cik\":1791335,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 109,
+      "difficulty": "hard",
+      "input": "D-Wave Quantum, Inc - formerly known as",
+      "expected_name": "D-Wave Quantum Inc.",
+      "pred_name": "D-Wave Quantum, Inc.",
+      "pred_raw": "{\"canonical_name\":\"D-Wave Quantum, Inc.\",\"cik\":1810155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 118,
+      "difficulty": "easy",
+      "input": "Duke Energy CORP (fka)",
+      "expected_name": "Duke Energy CORP",
+      "pred_name": "Duke Energy Corp",
+      "pred_raw": "{\"canonical_name\":\"Duke Energy Corp\",\"cik\":1781155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 120,
+      "difficulty": "hard",
+      "input": "crown castle, inc. - formerly known as",
+      "expected_name": "CROWN CASTLE INC.",
+      "pred_name": "CROWN CASTLE INC",
+      "pred_raw": "{\"canonical_name\":\"CROWN CASTLE INC\",\"cik\":1050155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 133,
+      "difficulty": "hard",
+      "input": "Arthur J. Gallagher & , Co, a Delaware corporation",
+      "expected_name": "Arthur J. Gallagher & Co.",
+      "pred_name": "Arthur J. Gallagher & Co",
+      "pred_raw": "{\"canonical_name\":\"Arthur J. Gallagher & Co\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 134,
+      "difficulty": "easy",
+      "input": "SYNAPTICS Inc. /DE/",
+      "expected_name": "SYNAPTICS Inc",
+      "pred_name": "SYNAPTICS INC",
+      "pred_raw": "{\"canonical_name\":\"SYNAPTICS INC\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 135,
+      "difficulty": "hard",
+      "input": "MAXLINEAR INC",
+      "expected_name": "MAXLINEAR, INC",
+      "pred_name": "MAXLINEAR INC",
+      "pred_raw": "{\"canonical_name\":\"MAXLINEAR INC\",\"cik\":1053855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 141,
+      "difficulty": "hard",
+      "input": "SIMON PROPERTY GROUP INC /DE/",
+      "expected_name": "SIMON PROPERTY GROUP INC.",
+      "pred_name": "SIMON PROPERTY GROUP INC /DE/",
+      "pred_raw": "{\"canonical_name\":\"SIMON PROPERTY GROUP INC /DE/\",\"cik\":1065855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 146,
+      "difficulty": "easy",
+      "input": "Summit Therapeutics INC",
+      "expected_name": "Summit Therapeutics Inc.",
+      "pred_name": "Summit Therapeutics, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Summit Therapeutics, Inc.\",\"cik\":1891125,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 151,
+      "difficulty": "hard",
+      "input": "KASLION Acquisition B.V.",
+      "expected_name": "NXP Semiconductors N.V.",
+      "pred_name": "KASLION Acquisition B.V.",
+      "pred_raw": "{\"canonical_name\":\"KASLION Acquisition B.V.\",\"cik\":1891208,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 154,
+      "difficulty": "easy",
+      "input": "Jackson Financial, INC - formerly known as",
+      "expected_name": "Jackson Financial Inc.",
+      "pred_name": "Jackson Financial, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Jackson Financial, Inc.\",\"cik\":1891855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 156,
+      "difficulty": "hard",
+      "input": "Carnival Corp Limited /DE/",
+      "expected_name": "Carnival Corp Ltd.",
+      "pred_name": "Carnival Corp Ltd",
+      "pred_raw": "{\"canonical_name\":\"Carnival Corp Ltd\",\"cik\":1010185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 157,
+      "difficulty": "hard",
+      "input": "CARNIVAL CORP",
+      "expected_name": "Carnival Corp Ltd.",
+      "pred_name": "Carnival Corp",
+      "pred_raw": "{\"canonical_name\":\"Carnival Corp\",\"cik\":1010155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 158,
+      "difficulty": "hard",
+      "input": "Centennial Resource Development, Inc.",
+      "expected_name": "Permian Resources Corp",
+      "pred_name": "Centennial Resource Development, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Centennial Resource Development, Inc.\",\"cik\":1781205,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 159,
+      "difficulty": "hard",
+      "input": "CHART INDUSTRIES, Incorporated, the Company",
+      "expected_name": "CHART INDUSTRIES INC",
+      "pred_name": "CHART INDUSTRIES, INC.",
+      "pred_raw": "{\"canonical_name\":\"CHART INDUSTRIES, INC.\",\"cik\":1055055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 160,
+      "difficulty": "hard",
+      "input": "Ke Holdings Inc",
+      "expected_name": "KE Holdings Inc.",
+      "pred_name": "Ke Holdings Inc.",
+      "pred_raw": "{\"canonical_name\":\"Ke Holdings Inc.\",\"cik\":1851185,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 162,
+      "difficulty": "hard",
+      "input": "Hubspot Inc",
+      "expected_name": "HUBSPOT INC",
+      "pred_name": "HubSpot, Inc.",
+      "pred_raw": "{\"canonical_name\":\"HubSpot, Inc.\",\"cik\":1560185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 163,
+      "difficulty": "hard",
+      "input": "RBC Bearings, Incorporated (successor to former entity)",
+      "expected_name": "RBC Bearings INC",
+      "pred_name": "RBC Bearings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"RBC Bearings, Inc.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 165,
+      "difficulty": "hard",
+      "input": "BENTLEY SYSTEMS, INC (the \"Company\")",
+      "expected_name": "BENTLEY SYSTEMS INC",
+      "pred_name": "BENTLEY SYSTEMS, INC.",
+      "pred_raw": "{\"canonical_name\":\"BENTLEY SYSTEMS, INC.\",\"cik\":1051355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 167,
+      "difficulty": "easy",
+      "input": "GSK plc",
+      "expected_name": "GSK plc",
+      "pred_name": "GSK PLC",
+      "pred_raw": "{\"canonical_name\":\"GSK PLC\",\"cik\":1000155,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 172,
+      "difficulty": "hard",
+      "input": "Magnum Ice Cream Company B.V.",
+      "expected_name": "Magnum Ice Cream Co N.V.",
+      "pred_name": "Magnum Ice Cream Company B.V.",
+      "pred_raw": "{\"canonical_name\":\"Magnum Ice Cream Company B.V.\",\"cik\":1891205,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 175,
+      "difficulty": "hard",
+      "input": "ON HOLDING AG - formerly known as",
+      "expected_name": "On Holding AG",
+      "pred_name": "ON HOLDING AG",
+      "pred_raw": "{\"canonical_name\":\"ON HOLDING AG\",\"cik\":1000005,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 177,
+      "difficulty": "easy",
+      "input": "Strategy Inc",
+      "expected_name": "Strategy Inc",
+      "pred_name": "Strategy Inc.",
+      "pred_raw": "{\"canonical_name\":\"Strategy Inc.\",\"cik\":1891235,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 181,
+      "difficulty": "easy",
+      "input": "AAR Corporation (fka)",
+      "expected_name": "AAR CORP",
+      "pred_name": "AAR Corp",
+      "pred_raw": "{\"canonical_name\":\"AAR Corp\",\"cik\":1051355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 186,
+      "difficulty": "easy",
+      "input": "UDR Inc. (fka)",
+      "expected_name": "UDR, Inc.",
+      "pred_name": "UDR Inc.",
+      "pred_raw": "{\"canonical_name\":\"UDR Inc.\",\"cik\":1791305,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 187,
+      "difficulty": "hard",
+      "input": "HUNTINGTON INGALLS INDUSTRIES, INC /DE/",
+      "expected_name": "HUNTINGTON INGALLS INDUSTRIES, INC.",
+      "pred_name": "HUNTINGTON INGALLS INDUSTRIES, INC /DE/",
+      "pred_raw": "{\"canonical_name\":\"HUNTINGTON INGALLS INDUSTRIES, INC /DE/\",\"cik\":1000155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 189,
+      "difficulty": "easy",
+      "input": "CARVANA Co,",
+      "expected_name": "CARVANA CO.",
+      "pred_name": "CARVANA Co",
+      "pred_raw": "{\"canonical_name\":\"CARVANA Co\",\"cik\":1760105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 191,
+      "difficulty": "hard",
+      "input": "raymond james financial incorporated",
+      "expected_name": "RAYMOND JAMES FINANCIAL INC",
+      "pred_name": "Raymond James Financial, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Raymond James Financial, Inc.\",\"cik\":1136155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 196,
+      "difficulty": "easy",
+      "input": "PERSHING SQUARE Inc. /formerly/",
+      "expected_name": "PERSHING SQUARE INC.",
+      "pred_name": "PERSHING SQUARE INC",
+      "pred_raw": "{\"canonical_name\":\"PERSHING SQUARE INC\",\"cik\":1090055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 197,
+      "difficulty": "hard",
+      "input": "Jefferies Financial Group, Inc /formerly/",
+      "expected_name": "Jefferies Financial Group Inc.",
+      "pred_name": "Jefferies Financial Group, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Jefferies Financial Group, Inc.\",\"cik\":1091855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 200,
+      "difficulty": "hard",
+      "input": "Lineage Growth Properties, Inc.",
+      "expected_name": "Lineage, Inc.",
+      "pred_name": "Lineage Growth Properties, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Lineage Growth Properties, Inc.\",\"cik\":1891105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 203,
+      "difficulty": "hard",
+      "input": "LABORATORY CORP OF AMERICA HOLDINGS",
+      "expected_name": "LABCORP HOLDINGS INC.",
+      "pred_name": "LABORATORY CORP OF AMERICA HOLDINGS",
+      "pred_raw": "{\"canonical_name\":\"LABORATORY CORP OF AMERICA HOLDINGS\",\"cik\":1001555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 204,
+      "difficulty": "hard",
+      "input": "FIGURE TECHNOLOGY SOLUTIONS, INC (successor to former entity)",
+      "expected_name": "Figure Technology Solutions, Inc.",
+      "pred_name": "FIGURE TECHNOLOGY SOLUTIONS, INC.",
+      "pred_raw": "{\"canonical_name\":\"FIGURE TECHNOLOGY SOLUTIONS, INC.\",\"cik\":1065355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 206,
+      "difficulty": "easy",
+      "input": "American Airlines Group Inc. (successor to former entity)",
+      "expected_name": "American Airlines Group Inc.",
+      "pred_name": "American Airlines Group, Inc.",
+      "pred_raw": "{\"canonical_name\":\"American Airlines Group, Inc.\",\"cik\":1101055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 208,
+      "difficulty": "hard",
+      "input": "ESCO TECHNOLOGIES, INC.",
+      "expected_name": "ESCO TECHNOLOGIES INC",
+      "pred_name": "ESCO TECHNOLOGIES, INC.",
+      "pred_raw": "{\"canonical_name\":\"ESCO TECHNOLOGIES, INC.\",\"cik\":1000105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 209,
+      "difficulty": "easy",
+      "input": "Kla Corp - formerly known as",
+      "expected_name": "KLA CORP",
+      "pred_name": "KLA Corp",
+      "pred_raw": "{\"canonical_name\":\"KLA Corp\",\"cik\":1001835,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 211,
+      "difficulty": "easy",
+      "input": "ADT, INC",
+      "expected_name": "ADT Inc.",
+      "pred_name": "ADT, INC.",
+      "pred_raw": "{\"canonical_name\":\"ADT, INC.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 213,
+      "difficulty": "hard",
+      "input": "Integrated Electrical Services, Inc.",
+      "expected_name": "IES Holdings, Inc.",
+      "pred_name": "Integrated Electrical Services, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Integrated Electrical Services, Inc.\",\"cik\":1891255,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 217,
+      "difficulty": "hard",
+      "input": "Strategy Inc. - formerly known as",
+      "expected_name": "Strategy Inc",
+      "pred_name": "Strategy Inc.",
+      "pred_raw": "{\"canonical_name\":\"Strategy Inc.\",\"cik\":1891255,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 218,
+      "difficulty": "easy",
+      "input": "BGC Group Inc (fka)",
+      "expected_name": "BGC Group, Inc.",
+      "pred_name": "BGC Group Inc.",
+      "pred_raw": "{\"canonical_name\":\"BGC Group Inc.\",\"cik\":1796325,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 219,
+      "difficulty": "hard",
+      "input": "VERSANT MEDIA GROUP INC /formerly/",
+      "expected_name": "Versant Media Group, Inc.",
+      "pred_name": "VERSANT MEDIA GROUP INC",
+      "pred_raw": "{\"canonical_name\":\"VERSANT MEDIA GROUP INC\",\"cik\":1096185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 224,
+      "difficulty": "hard",
+      "input": "J  M  SMUCKER  CO /formerly/",
+      "expected_name": "J M SMUCKER Co",
+      "pred_name": "J M SMUCKER CO",
+      "pred_raw": "{\"canonical_name\":\"J M SMUCKER CO\",\"cik\":1050155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 227,
+      "difficulty": "hard",
+      "input": "MOTOROLA SOLUTIONS, INC.",
+      "expected_name": "Motorola Solutions, Inc.",
+      "pred_name": "MOTOROLA SOLUTIONS, INC.",
+      "pred_raw": "{\"canonical_name\":\"MOTOROLA SOLUTIONS, INC.\",\"cik\":1060155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 231,
+      "difficulty": "hard",
+      "input": "SVF Investment Corp. 3",
+      "expected_name": "Symbotic Inc.",
+      "pred_name": "SVF Investment Corp.",
+      "pred_raw": "{\"canonical_name\":\"SVF Investment Corp.\",\"cik\":1851555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 232,
+      "difficulty": "hard",
+      "input": "HORMEL GEO A & CO",
+      "expected_name": "HORMEL FOODS CORP /DE/",
+      "pred_name": "HORMEL GEO A & CO",
+      "pred_raw": "{\"canonical_name\":\"HORMEL GEO A & CO\",\"cik\":1000155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 233,
+      "difficulty": "hard",
+      "input": "PARSON CORP",
+      "expected_name": "PARSONS CORP",
+      "pred_name": "PARSON CORP",
+      "pred_raw": "{\"canonical_name\":\"PARSON CORP\",\"cik\":1051555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 234,
+      "difficulty": "hard",
+      "input": "Sanrio Company, Ltd./ADR (successor to former entity)",
+      "expected_name": "Sanrio Company, Ltd./ADR",
+      "pred_name": "Sanrio Company Ltd./ADR",
+      "pred_raw": "{\"canonical_name\":\"Sanrio Company Ltd./ADR\",\"cik\":1791005,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 235,
+      "difficulty": "hard",
+      "input": "WINTRUST FINANCIAL, Corporation, a Delaware corporation",
+      "expected_name": "WINTRUST FINANCIAL CORP",
+      "pred_name": "WINTRUDE FINANCIAL CORP",
+      "pred_raw": "{\"canonical_name\":\"WINTRUDE FINANCIAL CORP\",\"cik\":1055855,\"entity_type\":\"other\",\"is_former_name_input\":true}",
+      "match": false
+    },
+    {
+      "idx": 237,
+      "difficulty": "hard",
+      "input": "TOLL BROTHERS INC",
+      "expected_name": "Toll Brothers, Inc.",
+      "pred_name": "TOLL BROTHERS INC",
+      "pred_raw": "{\"canonical_name\":\"TOLL BROTHERS INC\",\"cik\":1050555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 238,
+      "difficulty": "easy",
+      "input": "SERVICE CORP INTERNATIONAL /DE/",
+      "expected_name": "SERVICE CORP INTERNATIONAL",
+      "pred_name": "SERVICE CORP INTERNATIONAL /DE/",
+      "pred_raw": "{\"canonical_name\":\"SERVICE CORP INTERNATIONAL /DE/\",\"cik\":1091885,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 246,
+      "difficulty": "hard",
+      "input": "Rentokil Initial Plc /Fi",
+      "expected_name": "RENTOKIL INITIAL PLC /FI",
+      "pred_name": "Rentokil Initial Plc /Fi",
+      "pred_raw": "{\"canonical_name\":\"Rentokil Initial Plc /Fi\",\"cik\":1096385,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 249,
+      "difficulty": "easy",
+      "input": "Intercorp Financial Services Incorporated,",
+      "expected_name": "Intercorp Financial Services Inc.",
+      "pred_name": "Intercorp Financial Services, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Intercorp Financial Services, Inc.\",\"cik\":1891255,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 251,
+      "difficulty": "hard",
+      "input": "NOV, INC (successor to former entity)",
+      "expected_name": "NOV Inc.",
+      "pred_name": "NOV, INC.",
+      "pred_raw": "{\"canonical_name\":\"NOV, INC.\",\"cik\":1001005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 256,
+      "difficulty": "hard",
+      "input": "ANTERO RESOURCES Corporation (successor to former entity)",
+      "expected_name": "ANTERO RESOURCES Corp",
+      "pred_name": "ANTERO RESOURCES CORP",
+      "pred_raw": "{\"canonical_name\":\"ANTERO RESOURCES CORP\",\"cik\":1000105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 258,
+      "difficulty": "hard",
+      "input": "Triple Flag Precious Metals, Corp. (successor to former entity)",
+      "expected_name": "Triple Flag Precious Metals Corp.",
+      "pred_name": "Triple Flag Precious Metals Corp",
+      "pred_raw": "{\"canonical_name\":\"Triple Flag Precious Metals Corp\",\"cik\":1891855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 262,
+      "difficulty": "hard",
+      "input": "VENTAS INC",
+      "expected_name": "Ventas, Inc.",
+      "pred_name": "VENTAS INC",
+      "pred_raw": "{\"canonical_name\":\"VENTAS INC\",\"cik\":1001035,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 267,
+      "difficulty": "hard",
+      "input": "CARLISLE COMPANIES, INC",
+      "expected_name": "CARLISLE COMPANIES INC",
+      "pred_name": "CARLISLE COMPANIES, INC.",
+      "pred_raw": "{\"canonical_name\":\"CARLISLE COMPANIES, INC.\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 268,
+      "difficulty": "hard",
+      "input": "JACK HENRY and ASSOCIATES, INC",
+      "expected_name": "JACK HENRY & ASSOCIATES INC",
+      "pred_name": "JACK HENRY & ASSOCIATES, INC.",
+      "pred_raw": "{\"canonical_name\":\"JACK HENRY & ASSOCIATES, INC.\",\"cik\":1000105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 270,
+      "difficulty": "hard",
+      "input": "pdd holdings, incorporated,",
+      "expected_name": "PDD Holdings Inc.",
+      "pred_name": "PDD Holdings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"PDD Holdings, Inc.\",\"cik\":1791335,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 271,
+      "difficulty": "hard",
+      "input": "VALLEY  NATIONAL  BAN,  Corporation.",
+      "expected_name": "VALLEY NATIONAL BANCORP",
+      "pred_name": "VALLEY NATIONAL BAN CORP",
+      "pred_raw": "{\"canonical_name\":\"VALLEY NATIONAL BAN CORP\",\"cik\":895555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 274,
+      "difficulty": "easy",
+      "input": "AMERICAN INTERNATIONAL GROUP, Incorporated (successor to former entity)",
+      "expected_name": "AMERICAN INTERNATIONAL GROUP, INC.",
+      "pred_name": "AMERICAN INTERNATIONAL GROUP INC",
+      "pred_raw": "{\"canonical_name\":\"AMERICAN INTERNATIONAL GROUP INC\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 275,
+      "difficulty": "hard",
+      "input": "Celcuity  Incorporated - formerly known as",
+      "expected_name": "Celcuity Inc.",
+      "pred_name": "Celcuity, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Celcuity, Inc.\",\"cik\":1851885,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 280,
+      "difficulty": "hard",
+      "input": "GSI LUMONICS",
+      "expected_name": "NOVANTA INC",
+      "pred_name": "GSI LUMONICS",
+      "pred_raw": "{\"canonical_name\":\"GSI LUMONICS\",\"cik\":1090155,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 284,
+      "difficulty": "hard",
+      "input": "stantec inc. /formerly/",
+      "expected_name": "STANTEC INC",
+      "pred_name": "STANDEK INC",
+      "pred_raw": "{\"canonical_name\":\"STANDEK INC\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 287,
+      "difficulty": "hard",
+      "input": "ALPHABET  INC. /formerly/",
+      "expected_name": "Alphabet Inc.",
+      "pred_name": "ALPHABET INC",
+      "pred_raw": "{\"canonical_name\":\"ALPHABET INC\",\"cik\":1101015,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 288,
+      "difficulty": "hard",
+      "input": "Extra Space Storage, Inc",
+      "expected_name": "Extra Space Storage Inc.",
+      "pred_name": "Extra Space Storage, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Extra Space Storage, Inc.\",\"cik\":1103835,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 294,
+      "difficulty": "hard",
+      "input": "EXPAND ENERGY Corp",
+      "expected_name": "EXPAND ENERGY Corp",
+      "pred_name": "EXPAND ENERGY CORP",
+      "pred_raw": "{\"canonical_name\":\"EXPAND ENERGY CORP\",\"cik\":1053855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 296,
+      "difficulty": "hard",
+      "input": "dba VODAFONE  GROUP  PUBLIC  LTD  CO",
+      "expected_name": "VODAFONE GROUP PUBLIC LTD CO",
+      "pred_name": "VODAFONE GROUP PLC",
+      "pred_raw": "{\"canonical_name\":\"VODAFONE GROUP PLC\",\"cik\":1000005,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 301,
+      "difficulty": "hard",
+      "input": "amer sports, incorporated.",
+      "expected_name": "Amer Sports, Inc.",
+      "pred_name": "AMER SPORTS, INC.",
+      "pred_raw": "{\"canonical_name\":\"AMER SPORTS, INC.\",\"cik\":1053355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 303,
+      "difficulty": "easy",
+      "input": "Legence Corp. /formerly/",
+      "expected_name": "Legence Corp.",
+      "pred_name": "Legence Corp",
+      "pred_raw": "{\"canonical_name\":\"Legence Corp\",\"cik\":1891205,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 306,
+      "difficulty": "hard",
+      "input": "globus medical, inc. - formerly known as",
+      "expected_name": "GLOBUS MEDICAL INC",
+      "pred_name": "Globus Medical, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Globus Medical, Inc.\",\"cik\":1791355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 307,
+      "difficulty": "easy",
+      "input": "GLAUKOS Corp.",
+      "expected_name": "GLAUKOS Corp",
+      "pred_name": "GLAUKOS CORP",
+      "pred_raw": "{\"canonical_name\":\"GLAUKOS CORP\",\"cik\":1090155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 308,
+      "difficulty": "easy",
+      "input": "Cirrus Logic, Inc. (successor to former entity)",
+      "expected_name": "CIRRUS LOGIC, INC.",
+      "pred_name": "Cirrus Logic, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Cirrus Logic, Inc.\",\"cik\":1101835,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 309,
+      "difficulty": "hard",
+      "input": "HOULIHAN LOKEY HOWARD & ZUKIN INC",
+      "expected_name": "HOULIHAN LOKEY, INC.",
+      "pred_name": "HOULIHAN LOKEY & CO. INC.",
+      "pred_raw": "{\"canonical_name\":\"HOULIHAN LOKEY & CO. INC.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":true}",
+      "match": false
+    },
+    {
+      "idx": 310,
+      "difficulty": "hard",
+      "input": "h  world  group  ltd (fka)",
+      "expected_name": "H World Group Ltd",
+      "pred_name": "World Group Ltd.",
+      "pred_raw": "{\"canonical_name\":\"World Group Ltd.\",\"cik\":1982855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 315,
+      "difficulty": "hard",
+      "input": "texas pacific land corp (the \"Company\")",
+      "expected_name": "Texas Pacific Land Corp",
+      "pred_name": "TENX ENERGY, INC.",
+      "pred_raw": "{\"canonical_name\":\"TENX ENERGY, INC.\",\"cik\":1000105,\"entity_type\":\"operating\",\"is_former_name_input\":true}",
+      "match": false
+    },
+    {
+      "idx": 321,
+      "difficulty": "hard",
+      "input": "Protagonist Therapeutics, Incorporated,",
+      "expected_name": "Protagonist Therapeutics, Inc",
+      "pred_name": "Protagonist Therapeutics, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Protagonist Therapeutics, Inc.\",\"cik\":1791005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 322,
+      "difficulty": "hard",
+      "input": "extra space storage inc.",
+      "expected_name": "Extra Space Storage Inc.",
+      "pred_name": "Extra Space Storage, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Extra Space Storage, Inc.\",\"cik\":1106335,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 325,
+      "difficulty": "hard",
+      "input": "CROWN CASTLE INC, the Company",
+      "expected_name": "CROWN CASTLE INC.",
+      "pred_name": "CROWN CASTLE INC",
+      "pred_raw": "{\"canonical_name\":\"CROWN CASTLE INC\",\"cik\":1050155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 329,
+      "difficulty": "hard",
+      "input": "ENTERPRISE PRODUCTS PARTNERS L P",
+      "expected_name": "ENTERPRISE PRODUCTS PARTNERS L.P.",
+      "pred_name": "ENTERPRISES PRODUCTS PARTNERS L P",
+      "pred_raw": "{\"canonical_name\":\"ENTERPRISES PRODUCTS PARTNERS L P\",\"cik\":1056855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 332,
+      "difficulty": "hard",
+      "input": "DOW Inc. /formerly/",
+      "expected_name": "DOW INC.",
+      "pred_name": "DOW Inc.",
+      "pred_raw": "{\"canonical_name\":\"DOW Inc.\",\"cik\":1000855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 333,
+      "difficulty": "hard",
+      "input": "Anthem, Inc.",
+      "expected_name": "Elevance Health, Inc.",
+      "pred_name": "Anthem, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Anthem, Inc.\",\"cik\":1100105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 334,
+      "difficulty": "hard",
+      "input": "BLACKBERRY Ltd,",
+      "expected_name": "BLACKBERRY Ltd",
+      "pred_name": "BlackBerry Ltd",
+      "pred_raw": "{\"canonical_name\":\"BlackBerry Ltd\",\"cik\":1075185,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 339,
+      "difficulty": "hard",
+      "input": "AMCOR PUBLIC LIMITED COMPANY (fka)",
+      "expected_name": "Amcor plc",
+      "pred_name": "AMCOR PLC",
+      "pred_raw": "{\"canonical_name\":\"AMCOR PLC\",\"cik\":1000005,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 340,
+      "difficulty": "hard",
+      "input": "CIRCLE  INTERNET  GROUP,  INC. (fka)",
+      "expected_name": "Circle Internet Group, Inc.",
+      "pred_name": "CIRCLE INTERNET GROUP, INC.",
+      "pred_raw": "{\"canonical_name\":\"CIRCLE INTERNET GROUP, INC.\",\"cik\":1051385,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 342,
+      "difficulty": "hard",
+      "input": "NOMURA HOLDINGS INC /DE/",
+      "expected_name": "NOMURA HOLDINGS INC",
+      "pred_name": "NOMURA HOLDINGS INC /DE/",
+      "pred_raw": "{\"canonical_name\":\"NOMURA HOLDINGS INC /DE/\",\"cik\":1091185,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 344,
+      "difficulty": "hard",
+      "input": "Kanzhun  Ltd,",
+      "expected_name": "Kanzhun Ltd",
+      "pred_name": "Kanzhun Ltd.",
+      "pred_raw": "{\"canonical_name\":\"Kanzhun Ltd.\",\"cik\":1963205,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 349,
+      "difficulty": "hard",
+      "input": "MSA Safety, Incorporated, a Delaware corporation",
+      "expected_name": "MSA Safety Inc",
+      "pred_name": "MSA Safety, Inc.",
+      "pred_raw": "{\"canonical_name\":\"MSA Safety, Inc.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 353,
+      "difficulty": "hard",
+      "input": "WILLIAMS COMPANIES INC",
+      "expected_name": "WILLIAMS COMPANIES, INC.",
+      "pred_name": "WILLIAMS COMPANIES INC",
+      "pred_raw": "{\"canonical_name\":\"WILLIAMS COMPANIES INC\",\"cik\":1000055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 357,
+      "difficulty": "hard",
+      "input": "everpure inc /formerly/",
+      "expected_name": "Everpure, Inc.",
+      "pred_name": "EverPure, Inc.",
+      "pred_raw": "{\"canonical_name\":\"EverPure, Inc.\",\"cik\":1891108,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 360,
+      "difficulty": "hard",
+      "input": "BANCO SANTANDER CHILE, the Company",
+      "expected_name": "BANCO SANTANDER CHILE",
+      "pred_name": "Banco Santander Chile",
+      "pred_raw": "{\"canonical_name\":\"Banco Santander Chile\",\"cik\":1090885,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 362,
+      "difficulty": "easy",
+      "input": "dba Constellation Energy Corp.",
+      "expected_name": "Constellation Energy Corp",
+      "pred_name": "CONSTELLATION ENERGY CORP",
+      "pred_raw": "{\"canonical_name\":\"CONSTELLATION ENERGY CORP\",\"cik\":1050555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 364,
+      "difficulty": "hard",
+      "input": "Luckin Coffee, INC /formerly/",
+      "expected_name": "Luckin Coffee Inc.",
+      "pred_name": "Luckin Coffee, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Luckin Coffee, Inc.\",\"cik\":1790188,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 366,
+      "difficulty": "hard",
+      "input": "dMY Technology Group, Inc. III",
+      "expected_name": "IonQ, Inc.",
+      "pred_name": "dMY Technology Group, Inc.",
+      "pred_raw": "{\"canonical_name\":\"dMY Technology Group, Inc.\",\"cik\":1891208,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 370,
+      "difficulty": "hard",
+      "input": "CIGNA GROUP (the \"Company\")",
+      "expected_name": "Cigna Group",
+      "pred_name": "CIGNA GROUP",
+      "pred_raw": "{\"canonical_name\":\"CIGNA GROUP\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 378,
+      "difficulty": "hard",
+      "input": "Invitation Homes Incorporated /DE/",
+      "expected_name": "Invitation Homes Inc.",
+      "pred_name": "Invitation Homes, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Invitation Homes, Inc.\",\"cik\":1791335,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 379,
+      "difficulty": "easy",
+      "input": "iridium communications inc., a Delaware corporation",
+      "expected_name": "Iridium Communications Inc.",
+      "pred_name": "IRIDIUM COMMUNICATIONS INC",
+      "pred_raw": "{\"canonical_name\":\"IRIDIUM COMMUNICATIONS INC\",\"cik\":1051555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 386,
+      "difficulty": "hard",
+      "input": "XPO Logistics, Inc.",
+      "expected_name": "XPO, Inc.",
+      "pred_name": "XPO Logistics, Inc.",
+      "pred_raw": "{\"canonical_name\":\"XPO Logistics, Inc.\",\"cik\":1106835,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 388,
+      "difficulty": "hard",
+      "input": "NRG ENERGY Inc. (the \"Company\")",
+      "expected_name": "NRG ENERGY, INC.",
+      "pred_name": "NRG ENERGY INC",
+      "pred_raw": "{\"canonical_name\":\"NRG ENERGY INC\",\"cik\":1000155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 389,
+      "difficulty": "hard",
+      "input": "OUTFRONT Media, Inc.,",
+      "expected_name": "OUTFRONT Media Inc.",
+      "pred_name": "OUTFRONT Media, Inc.",
+      "pred_raw": "{\"canonical_name\":\"OUTFRONT Media, Inc.\",\"cik\":1591105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 403,
+      "difficulty": "hard",
+      "input": "COHERENT, Corp., the Company",
+      "expected_name": "COHERENT CORP.",
+      "pred_name": "COHERENT CORP",
+      "pred_raw": "{\"canonical_name\":\"COHERENT CORP\",\"cik\":1053155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 408,
+      "difficulty": "easy",
+      "input": "ILLUMINA Incorporated",
+      "expected_name": "ILLUMINA, INC.",
+      "pred_name": "ILLUMINA INC",
+      "pred_raw": "{\"canonical_name\":\"ILLUMINA INC\",\"cik\":1000100,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 409,
+      "difficulty": "hard",
+      "input": "Kiniksa Pharmaceuticals International, PLC",
+      "expected_name": "Kiniksa Pharmaceuticals International, plc",
+      "pred_name": "Kiniksa Pharmaceuticals International plc",
+      "pred_raw": "{\"canonical_name\":\"Kiniksa Pharmaceuticals International plc\",\"cik\":1890885,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 410,
+      "difficulty": "hard",
+      "input": "webster financial, corporation /formerly/",
+      "expected_name": "WEBSTER FINANCIAL CORP",
+      "pred_name": "Webster Financial Corp",
+      "pred_raw": "{\"canonical_name\":\"Webster Financial Corp\",\"cik\":1791355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 412,
+      "difficulty": "hard",
+      "input": "CONAGRA FOODS INC /DE/",
+      "expected_name": "CONAGRA BRANDS INC.",
+      "pred_name": "CONAGRA FOODS INC /DE/",
+      "pred_raw": "{\"canonical_name\":\"CONAGRA FOODS INC /DE/\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 414,
+      "difficulty": "hard",
+      "input": "SIRIUS XM HOLDINGS, Inc. - formerly known as",
+      "expected_name": "SIRIUS XM HOLDINGS INC.",
+      "pred_name": "SIRIUS XM HOLDINGS INC",
+      "pred_raw": "{\"canonical_name\":\"SIRIUS XM HOLDINGS INC\",\"cik\":1001005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 416,
+      "difficulty": "hard",
+      "input": "Axalta Coating Systems Ltd, a Delaware corporation",
+      "expected_name": "Axalta Coating Systems Ltd.",
+      "pred_name": "Axalta Coating Systems Ltd",
+      "pred_raw": "{\"canonical_name\":\"Axalta Coating Systems Ltd\",\"cik\":1791005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 418,
+      "difficulty": "hard",
+      "input": "SOUTHEAST AIRPORT Group",
+      "expected_name": "SOUTHEAST AIRPORT GROUP",
+      "pred_name": "SOUTHEAST AIRPORT Group",
+      "pred_raw": "{\"canonical_name\":\"SOUTHEAST AIRPORT Group\",\"cik\":1048555,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 419,
+      "difficulty": "hard",
+      "input": "Jackson Financial Inc. (fka)",
+      "expected_name": "Jackson Financial Inc.",
+      "pred_name": "Jackson Financial, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Jackson Financial, Inc.\",\"cik\":1891855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 421,
+      "difficulty": "hard",
+      "input": "grupo aval acciones y valores s.a..",
+      "expected_name": "Grupo Aval Acciones Y Valores S.A.",
+      "pred_name": "Grupo Aval S.A.",
+      "pred_raw": "{\"canonical_name\":\"Grupo Aval S.A.\",\"cik\":1891105,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 424,
+      "difficulty": "hard",
+      "input": "VECTOR VENTURES CORP.",
+      "expected_name": "Celsius Holdings, Inc.",
+      "pred_name": "VECTOR VENTURES CORP",
+      "pred_raw": "{\"canonical_name\":\"VECTOR VENTURES CORP\",\"cik\":1058855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 427,
+      "difficulty": "hard",
+      "input": "HERC HOLDINGS, INC",
+      "expected_name": "HERC HOLDINGS INC",
+      "pred_name": "HERC HOLDINGS, INC.",
+      "pred_raw": "{\"canonical_name\":\"HERC HOLDINGS, INC.\",\"cik\":1051355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 428,
+      "difficulty": "hard",
+      "input": "ANALOG DEVICES, INC (the \"Company\")",
+      "expected_name": "ANALOG DEVICES INC",
+      "pred_name": "ANALOG DEVICES, INC.",
+      "pred_raw": "{\"canonical_name\":\"ANALOG DEVICES, INC.\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 429,
+      "difficulty": "hard",
+      "input": "BANK OZK (successor to former entity)",
+      "expected_name": "Bank OZK",
+      "pred_name": "BANK OZK",
+      "pred_raw": "{\"canonical_name\":\"BANK OZK\",\"cik\":1851055,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 432,
+      "difficulty": "hard",
+      "input": "dba GLAUKOS Corp.",
+      "expected_name": "GLAUKOS Corp",
+      "pred_name": "GLAUKOS CORP",
+      "pred_raw": "{\"canonical_name\":\"GLAUKOS CORP\",\"cik\":1060855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 433,
+      "difficulty": "hard",
+      "input": "morningstar, incorporated /formerly/",
+      "expected_name": "Morningstar, Inc.",
+      "pred_name": "morningstar, inc.",
+      "pred_raw": "{\"canonical_name\":\"morningstar, inc.\",\"cik\":1101105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 435,
+      "difficulty": "hard",
+      "input": "Zeta Global Holdings, Corporation /formerly/",
+      "expected_name": "Zeta Global Holdings Corp.",
+      "pred_name": "Zeta Global Holdings Corp",
+      "pred_raw": "{\"canonical_name\":\"Zeta Global Holdings Corp\",\"cik\":1891885,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 436,
+      "difficulty": "hard",
+      "input": "Palo Alto Networks Inc. (successor to former entity)",
+      "expected_name": "Palo Alto Networks Inc",
+      "pred_name": "Palo Alto Networks, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Palo Alto Networks, Inc.\",\"cik\":1101110,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 449,
+      "difficulty": "hard",
+      "input": "central bancompany incorporated.",
+      "expected_name": "Central Bancompany, Inc.",
+      "pred_name": "Central Bancompany Inc.",
+      "pred_raw": "{\"canonical_name\":\"Central Bancompany Inc.\",\"cik\":1891105,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 451,
+      "difficulty": "hard",
+      "input": "Jackson Financial, Inc - formerly known as",
+      "expected_name": "Jackson Financial Inc.",
+      "pred_name": "Jackson Financial, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Jackson Financial, Inc.\",\"cik\":1791205,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 454,
+      "difficulty": "hard",
+      "input": "FIVE BELOW, INC,",
+      "expected_name": "FIVE BELOW, INC",
+      "pred_name": "FIVE BELOW, INC.",
+      "pred_raw": "{\"canonical_name\":\"FIVE BELOW, INC.\",\"cik\":1060105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 456,
+      "difficulty": "hard",
+      "input": "APPLIED INDUSTRIAL TECHNOLOGIES, INC.",
+      "expected_name": "APPLIED INDUSTRIAL TECHNOLOGIES INC",
+      "pred_name": "APPLIED INDUSTRIAL TECHNOLOGIES, INC.",
+      "pred_raw": "{\"canonical_name\":\"APPLIED INDUSTRIAL TECHNOLOGIES, INC.\",\"cik\":1001005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 459,
+      "difficulty": "hard",
+      "input": "INTUIT, Incorporated - formerly known as",
+      "expected_name": "INTUIT INC.",
+      "pred_name": "INTUIT, INC.",
+      "pred_raw": "{\"canonical_name\":\"INTUIT, INC.\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 460,
+      "difficulty": "hard",
+      "input": "dba Barratt Developments PLC/ADR",
+      "expected_name": "Barratt Developments PLC/ADR",
+      "pred_name": "BARRATT DEVELOPMENTS PLC/ADR",
+      "pred_raw": "{\"canonical_name\":\"BARRATT DEVELOPMENTS PLC/ADR\",\"cik\":1058855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 462,
+      "difficulty": "hard",
+      "input": "ASM LITHOGRAPHY HOLDING NV",
+      "expected_name": "ASML HOLDING NV",
+      "pred_name": "ASM LITHOGRAPHY HOLDING NV",
+      "pred_raw": "{\"canonical_name\":\"ASM LITHOGRAPHY HOLDING NV\",\"cik\":1063885,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 466,
+      "difficulty": "easy",
+      "input": "GoDaddy Incorporated, the Company",
+      "expected_name": "GoDaddy Inc.",
+      "pred_name": "GoDaddy, Inc.",
+      "pred_raw": "{\"canonical_name\":\"GoDaddy, Inc.\",\"cik\":1791185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 470,
+      "difficulty": "hard",
+      "input": "VIAVI  SOLUTIONS,  Inc. (successor to former entity)",
+      "expected_name": "VIAVI SOLUTIONS INC.",
+      "pred_name": "VIAVI SOLUTIONS, INC.",
+      "pred_raw": "{\"canonical_name\":\"VIAVI SOLUTIONS, INC.\",\"cik\":1060155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 478,
+      "difficulty": "hard",
+      "input": "dba old national bancorp /in/",
+      "expected_name": "OLD NATIONAL BANCORP /IN/",
+      "pred_name": "Old National Bank",
+      "pred_raw": "{\"canonical_name\":\"Old National Bank\",\"cik\":1050555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 479,
+      "difficulty": "easy",
+      "input": "Strategy, Incorporated (the \"Company\")",
+      "expected_name": "Strategy Inc",
+      "pred_name": "Strategy, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Strategy, Inc.\",\"cik\":1851355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 480,
+      "difficulty": "hard",
+      "input": "KENVUE INC (successor to former entity)",
+      "expected_name": "Kenvue Inc.",
+      "pred_name": "KENVUE INC",
+      "pred_raw": "{\"canonical_name\":\"KENVUE INC\",\"cik\":1060885,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 488,
+      "difficulty": "hard",
+      "input": "PG AND E, Corp.",
+      "expected_name": "PG&E Corp",
+      "pred_name": "PG&E CORP",
+      "pred_raw": "{\"canonical_name\":\"PG&E CORP\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 489,
+      "difficulty": "hard",
+      "input": "GREAT-WEST LIFECO Incorporated (the \"Company\")",
+      "expected_name": "GREAT-WEST LIFECO INC.",
+      "pred_name": "GREAT-WEST LIFECO INC",
+      "pred_raw": "{\"canonical_name\":\"GREAT-WEST LIFECO INC\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 490,
+      "difficulty": "hard",
+      "input": "Os76, Inc.",
+      "expected_name": "Everpure, Inc.",
+      "pred_name": "Os76, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Os76, Inc.\",\"cik\":1891155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 491,
+      "difficulty": "hard",
+      "input": "Csl  Ltd (the \"Company\")",
+      "expected_name": "CSL LTD",
+      "pred_name": "Csl Ltd",
+      "pred_raw": "{\"canonical_name\":\"Csl Ltd\",\"cik\":1851105,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 492,
+      "difficulty": "hard",
+      "input": "GE HEALTHCARE TECHNOLOGIES INC. /formerly/",
+      "expected_name": "GE HealthCare Technologies Inc.",
+      "pred_name": "GE HEALTHCARE TECHNOLOGIES INC",
+      "pred_raw": "{\"canonical_name\":\"GE HEALTHCARE TECHNOLOGIES INC\",\"cik\":1000105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 493,
+      "difficulty": "hard",
+      "input": "Cava Group Inc (fka)",
+      "expected_name": "CAVA GROUP, INC.",
+      "pred_name": "Cava Group Inc.",
+      "pred_raw": "{\"canonical_name\":\"Cava Group Inc.\",\"cik\":1891125,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 495,
+      "difficulty": "hard",
+      "input": "NPTG Holdings Corp",
+      "expected_name": "Ralliant Corp",
+      "pred_name": "NPTG Holdings Corp",
+      "pred_raw": "{\"canonical_name\":\"NPTG Holdings Corp\",\"cik\":1891555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 497,
+      "difficulty": "hard",
+      "input": "ITT WCO, Inc.",
+      "expected_name": "Xylem Inc.",
+      "pred_name": "ITT WCO, Inc.",
+      "pred_raw": "{\"canonical_name\":\"ITT WCO, Inc.\",\"cik\":1001035,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 498,
+      "difficulty": "hard",
+      "input": "RUSH ENTERPRISES INC \\TX\\, a Delaware corporation",
+      "expected_name": "RUSH ENTERPRISES INC \\TX\\",
+      "pred_name": "",
+      "pred_raw": "{\"canonical_name\":\"RUSH ENTERPRISES INC \\TX\\\",\"cik\":1001015,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 501,
+      "difficulty": "hard",
+      "input": "INGRAM MICRO HOLDING, CORP /DE/",
+      "expected_name": "Ingram Micro Holding Corp",
+      "pred_name": "INGRAM MICRO HOLDING CORP",
+      "pred_raw": "{\"canonical_name\":\"INGRAM MICRO HOLDING CORP\",\"cik\":1051855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 505,
+      "difficulty": "hard",
+      "input": "COUPANG INCORPORATED.",
+      "expected_name": "Coupang, Inc.",
+      "pred_name": "COUPANG INC",
+      "pred_raw": "{\"canonical_name\":\"COUPANG INC\",\"cik\":1096135,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 506,
+      "difficulty": "hard",
+      "input": "DOCUSIGN, Inc. (fka)",
+      "expected_name": "DOCUSIGN, INC.",
+      "pred_name": "DOCUSIGN INC",
+      "pred_raw": "{\"canonical_name\":\"DOCUSIGN INC\",\"cik\":1075333,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 508,
+      "difficulty": "easy",
+      "input": "Azbil Corporation/ADR",
+      "expected_name": "Azbil Corporation/ADR",
+      "pred_name": "Azbil Corp/ADR",
+      "pred_raw": "{\"canonical_name\":\"Azbil Corp/ADR\",\"cik\":1891825,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 511,
+      "difficulty": "hard",
+      "input": "BROKEN HILL PROPRIETARY CO LTD",
+      "expected_name": "BHP Group Ltd",
+      "pred_name": "BROKEN HILL PROPRIETARY CO LTD",
+      "pred_raw": "{\"canonical_name\":\"BROKEN HILL PROPRIETARY CO LTD\",\"cik\":1091185,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 513,
+      "difficulty": "hard",
+      "input": "Ke Holdings Inc. (the \"Company\")",
+      "expected_name": "KE Holdings Inc.",
+      "pred_name": "Ke Holdings Inc.",
+      "pred_raw": "{\"canonical_name\":\"Ke Holdings Inc.\",\"cik\":1791335,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 514,
+      "difficulty": "hard",
+      "input": "Price T Rowe Group Inc (the \"Company\")",
+      "expected_name": "PRICE T ROWE GROUP INC",
+      "pred_name": "Price T Rowe Group Inc.",
+      "pred_raw": "{\"canonical_name\":\"Price T Rowe Group Inc.\",\"cik\":1891855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 516,
+      "difficulty": "easy",
+      "input": "EXPEDIA GROUP, INC..",
+      "expected_name": "Expedia Group, Inc.",
+      "pred_name": "EXPEDIA GROUP, INC.",
+      "pred_raw": "{\"canonical_name\":\"EXPEDIA GROUP, INC.\",\"cik\":1060105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 518,
+      "difficulty": "hard",
+      "input": "Brookfield Wealth Solutions Ltd /DE/",
+      "expected_name": "Brookfield Wealth Solutions Ltd.",
+      "pred_name": "Brookfield Wealth Solutions Ltd",
+      "pred_raw": "{\"canonical_name\":\"Brookfield Wealth Solutions Ltd\",\"cik\":1891885,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 523,
+      "difficulty": "hard",
+      "input": "FLEX, LTD (fka)",
+      "expected_name": "FLEX LTD.",
+      "pred_name": "FLEX LTD",
+      "pred_raw": "{\"canonical_name\":\"FLEX LTD\",\"cik\":1891109,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 526,
+      "difficulty": "hard",
+      "input": "intuitive surgical inc /DE/",
+      "expected_name": "INTUITIVE SURGICAL INC",
+      "pred_name": "Intuitive Surgical, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Intuitive Surgical, Inc.\",\"cik\":1106105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 528,
+      "difficulty": "hard",
+      "input": "dba EchoStar Corporation",
+      "expected_name": "EchoStar CORP",
+      "pred_name": "EchoStar Corp",
+      "pred_raw": "{\"canonical_name\":\"EchoStar Corp\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 530,
+      "difficulty": "hard",
+      "input": "JACOBS SOLUTIONS, Inc (the \"Company\")",
+      "expected_name": "JACOBS SOLUTIONS INC.",
+      "pred_name": "JACOBS SOLUTIONS INC",
+      "pred_raw": "{\"canonical_name\":\"JACOBS SOLUTIONS INC\",\"cik\":1058155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 535,
+      "difficulty": "hard",
+      "input": "Kioxia Holdings Corporation/ADR /DE/",
+      "expected_name": "Kioxia Holdings Corporation/ADR",
+      "pred_name": "Kioxia Holdings Corp/ADR",
+      "pred_raw": "{\"canonical_name\":\"Kioxia Holdings Corp/ADR\",\"cik\":1910155,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 536,
+      "difficulty": "hard",
+      "input": "TYCO INTERNATIONAL plc",
+      "expected_name": "Johnson Controls International plc",
+      "pred_name": "TYCO INTERNATIONAL PLC",
+      "pred_raw": "{\"canonical_name\":\"TYCO INTERNATIONAL PLC\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 545,
+      "difficulty": "hard",
+      "input": "OKTA,  INC..",
+      "expected_name": "Okta, Inc.",
+      "pred_name": "OKTA, INC.",
+      "pred_raw": "{\"canonical_name\":\"OKTA, INC.\",\"cik\":1060135,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 546,
+      "difficulty": "hard",
+      "input": "nisource, inc. (successor to former entity)",
+      "expected_name": "NISOURCE INC.",
+      "pred_name": "NISOURCE, INC.",
+      "pred_raw": "{\"canonical_name\":\"NISOURCE, INC.\",\"cik\":1050155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 550,
+      "difficulty": "hard",
+      "input": "KRYSTAL BIOTECH, INC,",
+      "expected_name": "Krystal Biotech, Inc.",
+      "pred_name": "KRYSTAL BIOTECH, INC.",
+      "pred_raw": "{\"canonical_name\":\"KRYSTAL BIOTECH, INC.\",\"cik\":1060185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 555,
+      "difficulty": "easy",
+      "input": "MIDDLEBY Corp. /DE/",
+      "expected_name": "MIDDLEBY Corp",
+      "pred_name": "MIDDLEBY CORP",
+      "pred_raw": "{\"canonical_name\":\"MIDDLEBY CORP\",\"cik\":1051555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 559,
+      "difficulty": "easy",
+      "input": "APOGEE THERAPEUTICS, INC..",
+      "expected_name": "Apogee Therapeutics, Inc.",
+      "pred_name": "APOGEE THERAPEUTICS, INC.",
+      "pred_raw": "{\"canonical_name\":\"APOGEE THERAPEUTICS, INC.\",\"cik\":1051185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 562,
+      "difficulty": "hard",
+      "input": "Kioxia Holdings Corporation/ADR.",
+      "expected_name": "Kioxia Holdings Corporation/ADR",
+      "pred_name": "Kioxia Holdings Corp/ADR",
+      "pred_raw": "{\"canonical_name\":\"Kioxia Holdings Corp/ADR\",\"cik\":1910105,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 565,
+      "difficulty": "easy",
+      "input": "Coca-Cola  Consolidated,  Inc. - formerly known as",
+      "expected_name": "Coca-Cola Consolidated, Inc.",
+      "pred_name": "Coca-Cola Co.",
+      "pred_raw": "{\"canonical_name\":\"Coca-Cola Co.\",\"cik\":1110055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 566,
+      "difficulty": "hard",
+      "input": "MAPLEBEAR INC, the Company",
+      "expected_name": "Maplebear Inc.",
+      "pred_name": "MAPLEBEAR INC",
+      "pred_raw": "{\"canonical_name\":\"MAPLEBEAR INC\",\"cik\":1056155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 570,
+      "difficulty": "hard",
+      "input": "dba TAPESTRY INC",
+      "expected_name": "TAPESTRY, INC.",
+      "pred_name": "TAPESTRY INC",
+      "pred_raw": "{\"canonical_name\":\"TAPESTRY INC\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 573,
+      "difficulty": "hard",
+      "input": "dba REINSURANCE GROUP OF AMERICA, INC.",
+      "expected_name": "REINSURANCE GROUP OF AMERICA INC",
+      "pred_name": "REINSURANCE GROUP OF AMERICA, INC.",
+      "pred_raw": "{\"canonical_name\":\"REINSURANCE GROUP OF AMERICA, INC.\",\"cik\":1001085,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 582,
+      "difficulty": "hard",
+      "input": "Kongsberg Gruppen ASA/ADR /formerly/",
+      "expected_name": "Kongsberg Gruppen ASA/ADR",
+      "pred_name": "Kongsberg Gruppen A/S/ADR",
+      "pred_raw": "{\"canonical_name\":\"Kongsberg Gruppen A/S/ADR\",\"cik\":1891885,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 583,
+      "difficulty": "hard",
+      "input": "Karman Holdings Incorporated /DE/",
+      "expected_name": "Karman Holdings Inc.",
+      "pred_name": "Karman Holdings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Karman Holdings, Inc.\",\"cik\":1891285,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 586,
+      "difficulty": "hard",
+      "input": "Sandy Springs Holdings, Inc.",
+      "expected_name": "BITMINE IMMERSION TECHNOLOGIES, INC.",
+      "pred_name": "Sandy Springs Holdings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Sandy Springs Holdings, Inc.\",\"cik\":1891205,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 593,
+      "difficulty": "hard",
+      "input": "UNITED RENTALS Inc.",
+      "expected_name": "UNITED RENTALS, INC.",
+      "pred_name": "UNITED RENTALS INC",
+      "pred_raw": "{\"canonical_name\":\"UNITED RENTALS INC\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 595,
+      "difficulty": "hard",
+      "input": "Rexnord Holdings, Inc",
+      "expected_name": "Zurn Elkay Water Solutions Corp",
+      "pred_name": "Rexnord Holdings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Rexnord Holdings, Inc.\",\"cik\":1891355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 596,
+      "difficulty": "easy",
+      "input": "KENVUE INC.,",
+      "expected_name": "Kenvue Inc.",
+      "pred_name": "KENVUE INC",
+      "pred_raw": "{\"canonical_name\":\"KENVUE INC\",\"cik\":1001011,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 597,
+      "difficulty": "hard",
+      "input": "SouthState Corp",
+      "expected_name": "SouthState Bank Corp",
+      "pred_name": "SouthState Corp",
+      "pred_raw": "{\"canonical_name\":\"SouthState Corp\",\"cik\":1091855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 599,
+      "difficulty": "hard",
+      "input": "Nextracker LLC",
+      "expected_name": "Nextpower Inc.",
+      "pred_name": "Nextracker, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Nextracker, Inc.\",\"cik\":1791335,\"entity_type\":\"operating\",\"is_former_name_input\":true}",
+      "match": false
+    },
+    {
+      "idx": 602,
+      "difficulty": "hard",
+      "input": "nitori holdings co. ltd /DE/",
+      "expected_name": "Nitori Holdings Co., Ltd.",
+      "pred_name": "Nitori Holdings Co. Ltd",
+      "pred_raw": "{\"canonical_name\":\"Nitori Holdings Co. Ltd\",\"cik\":1891129,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 605,
+      "difficulty": "hard",
+      "input": "Element Solutions Inc (the \"Company\")",
+      "expected_name": "Element Solutions Inc",
+      "pred_name": "Element Solutions, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Element Solutions, Inc.\",\"cik\":1791205,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 606,
+      "difficulty": "easy",
+      "input": "dba GREAT-WEST LIFECO INC",
+      "expected_name": "GREAT-WEST LIFECO INC.",
+      "pred_name": "GREAT-WEST LIFECO INC",
+      "pred_raw": "{\"canonical_name\":\"GREAT-WEST LIFECO INC\",\"cik\":1000100,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 608,
+      "difficulty": "hard",
+      "input": "CALIFORNIA FIRST NATIONAL BANCORP",
+      "expected_name": "CALIFORNIA FIRST LEASING CORP",
+      "pred_name": "CALIFORNIA FIRST NATIONAL BANCORP",
+      "pred_raw": "{\"canonical_name\":\"CALIFORNIA FIRST NATIONAL BANCORP\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 612,
+      "difficulty": "hard",
+      "input": "HEINEKEN HOLDING N V,",
+      "expected_name": "HEINEKEN HOLDING N V",
+      "pred_name": "HEINEKEN HOLDING N.V.",
+      "pred_raw": "{\"canonical_name\":\"HEINEKEN HOLDING N.V.\",\"cik\":1050055,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 614,
+      "difficulty": "hard",
+      "input": "dba US BANCORP \\DE\\",
+      "expected_name": "US BANCORP \\DE\\",
+      "pred_name": "US BANCORP",
+      "pred_raw": "{\"canonical_name\":\"US BANCORP\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 615,
+      "difficulty": "hard",
+      "input": "KLA INSTRUMENTS CORP",
+      "expected_name": "KLA CORP",
+      "pred_name": "KLA INSTRUMENTS CORP",
+      "pred_raw": "{\"canonical_name\":\"KLA INSTRUMENTS CORP\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 618,
+      "difficulty": "hard",
+      "input": "FRANKLIN  RESOURCES,  Inc. (fka)",
+      "expected_name": "FRANKLIN RESOURCES INC",
+      "pred_name": "FRANKLIN RESOURCES, INC.",
+      "pred_raw": "{\"canonical_name\":\"FRANKLIN RESOURCES, INC.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 624,
+      "difficulty": "hard",
+      "input": "Fortinet INC,",
+      "expected_name": "Fortinet, Inc.",
+      "pred_name": "Fortinet Inc.",
+      "pred_raw": "{\"canonical_name\":\"Fortinet Inc.\",\"cik\":1790185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 630,
+      "difficulty": "easy",
+      "input": "Howmet Aerospace, Inc.,",
+      "expected_name": "Howmet Aerospace Inc.",
+      "pred_name": "Howmet Aerospace, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Howmet Aerospace, Inc.\",\"cik\":1851355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 637,
+      "difficulty": "hard",
+      "input": "DIGITAL REALTY TRUST Inc",
+      "expected_name": "DIGITAL REALTY TRUST, INC.",
+      "pred_name": "DIGITAL REALTY TRUST INC",
+      "pred_raw": "{\"canonical_name\":\"DIGITAL REALTY TRUST INC\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 642,
+      "difficulty": "hard",
+      "input": "ADVANCED MICRO DEVICES, INC.",
+      "expected_name": "ADVANCED MICRO DEVICES INC",
+      "pred_name": "ADVANCED MICRO DEVICES, INC.",
+      "pred_raw": "{\"canonical_name\":\"ADVANCED MICRO DEVICES, INC.\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 647,
+      "difficulty": "hard",
+      "input": "COSTAR GROUP INC",
+      "expected_name": "COSTAR GROUP, INC.",
+      "pred_name": "COSTAR GROUP INC",
+      "pred_raw": "{\"canonical_name\":\"COSTAR GROUP INC\",\"cik\":1051355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 648,
+      "difficulty": "easy",
+      "input": "Barratt Developments PLC/ADR",
+      "expected_name": "Barratt Developments PLC/ADR",
+      "pred_name": "BARRATT DEVELOPMENTS PLC/ADR",
+      "pred_raw": "{\"canonical_name\":\"BARRATT DEVELOPMENTS PLC/ADR\",\"cik\":1058855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 652,
+      "difficulty": "hard",
+      "input": "KYMERA THERAPEUTICS INC",
+      "expected_name": "Kymera Therapeutics, Inc.",
+      "pred_name": "KYMERA THERAPEUTICS, INC.",
+      "pred_raw": "{\"canonical_name\":\"KYMERA THERAPEUTICS, INC.\",\"cik\":1106108,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 657,
+      "difficulty": "hard",
+      "input": "SANOFI-AVENTIS",
+      "expected_name": "Sanofi",
+      "pred_name": "SANOFI-AVENTIS",
+      "pred_raw": "{\"canonical_name\":\"SANOFI-AVENTIS\",\"cik\":1000005,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 660,
+      "difficulty": "hard",
+      "input": "one gas incorporated - formerly known as",
+      "expected_name": "ONE Gas, Inc.",
+      "pred_name": "ONE GAS INC",
+      "pred_raw": "{\"canonical_name\":\"ONE GAS INC\",\"cik\":1090155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 663,
+      "difficulty": "hard",
+      "input": "Cheniere Energy Partners Limited Partnership - formerly known as",
+      "expected_name": "Cheniere Energy Partners, L.P.",
+      "pred_name": "Cheniere Energy Partners Ltd.",
+      "pred_raw": "{\"canonical_name\":\"Cheniere Energy Partners Ltd.\",\"cik\":1781085,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 664,
+      "difficulty": "hard",
+      "input": "FIRST FINANCIAL BANKSHARES Inc.,",
+      "expected_name": "FIRST FINANCIAL BANKSHARES INC",
+      "pred_name": "FIRST FINANCIAL BANKSHARES, INC.",
+      "pred_raw": "{\"canonical_name\":\"FIRST FINANCIAL BANKSHARES, INC.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 665,
+      "difficulty": "hard",
+      "input": "QMMM Holdings Ltd.",
+      "expected_name": "QMMM Holdings Ltd",
+      "pred_name": "QMMM Holdings Ltd.",
+      "pred_raw": "{\"canonical_name\":\"QMMM Holdings Ltd.\",\"cik\":1969855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 668,
+      "difficulty": "hard",
+      "input": "Monarch Energy Holding, Inc.",
+      "expected_name": "Evergy, Inc.",
+      "pred_name": "Monarch Energy Holding, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Monarch Energy Holding, Inc.\",\"cik\":1891255,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 674,
+      "difficulty": "hard",
+      "input": "BROOKFIELD  Corp  /ON/, a Delaware corporation",
+      "expected_name": "BROOKFIELD Corp /ON/",
+      "pred_name": "BROOKFIELD CORP /ON/",
+      "pred_raw": "{\"canonical_name\":\"BROOKFIELD CORP /ON/\",\"cik\":1051155,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 676,
+      "difficulty": "hard",
+      "input": "MCGRAW-HILL COMPANIES INC",
+      "expected_name": "S&P Global Inc.",
+      "pred_name": "MCGRAW-HILL COMPANIES INC",
+      "pred_raw": "{\"canonical_name\":\"MCGRAW-HILL COMPANIES INC\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 677,
+      "difficulty": "hard",
+      "input": "VISHAY INTERTECHNOLOGY, Inc. (successor to former entity)",
+      "expected_name": "VISHAY INTERTECHNOLOGY INC",
+      "pred_name": "VISHAY INTERTECHNOLOGY, INC.",
+      "pred_raw": "{\"canonical_name\":\"VISHAY INTERTECHNOLOGY, INC.\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 678,
+      "difficulty": "hard",
+      "input": "PARKER HANNIFIN CORP",
+      "expected_name": "Parker-Hannifin Corp",
+      "pred_name": "PARKER HANNIFIN CORP",
+      "pred_raw": "{\"canonical_name\":\"PARKER HANNIFIN CORP\",\"cik\":1050055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 679,
+      "difficulty": "hard",
+      "input": "Rivian Automotive, Inc. / DE.",
+      "expected_name": "Rivian Automotive, Inc. / DE",
+      "pred_name": "Rivian Automotive, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Rivian Automotive, Inc.\",\"cik\":1790185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 681,
+      "difficulty": "hard",
+      "input": "Susser Petroleum Partners LP",
+      "expected_name": "Sunoco LP",
+      "pred_name": "Susser Petroleum Partners LP",
+      "pred_raw": "{\"canonical_name\":\"Susser Petroleum Partners LP\",\"cik\":1891205,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 682,
+      "difficulty": "hard",
+      "input": "chevron corp. - formerly known as",
+      "expected_name": "CHEVRON CORP",
+      "pred_name": "CHEVY CORP",
+      "pred_raw": "{\"canonical_name\":\"CHEVY CORP\",\"cik\":1011155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 685,
+      "difficulty": "hard",
+      "input": "EXPLORER HOLDING CORP",
+      "expected_name": "Booz Allen Hamilton Holding Corp",
+      "pred_name": "EXPLORER HOLDING CORP",
+      "pred_raw": "{\"canonical_name\":\"EXPLORER HOLDING CORP\",\"cik\":1058555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 687,
+      "difficulty": "hard",
+      "input": "Nextracker Inc.",
+      "expected_name": "Nextpower Inc.",
+      "pred_name": "Nextracker Inc.",
+      "pred_raw": "{\"canonical_name\":\"Nextracker Inc.\",\"cik\":1763835,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 689,
+      "difficulty": "hard",
+      "input": "ALCON, Incorporated, a Delaware corporation",
+      "expected_name": "ALCON INC",
+      "pred_name": "ALCON, INC.",
+      "pred_raw": "{\"canonical_name\":\"ALCON, INC.\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 690,
+      "difficulty": "easy",
+      "input": "Netskope Incorporated, a Delaware corporation",
+      "expected_name": "Netskope Inc",
+      "pred_name": "Netskope, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Netskope, Inc.\",\"cik\":1790835,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 694,
+      "difficulty": "hard",
+      "input": "Unity Software, Inc.,",
+      "expected_name": "Unity Software Inc.",
+      "pred_name": "Unity Software, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Unity Software, Inc.\",\"cik\":1791005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 696,
+      "difficulty": "hard",
+      "input": "MOLINA HEALTHCARE INC",
+      "expected_name": "MOLINA HEALTHCARE, INC.",
+      "pred_name": "MOLINA HEALTHCARE INC",
+      "pred_raw": "{\"canonical_name\":\"MOLINA HEALTHCARE INC\",\"cik\":1050155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 697,
+      "difficulty": "hard",
+      "input": "Hannon Armstrong Sustainable Infrastructure Capital, Inc.",
+      "expected_name": "HA Sustainable Infrastructure Capital, Inc.",
+      "pred_name": "Hannon Armstrong Sustainable Infrastructure Capital, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Hannon Armstrong Sustainable Infrastructure Capital, Inc.\",\"cik\":1791305,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 699,
+      "difficulty": "hard",
+      "input": "NNN REIT Incorporated, the Company",
+      "expected_name": "NNN REIT, INC.",
+      "pred_name": "NNN REIT, Inc.",
+      "pred_raw": "{\"canonical_name\":\"NNN REIT, Inc.\",\"cik\":1101105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 700,
+      "difficulty": "easy",
+      "input": "WYNDHAM HOTELS & RESORTS Inc (fka)",
+      "expected_name": "WYNDHAM HOTELS & RESORTS, INC.",
+      "pred_name": "WYNDHAM HOTELS & RESORTS INC",
+      "pred_raw": "{\"canonical_name\":\"WYNDHAM HOTELS & RESORTS INC\",\"cik\":1050155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 703,
+      "difficulty": "hard",
+      "input": "Murphy USA Inc. (the \"Company\")",
+      "expected_name": "Murphy USA Inc.",
+      "pred_name": "Murphy USA, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Murphy USA, Inc.\",\"cik\":1791855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 704,
+      "difficulty": "hard",
+      "input": "INTUIT Inc, the Company",
+      "expected_name": "INTUIT INC.",
+      "pred_name": "INTUIT INC",
+      "pred_raw": "{\"canonical_name\":\"INTUIT INC\",\"cik\":1090105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 708,
+      "difficulty": "easy",
+      "input": "Snap, INC,",
+      "expected_name": "Snap Inc",
+      "pred_name": "Snap Inc.",
+      "pred_raw": "{\"canonical_name\":\"Snap Inc.\",\"cik\":1790105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 712,
+      "difficulty": "easy",
+      "input": "ECOLAB INC. (fka)",
+      "expected_name": "ECOLAB INC.",
+      "pred_name": "ECOLAB INC",
+      "pred_raw": "{\"canonical_name\":\"ECOLAB INC\",\"cik\":1000155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 718,
+      "difficulty": "hard",
+      "input": "KEYCORP /NEW/ /DE/",
+      "expected_name": "KEYCORP /NEW/",
+      "pred_name": "KEYCORP",
+      "pred_raw": "{\"canonical_name\":\"KEYCORP\",\"cik\":1051055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 719,
+      "difficulty": "hard",
+      "input": "CHIME FINANCIAL, INC. (successor to former entity)",
+      "expected_name": "Chime Financial, Inc.",
+      "pred_name": "CHIME FINANCIAL, INC.",
+      "pred_raw": "{\"canonical_name\":\"CHIME FINANCIAL, INC.\",\"cik\":1050105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 721,
+      "difficulty": "hard",
+      "input": "goldman sachs group inc /DE/",
+      "expected_name": "GOLDMAN SACHS GROUP INC",
+      "pred_name": "Goldman Sachs Group Inc.",
+      "pred_raw": "{\"canonical_name\":\"Goldman Sachs Group Inc.\",\"cik\":1970105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 722,
+      "difficulty": "hard",
+      "input": "Home Bancshares, Incorporated - formerly known as",
+      "expected_name": "HOME BANCSHARES INC",
+      "pred_name": "Home Bancshares, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Home Bancshares, Inc.\",\"cik\":1050055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 723,
+      "difficulty": "hard",
+      "input": "SUNBURST HOSPITALITY CORP",
+      "expected_name": "CHOICE HOTELS INTERNATIONAL INC /DE",
+      "pred_name": "SUNBURST HOSPITALITY CORP",
+      "pred_raw": "{\"canonical_name\":\"SUNBURST HOSPITALITY CORP\",\"cik\":1058155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 724,
+      "difficulty": "hard",
+      "input": "WAI INC",
+      "expected_name": "ONEOK INC /NEW/",
+      "pred_name": "WAI INC",
+      "pred_raw": "{\"canonical_name\":\"WAI INC\",\"cik\":1056155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 726,
+      "difficulty": "hard",
+      "input": "ALEXANDRIA REAL ESTATE EQUITIES, Inc (the \"Company\")",
+      "expected_name": "ALEXANDRIA REAL ESTATE EQUITIES, INC.",
+      "pred_name": "ALEXANDRIA REAL EQUITIES, INC.",
+      "pred_raw": "{\"canonical_name\":\"ALEXANDRIA REAL EQUITIES, INC.\",\"cik\":1060155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 727,
+      "difficulty": "hard",
+      "input": "UNITED  RENTALS  INC, the Company",
+      "expected_name": "UNITED RENTALS, INC.",
+      "pred_name": "UNITED RENTALS INC",
+      "pred_raw": "{\"canonical_name\":\"UNITED RENTALS INC\",\"cik\":1050155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 729,
+      "difficulty": "hard",
+      "input": "MAXLINEAR, Inc. /DE/",
+      "expected_name": "MAXLINEAR, INC",
+      "pred_name": "MAXLINEAR, INC.",
+      "pred_raw": "{\"canonical_name\":\"MAXLINEAR, INC.\",\"cik\":1053855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 732,
+      "difficulty": "hard",
+      "input": "dMY Technology Group, Inc.",
+      "expected_name": "Rush Street Interactive, Inc.",
+      "pred_name": "dMY Technology Group, Inc.",
+      "pred_raw": "{\"canonical_name\":\"dMY Technology Group, Inc.\",\"cik\":1891388,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 733,
+      "difficulty": "hard",
+      "input": "J1 Holdings Inc.",
+      "expected_name": "Grab Holdings Ltd",
+      "pred_name": "J1 Holdings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"J1 Holdings, Inc.\",\"cik\":1891155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 739,
+      "difficulty": "hard",
+      "input": "H.J. Heinz Holding Corp",
+      "expected_name": "Kraft Heinz Co",
+      "pred_name": "H.J. Heinz Holding Corp",
+      "pred_raw": "{\"canonical_name\":\"H.J. Heinz Holding Corp\",\"cik\":1550555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 741,
+      "difficulty": "hard",
+      "input": "REPUBLIC WASTE INDUSTRIES INC",
+      "expected_name": "AUTONATION, INC.",
+      "pred_name": "REPUBLIC WASTE INDUSTRIES, INC.",
+      "pred_raw": "{\"canonical_name\":\"REPUBLIC WASTE INDUSTRIES, INC.\",\"cik\":1001035,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 743,
+      "difficulty": "easy",
+      "input": "CORCEPT THERAPEUTICS Inc.",
+      "expected_name": "CORCEPT THERAPEUTICS INC",
+      "pred_name": "CORCEPT THERAPEUTICS, INC.",
+      "pred_raw": "{\"canonical_name\":\"CORCEPT THERAPEUTICS, INC.\",\"cik\":1050155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 746,
+      "difficulty": "hard",
+      "input": "UNITED THERAPEUTICS CORPORATION, the Company",
+      "expected_name": "UNITED THERAPEUTICS Corp",
+      "pred_name": "UNITED THERAPEUTICS CORP",
+      "pred_raw": "{\"canonical_name\":\"UNITED THERAPEUTICS CORP\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 747,
+      "difficulty": "hard",
+      "input": "GSK PLC /formerly/",
+      "expected_name": "GSK plc",
+      "pred_name": "GSK PLC",
+      "pred_raw": "{\"canonical_name\":\"GSK PLC\",\"cik\":1000155,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 751,
+      "difficulty": "hard",
+      "input": "BRINKER  INTERNATIONAL,  Inc., a Delaware corporation",
+      "expected_name": "BRINKER INTERNATIONAL, INC",
+      "pred_name": "BRINKER INTERNATIONAL, INC.",
+      "pred_raw": "{\"canonical_name\":\"BRINKER INTERNATIONAL, INC.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 753,
+      "difficulty": "easy",
+      "input": "SILICON LABORATORIES INC., the Company",
+      "expected_name": "SILICON LABORATORIES INC.",
+      "pred_name": "SILICON LABORATORIES INC",
+      "pred_raw": "{\"canonical_name\":\"SILICON LABORATORIES INC\",\"cik\":1050555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 754,
+      "difficulty": "hard",
+      "input": "Maxlinear Inc /formerly/",
+      "expected_name": "MAXLINEAR, INC",
+      "pred_name": "Maxlinear, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Maxlinear, Inc.\",\"cik\":1781385,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 761,
+      "difficulty": "hard",
+      "input": "Loar Holdings, Inc /formerly/",
+      "expected_name": "Loar Holdings Inc.",
+      "pred_name": "Loar Holdings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Loar Holdings, Inc.\",\"cik\":1891885,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 766,
+      "difficulty": "easy",
+      "input": "Banco Santander Chile /formerly/",
+      "expected_name": "BANCO SANTANDER CHILE",
+      "pred_name": "Banco Santander Chile",
+      "pred_raw": "{\"canonical_name\":\"Banco Santander Chile\",\"cik\":1156885,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 768,
+      "difficulty": "easy",
+      "input": "HOME DEPOT, Inc. (the \"Company\")",
+      "expected_name": "HOME DEPOT, INC.",
+      "pred_name": "HOME DEPOT INC",
+      "pred_raw": "{\"canonical_name\":\"HOME DEPOT INC\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 770,
+      "difficulty": "hard",
+      "input": "ROKU INC /DE/",
+      "expected_name": "ROKU, INC",
+      "pred_name": "ROKU INC /DE/",
+      "pred_raw": "{\"canonical_name\":\"ROKU INC /DE/\",\"cik\":1090185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 772,
+      "difficulty": "easy",
+      "input": "Sanrio Company, Ltd./ADR, a Delaware corporation",
+      "expected_name": "Sanrio Company, Ltd./ADR",
+      "pred_name": "Sanrio Company Ltd./ADR",
+      "pred_raw": "{\"canonical_name\":\"Sanrio Company Ltd./ADR\",\"cik\":1791005,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 780,
+      "difficulty": "hard",
+      "input": "pan american silver, corp",
+      "expected_name": "PAN AMERICAN SILVER CORP",
+      "pred_name": "Pan American Silver Corp",
+      "pred_raw": "{\"canonical_name\":\"Pan American Silver Corp\",\"cik\":1001055,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 782,
+      "difficulty": "easy",
+      "input": "New Oriental Education & Technology Group, Inc,",
+      "expected_name": "New Oriental Education & Technology Group Inc.",
+      "pred_name": "New Oriental Education & Technology Group, Inc.",
+      "pred_raw": "{\"canonical_name\":\"New Oriental Education & Technology Group, Inc.\",\"cik\":1090135,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 783,
+      "difficulty": "hard",
+      "input": "Ryman Hospitality Properties INC, the Company",
+      "expected_name": "Ryman Hospitality Properties, Inc.",
+      "pred_name": "RYMAN Hospitality Properties, Inc.",
+      "pred_raw": "{\"canonical_name\":\"RYMAN Hospitality Properties, Inc.\",\"cik\":1581105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 785,
+      "difficulty": "hard",
+      "input": "dba ENTERPRISE  PRODUCTS  PARTNERS,  Limited  Partnership",
+      "expected_name": "ENTERPRISE PRODUCTS PARTNERS L.P.",
+      "pred_name": "ENTERPRISES PRODUCTS PARTNERS L.P.",
+      "pred_raw": "{\"canonical_name\":\"ENTERPRISES PRODUCTS PARTNERS L.P.\",\"cik\":1058855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 788,
+      "difficulty": "hard",
+      "input": "CENDANT CORP",
+      "expected_name": "AVIS BUDGET GROUP, INC.",
+      "pred_name": "CENDANT CORP",
+      "pred_raw": "{\"canonical_name\":\"CENDANT CORP\",\"cik\":895555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 790,
+      "difficulty": "hard",
+      "input": "POOL Corp., a Delaware corporation",
+      "expected_name": "POOL CORP",
+      "pred_name": "POOL Corp",
+      "pred_raw": "{\"canonical_name\":\"POOL Corp\",\"cik\":1053155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 799,
+      "difficulty": "hard",
+      "input": "mccormick & co incorporated.",
+      "expected_name": "MCCORMICK & CO INC",
+      "pred_name": "MCCORMICK & Co. Inc.",
+      "pred_raw": "{\"canonical_name\":\"MCCORMICK & Co. Inc.\",\"cik\":1010155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 801,
+      "difficulty": "hard",
+      "input": "INCYTE CORP /DE/",
+      "expected_name": "INCYTE CORP",
+      "pred_name": "INCYTE CORP /DE/",
+      "pred_raw": "{\"canonical_name\":\"INCYTE CORP /DE/\",\"cik\":1000105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 810,
+      "difficulty": "hard",
+      "input": "STERIS PLC - formerly known as",
+      "expected_name": "STERIS plc",
+      "pred_name": "STERIS PLC",
+      "pred_raw": "{\"canonical_name\":\"STERIS PLC\",\"cik\":1000135,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 815,
+      "difficulty": "easy",
+      "input": "Summit Therapeutics Inc. /formerly/",
+      "expected_name": "Summit Therapeutics Inc.",
+      "pred_name": "Summit Therapeutics, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Summit Therapeutics, Inc.\",\"cik\":1891885,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 816,
+      "difficulty": "hard",
+      "input": "macro bank inc /DE/",
+      "expected_name": "Macro Bank Inc.",
+      "pred_name": "Macro Bank, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Macro Bank, Inc.\",\"cik\":1175155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 819,
+      "difficulty": "hard",
+      "input": "CUMMINS ENGINE CO INC",
+      "expected_name": "CUMMINS INC",
+      "pred_name": "CUMMINS ENGINE CO INC",
+      "pred_raw": "{\"canonical_name\":\"CUMMINS ENGINE CO INC\",\"cik\":1000155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 820,
+      "difficulty": "hard",
+      "input": "dba Kinetik  Holdings  Incorporated",
+      "expected_name": "Kinetik Holdings Inc.",
+      "pred_name": "Kinetik Holdings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Kinetik Holdings, Inc.\",\"cik\":1851385,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 821,
+      "difficulty": "easy",
+      "input": "Motorola Solutions Inc. (fka)",
+      "expected_name": "Motorola Solutions, Inc.",
+      "pred_name": "Motorola Solutions Inc.",
+      "pred_raw": "{\"canonical_name\":\"Motorola Solutions Inc.\",\"cik\":1973805,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 823,
+      "difficulty": "easy",
+      "input": "ALCON, Inc. (the \"Company\")",
+      "expected_name": "ALCON INC",
+      "pred_name": "ALCON, INC.",
+      "pred_raw": "{\"canonical_name\":\"ALCON, INC.\",\"cik\":1051355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 825,
+      "difficulty": "easy",
+      "input": "VODAFONE GROUP PUBLIC LTD CO, the Company",
+      "expected_name": "VODAFONE GROUP PUBLIC LTD CO",
+      "pred_name": "VODAFONE GROUP PLC",
+      "pred_raw": "{\"canonical_name\":\"VODAFONE GROUP PLC\",\"cik\":1000155,\"entity_type\":\"other\",\"is_former_name_input\":true}",
+      "match": false
+    },
+    {
+      "idx": 826,
+      "difficulty": "hard",
+      "input": "Arthur J. Gallagher & Co, the Company",
+      "expected_name": "Arthur J. Gallagher & Co.",
+      "pred_name": "Arthur J. Gallagher & Co",
+      "pred_raw": "{\"canonical_name\":\"Arthur J. Gallagher & Co\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 827,
+      "difficulty": "hard",
+      "input": "Var  Energi  ASA/ADR,",
+      "expected_name": "Var Energi ASA/ADR",
+      "pred_name": "Var Energi A/S/ADR",
+      "pred_raw": "{\"canonical_name\":\"Var Energi A/S/ADR\",\"cik\":1891855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 829,
+      "difficulty": "hard",
+      "input": "Joby Aviation INC, the Company",
+      "expected_name": "Joby Aviation, Inc.",
+      "pred_name": "Joby Aviation Inc.",
+      "pred_raw": "{\"canonical_name\":\"Joby Aviation Inc.\",\"cik\":1960185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 830,
+      "difficulty": "easy",
+      "input": "COSTAR GROUP INC (the \"Company\")",
+      "expected_name": "COSTAR GROUP, INC.",
+      "pred_name": "COSTAR GROUP INC.",
+      "pred_raw": "{\"canonical_name\":\"COSTAR GROUP INC.\",\"cik\":1053155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 835,
+      "difficulty": "hard",
+      "input": "VALARIS LTD (successor to former entity)",
+      "expected_name": "Valaris Ltd",
+      "pred_name": "VALARIS LTD",
+      "pred_raw": "{\"canonical_name\":\"VALARIS LTD\",\"cik\":1890155,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 840,
+      "difficulty": "hard",
+      "input": "Booking Holdings Incorporated, the Company",
+      "expected_name": "Booking Holdings Inc.",
+      "pred_name": "Booking Holdings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Booking Holdings, Inc.\",\"cik\":1560105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 841,
+      "difficulty": "hard",
+      "input": "kinross gold, corporation /DE/",
+      "expected_name": "KINROSS GOLD CORP",
+      "pred_name": "Kinross Gold Corp",
+      "pred_raw": "{\"canonical_name\":\"Kinross Gold Corp\",\"cik\":1781855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 845,
+      "difficulty": "hard",
+      "input": "super group (sghc) ltd /formerly/",
+      "expected_name": "Super Group (SGHC) Ltd",
+      "pred_name": "Super Group Ltd.",
+      "pred_raw": "{\"canonical_name\":\"Super Group Ltd.\",\"cik\":1851555,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 847,
+      "difficulty": "hard",
+      "input": "FNB CORP/PA/ /formerly/",
+      "expected_name": "FNB CORP/PA/",
+      "pred_name": "FNB CORP/PA",
+      "pred_raw": "{\"canonical_name\":\"FNB CORP/PA\",\"cik\":1000185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 848,
+      "difficulty": "easy",
+      "input": "AAR, Corporation (the \"Company\")",
+      "expected_name": "AAR CORP",
+      "pred_name": "AAR Corp",
+      "pred_raw": "{\"canonical_name\":\"AAR Corp\",\"cik\":1051355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 853,
+      "difficulty": "hard",
+      "input": "MOLSON COORS BREWING CO",
+      "expected_name": "MOLSON COORS BEVERAGE CO",
+      "pred_name": "MOLSON COORS BREWING CO",
+      "pred_raw": "{\"canonical_name\":\"MOLSON COORS BREWING CO\",\"cik\":1060155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 857,
+      "difficulty": "hard",
+      "input": "PULTE HOMES INC/MI/",
+      "expected_name": "PULTEGROUP INC/MI/",
+      "pred_name": "PULTE HOMES INC/MI",
+      "pred_raw": "{\"canonical_name\":\"PULTE HOMES INC/MI\",\"cik\":1060855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 859,
+      "difficulty": "hard",
+      "input": "REPUBLIC SERVICES INC /formerly/",
+      "expected_name": "REPUBLIC SERVICES, INC.",
+      "pred_name": "REPUBLIC SERVICES INC",
+      "pred_raw": "{\"canonical_name\":\"REPUBLIC SERVICES INC\",\"cik\":1058855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 860,
+      "difficulty": "hard",
+      "input": "MIDDLEBY Corp, a Delaware corporation",
+      "expected_name": "MIDDLEBY Corp",
+      "pred_name": "MIDDLEBY CORP",
+      "pred_raw": "{\"canonical_name\":\"MIDDLEBY CORP\",\"cik\":1051555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 864,
+      "difficulty": "hard",
+      "input": "Cipher Digital, INC",
+      "expected_name": "Cipher Digital Inc.",
+      "pred_name": "Cipher Digital, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Cipher Digital, Inc.\",\"cik\":1851155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 865,
+      "difficulty": "hard",
+      "input": "Novus SpinCo 1, Inc.",
+      "expected_name": "Qnity Electronics, Inc.",
+      "pred_name": "Novus SpinCo 1, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Novus SpinCo 1, Inc.\",\"cik\":1101855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 868,
+      "difficulty": "hard",
+      "input": "PRICE T ROWE GROUP, INC /DE/",
+      "expected_name": "PRICE T ROWE GROUP INC",
+      "pred_name": "PRICE T ROWE GROUP, INC /DE/",
+      "pred_raw": "{\"canonical_name\":\"PRICE T ROWE GROUP, INC /DE/\",\"cik\":1058855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 870,
+      "difficulty": "hard",
+      "input": "PEGASYSTEMS, INC (the \"Company\")",
+      "expected_name": "PEGASYSTEMS INC",
+      "pred_name": "PEGASYSTEMS, INC.",
+      "pred_raw": "{\"canonical_name\":\"PEGASYSTEMS, INC.\",\"cik\":1051355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 875,
+      "difficulty": "hard",
+      "input": "BXP Incorporated - formerly known as",
+      "expected_name": "BXP, Inc.",
+      "pred_name": "BXP INC",
+      "pred_raw": "{\"canonical_name\":\"BXP INC\",\"cik\":1090155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 879,
+      "difficulty": "hard",
+      "input": "USA WASTE SERVICES INC",
+      "expected_name": "WASTE MANAGEMENT INC",
+      "pred_name": "USA WASTE SERVICES INC",
+      "pred_raw": "{\"canonical_name\":\"USA WASTE SERVICES INC\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 880,
+      "difficulty": "hard",
+      "input": "APPLE COMPUTER INC/ FA",
+      "expected_name": "Apple Inc.",
+      "pred_name": "APPLE COMPUTER INC/ FA",
+      "pred_raw": "{\"canonical_name\":\"APPLE COMPUTER INC/ FA\",\"cik\":1000185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 881,
+      "difficulty": "hard",
+      "input": "Walmart, INC /formerly/",
+      "expected_name": "Walmart Inc.",
+      "pred_name": "Walmart, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Walmart, Inc.\",\"cik\":1000188,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 885,
+      "difficulty": "hard",
+      "input": "american financial group, inc.",
+      "expected_name": "AMERICAN FINANCIAL GROUP INC",
+      "pred_name": "AMERICAN FINANCIAL GROUP, INC.",
+      "pred_raw": "{\"canonical_name\":\"AMERICAN FINANCIAL GROUP, INC.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 886,
+      "difficulty": "hard",
+      "input": "Brookfield Renewable Partners Limited Partnership /DE/",
+      "expected_name": "Brookfield Renewable Partners L.P.",
+      "pred_name": "Brookfield Renewable Partners Ltd.",
+      "pred_raw": "{\"canonical_name\":\"Brookfield Renewable Partners Ltd.\",\"cik\":1890105,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 890,
+      "difficulty": "hard",
+      "input": "TEREX Corporation",
+      "expected_name": "TEREX CORP",
+      "pred_name": "TEREX Corp",
+      "pred_raw": "{\"canonical_name\":\"TEREX Corp\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 899,
+      "difficulty": "hard",
+      "input": "dba xp inc.",
+      "expected_name": "XP Inc.",
+      "pred_name": "XP INC",
+      "pred_raw": "{\"canonical_name\":\"XP INC\",\"cik\":1096185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 902,
+      "difficulty": "easy",
+      "input": "CASELLA WASTE SYSTEMS, Incorporated /DE/",
+      "expected_name": "CASELLA WASTE SYSTEMS INC",
+      "pred_name": "CASELLA WASTE SYSTEMS, INC.",
+      "pred_raw": "{\"canonical_name\":\"CASELLA WASTE SYSTEMS, INC.\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 906,
+      "difficulty": "hard",
+      "input": "Venaxis, Inc.",
+      "expected_name": "Riot Platforms, Inc.",
+      "pred_name": "Venaxis, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Venaxis, Inc.\",\"cik\":1891205,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 909,
+      "difficulty": "hard",
+      "input": "CHENIERE ENERGY INC",
+      "expected_name": "Cheniere Energy, Inc.",
+      "pred_name": "CHENIERE ENERGY INC",
+      "pred_raw": "{\"canonical_name\":\"CHENIERE ENERGY INC\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 917,
+      "difficulty": "easy",
+      "input": "ESTEE LAUDER COMPANIES, Inc., the Company",
+      "expected_name": "ESTEE LAUDER COMPANIES INC",
+      "pred_name": "ESTEE LAUDER COMPANIES, INC.",
+      "pred_raw": "{\"canonical_name\":\"ESTEE LAUDER COMPANIES, INC.\",\"cik\":1050155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 925,
+      "difficulty": "hard",
+      "input": "OREILLY AUTOMOTIVE INC",
+      "expected_name": "O REILLY AUTOMOTIVE INC",
+      "pred_name": "OREILLY AUTOMOTIVE INC",
+      "pred_raw": "{\"canonical_name\":\"OREILLY AUTOMOTIVE INC\",\"cik\":1058155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 927,
+      "difficulty": "hard",
+      "input": "dba CROWN HOLDINGS Incorporated",
+      "expected_name": "CROWN HOLDINGS, INC.",
+      "pred_name": "CROWN HOLDINGS INC",
+      "pred_raw": "{\"canonical_name\":\"CROWN HOLDINGS INC\",\"cik\":1058855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 929,
+      "difficulty": "hard",
+      "input": "ROCKWELL AUTOMATION INC /DE/",
+      "expected_name": "ROCKWELL AUTOMATION, INC",
+      "pred_name": "ROCKWELL AUTOMATION INC /DE/",
+      "pred_raw": "{\"canonical_name\":\"ROCKWELL AUTOMATION INC /DE/\",\"cik\":1055505,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 931,
+      "difficulty": "hard",
+      "input": "BXP Incorporated /formerly/",
+      "expected_name": "BXP, Inc.",
+      "pred_name": "BXP INC",
+      "pred_raw": "{\"canonical_name\":\"BXP INC\",\"cik\":1060155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 932,
+      "difficulty": "hard",
+      "input": "CONAGRA BRANDS, Inc,",
+      "expected_name": "CONAGRA BRANDS INC.",
+      "pred_name": "CONAGRA BRANDS, INC.",
+      "pred_raw": "{\"canonical_name\":\"CONAGRA BRANDS, INC.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 936,
+      "difficulty": "easy",
+      "input": "AMERIPRISE FINANCIAL, INC, the Company",
+      "expected_name": "AMERIPRISE FINANCIAL INC",
+      "pred_name": "AMERIPRISE FINANCIAL, INC.",
+      "pred_raw": "{\"canonical_name\":\"AMERIPRISE FINANCIAL, INC.\",\"cik\":1001005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 937,
+      "difficulty": "hard",
+      "input": "GRUPO CIBEST S.A., the Company",
+      "expected_name": "Grupo Cibest S.A.",
+      "pred_name": "GRUPO CIBEST S.A.",
+      "pred_raw": "{\"canonical_name\":\"GRUPO CIBEST S.A.\",\"cik\":1090855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 940,
+      "difficulty": "hard",
+      "input": "CD RADIO INC",
+      "expected_name": "SIRIUS XM HOLDINGS INC.",
+      "pred_name": "CD RADIO INC",
+      "pred_raw": "{\"canonical_name\":\"CD RADIO INC\",\"cik\":1058155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 941,
+      "difficulty": "hard",
+      "input": "BofI Holding, Inc.",
+      "expected_name": "Axos Financial, Inc.",
+      "pred_name": "BofI Holding, Inc.",
+      "pred_raw": "{\"canonical_name\":\"BofI Holding, Inc.\",\"cik\":1781335,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 942,
+      "difficulty": "easy",
+      "input": "VERTIV HOLDINGS CO /DE/",
+      "expected_name": "Vertiv Holdings Co",
+      "pred_name": "VERTIV HOLDINGS CO",
+      "pred_raw": "{\"canonical_name\":\"VERTIV HOLDINGS CO\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 943,
+      "difficulty": "hard",
+      "input": "ROCKWELL  AUTOMATION  Inc., the Company",
+      "expected_name": "ROCKWELL AUTOMATION, INC",
+      "pred_name": "ROCKWELL AUTOMATION INC",
+      "pred_raw": "{\"canonical_name\":\"ROCKWELL AUTOMATION INC\",\"cik\":1050555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 948,
+      "difficulty": "hard",
+      "input": "ASE Technology Holding Co. Ltd - formerly known as",
+      "expected_name": "ASE Technology Holding Co., Ltd.",
+      "pred_name": "ASE Technology Holding Co. Ltd",
+      "pred_raw": "{\"canonical_name\":\"ASE Technology Holding Co. Ltd\",\"cik\":1891155,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 951,
+      "difficulty": "hard",
+      "input": "KULICKE & SOFFA INDUSTRIES, INC., a Delaware corporation",
+      "expected_name": "KULICKE & SOFFA INDUSTRIES INC",
+      "pred_name": "KULICKE & SOFFA INDUSTRIES, INC.",
+      "pred_raw": "{\"canonical_name\":\"KULICKE & SOFFA INDUSTRIES, INC.\",\"cik\":1060155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 953,
+      "difficulty": "easy",
+      "input": "Strategy, Inc.,",
+      "expected_name": "Strategy Inc",
+      "pred_name": "Strategy, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Strategy, Inc.\",\"cik\":1851555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 954,
+      "difficulty": "hard",
+      "input": "RUSH  ENTERPRISES  INC  \\TX\\.",
+      "expected_name": "RUSH ENTERPRISES INC \\TX\\",
+      "pred_name": "RUSH ENTERPRISES INC",
+      "pred_raw": "{\"canonical_name\":\"RUSH ENTERPRISES INC\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 955,
+      "difficulty": "hard",
+      "input": "TERADYNE INC",
+      "expected_name": "TERADYNE, INC",
+      "pred_name": "TERADYNE INC",
+      "pred_raw": "{\"canonical_name\":\"TERADYNE INC\",\"cik\":1001100,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 956,
+      "difficulty": "hard",
+      "input": "LOGITECH INTERNATIONAL SA",
+      "expected_name": "LOGITECH INTERNATIONAL S.A.",
+      "pred_name": "LOGITECH INTERNATIONAL SA",
+      "pred_raw": "{\"canonical_name\":\"LOGITECH INTERNATIONAL SA\",\"cik\":1053885,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 960,
+      "difficulty": "hard",
+      "input": "HUNTINGTON BANCSHARES INC/MD",
+      "expected_name": "HUNTINGTON BANCSHARES INC /MD/",
+      "pred_name": "HUNTINGTON BANCSHARES INC/MD",
+      "pred_raw": "{\"canonical_name\":\"HUNTINGTON BANCSHARES INC/MD\",\"cik\":1051555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 966,
+      "difficulty": "hard",
+      "input": "CRISPR Therapeutics AG /DE/",
+      "expected_name": "CRISPR Therapeutics AG",
+      "pred_name": "CRISPR THERAPEUTICS AG",
+      "pred_raw": "{\"canonical_name\":\"CRISPR THERAPEUTICS AG\",\"cik\":1851085,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 967,
+      "difficulty": "easy",
+      "input": "BRINKER INTERNATIONAL Incorporated (the \"Company\")",
+      "expected_name": "BRINKER INTERNATIONAL, INC",
+      "pred_name": "BRINKER INTERNATIONAL INC",
+      "pred_raw": "{\"canonical_name\":\"BRINKER INTERNATIONAL INC\",\"cik\":1000155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 968,
+      "difficulty": "easy",
+      "input": "Snap-on, Inc. /formerly/",
+      "expected_name": "Snap-on Inc",
+      "pred_name": "Snap-on, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Snap-on, Inc.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 970,
+      "difficulty": "hard",
+      "input": "ROYAL CARIBBEAN CRUISES LTD /DE/",
+      "expected_name": "ROYAL CARIBBEAN CRUISES LTD",
+      "pred_name": "ROYAL CARIBBEAN CRUISES LTD /DE/",
+      "pred_raw": "{\"canonical_name\":\"ROYAL CARIBBEAN CRUISES LTD /DE/\",\"cik\":1000185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 981,
+      "difficulty": "easy",
+      "input": "PUBLIC SERVICE ENTERPRISE GROUP Incorporated (successor to former entity)",
+      "expected_name": "PUBLIC SERVICE ENTERPRISE GROUP INC",
+      "pred_name": "PUBLIC SERVICE ENTERPRISES GROUP INC",
+      "pred_raw": "{\"canonical_name\":\"PUBLIC SERVICE ENTERPRISES GROUP INC\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 982,
+      "difficulty": "hard",
+      "input": "BRAZILIAN PETROLEUM CORP",
+      "expected_name": "PETROBRAS - PETROLEO BRASILEIRO SA",
+      "pred_name": "BRAZILIAN PETROLEUM CORP",
+      "pred_raw": "{\"canonical_name\":\"BRAZILIAN PETROLEUM CORP\",\"cik\":1000005,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 983,
+      "difficulty": "hard",
+      "input": "AXON ENTERPRISE, Incorporated (the \"Company\")",
+      "expected_name": "AXON ENTERPRISE, INC.",
+      "pred_name": "AXON ENTERPRISES, INC.",
+      "pred_raw": "{\"canonical_name\":\"AXON ENTERPRISES, INC.\",\"cik\":1060105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 987,
+      "difficulty": "easy",
+      "input": "WILLIAMS SONOMA INC",
+      "expected_name": "WILLIAMS SONOMA INC",
+      "pred_name": "WILLIAMS SONOMA, INC.",
+      "pred_raw": "{\"canonical_name\":\"WILLIAMS SONOMA, INC.\",\"cik\":1000105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 988,
+      "difficulty": "hard",
+      "input": "ITT HARTFORD GROUP INC /DE",
+      "expected_name": "HARTFORD INSURANCE GROUP, INC.",
+      "pred_name": "ITT HARTFOLD GROUP INC",
+      "pred_raw": "{\"canonical_name\":\"ITT HARTFOLD GROUP INC\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 989,
+      "difficulty": "hard",
+      "input": "CARRIER  GLOBAL  Corp. (fka)",
+      "expected_name": "CARRIER GLOBAL Corp",
+      "pred_name": "CARRIER GLOBAL CORP",
+      "pred_raw": "{\"canonical_name\":\"CARRIER GLOBAL CORP\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 993,
+      "difficulty": "hard",
+      "input": "RELIANCE STEEL & ALUMINUM CO",
+      "expected_name": "RELIANCE, INC.",
+      "pred_name": "RELIANCE STEEL & ALUMINUM CO",
+      "pred_raw": "{\"canonical_name\":\"RELIANCE STEEL & ALUMINUM CO\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 994,
+      "difficulty": "hard",
+      "input": "VIBRA ENERGIA S.A./ADR /formerly/",
+      "expected_name": "Vibra Energia S.A./ADR",
+      "pred_name": "VIBRA ENERGIA S.A./ADR",
+      "pred_raw": "{\"canonical_name\":\"VIBRA ENERGIA S.A./ADR\",\"cik\":1060185,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 999,
+      "difficulty": "hard",
+      "input": "dba Tesla INC",
+      "expected_name": "Tesla, Inc.",
+      "pred_name": "Tesla Inc.",
+      "pred_raw": "{\"canonical_name\":\"Tesla Inc.\",\"cik\":1791185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1000,
+      "difficulty": "hard",
+      "input": "DOMINION RESOURCES INC /VA/",
+      "expected_name": "DOMINION ENERGY, INC",
+      "pred_name": "DOMINION RESOURCES INC /VA/",
+      "pred_raw": "{\"canonical_name\":\"DOMINION RESOURCES INC /VA/\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1004,
+      "difficulty": "hard",
+      "input": "INTUIT, Inc - formerly known as",
+      "expected_name": "INTUIT INC.",
+      "pred_name": "INTUIT, INC.",
+      "pred_raw": "{\"canonical_name\":\"INTUIT, INC.\",\"cik\":1090005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1007,
+      "difficulty": "hard",
+      "input": "VODAFONE GROUP PUBLIC LIMITED COMPANY",
+      "expected_name": "VODAFONE GROUP PUBLIC LTD CO",
+      "pred_name": "VODAFONE GROUP PLC",
+      "pred_raw": "{\"canonical_name\":\"VODAFONE GROUP PLC\",\"cik\":1000005,\"entity_type\":\"other\",\"is_former_name_input\":true}",
+      "match": false
+    },
+    {
+      "idx": 1008,
+      "difficulty": "hard",
+      "input": "Kioxia Holdings Corporation/Adr /DE/",
+      "expected_name": "Kioxia Holdings Corporation/ADR",
+      "pred_name": "Kioxia Holdings Corp/ADR",
+      "pred_raw": "{\"canonical_name\":\"Kioxia Holdings Corp/ADR\",\"cik\":1910155,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1011,
+      "difficulty": "hard",
+      "input": "CORN PRODUCTS INTERNATIONAL INC",
+      "expected_name": "Ingredion Inc",
+      "pred_name": "CORN PRODUCTS INTERNATIONAL INC",
+      "pred_raw": "{\"canonical_name\":\"CORN PRODUCTS INTERNATIONAL INC\",\"cik\":1001555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1016,
+      "difficulty": "hard",
+      "input": "MATERION, CORP, a Delaware corporation",
+      "expected_name": "MATERION Corp",
+      "pred_name": "MATERION CORP",
+      "pred_raw": "{\"canonical_name\":\"MATERION CORP\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1019,
+      "difficulty": "easy",
+      "input": "ANNALY CAPITAL MANAGEMENT INC /DE/",
+      "expected_name": "ANNALY CAPITAL MANAGEMENT INC",
+      "pred_name": "ANNALY CAPITAL MANAGEMENT INC /DE/",
+      "pred_raw": "{\"canonical_name\":\"ANNALY CAPITAL MANAGEMENT INC /DE/\",\"cik\":1093885,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1021,
+      "difficulty": "hard",
+      "input": "FTI CONSULTING INC",
+      "expected_name": "FTI CONSULTING, INC",
+      "pred_name": "FTI CONSULTING INC",
+      "pred_raw": "{\"canonical_name\":\"FTI CONSULTING INC\",\"cik\":1060155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1024,
+      "difficulty": "easy",
+      "input": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+      "expected_name": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+      "pred_name": "BANCO BILBAO VIZCAYA ARGENTARIA S.A.",
+      "pred_raw": "{\"canonical_name\":\"BANCO BILBAO VIZCAYA ARGENTARIA S.A.\",\"cik\":1000055,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1031,
+      "difficulty": "hard",
+      "input": "GLOBUS MEDICAL INC /DE/",
+      "expected_name": "GLOBUS MEDICAL INC",
+      "pred_name": "GLOBUS MEDICAL INC /DE/",
+      "pred_raw": "{\"canonical_name\":\"GLOBUS MEDICAL INC /DE/\",\"cik\":1000185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1035,
+      "difficulty": "hard",
+      "input": "New Cobra Pubco, Inc.",
+      "expected_name": "Viper Energy, Inc.",
+      "pred_name": "Cobra Pubco, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Cobra Pubco, Inc.\",\"cik\":1892505,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1036,
+      "difficulty": "hard",
+      "input": "avantor,  inc, the Company",
+      "expected_name": "Avantor, Inc.",
+      "pred_name": "AVANTRON, INC.",
+      "pred_raw": "{\"canonical_name\":\"AVANTRON, INC.\",\"cik\":1050155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1038,
+      "difficulty": "hard",
+      "input": "nov, incorporated.",
+      "expected_name": "NOV Inc.",
+      "pred_name": "NOV INC",
+      "pred_raw": "{\"canonical_name\":\"NOV INC\",\"cik\":1051355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1040,
+      "difficulty": "easy",
+      "input": "Snap-on, INC,",
+      "expected_name": "Snap-on Inc",
+      "pred_name": "Snap-on, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Snap-on, Inc.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1042,
+      "difficulty": "hard",
+      "input": "VINFAST  AUTO  LTD..",
+      "expected_name": "VinFast Auto Ltd.",
+      "pred_name": "VINFast Auto Ltd.",
+      "pred_raw": "{\"canonical_name\":\"VINFast Auto Ltd.\",\"cik\":1910105,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1045,
+      "difficulty": "hard",
+      "input": "Keurig Dr Pepper Incorporated /formerly/",
+      "expected_name": "Keurig Dr Pepper Inc.",
+      "pred_name": "Keurig Dr. Pepper, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Keurig Dr. Pepper, Inc.\",\"cik\":1790155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1047,
+      "difficulty": "hard",
+      "input": "PERMIAN RESOURCES CORPORATION, a Delaware corporation",
+      "expected_name": "Permian Resources Corp",
+      "pred_name": "PERMIAN RESOURCES CORP",
+      "pred_raw": "{\"canonical_name\":\"PERMIAN RESOURCES CORP\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1055,
+      "difficulty": "easy",
+      "input": "MARTIN MARIETTA MATERIALS, Inc., a Delaware corporation",
+      "expected_name": "MARTIN MARIETTA MATERIALS INC",
+      "pred_name": "MARTIN MARIETTA MATERIALS, INC.",
+      "pred_raw": "{\"canonical_name\":\"MARTIN MARIETTA MATERIALS, INC.\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1058,
+      "difficulty": "hard",
+      "input": "Silver Run Acquisition Corp",
+      "expected_name": "Permian Resources Corp",
+      "pred_name": "Silver Run Acquisition Corp",
+      "pred_raw": "{\"canonical_name\":\"Silver Run Acquisition Corp\",\"cik\":1921855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1062,
+      "difficulty": "hard",
+      "input": "STMICROELECTRONICS NV",
+      "expected_name": "STMicroelectronics N.V.",
+      "pred_name": "STMICROELECTRONICS N.V.",
+      "pred_raw": "{\"canonical_name\":\"STMICROELECTRONICS N.V.\",\"cik\":1000005,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1063,
+      "difficulty": "easy",
+      "input": "Cheniere Energy Partners, Limited Partnership /DE/",
+      "expected_name": "Cheniere Energy Partners, L.P.",
+      "pred_name": "Cheniere Energy Partners Ltd.",
+      "pred_raw": "{\"canonical_name\":\"Cheniere Energy Partners Ltd.\",\"cik\":1556185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1064,
+      "difficulty": "easy",
+      "input": "Wheaton Precious Metals, CORP",
+      "expected_name": "Wheaton Precious Metals Corp.",
+      "pred_name": "Wheaton Precious Metals Corp",
+      "pred_raw": "{\"canonical_name\":\"Wheaton Precious Metals Corp\",\"cik\":1791855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1068,
+      "difficulty": "hard",
+      "input": "ALLMERICA FINANCIAL CORP",
+      "expected_name": "HANOVER INSURANCE GROUP, INC.",
+      "pred_name": "ALLMERICA FINANCIAL CORP",
+      "pred_raw": "{\"canonical_name\":\"ALLMERICA FINANCIAL CORP\",\"cik\":1055855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1069,
+      "difficulty": "hard",
+      "input": "UL Solutions Incorporated, the Company",
+      "expected_name": "UL Solutions Inc.",
+      "pred_name": "UL Solutions, Inc.",
+      "pred_raw": "{\"canonical_name\":\"UL Solutions, Inc.\",\"cik\":1791105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1080,
+      "difficulty": "hard",
+      "input": "Noble Corp PLC /DE/",
+      "expected_name": "Noble Corp plc",
+      "pred_name": "Noble Corp PLC",
+      "pred_raw": "{\"canonical_name\":\"Noble Corp PLC\",\"cik\":1010155,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1082,
+      "difficulty": "hard",
+      "input": "sitime  corp (fka)",
+      "expected_name": "SITIME Corp",
+      "pred_name": "Sitime Corp",
+      "pred_raw": "{\"canonical_name\":\"Sitime Corp\",\"cik\":1891105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1085,
+      "difficulty": "hard",
+      "input": "Copa Holdings, S.A., the Company",
+      "expected_name": "Copa Holdings, S.A.",
+      "pred_name": "Copa Holdings S.A.",
+      "pred_raw": "{\"canonical_name\":\"Copa Holdings S.A.\",\"cik\":1791035,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1090,
+      "difficulty": "hard",
+      "input": "dba argan inc",
+      "expected_name": "ARGAN INC",
+      "pred_name": "Argan Inc.",
+      "pred_raw": "{\"canonical_name\":\"Argan Inc.\",\"cik\":1891105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1092,
+      "difficulty": "hard",
+      "input": "enersys,",
+      "expected_name": "EnerSys",
+      "pred_name": "Energys, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Energys, Inc.\",\"cik\":1891105,\"entity_type\":\"operating\",\"is_former_name_input\":true}",
+      "match": false
+    },
+    {
+      "idx": 1096,
+      "difficulty": "hard",
+      "input": "SOUTHERN PERU COPPER HOLDING CO",
+      "expected_name": "SOUTHERN COPPER CORP/",
+      "pred_name": "SOUTHERN PERU COPPER HOLDING CO",
+      "pred_raw": "{\"canonical_name\":\"SOUTHERN PERU COPPER HOLDING CO\",\"cik\":1060855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1097,
+      "difficulty": "hard",
+      "input": "Smurfit WestRock Ltd",
+      "expected_name": "Smurfit Westrock plc",
+      "pred_name": "Smurfit WestRock Ltd",
+      "pred_raw": "{\"canonical_name\":\"Smurfit WestRock Ltd\",\"cik\":1891855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1099,
+      "difficulty": "hard",
+      "input": "Northern Trust Corp (fka)",
+      "expected_name": "NORTHERN TRUST CORP",
+      "pred_name": "Northern Trust Corp",
+      "pred_raw": "{\"canonical_name\":\"Northern Trust Corp\",\"cik\":1133805,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1100,
+      "difficulty": "hard",
+      "input": "TRANE TECHNOLOGIES PLC.",
+      "expected_name": "Trane Technologies plc",
+      "pred_name": "TRANE TECHNOLOGIES PLC",
+      "pred_raw": "{\"canonical_name\":\"TRANE TECHNOLOGIES PLC\",\"cik\":1000155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1101,
+      "difficulty": "easy",
+      "input": "SS&C Technologies Holdings, Inc..",
+      "expected_name": "SS&C Technologies Holdings Inc",
+      "pred_name": "SS&C Technologies Holdings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"SS&C Technologies Holdings, Inc.\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1102,
+      "difficulty": "hard",
+      "input": "fti consulting inc (successor to former entity)",
+      "expected_name": "FTI CONSULTING, INC",
+      "pred_name": "FTI CONSULTING, INC.",
+      "pred_raw": "{\"canonical_name\":\"FTI CONSULTING, INC.\",\"cik\":1061155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1104,
+      "difficulty": "hard",
+      "input": "CME GROUP Inc..",
+      "expected_name": "CME GROUP INC.",
+      "pred_name": "CME GROUP INC",
+      "pred_raw": "{\"canonical_name\":\"CME GROUP INC\",\"cik\":1101005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1106,
+      "difficulty": "hard",
+      "input": "ROKU Incorporated (successor to former entity)",
+      "expected_name": "ROKU, INC",
+      "pred_name": "ROKU INC",
+      "pred_raw": "{\"canonical_name\":\"ROKU INC\",\"cik\":1093135,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1107,
+      "difficulty": "hard",
+      "input": "TERADYNE, INC.",
+      "expected_name": "TERADYNE, INC",
+      "pred_name": "TERADYNE, INC.",
+      "pred_raw": "{\"canonical_name\":\"TERADYNE, INC.\",\"cik\":1001005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1108,
+      "difficulty": "hard",
+      "input": "Garrett Transportation Systems Inc.",
+      "expected_name": "Garrett Motion Inc.",
+      "pred_name": "Garrett Transportation Systems, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Garrett Transportation Systems, Inc.\",\"cik\":1891125,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1111,
+      "difficulty": "hard",
+      "input": "AMAZON COM, INC",
+      "expected_name": "AMAZON COM INC",
+      "pred_name": "AMAZON COM, INC.",
+      "pred_raw": "{\"canonical_name\":\"AMAZON COM, INC.\",\"cik\":1100100,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1115,
+      "difficulty": "easy",
+      "input": "XCEL ENERGY, Incorporated",
+      "expected_name": "XCEL ENERGY INC",
+      "pred_name": "XCEL ENERGY, INC.",
+      "pred_raw": "{\"canonical_name\":\"XCEL ENERGY, INC.\",\"cik\":1000105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1121,
+      "difficulty": "hard",
+      "input": "JBT  MAREL,  Corp. (successor to former entity)",
+      "expected_name": "JBT MAREL Corp",
+      "pred_name": "JBT MAREL CORP",
+      "pred_raw": "{\"canonical_name\":\"JBT MAREL CORP\",\"cik\":1051355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1124,
+      "difficulty": "easy",
+      "input": "dba NOVA Limited",
+      "expected_name": "NOVA LTD.",
+      "pred_name": "NOVA Ltd.",
+      "pred_raw": "{\"canonical_name\":\"NOVA Ltd.\",\"cik\":1891055,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1125,
+      "difficulty": "easy",
+      "input": "chipotle mexican grill inc (successor to former entity)",
+      "expected_name": "CHIPOTLE MEXICAN GRILL INC",
+      "pred_name": "Chipotle Mexican Grill, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Chipotle Mexican Grill, Inc.\",\"cik\":1560105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1129,
+      "difficulty": "hard",
+      "input": "Lineage Inc. /DE/",
+      "expected_name": "Lineage, Inc.",
+      "pred_name": "Lineage Inc.",
+      "pred_raw": "{\"canonical_name\":\"Lineage Inc.\",\"cik\":1851108,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1130,
+      "difficulty": "hard",
+      "input": "RELIANCE, Inc. /DE/",
+      "expected_name": "RELIANCE, INC.",
+      "pred_name": "RELIANCE INC",
+      "pred_raw": "{\"canonical_name\":\"RELIANCE INC\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1132,
+      "difficulty": "hard",
+      "input": "1847432 Alberta ULC",
+      "expected_name": "Ovintiv Inc.",
+      "pred_name": "1847432 Alberta ULC",
+      "pred_raw": "{\"canonical_name\":\"1847432 Alberta ULC\",\"cik\":1847432,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1136,
+      "difficulty": "hard",
+      "input": "MOOG, INCORPORATED",
+      "expected_name": "MOOG INC.",
+      "pred_name": "MOOG INC",
+      "pred_raw": "{\"canonical_name\":\"MOOG INC\",\"cik\":1050055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1138,
+      "difficulty": "hard",
+      "input": "Belimo Holding Ag/Adr",
+      "expected_name": "BELIMO Holding AG/ADR",
+      "pred_name": "Belimo Holding AG/ADR",
+      "pred_raw": "{\"canonical_name\":\"Belimo Holding AG/ADR\",\"cik\":1891555,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1139,
+      "difficulty": "hard",
+      "input": "HYSEQ INC",
+      "expected_name": "Oruka Therapeutics, Inc.",
+      "pred_name": "HYSEQ INC",
+      "pred_raw": "{\"canonical_name\":\"HYSEQ INC\",\"cik\":1058155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1142,
+      "difficulty": "hard",
+      "input": "BLACK HILLS HOLDING CORP",
+      "expected_name": "BLACK HILLS CORP /SD/",
+      "pred_name": "BLACK HILLS HOLDING CORP",
+      "pred_raw": "{\"canonical_name\":\"BLACK HILLS HOLDING CORP\",\"cik\":1058555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1146,
+      "difficulty": "hard",
+      "input": "SailPoint Inc (fka)",
+      "expected_name": "SailPoint, Inc.",
+      "pred_name": "SailPoint Inc.",
+      "pred_raw": "{\"canonical_name\":\"SailPoint Inc.\",\"cik\":1781335,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1148,
+      "difficulty": "hard",
+      "input": "Corteva INC (the \"Company\")",
+      "expected_name": "Corteva, Inc.",
+      "pred_name": "Corteva Inc.",
+      "pred_raw": "{\"canonical_name\":\"Corteva Inc.\",\"cik\":1910105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1151,
+      "difficulty": "hard",
+      "input": "Kinross Gold, Corporation.",
+      "expected_name": "KINROSS GOLD CORP",
+      "pred_name": "Kinross Gold Corp",
+      "pred_raw": "{\"canonical_name\":\"Kinross Gold Corp\",\"cik\":1781855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1154,
+      "difficulty": "hard",
+      "input": "PINTEREST Incorporated /formerly/",
+      "expected_name": "PINTEREST, INC.",
+      "pred_name": "PINTEREST INC",
+      "pred_raw": "{\"canonical_name\":\"PINTEREST INC\",\"cik\":1090185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1157,
+      "difficulty": "hard",
+      "input": "METTLER TOLEDO INTERNATIONAL INC",
+      "expected_name": "METTLER TOLEDO INTERNATIONAL INC/",
+      "pred_name": "METTLER TOLEDO INTERNATIONAL INC",
+      "pred_raw": "{\"canonical_name\":\"METTLER TOLEDO INTERNATIONAL INC\",\"cik\":1060155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1158,
+      "difficulty": "hard",
+      "input": "RTZ CORPORATION PLC",
+      "expected_name": "RIO TINTO PLC",
+      "pred_name": "RTZ CORP",
+      "pred_raw": "{\"canonical_name\":\"RTZ CORP\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":true}",
+      "match": false
+    },
+    {
+      "idx": 1161,
+      "difficulty": "hard",
+      "input": "DAVITA Inc. (the \"Company\")",
+      "expected_name": "DAVITA INC.",
+      "pred_name": "DAVITA INC",
+      "pred_raw": "{\"canonical_name\":\"DAVITA INC\",\"cik\":1000100,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1166,
+      "difficulty": "hard",
+      "input": "BRITISH AEROSPACE PUBLIC LTD CO /FI/",
+      "expected_name": "BAE SYSTEMS PLC /FI/",
+      "pred_name": "BRITISH AEROSPACE PUBLIC LTD CO /FI/",
+      "pred_raw": "{\"canonical_name\":\"BRITISH AEROSPACE PUBLIC LTD CO /FI/\",\"cik\":1058555,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1167,
+      "difficulty": "hard",
+      "input": "ULTRAPAR HOLDINGS, INCORPORATED (successor to former entity)",
+      "expected_name": "ULTRAPAR HOLDINGS INC",
+      "pred_name": "ULTRAPAR HOLDINGS, INC.",
+      "pred_raw": "{\"canonical_name\":\"ULTRAPAR HOLDINGS, INC.\",\"cik\":1091155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1171,
+      "difficulty": "hard",
+      "input": "BIOGEN Inc. (successor to former entity)",
+      "expected_name": "BIOGEN INC.",
+      "pred_name": "BIOGEN INC",
+      "pred_raw": "{\"canonical_name\":\"BIOGEN INC\",\"cik\":1000155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1172,
+      "difficulty": "easy",
+      "input": "INSMED Incorporated, a Delaware corporation",
+      "expected_name": "INSMED Inc",
+      "pred_name": "INSMED INC",
+      "pred_raw": "{\"canonical_name\":\"INSMED INC\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1175,
+      "difficulty": "hard",
+      "input": "DraftKings Inc. - formerly known as",
+      "expected_name": "DraftKings Inc.",
+      "pred_name": "DraftKings, Inc.",
+      "pred_raw": "{\"canonical_name\":\"DraftKings, Inc.\",\"cik\":1781185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1177,
+      "difficulty": "hard",
+      "input": "Applied Digital Corp. (the \"Company\")",
+      "expected_name": "Applied Digital Corp.",
+      "pred_name": "Applied Digital Corp",
+      "pred_raw": "{\"canonical_name\":\"Applied Digital Corp\",\"cik\":1891855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1178,
+      "difficulty": "hard",
+      "input": "Owl Rock Capital Corp",
+      "expected_name": "Blue Owl Capital Corp",
+      "pred_name": "Owl Rock Capital Corp",
+      "pred_raw": "{\"canonical_name\":\"Owl Rock Capital Corp\",\"cik\":1791305,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1182,
+      "difficulty": "easy",
+      "input": "GLOBALFOUNDRIES Inc.",
+      "expected_name": "GLOBALFOUNDRIES Inc.",
+      "pred_name": "GLOBALFOUNDRIES INC",
+      "pred_raw": "{\"canonical_name\":\"GLOBALFOUNDRIES INC\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1190,
+      "difficulty": "hard",
+      "input": "RPM INC/OH/",
+      "expected_name": "RPM INTERNATIONAL INC/DE/",
+      "pred_name": "RPM INC/OH",
+      "pred_raw": "{\"canonical_name\":\"RPM INC/OH\",\"cik\":1001085,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1193,
+      "difficulty": "hard",
+      "input": "British American Tobacco p.l.c..",
+      "expected_name": "British American Tobacco p.l.c.",
+      "pred_name": "British American Tobacco PLC",
+      "pred_raw": "{\"canonical_name\":\"British American Tobacco PLC\",\"cik\":1001055,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1196,
+      "difficulty": "hard",
+      "input": "Jazz Pharmaceuticals, plc (successor to former entity)",
+      "expected_name": "Jazz Pharmaceuticals plc",
+      "pred_name": "Jazz Pharmaceuticals, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Jazz Pharmaceuticals, Inc.\",\"cik\":1590105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1202,
+      "difficulty": "hard",
+      "input": "Warner Bros. Discovery Incorporated /formerly/",
+      "expected_name": "Warner Bros. Discovery, Inc.",
+      "pred_name": "Warner Bros. Discovery Inc.",
+      "pred_raw": "{\"canonical_name\":\"Warner Bros. Discovery Inc.\",\"cik\":1791185,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1205,
+      "difficulty": "hard",
+      "input": "Iridium Communications Inc. - formerly known as",
+      "expected_name": "Iridium Communications Inc.",
+      "pred_name": "Iridium Communications, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Iridium Communications, Inc.\",\"cik\":1101055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1208,
+      "difficulty": "easy",
+      "input": "Grupo Aval Acciones Y Valores S.A.",
+      "expected_name": "Grupo Aval Acciones Y Valores S.A.",
+      "pred_name": "Grupo Aval S.A.",
+      "pred_raw": "{\"canonical_name\":\"Grupo Aval S.A.\",\"cik\":1101855,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1209,
+      "difficulty": "easy",
+      "input": "OR Royalties Inc.",
+      "expected_name": "OR Royalties Inc.",
+      "pred_name": "Royalties, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Royalties, Inc.\",\"cik\":1891155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1211,
+      "difficulty": "hard",
+      "input": "EDP ENERGIAS DE PORTUGAL SA,",
+      "expected_name": "EDP ENERGIAS DE PORTUGAL SA",
+      "pred_name": "EDP ENERGIAS DE PORTUGAL S.A.",
+      "pred_raw": "{\"canonical_name\":\"EDP ENERGIAS DE PORTUGAL S.A.\",\"cik\":1000005,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1220,
+      "difficulty": "easy",
+      "input": "VICI PROPERTIES Incorporated",
+      "expected_name": "VICI PROPERTIES INC.",
+      "pred_name": "VICI PROPERTIES INC",
+      "pred_raw": "{\"canonical_name\":\"VICI PROPERTIES INC\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1226,
+      "difficulty": "hard",
+      "input": "Cheniere Energy Partners, L.P..",
+      "expected_name": "Cheniere Energy Partners, L.P.",
+      "pred_name": "Cheniere Energy Partners L.P.",
+      "pred_raw": "{\"canonical_name\":\"Cheniere Energy Partners L.P.\",\"cik\":1550135,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1233,
+      "difficulty": "hard",
+      "input": "WILLIAMS COMPANIES Incorporated, a Delaware corporation",
+      "expected_name": "WILLIAMS COMPANIES, INC.",
+      "pred_name": "WILLIAMS COMPANIES INC",
+      "pred_raw": "{\"canonical_name\":\"WILLIAMS COMPANIES INC\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1237,
+      "difficulty": "hard",
+      "input": "UL Solutions Inc., a Delaware corporation",
+      "expected_name": "UL Solutions Inc.",
+      "pred_name": "UL Solutions, Inc.",
+      "pred_raw": "{\"canonical_name\":\"UL Solutions, Inc.\",\"cik\":1791805,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1240,
+      "difficulty": "easy",
+      "input": "FRANCO NEVADA Corp",
+      "expected_name": "FRANCO NEVADA Corp",
+      "pred_name": "FRANCO NEVADA CORP",
+      "pred_raw": "{\"canonical_name\":\"FRANCO NEVADA CORP\",\"cik\":1051055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1241,
+      "difficulty": "hard",
+      "input": "MARKEL HOLDINGS INC",
+      "expected_name": "MARKEL GROUP INC.",
+      "pred_name": "MARKEL HOLDINGS INC",
+      "pred_raw": "{\"canonical_name\":\"MARKEL HOLDINGS INC\",\"cik\":1053855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1245,
+      "difficulty": "hard",
+      "input": "COUPANG INC, a Delaware corporation",
+      "expected_name": "Coupang, Inc.",
+      "pred_name": "COUPANG INC",
+      "pred_raw": "{\"canonical_name\":\"COUPANG INC\",\"cik\":1001015,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1246,
+      "difficulty": "easy",
+      "input": "Solstice Advanced Materials Inc. (fka)",
+      "expected_name": "Solstice Advanced Materials Inc.",
+      "pred_name": "Solstice Advanced Materials, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Solstice Advanced Materials, Inc.\",\"cik\":1869855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1254,
+      "difficulty": "hard",
+      "input": "dba Firstservice Corp",
+      "expected_name": "FirstService Corp",
+      "pred_name": "Firstservice Corp",
+      "pred_raw": "{\"canonical_name\":\"Firstservice Corp\",\"cik\":1050155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1256,
+      "difficulty": "hard",
+      "input": "sofi technologies, inc. /DE/",
+      "expected_name": "SoFi Technologies, Inc.",
+      "pred_name": "Sofi Technologies, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Sofi Technologies, Inc.\",\"cik\":1851005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1257,
+      "difficulty": "hard",
+      "input": "Gartner Inc., a Delaware corporation",
+      "expected_name": "GARTNER INC",
+      "pred_name": "Gartner, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Gartner, Inc.\",\"cik\":1101055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1263,
+      "difficulty": "hard",
+      "input": "Nutrien Ltd, the Company",
+      "expected_name": "Nutrien Ltd.",
+      "pred_name": "Nutrien Ltd",
+      "pred_raw": "{\"canonical_name\":\"Nutrien Ltd\",\"cik\":1820105,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1264,
+      "difficulty": "hard",
+      "input": "STATOIL ASA",
+      "expected_name": "EQUINOR ASA",
+      "pred_name": "STATOIL ASA",
+      "pred_raw": "{\"canonical_name\":\"STATOIL ASA\",\"cik\":1010155,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1267,
+      "difficulty": "easy",
+      "input": "KIMBERLY CLARK CORP /DE/",
+      "expected_name": "KIMBERLY CLARK CORP",
+      "pred_name": "KIMBERLY CLARK CORP /DE/",
+      "pred_raw": "{\"canonical_name\":\"KIMBERLY CLARK CORP /DE/\",\"cik\":1000155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1268,
+      "difficulty": "hard",
+      "input": "Penumbra, INC /DE/",
+      "expected_name": "Penumbra Inc",
+      "pred_name": "Penumbra, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Penumbra, Inc.\",\"cik\":1106135,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1269,
+      "difficulty": "hard",
+      "input": "coca-cola consolidated, inc. (fka)",
+      "expected_name": "Coca-Cola Consolidated, Inc.",
+      "pred_name": "Coca-Cola Co.",
+      "pred_raw": "{\"canonical_name\":\"Coca-Cola Co.\",\"cik\":1110155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1272,
+      "difficulty": "easy",
+      "input": "brinker international, inc - formerly known as",
+      "expected_name": "BRINKER INTERNATIONAL, INC",
+      "pred_name": "BRINKER INTERNATIONAL, INC.",
+      "pred_raw": "{\"canonical_name\":\"BRINKER INTERNATIONAL, INC.\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1273,
+      "difficulty": "hard",
+      "input": "dba ONTO INNOVATION INC",
+      "expected_name": "ONTO INNOVATION INC.",
+      "pred_name": "ONTO INNOVATION INC",
+      "pred_raw": "{\"canonical_name\":\"ONTO INNOVATION INC\",\"cik\":1065855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1274,
+      "difficulty": "hard",
+      "input": "ASSURANT, Incorporated (fka)",
+      "expected_name": "ASSURANT, INC.",
+      "pred_name": "ASSURANT INC",
+      "pred_raw": "{\"canonical_name\":\"ASSURANT INC\",\"cik\":1001055,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1276,
+      "difficulty": "hard",
+      "input": "FNB CORP/PA",
+      "expected_name": "FNB CORP/PA/",
+      "pred_name": "FNB CORP/PA",
+      "pred_raw": "{\"canonical_name\":\"FNB CORP/PA\",\"cik\":1000189,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1277,
+      "difficulty": "hard",
+      "input": "Brown Forman Corp /DE/",
+      "expected_name": "BROWN FORMAN CORP",
+      "pred_name": "Brown Forman Corp /DE/",
+      "pred_raw": "{\"canonical_name\":\"Brown Forman Corp /DE/\",\"cik\":1055555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1279,
+      "difficulty": "easy",
+      "input": "dba CENOVUS ENERGY Incorporated",
+      "expected_name": "CENOVUS ENERGY INC.",
+      "pred_name": "CENOVUS ENERGY INC",
+      "pred_raw": "{\"canonical_name\":\"CENOVUS ENERGY INC\",\"cik\":1090105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1287,
+      "difficulty": "hard",
+      "input": "carrier global, corporation (fka)",
+      "expected_name": "CARRIER GLOBAL Corp",
+      "pred_name": "CARRIER GLOBAL CORP",
+      "pred_raw": "{\"canonical_name\":\"CARRIER GLOBAL CORP\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1290,
+      "difficulty": "easy",
+      "input": "Uber Technologies, Inc, a Delaware corporation",
+      "expected_name": "Uber Technologies, Inc",
+      "pred_name": "Uber Technologies, Inc.",
+      "pred_raw": "{\"canonical_name\":\"Uber Technologies, Inc.\",\"cik\":1546105,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1292,
+      "difficulty": "hard",
+      "input": "Bank of the Ozarks",
+      "expected_name": "Bank OZK",
+      "pred_name": "Bank of the Ozarks",
+      "pred_raw": "{\"canonical_name\":\"Bank of the Ozarks\",\"cik\":1851555,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1293,
+      "difficulty": "hard",
+      "input": "EQT CORP /formerly/",
+      "expected_name": "EQT Corp",
+      "pred_name": "EQT CORP",
+      "pred_raw": "{\"canonical_name\":\"EQT CORP\",\"cik\":1000005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1297,
+      "difficulty": "hard",
+      "input": "dba LABCORP HOLDINGS, Inc.",
+      "expected_name": "LABCORP HOLDINGS INC.",
+      "pred_name": "LABCORP HOLDINGS INC",
+      "pred_raw": "{\"canonical_name\":\"LABCORP HOLDINGS INC\",\"cik\":1051155,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1298,
+      "difficulty": "hard",
+      "input": "Mastercard  INC, the Company",
+      "expected_name": "Mastercard Inc",
+      "pred_name": "Mastercard Inc.",
+      "pred_raw": "{\"canonical_name\":\"Mastercard Inc.\",\"cik\":1990005,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1299,
+      "difficulty": "hard",
+      "input": "Netskope INC - formerly known as",
+      "expected_name": "Netskope Inc",
+      "pred_name": "Netskope Inc.",
+      "pred_raw": "{\"canonical_name\":\"Netskope Inc.\",\"cik\":1790835,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1300,
+      "difficulty": "hard",
+      "input": "NVR, INC (fka)",
+      "expected_name": "NVR INC",
+      "pred_name": "NVR, INC.",
+      "pred_raw": "{\"canonical_name\":\"NVR, INC.\",\"cik\":1001355,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1305,
+      "difficulty": "hard",
+      "input": "AngloGold Ashanti Public Limited Company",
+      "expected_name": "AngloGold Ashanti PLC",
+      "pred_name": "AngloGold Ashanti plc",
+      "pred_raw": "{\"canonical_name\":\"AngloGold Ashanti plc\",\"cik\":1591055,\"entity_type\":\"other\",\"is_former_name_input\":false}",
+      "match": false
+    },
+    {
+      "idx": 1307,
+      "difficulty": "hard",
+      "input": "FRANCO  NEVADA  Corp.,",
+      "expected_name": "FRANCO NEVADA Corp",
+      "pred_name": "FRANCO NEVADA CORP",
+      "pred_raw": "{\"canonical_name\":\"FRANCO NEVADA CORP\",\"cik\":1058855,\"entity_type\":\"operating\",\"is_former_name_input\":false}",
+      "match": false
+    }
+  ]
+}

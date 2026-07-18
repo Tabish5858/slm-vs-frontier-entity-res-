@@ -1,0 +1,2718 @@
+{
+  "accuracy": {
+    "overall": 70.63310450038138,
+    "hard": 66.74132138857783,
+    "easy": 78.94736842105263
+  },
+  "counts": {
+    "overall": {
+      "correct": 926,
+      "total": 1311
+    },
+    "hard": {
+      "correct": 596,
+      "total": 893
+    },
+    "easy": {
+      "correct": 330,
+      "total": 418
+    }
+  },
+  "failures": [
+    {
+      "idx": 2,
+      "difficulty": "hard",
+      "input": "dba TELEFONICA BRASIL S.A.",
+      "expected": "TELEFONICA BRASIL S.A.",
+      "got": "TELOFONICA BRASIL S.A."
+    },
+    {
+      "idx": 4,
+      "difficulty": "hard",
+      "input": "FIRST SOLAR HOLDINGS LLC",
+      "expected": "FIRST SOLAR, INC.",
+      "got": "FIRST SOLAR HOLDINGS LLC"
+    },
+    {
+      "idx": 5,
+      "difficulty": "hard",
+      "input": "GXO Logistics, INC (the \"Company\")",
+      "expected": "GXO Logistics, Inc.",
+      "got": "GXO Logistics Inc."
+    },
+    {
+      "idx": 9,
+      "difficulty": "easy",
+      "input": "Blackstone Secured Lending Fund",
+      "expected": "Blackstone Secured Lending Fund",
+      "got": "Blackstone Inc."
+    },
+    {
+      "idx": 11,
+      "difficulty": "hard",
+      "input": "EQUITY LIFESTYLE PROPERTIES INC",
+      "expected": "EQUITY LIFESTYLE PROPERTIES INC",
+      "got": "EQUITY LIFESTYLE INC"
+    },
+    {
+      "idx": 12,
+      "difficulty": "easy",
+      "input": "CISCO SYSTEMS Inc. (the \"Company\")",
+      "expected": "CISCO SYSTEMS, INC.",
+      "got": "CISCO SYSTEMS INC"
+    },
+    {
+      "idx": 15,
+      "difficulty": "hard",
+      "input": "Ingredion Inc - formerly known as",
+      "expected": "Ingredion Inc",
+      "got": "INGRIDEN INC"
+    },
+    {
+      "idx": 18,
+      "difficulty": "hard",
+      "input": "dba MARTIN MARIETTA MATERIALS INC",
+      "expected": "MARTIN MARIETTA MATERIALS INC",
+      "got": "MARTIN MARIETRA INC"
+    },
+    {
+      "idx": 21,
+      "difficulty": "hard",
+      "input": "FREEPORT-MCMORAN INC (successor to former entity)",
+      "expected": "FREEPORT-MCMORAN INC",
+      "got": "FREEPORT-MCMCM"
+    },
+    {
+      "idx": 22,
+      "difficulty": "hard",
+      "input": "INTEGRATED ELECTRICAL SERVICES INC",
+      "expected": "IES Holdings, Inc.",
+      "got": "INTEGRATIVES INC"
+    },
+    {
+      "idx": 30,
+      "difficulty": "hard",
+      "input": "Cboe Global Markets Inc.",
+      "expected": "Cboe Global Markets, Inc.",
+      "got": "Cboe Global Markets Inc."
+    },
+    {
+      "idx": 33,
+      "difficulty": "easy",
+      "input": "RB GLOBAL Inc /DE/",
+      "expected": "RB GLOBAL INC.",
+      "got": "RB GLOBAL INC"
+    },
+    {
+      "idx": 35,
+      "difficulty": "hard",
+      "input": "Virginia Holdco, Inc.",
+      "expected": "Vulcan Materials CO",
+      "got": "Vale S.A."
+    },
+    {
+      "idx": 36,
+      "difficulty": "easy",
+      "input": "FIDELITY NATIONAL FINANCIAL, INC. /formerly/",
+      "expected": "Fidelity National Financial, Inc.",
+      "got": "FIDELIATION INC"
+    },
+    {
+      "idx": 38,
+      "difficulty": "easy",
+      "input": "NOVARTIS AG (the \"Company\")",
+      "expected": "NOVARTIS AG",
+      "got": "NOVARTS AG"
+    },
+    {
+      "idx": 39,
+      "difficulty": "hard",
+      "input": "CHEMICAL AND MINING CO OF CHILE, Incorporated",
+      "expected": "CHEMICAL & MINING CO OF CHILE INC",
+      "got": "CHEMICAL AND MINING CO OF CHILE"
+    },
+    {
+      "idx": 43,
+      "difficulty": "hard",
+      "input": "Extra  Space  Storage  Incorporated,",
+      "expected": "Extra Space Storage Inc.",
+      "got": "Extra  Space Storage Inc."
+    },
+    {
+      "idx": 45,
+      "difficulty": "easy",
+      "input": "Hyatt Hotels Corp",
+      "expected": "Hyatt Hotels Corp",
+      "got": "Hyatt Inc."
+    },
+    {
+      "idx": 48,
+      "difficulty": "hard",
+      "input": "FACTSET  RESEARCH  SYSTEMS,  Incorporated (fka)",
+      "expected": "FACTSET RESEARCH SYSTEMS INC",
+      "got": "FACTSET RESEARCH INC"
+    },
+    {
+      "idx": 49,
+      "difficulty": "hard",
+      "input": "pjt partners, inc,",
+      "expected": "PJT Partners Inc.",
+      "got": "PJT Inc."
+    },
+    {
+      "idx": 50,
+      "difficulty": "hard",
+      "input": "dba POSCO HOLDINGS INC",
+      "expected": "POSCO HOLDINGS INC.",
+      "got": "POSCO HOLDINGS INC"
+    },
+    {
+      "idx": 52,
+      "difficulty": "hard",
+      "input": "CF Industries Holdings Inc /formerly/",
+      "expected": "CF Industries Holdings, Inc.",
+      "got": "CF Industries Holdings Inc"
+    },
+    {
+      "idx": 56,
+      "difficulty": "hard",
+      "input": "WILLIAMS  COMPANIES,  Inc /DE/",
+      "expected": "WILLIAMS COMPANIES, INC.",
+      "got": "WILLIAMS COMPANIES /DE/"
+    },
+    {
+      "idx": 60,
+      "difficulty": "hard",
+      "input": "BANCO BILBAO VIZCAYA ARGENTARIA S A",
+      "expected": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+      "got": "BANCO BILBAO VIZCAYA ARGENTARIA S A"
+    },
+    {
+      "idx": 62,
+      "difficulty": "hard",
+      "input": "OWENS CORNING",
+      "expected": "Owens Corning",
+      "got": ""
+    },
+    {
+      "idx": 71,
+      "difficulty": "hard",
+      "input": "KEYCORP /NEW/ (the \"Company\")",
+      "expected": "KEYCORP /NEW/",
+      "got": "KEYCORP /PA/"
+    },
+    {
+      "idx": 74,
+      "difficulty": "easy",
+      "input": "axis capital holdings ltd, the Company",
+      "expected": "AXIS CAPITAL HOLDINGS LTD",
+      "got": "AXIA Capital Holdings Ltd"
+    },
+    {
+      "idx": 76,
+      "difficulty": "hard",
+      "input": "Equitable Holdings Inc.,",
+      "expected": "Equitable Holdings, Inc.",
+      "got": "Equitable Holdings Inc."
+    },
+    {
+      "idx": 80,
+      "difficulty": "hard",
+      "input": "Ingredion, Inc..",
+      "expected": "Ingredion Inc",
+      "got": "INGRIDEN INC"
+    },
+    {
+      "idx": 87,
+      "difficulty": "hard",
+      "input": "OLD NATIONAL BANCORP",
+      "expected": "OLD NATIONAL BANCORP /IN/",
+      "got": "OLD NATIONAL BANCORP"
+    },
+    {
+      "idx": 89,
+      "difficulty": "hard",
+      "input": "STERLING INFRASTRUCTURE Inc /formerly/",
+      "expected": "STERLING INFRASTRUCTURE, INC.",
+      "got": "STERLING INFRASTRUCTURE INC"
+    },
+    {
+      "idx": 90,
+      "difficulty": "easy",
+      "input": "Vista Energy, S.A.B. de C.V.",
+      "expected": "Vista Energy, S.A.B. de C.V.",
+      "got": "Vista Energy S.A.B. de C.V."
+    },
+    {
+      "idx": 93,
+      "difficulty": "hard",
+      "input": "Allison Transmission Holdings, Incorporated",
+      "expected": "Allison Transmission Holdings Inc",
+      "got": "Allison Transmission Holdings Inc."
+    },
+    {
+      "idx": 101,
+      "difficulty": "hard",
+      "input": "ONEOK INC /NEW/, a Delaware corporation",
+      "expected": "ONEOK INC /NEW/",
+      "got": "ONEOK INC /PA/"
+    },
+    {
+      "idx": 103,
+      "difficulty": "hard",
+      "input": "Krystal Biotech Incorporated, the Company",
+      "expected": "Krystal Biotech, Inc.",
+      "got": "Krystal Biotech Inc."
+    },
+    {
+      "idx": 105,
+      "difficulty": "hard",
+      "input": "silicon motion technology, corporation, a Delaware corporation",
+      "expected": "Silicon Motion Technology CORP",
+      "got": "Silicon Motion Corp"
+    },
+    {
+      "idx": 109,
+      "difficulty": "hard",
+      "input": "D-Wave Quantum, Inc - formerly known as",
+      "expected": "D-Wave Quantum Inc.",
+      "got": "D-Wave Inc."
+    },
+    {
+      "idx": 112,
+      "difficulty": "hard",
+      "input": "apollo global management inc - formerly known as",
+      "expected": "Apollo Global Management, Inc.",
+      "got": "Apollo Global Management Inc."
+    },
+    {
+      "idx": 116,
+      "difficulty": "hard",
+      "input": "THOMSON REUTERS CORP /CAN/",
+      "expected": "THOMSON REUTERS CORP /CAN/",
+      "got": "THOMSTON REUTERS CORP /CAN/"
+    },
+    {
+      "idx": 120,
+      "difficulty": "hard",
+      "input": "crown castle, inc. - formerly known as",
+      "expected": "CROWN CASTLE INC.",
+      "got": "CROWN CASTLE INC"
+    },
+    {
+      "idx": 130,
+      "difficulty": "hard",
+      "input": "SOUTHWEST AIRLINES CO /DE/",
+      "expected": "SOUTHWEST AIRLINES CO",
+      "got": "SOUTHWEST AIRLINES CO /DE/"
+    },
+    {
+      "idx": 133,
+      "difficulty": "hard",
+      "input": "Arthur J. Gallagher & , Co, a Delaware corporation",
+      "expected": "Arthur J. Gallagher & Co.",
+      "got": "Arthur J. Gallagher & Co"
+    },
+    {
+      "idx": 134,
+      "difficulty": "easy",
+      "input": "SYNAPTICS Inc. /DE/",
+      "expected": "SYNAPTICS Inc",
+      "got": "SYNAPTICS Inc."
+    },
+    {
+      "idx": 136,
+      "difficulty": "hard",
+      "input": "ORIX CORP /DE/",
+      "expected": "ORIX CORP",
+      "got": "ORIX CORP /DE/"
+    },
+    {
+      "idx": 140,
+      "difficulty": "easy",
+      "input": "Life Time Group Holdings, Inc.",
+      "expected": "Life Time Group Holdings, Inc.",
+      "got": "Life Time Group Holdings Inc."
+    },
+    {
+      "idx": 141,
+      "difficulty": "hard",
+      "input": "SIMON PROPERTY GROUP INC /DE/",
+      "expected": "SIMON PROPERTY GROUP INC.",
+      "got": "SIMON PROPERTY GROUP INC /DE/"
+    },
+    {
+      "idx": 147,
+      "difficulty": "hard",
+      "input": "AMDOCS LTD.",
+      "expected": "AMDOCS LTD",
+      "got": "AMDOH LTD"
+    },
+    {
+      "idx": 151,
+      "difficulty": "hard",
+      "input": "KASLION Acquisition B.V.",
+      "expected": "NXP Semiconductors N.V.",
+      "got": "KASLION Acquisition B.V."
+    },
+    {
+      "idx": 157,
+      "difficulty": "hard",
+      "input": "CARNIVAL CORP",
+      "expected": "Carnival Corp Ltd.",
+      "got": "Carnival Corp"
+    },
+    {
+      "idx": 158,
+      "difficulty": "hard",
+      "input": "Centennial Resource Development, Inc.",
+      "expected": "Permian Resources Corp",
+      "got": "Centennial Resource Development, Inc."
+    },
+    {
+      "idx": 162,
+      "difficulty": "hard",
+      "input": "Hubspot Inc",
+      "expected": "HUBSPOT INC",
+      "got": ""
+    },
+    {
+      "idx": 171,
+      "difficulty": "easy",
+      "input": "WESTERN ALLIANCE BANCORPORATION",
+      "expected": "WESTERN ALLIANCE BANCORPORATION",
+      "got": "WESTERN ALLIANCE BANCORP"
+    },
+    {
+      "idx": 172,
+      "difficulty": "hard",
+      "input": "Magnum Ice Cream Company B.V.",
+      "expected": "Magnum Ice Cream Co N.V.",
+      "got": "Magnum Ice Cream Company N.V."
+    },
+    {
+      "idx": 179,
+      "difficulty": "easy",
+      "input": "Oscar Health, Inc., a Delaware corporation",
+      "expected": "Oscar Health, Inc.",
+      "got": "Oscar Health Inc."
+    },
+    {
+      "idx": 187,
+      "difficulty": "hard",
+      "input": "HUNTINGTON INGALLS INDUSTRIES, INC /DE/",
+      "expected": "HUNTINGTON INGALLS INDUSTRIES, INC.",
+      "got": "HUNTINGTON INGALLS INDUSTRIES INC /DE/"
+    },
+    {
+      "idx": 189,
+      "difficulty": "easy",
+      "input": "CARVANA Co,",
+      "expected": "CARVANA CO.",
+      "got": "CARVANA CO"
+    },
+    {
+      "idx": 199,
+      "difficulty": "hard",
+      "input": "ENERGY  CO  OF  PARANA /DE/",
+      "expected": "ENERGY CO OF PARANA",
+      "got": ""
+    },
+    {
+      "idx": 202,
+      "difficulty": "easy",
+      "input": "Bausch & Lomb Corporation (successor to former entity)",
+      "expected": "Bausch & Lomb Corp",
+      "got": "Bausen & Lomb Corp"
+    },
+    {
+      "idx": 203,
+      "difficulty": "hard",
+      "input": "LABORATORY CORP OF AMERICA HOLDINGS",
+      "expected": "LABCORP HOLDINGS INC.",
+      "got": "LABORATORY CORP OF AMERICA HOLDINGS"
+    },
+    {
+      "idx": 204,
+      "difficulty": "hard",
+      "input": "FIGURE TECHNOLOGY SOLUTIONS, INC (successor to former entity)",
+      "expected": "Figure Technology Solutions, Inc.",
+      "got": "FIGURE TECHNOLOGY SOLUTIONS INC."
+    },
+    {
+      "idx": 205,
+      "difficulty": "hard",
+      "input": "Match Group Inc. /DE/",
+      "expected": "Match Group, Inc.",
+      "got": "Match Group Inc."
+    },
+    {
+      "idx": 213,
+      "difficulty": "hard",
+      "input": "Integrated Electrical Services, Inc.",
+      "expected": "IES Holdings, Inc.",
+      "got": "Integrated Electrical Services, Inc."
+    },
+    {
+      "idx": 216,
+      "difficulty": "hard",
+      "input": "KULICKE & SOFFA INDUSTRIES Inc. (successor to former entity)",
+      "expected": "KULICKE & SOFFA INDUSTRIES INC",
+      "got": "KULICKE & SOFRA INDUSTRIES INC"
+    },
+    {
+      "idx": 217,
+      "difficulty": "hard",
+      "input": "Strategy Inc. - formerly known as",
+      "expected": "Strategy Inc",
+      "got": "Strategy Inc."
+    },
+    {
+      "idx": 219,
+      "difficulty": "hard",
+      "input": "VERSANT MEDIA GROUP INC /formerly/",
+      "expected": "Versant Media Group, Inc.",
+      "got": "Versant Media Group Inc."
+    },
+    {
+      "idx": 223,
+      "difficulty": "hard",
+      "input": "WATSCO Inc. (successor to former entity)",
+      "expected": "WATSCO INC",
+      "got": "WATSCO INC."
+    },
+    {
+      "idx": 224,
+      "difficulty": "hard",
+      "input": "J  M  SMUCKER  CO /formerly/",
+      "expected": "J M SMUCKER Co",
+      "got": "J SMUCKER CO"
+    },
+    {
+      "idx": 225,
+      "difficulty": "hard",
+      "input": "HANOVER INSURANCE GROUP, Inc /DE/",
+      "expected": "HANOVER INSURANCE GROUP, INC.",
+      "got": "HANOVER INSURANCE GROUP INC"
+    },
+    {
+      "idx": 227,
+      "difficulty": "hard",
+      "input": "MOTOROLA SOLUTIONS, INC.",
+      "expected": "Motorola Solutions, Inc.",
+      "got": "MOTOROLA SOLUTIONS INC"
+    },
+    {
+      "idx": 232,
+      "difficulty": "hard",
+      "input": "HORMEL GEO A & CO",
+      "expected": "HORMEL FOODS CORP /DE/",
+      "got": "HORMEL GEO A & CO"
+    },
+    {
+      "idx": 233,
+      "difficulty": "hard",
+      "input": "PARSON CORP",
+      "expected": "PARSONS CORP",
+      "got": "PARSON CORP"
+    },
+    {
+      "idx": 234,
+      "difficulty": "hard",
+      "input": "Sanrio Company, Ltd./ADR (successor to former entity)",
+      "expected": "Sanrio Company, Ltd./ADR",
+      "got": "Sanrio Company Ltd/ADR"
+    },
+    {
+      "idx": 237,
+      "difficulty": "hard",
+      "input": "TOLL BROTHERS INC",
+      "expected": "Toll Brothers, Inc.",
+      "got": "TOLL BROTHERS INC"
+    },
+    {
+      "idx": 238,
+      "difficulty": "easy",
+      "input": "SERVICE CORP INTERNATIONAL /DE/",
+      "expected": "SERVICE CORP INTERNATIONAL",
+      "got": "SERVICE CORP INTERNATIONAL /DE/"
+    },
+    {
+      "idx": 242,
+      "difficulty": "easy",
+      "input": "WASTE MANAGEMENT Inc. /formerly/",
+      "expected": "WASTE MANAGEMENT INC",
+      "got": "Waste Connections, Inc."
+    },
+    {
+      "idx": 243,
+      "difficulty": "hard",
+      "input": "American Healthcare REIT Incorporated - formerly known as",
+      "expected": "American Healthcare REIT, Inc.",
+      "got": "American Healthcare REIT Inc."
+    },
+    {
+      "idx": 244,
+      "difficulty": "hard",
+      "input": "Southwest Gas Holdings, Inc.",
+      "expected": "Southwest Gas Holdings, Inc.",
+      "got": "Southwest Gas Holdings Inc."
+    },
+    {
+      "idx": 246,
+      "difficulty": "hard",
+      "input": "Rentokil Initial Plc /Fi",
+      "expected": "RENTOKIL INITIAL PLC /FI",
+      "got": "Rentokil Initial plc"
+    },
+    {
+      "idx": 248,
+      "difficulty": "easy",
+      "input": "Gaming & Leisure Properties Inc. (the \"Company\")",
+      "expected": "Gaming & Leisure Properties, Inc.",
+      "got": "Gaming & Leisure Properties Inc."
+    },
+    {
+      "idx": 250,
+      "difficulty": "hard",
+      "input": "Fidelity National Financial, INC, the Company",
+      "expected": "Fidelity National Financial, Inc.",
+      "got": "Fidelity National Information Services, Inc."
+    },
+    {
+      "idx": 254,
+      "difficulty": "easy",
+      "input": "NATIONAL FUEL GAS CO - formerly known as",
+      "expected": "NATIONAL FUEL GAS CO",
+      "got": "NATIONAL FUEL CO"
+    },
+    {
+      "idx": 262,
+      "difficulty": "hard",
+      "input": "VENTAS INC",
+      "expected": "Ventas, Inc.",
+      "got": "Ventas Inc"
+    },
+    {
+      "idx": 264,
+      "difficulty": "easy",
+      "input": "Enova International, Inc.",
+      "expected": "Enova International, Inc.",
+      "got": "Enova International Inc."
+    },
+    {
+      "idx": 268,
+      "difficulty": "hard",
+      "input": "JACK HENRY and ASSOCIATES, INC",
+      "expected": "JACK HENRY & ASSOCIATES INC",
+      "got": "JACK HENRY ASSOCIATES INC"
+    },
+    {
+      "idx": 271,
+      "difficulty": "hard",
+      "input": "VALLEY  NATIONAL  BAN,  Corporation.",
+      "expected": "VALLEY NATIONAL BANCORP",
+      "got": "VALLEY  NATIONAL  BANCORP"
+    },
+    {
+      "idx": 272,
+      "difficulty": "hard",
+      "input": "Arxis INC (the \"Company\")",
+      "expected": "Arxis, Inc.",
+      "got": "Arxis Inc."
+    },
+    {
+      "idx": 274,
+      "difficulty": "easy",
+      "input": "AMERICAN INTERNATIONAL GROUP, Incorporated (successor to former entity)",
+      "expected": "AMERICAN INTERNATIONAL GROUP, INC.",
+      "got": "AMERICAN INTERNATIONAL GROUP INC"
+    },
+    {
+      "idx": 280,
+      "difficulty": "hard",
+      "input": "GSI LUMONICS",
+      "expected": "NOVANTA INC",
+      "got": "GSI LUMONICS"
+    },
+    {
+      "idx": 284,
+      "difficulty": "hard",
+      "input": "stantec inc. /formerly/",
+      "expected": "STANTEC INC",
+      "got": "STENTEC INC."
+    },
+    {
+      "idx": 285,
+      "difficulty": "hard",
+      "input": "murphy  oil  corp",
+      "expected": "MURPHY OIL CORP",
+      "got": "MURPHY  OIL CORP"
+    },
+    {
+      "idx": 296,
+      "difficulty": "hard",
+      "input": "dba VODAFONE  GROUP  PUBLIC  LTD  CO",
+      "expected": "VODAFONE GROUP PUBLIC LTD CO",
+      "got": "VODAFONE GROUP PUBLIC LTD"
+    },
+    {
+      "idx": 299,
+      "difficulty": "hard",
+      "input": "Essent Group Ltd (successor to former entity)",
+      "expected": "Essent Group Ltd.",
+      "got": "Essent Group Ltd"
+    },
+    {
+      "idx": 301,
+      "difficulty": "hard",
+      "input": "amer sports, incorporated.",
+      "expected": "Amer Sports, Inc.",
+      "got": "Amer Sports Corp"
+    },
+    {
+      "idx": 303,
+      "difficulty": "easy",
+      "input": "Legence Corp. /formerly/",
+      "expected": "Legence Corp.",
+      "got": "Legence Corp"
+    },
+    {
+      "idx": 306,
+      "difficulty": "hard",
+      "input": "globus medical, inc. - formerly known as",
+      "expected": "GLOBUS MEDICAL INC",
+      "got": "globus medical, inc."
+    },
+    {
+      "idx": 308,
+      "difficulty": "easy",
+      "input": "Cirrus Logic, Inc. (successor to former entity)",
+      "expected": "CIRRUS LOGIC, INC.",
+      "got": "Cirrus Logic Inc."
+    },
+    {
+      "idx": 317,
+      "difficulty": "easy",
+      "input": "BOSTON SCIENTIFIC CORP",
+      "expected": "BOSTON SCIENTIFIC CORP",
+      "got": "BXP SCIENTIFIC SCIENTIFIC"
+    },
+    {
+      "idx": 318,
+      "difficulty": "easy",
+      "input": "AFLAC Inc.",
+      "expected": "AFLAC INC",
+      "got": "AFLAC Inc."
+    },
+    {
+      "idx": 324,
+      "difficulty": "hard",
+      "input": "Trade Desk, Incorporated /DE/",
+      "expected": "Trade Desk, Inc.",
+      "got": "Trade Desk Inc."
+    },
+    {
+      "idx": 325,
+      "difficulty": "hard",
+      "input": "CROWN CASTLE INC, the Company",
+      "expected": "CROWN CASTLE INC.",
+      "got": "CROWN CASTLE INC"
+    },
+    {
+      "idx": 326,
+      "difficulty": "hard",
+      "input": "Cloudflare, Inc.",
+      "expected": "Cloudflare, Inc.",
+      "got": ""
+    },
+    {
+      "idx": 329,
+      "difficulty": "hard",
+      "input": "ENTERPRISE PRODUCTS PARTNERS L P",
+      "expected": "ENTERPRISE PRODUCTS PARTNERS L.P.",
+      "got": "ENTERPRISE PRODUCTS L.P."
+    },
+    {
+      "idx": 331,
+      "difficulty": "hard",
+      "input": "RANGE RESOURCES CORP /formerly/",
+      "expected": "RANGE RESOURCES CORP",
+      "got": "RANGE RESOURCES CORP /NEW/"
+    },
+    {
+      "idx": 333,
+      "difficulty": "hard",
+      "input": "Anthem, Inc.",
+      "expected": "Elevance Health, Inc.",
+      "got": "Anthem, Inc."
+    },
+    {
+      "idx": 336,
+      "difficulty": "easy",
+      "input": "Rubrik, Inc.",
+      "expected": "Rubrik, Inc.",
+      "got": "Rubrik Inc."
+    },
+    {
+      "idx": 337,
+      "difficulty": "easy",
+      "input": "MSC INDUSTRIAL DIRECT CO Inc.,",
+      "expected": "MSC INDUSTRIAL DIRECT CO INC",
+      "got": "MSC Industrial Direct Co"
+    },
+    {
+      "idx": 342,
+      "difficulty": "hard",
+      "input": "NOMURA HOLDINGS INC /DE/",
+      "expected": "NOMURA HOLDINGS INC",
+      "got": "NOMURA HOLDINGS INC /DE/"
+    },
+    {
+      "idx": 349,
+      "difficulty": "hard",
+      "input": "MSA Safety, Incorporated, a Delaware corporation",
+      "expected": "MSA Safety Inc",
+      "got": "MSA Safety Inc."
+    },
+    {
+      "idx": 350,
+      "difficulty": "hard",
+      "input": "PROCTER and GAMBLE Co",
+      "expected": "PROCTER & GAMBLE Co",
+      "got": "PROCTer"
+    },
+    {
+      "idx": 352,
+      "difficulty": "hard",
+      "input": "NIKE Inc. - formerly known as",
+      "expected": "NIKE, Inc.",
+      "got": "NIKE INC."
+    },
+    {
+      "idx": 353,
+      "difficulty": "hard",
+      "input": "WILLIAMS COMPANIES INC",
+      "expected": "WILLIAMS COMPANIES, INC.",
+      "got": "WILLIAMS COMPANIES INC"
+    },
+    {
+      "idx": 355,
+      "difficulty": "hard",
+      "input": "NORDSON Corp. (successor to former entity)",
+      "expected": "NORDSON CORP",
+      "got": "NORDOSDINGA INC"
+    },
+    {
+      "idx": 366,
+      "difficulty": "hard",
+      "input": "dMY Technology Group, Inc. III",
+      "expected": "IonQ, Inc.",
+      "got": "DMY Technology Group Inc."
+    },
+    {
+      "idx": 383,
+      "difficulty": "easy",
+      "input": "INFINEON TECHNOLOGIES AG,",
+      "expected": "INFINEON TECHNOLOGIES AG",
+      "got": "INFINEIN TECHNOLOGIES AG"
+    },
+    {
+      "idx": 385,
+      "difficulty": "hard",
+      "input": "SPIRE Inc..",
+      "expected": "SPIRE INC",
+      "got": "SPIRE INC."
+    },
+    {
+      "idx": 387,
+      "difficulty": "hard",
+      "input": "Enova International, Inc.",
+      "expected": "Enova International, Inc.",
+      "got": "Enova International Inc."
+    },
+    {
+      "idx": 391,
+      "difficulty": "hard",
+      "input": "dba Cboe Global Markets Inc.",
+      "expected": "Cboe Global Markets, Inc.",
+      "got": "Cboe Global Markets Inc."
+    },
+    {
+      "idx": 396,
+      "difficulty": "hard",
+      "input": "KEYCORP /NEW/ - formerly known as",
+      "expected": "KEYCORP /NEW/",
+      "got": "KEYCORP /PA/"
+    },
+    {
+      "idx": 402,
+      "difficulty": "easy",
+      "input": "SentinelOne, Inc. /formerly/",
+      "expected": "SentinelOne, Inc.",
+      "got": "SentinelOne Inc."
+    },
+    {
+      "idx": 403,
+      "difficulty": "hard",
+      "input": "COHERENT, Corp., the Company",
+      "expected": "COHERENT CORP.",
+      "got": "COHERENT CORP"
+    },
+    {
+      "idx": 409,
+      "difficulty": "hard",
+      "input": "Kiniksa Pharmaceuticals International, PLC",
+      "expected": "Kiniksa Pharmaceuticals International, plc",
+      "got": "Kiniksa Pharmaceuticals International plc"
+    },
+    {
+      "idx": 416,
+      "difficulty": "hard",
+      "input": "Axalta Coating Systems Ltd, a Delaware corporation",
+      "expected": "Axalta Coating Systems Ltd.",
+      "got": "Axalta Coating Systems Ltd"
+    },
+    {
+      "idx": 417,
+      "difficulty": "hard",
+      "input": "TYSON FOODS, Inc.",
+      "expected": "TYSON FOODS, INC.",
+      "got": "TYSON FOODS INC"
+    },
+    {
+      "idx": 421,
+      "difficulty": "hard",
+      "input": "grupo aval acciones y valores s.a..",
+      "expected": "Grupo Aval Acciones Y Valores S.A.",
+      "got": "AVAL AVIACION S.A."
+    },
+    {
+      "idx": 422,
+      "difficulty": "easy",
+      "input": "Amneal Pharmaceuticals, INC.",
+      "expected": "Amneal Pharmaceuticals, Inc.",
+      "got": "Amneal Pharmaceuticals Inc."
+    },
+    {
+      "idx": 424,
+      "difficulty": "hard",
+      "input": "VECTOR VENTURES CORP.",
+      "expected": "Celsius Holdings, Inc.",
+      "got": "COSTAR GROUP INC."
+    },
+    {
+      "idx": 433,
+      "difficulty": "hard",
+      "input": "morningstar, incorporated /formerly/",
+      "expected": "Morningstar, Inc.",
+      "got": "morningstar"
+    },
+    {
+      "idx": 434,
+      "difficulty": "hard",
+      "input": "ROYAL  BANK  OF  CANADA, the Company",
+      "expected": "ROYAL BANK OF CANADA",
+      "got": "ROYAL  BANK OF CANADA"
+    },
+    {
+      "idx": 436,
+      "difficulty": "hard",
+      "input": "Palo Alto Networks Inc. (successor to former entity)",
+      "expected": "Palo Alto Networks Inc",
+      "got": "Palo Alto Networks Inc."
+    },
+    {
+      "idx": 440,
+      "difficulty": "hard",
+      "input": "HEALTHPEAK PROPERTIES, Incorporated.",
+      "expected": "HEALTHPEAK PROPERTIES, INC.",
+      "got": "HEALTHPEAK"
+    },
+    {
+      "idx": 442,
+      "difficulty": "easy",
+      "input": "JONES LANG LASALLE INC /formerly/",
+      "expected": "JONES LANG LASALLE INC",
+      "got": "JONES LANG LASALLE INC /NEW/"
+    },
+    {
+      "idx": 445,
+      "difficulty": "hard",
+      "input": "Alcoa Corporation",
+      "expected": "Alcoa Corp",
+      "got": "Alcoa Inc."
+    },
+    {
+      "idx": 449,
+      "difficulty": "hard",
+      "input": "central bancompany incorporated.",
+      "expected": "Central Bancompany, Inc.",
+      "got": "central bancompany"
+    },
+    {
+      "idx": 459,
+      "difficulty": "hard",
+      "input": "INTUIT, Incorporated - formerly known as",
+      "expected": "INTUIT INC.",
+      "got": "INTUIT INC"
+    },
+    {
+      "idx": 462,
+      "difficulty": "hard",
+      "input": "ASM LITHOGRAPHY HOLDING NV",
+      "expected": "ASML HOLDING NV",
+      "got": "ASM lithography HOLDING NV"
+    },
+    {
+      "idx": 486,
+      "difficulty": "hard",
+      "input": "dba EXELIXIS, INC",
+      "expected": "EXELIXIS, INC.",
+      "got": "EXELIXIS INC"
+    },
+    {
+      "idx": 487,
+      "difficulty": "easy",
+      "input": "dba AMKOR TECHNOLOGY, Inc",
+      "expected": "AMKOR TECHNOLOGY, INC.",
+      "got": "AMKOR TECHNOLOGY INC"
+    },
+    {
+      "idx": 488,
+      "difficulty": "hard",
+      "input": "PG AND E, Corp.",
+      "expected": "PG&E Corp",
+      "got": "PG AND E CORP"
+    },
+    {
+      "idx": 489,
+      "difficulty": "hard",
+      "input": "GREAT-WEST LIFECO Incorporated (the \"Company\")",
+      "expected": "GREAT-WEST LIFECO INC.",
+      "got": "GREAT-WEST LIFECO INC"
+    },
+    {
+      "idx": 490,
+      "difficulty": "hard",
+      "input": "Os76, Inc.",
+      "expected": "Everpure, Inc.",
+      "got": "ORI, Inc."
+    },
+    {
+      "idx": 492,
+      "difficulty": "hard",
+      "input": "GE HEALTHCARE TECHNOLOGIES INC. /formerly/",
+      "expected": "GE HealthCare Technologies Inc.",
+      "got": "GE HEALTHCARE TECHNOLOGIES INC"
+    },
+    {
+      "idx": 493,
+      "difficulty": "hard",
+      "input": "Cava Group Inc (fka)",
+      "expected": "CAVA GROUP, INC.",
+      "got": "Cava Group Inc."
+    },
+    {
+      "idx": 495,
+      "difficulty": "hard",
+      "input": "NPTG Holdings Corp",
+      "expected": "Ralliant Corp",
+      "got": "NPTG Holdings Corp"
+    },
+    {
+      "idx": 497,
+      "difficulty": "hard",
+      "input": "ITT WCO, Inc.",
+      "expected": "Xylem Inc.",
+      "got": "WCO INC."
+    },
+    {
+      "idx": 501,
+      "difficulty": "hard",
+      "input": "INGRAM MICRO HOLDING, CORP /DE/",
+      "expected": "Ingram Micro Holding Corp",
+      "got": "INGRAM MICRO HOLDING CORP /DE/"
+    },
+    {
+      "idx": 502,
+      "difficulty": "hard",
+      "input": "HARTFORD INSURANCE GROUP, Inc., a Delaware corporation",
+      "expected": "HARTFORD INSURANCE GROUP, INC.",
+      "got": "HARTFORD INSURANCE GROUP INC"
+    },
+    {
+      "idx": 505,
+      "difficulty": "hard",
+      "input": "COUPANG INCORPORATED.",
+      "expected": "Coupang, Inc.",
+      "got": "COUPANG INC"
+    },
+    {
+      "idx": 509,
+      "difficulty": "hard",
+      "input": "AVNET, Inc..",
+      "expected": "AVNET INC",
+      "got": "AVETI INC"
+    },
+    {
+      "idx": 511,
+      "difficulty": "hard",
+      "input": "BROKEN HILL PROPRIETARY CO LTD",
+      "expected": "BHP Group Ltd",
+      "got": "BROKEN HILL PROPRIETARY CO LTD"
+    },
+    {
+      "idx": 512,
+      "difficulty": "hard",
+      "input": "CELSIUS HOLDINGS INC (successor to former entity)",
+      "expected": "Celsius Holdings, Inc.",
+      "got": "CELSI Holdings Inc."
+    },
+    {
+      "idx": 514,
+      "difficulty": "hard",
+      "input": "Price T Rowe Group Inc (the \"Company\")",
+      "expected": "PRICE T ROWE GROUP INC",
+      "got": "Price T Rowe Group Inc."
+    },
+    {
+      "idx": 518,
+      "difficulty": "hard",
+      "input": "Brookfield Wealth Solutions Ltd /DE/",
+      "expected": "Brookfield Wealth Solutions Ltd.",
+      "got": "Brookfield Wealth Solutions Ltd"
+    },
+    {
+      "idx": 519,
+      "difficulty": "hard",
+      "input": "FirstCash Holdings, Incorporated (successor to former entity)",
+      "expected": "FirstCash Holdings, Inc.",
+      "got": "FirstCash Holdings Inc."
+    },
+    {
+      "idx": 523,
+      "difficulty": "hard",
+      "input": "FLEX, LTD (fka)",
+      "expected": "FLEX LTD.",
+      "got": "FLEX LTD"
+    },
+    {
+      "idx": 524,
+      "difficulty": "hard",
+      "input": "Crocs Inc",
+      "expected": "Crocs, Inc.",
+      "got": "Crocs Inc"
+    },
+    {
+      "idx": 536,
+      "difficulty": "hard",
+      "input": "TYCO INTERNATIONAL plc",
+      "expected": "Johnson Controls International plc",
+      "got": "TYCO INTERNATIONAL PLC"
+    },
+    {
+      "idx": 538,
+      "difficulty": "easy",
+      "input": "BECTON DICKINSON & CO /formerly/",
+      "expected": "BECTON DICKINSON & CO",
+      "got": "BECTON DICKINSON /NEW/"
+    },
+    {
+      "idx": 542,
+      "difficulty": "easy",
+      "input": "dba MITSUBISHI UFJ FINANCIAL GROUP INC",
+      "expected": "MITSUBISHI UFJ FINANCIAL GROUP INC",
+      "got": "Mitsubishi UFJ FINANCIAL GROUP INC."
+    },
+    {
+      "idx": 544,
+      "difficulty": "easy",
+      "input": "Victory Capital Holdings, Inc.",
+      "expected": "Victory Capital Holdings, Inc.",
+      "got": "Victory Capital Holdings Inc."
+    },
+    {
+      "idx": 549,
+      "difficulty": "hard",
+      "input": "OneMain Holdings, Inc",
+      "expected": "OneMain Holdings, Inc.",
+      "got": "OneMain Holdings Inc."
+    },
+    {
+      "idx": 550,
+      "difficulty": "hard",
+      "input": "KRYSTAL BIOTECH, INC,",
+      "expected": "Krystal Biotech, Inc.",
+      "got": "KRYSTAL BIOTECH INC"
+    },
+    {
+      "idx": 557,
+      "difficulty": "hard",
+      "input": "Diamondback  Energy  INC, a Delaware corporation",
+      "expected": "Diamondback Energy, Inc.",
+      "got": "Diamondback Energy Inc."
+    },
+    {
+      "idx": 563,
+      "difficulty": "easy",
+      "input": "Marvell Technology Incorporated - formerly known as",
+      "expected": "Marvell Technology, Inc.",
+      "got": "Marvell Technology Inc."
+    },
+    {
+      "idx": 566,
+      "difficulty": "hard",
+      "input": "MAPLEBEAR INC, the Company",
+      "expected": "Maplebear Inc.",
+      "got": "MAPLEBEAR INC"
+    },
+    {
+      "idx": 569,
+      "difficulty": "hard",
+      "input": "Schneider National, Inc. (the \"Company\")",
+      "expected": "Schneider National, Inc.",
+      "got": "Schneider National Inc."
+    },
+    {
+      "idx": 570,
+      "difficulty": "hard",
+      "input": "dba TAPESTRY INC",
+      "expected": "TAPESTRY, INC.",
+      "got": "TAPESTRY INC"
+    },
+    {
+      "idx": 573,
+      "difficulty": "hard",
+      "input": "dba REINSURANCE GROUP OF AMERICA, INC.",
+      "expected": "REINSURANCE GROUP OF AMERICA INC",
+      "got": "REINSURANCE GROUP OF AMERICA, INC."
+    },
+    {
+      "idx": 576,
+      "difficulty": "hard",
+      "input": "dba MADRIGAL PHARMACEUTICALS Incorporated",
+      "expected": "MADRIGAL PHARMACEUTICALS, INC.",
+      "got": "MADRIGAL PHARMACEUTICALS INC"
+    },
+    {
+      "idx": 581,
+      "difficulty": "easy",
+      "input": "APPLIED MATERIALS INC /DE, the Company",
+      "expected": "APPLIED MATERIALS INC /DE",
+      "got": "APPLIED MATERIALS INC /DE/"
+    },
+    {
+      "idx": 586,
+      "difficulty": "hard",
+      "input": "Sandy Springs Holdings, Inc.",
+      "expected": "BITMINE IMMERSION TECHNOLOGIES, INC.",
+      "got": "Sandy Springs Holdings Inc."
+    },
+    {
+      "idx": 593,
+      "difficulty": "hard",
+      "input": "UNITED RENTALS Inc.",
+      "expected": "UNITED RENTALS, INC.",
+      "got": "UNITED RENTALS INC"
+    },
+    {
+      "idx": 595,
+      "difficulty": "hard",
+      "input": "Rexnord Holdings, Inc",
+      "expected": "Zurn Elkay Water Solutions Corp",
+      "got": "Rexnord Technology, Inc."
+    },
+    {
+      "idx": 597,
+      "difficulty": "hard",
+      "input": "SouthState Corp",
+      "expected": "SouthState Bank Corp",
+      "got": "SouthState Corp"
+    },
+    {
+      "idx": 598,
+      "difficulty": "hard",
+      "input": "NEXSTAR MEDIA GROUP, Incorporated /DE/",
+      "expected": "NEXSTAR MEDIA GROUP, INC.",
+      "got": "NEXSTAR MEDIA GROUP INC"
+    },
+    {
+      "idx": 599,
+      "difficulty": "hard",
+      "input": "Nextracker LLC",
+      "expected": "Nextpower Inc.",
+      "got": "Nextracker Inc."
+    },
+    {
+      "idx": 600,
+      "difficulty": "hard",
+      "input": "WOLTERS KLUWER N V /FI /formerly/",
+      "expected": "WOLTERS KLUWER N V /FI",
+      "got": "WOLTERS KLUWER N V /FI /FI"
+    },
+    {
+      "idx": 602,
+      "difficulty": "hard",
+      "input": "nitori holdings co. ltd /DE/",
+      "expected": "Nitori Holdings Co., Ltd.",
+      "got": "Nitori Holdings Co. Ltd"
+    },
+    {
+      "idx": 606,
+      "difficulty": "easy",
+      "input": "dba GREAT-WEST LIFECO INC",
+      "expected": "GREAT-WEST LIFECO INC.",
+      "got": "GREAT-WEST LIFECO INC"
+    },
+    {
+      "idx": 608,
+      "difficulty": "hard",
+      "input": "CALIFORNIA FIRST NATIONAL BANCORP",
+      "expected": "CALIFORNIA FIRST LEASING CORP",
+      "got": "CALIFORNIA FIRST CALCULATED"
+    },
+    {
+      "idx": 613,
+      "difficulty": "easy",
+      "input": "dba WESTERN ALLIANCE BANCORPORATION",
+      "expected": "WESTERN ALLIANCE BANCORPORATION",
+      "got": "WESTERN ALLIANCE BANCORP"
+    },
+    {
+      "idx": 622,
+      "difficulty": "hard",
+      "input": "dba GRUPO FINANCIERO GALICIA SA",
+      "expected": "GRUPO FINANCIERO GALICIA SA",
+      "got": "GRUPO FINANCOIRO GALICIA SA"
+    },
+    {
+      "idx": 623,
+      "difficulty": "easy",
+      "input": "Lamb Weston Holdings, Inc.",
+      "expected": "Lamb Weston Holdings, Inc.",
+      "got": "Lamb Weston Holdings Inc."
+    },
+    {
+      "idx": 632,
+      "difficulty": "easy",
+      "input": "Mondelez International, Inc.",
+      "expected": "Mondelez International, Inc.",
+      "got": "Mondelez International Inc."
+    },
+    {
+      "idx": 633,
+      "difficulty": "easy",
+      "input": "OMNICOM GROUP, Inc /formerly/",
+      "expected": "OMNICOM GROUP INC.",
+      "got": "OMNICOM GROUP INC"
+    },
+    {
+      "idx": 639,
+      "difficulty": "hard",
+      "input": "REGENERON PHARMACEUTICALS Inc., a Delaware corporation",
+      "expected": "REGENERON PHARMACEUTICALS, INC.",
+      "got": "REGENERON PHARMACEUTICALS INC"
+    },
+    {
+      "idx": 641,
+      "difficulty": "easy",
+      "input": "HONEYWELL INTERNATIONAL INC,",
+      "expected": "HONEYWELL INTERNATIONAL INC",
+      "got": "HONEYWELL AUTOMATION INC"
+    },
+    {
+      "idx": 645,
+      "difficulty": "hard",
+      "input": "Geely Automobile Holdings Limited/ADR /formerly/",
+      "expected": "Geely Automobile Holdings Limited/ADR",
+      "got": "Geely Automobile Holdings Ltd."
+    },
+    {
+      "idx": 651,
+      "difficulty": "easy",
+      "input": "WELLS FARGO & COMPANY/MN - formerly known as",
+      "expected": "WELLS FARGO & COMPANY/MN",
+      "got": "WELLS FARGO/MN"
+    },
+    {
+      "idx": 652,
+      "difficulty": "hard",
+      "input": "KYMERA THERAPEUTICS INC",
+      "expected": "Kymera Therapeutics, Inc.",
+      "got": "Kymaera Therapeutics, Inc."
+    },
+    {
+      "idx": 653,
+      "difficulty": "hard",
+      "input": "Circle Internet Group Inc,",
+      "expected": "Circle Internet Group, Inc.",
+      "got": "Circle Internet Group Inc."
+    },
+    {
+      "idx": 654,
+      "difficulty": "hard",
+      "input": "DELTA AIR LINES INC /DE/",
+      "expected": "DELTA AIR LINES, INC.",
+      "got": "DELTA AIR LINES INC /DE/"
+    },
+    {
+      "idx": 657,
+      "difficulty": "hard",
+      "input": "SANOFI-AVENTIS",
+      "expected": "Sanofi",
+      "got": "SANOFI-AVENTS"
+    },
+    {
+      "idx": 662,
+      "difficulty": "easy",
+      "input": "Eaton Corp plc",
+      "expected": "Eaton Corp plc",
+      "got": "Eaton plc"
+    },
+    {
+      "idx": 663,
+      "difficulty": "hard",
+      "input": "Cheniere Energy Partners Limited Partnership - formerly known as",
+      "expected": "Cheniere Energy Partners, L.P.",
+      "got": "Cheniere Energy Partners, Inc."
+    },
+    {
+      "idx": 664,
+      "difficulty": "hard",
+      "input": "FIRST FINANCIAL BANKSHARES Inc.,",
+      "expected": "FIRST FINANCIAL BANKSHARES INC",
+      "got": "FIRST FINANCIAL INC"
+    },
+    {
+      "idx": 667,
+      "difficulty": "hard",
+      "input": "BERKSHIRE HATHAWAY Inc.",
+      "expected": "BERKSHIRE HATHAWAY INC",
+      "got": "BERKSHIRE HATHAWAY INC."
+    },
+    {
+      "idx": 668,
+      "difficulty": "hard",
+      "input": "Monarch Energy Holding, Inc.",
+      "expected": "Evergy, Inc.",
+      "got": "Monarch Energy Holding Inc."
+    },
+    {
+      "idx": 676,
+      "difficulty": "hard",
+      "input": "MCGRAW-HILL COMPANIES INC",
+      "expected": "S&P Global Inc.",
+      "got": "MCGAW-HILL COMPANIES INC"
+    },
+    {
+      "idx": 681,
+      "difficulty": "hard",
+      "input": "Susser Petroleum Partners LP",
+      "expected": "Sunoco LP",
+      "got": "SUSUSUSUSUSUSUSUS"
+    },
+    {
+      "idx": 685,
+      "difficulty": "hard",
+      "input": "EXPLORER HOLDING CORP",
+      "expected": "Booz Allen Hamilton Holding Corp",
+      "got": "EXPLORER HOLDING CORP"
+    },
+    {
+      "idx": 687,
+      "difficulty": "hard",
+      "input": "Nextracker Inc.",
+      "expected": "Nextpower Inc.",
+      "got": "Nextracker Inc."
+    },
+    {
+      "idx": 692,
+      "difficulty": "hard",
+      "input": "synopsys inc. (fka)",
+      "expected": "SYNOPSYS INC",
+      "got": "Synopsys Inc."
+    },
+    {
+      "idx": 693,
+      "difficulty": "hard",
+      "input": "birkenstock holding plc /formerly/",
+      "expected": "Birkenstock Holding plc",
+      "got": "Bikeweave plc"
+    },
+    {
+      "idx": 697,
+      "difficulty": "hard",
+      "input": "Hannon Armstrong Sustainable Infrastructure Capital, Inc.",
+      "expected": "HA Sustainable Infrastructure Capital, Inc.",
+      "got": "Hannon Armstrong Sustainable Infrastructure Capital, Inc."
+    },
+    {
+      "idx": 699,
+      "difficulty": "hard",
+      "input": "NNN REIT Incorporated, the Company",
+      "expected": "NNN REIT, INC.",
+      "got": "NNN REIT INC"
+    },
+    {
+      "idx": 710,
+      "difficulty": "hard",
+      "input": "NEXSTAR MEDIA GROUP, Inc. - formerly known as",
+      "expected": "NEXSTAR MEDIA GROUP, INC.",
+      "got": "NEXSTAR MEDIA GROUP INC."
+    },
+    {
+      "idx": 718,
+      "difficulty": "hard",
+      "input": "KEYCORP /NEW/ /DE/",
+      "expected": "KEYCORP /NEW/",
+      "got": "KEYCORP /PA/"
+    },
+    {
+      "idx": 719,
+      "difficulty": "hard",
+      "input": "CHIME FINANCIAL, INC. (successor to former entity)",
+      "expected": "Chime Financial, Inc.",
+      "got": "CHIME FINANCIAL INC"
+    },
+    {
+      "idx": 721,
+      "difficulty": "hard",
+      "input": "goldman sachs group inc /DE/",
+      "expected": "GOLDMAN SACHS GROUP INC",
+      "got": "Goldman S Sachs Inc."
+    },
+    {
+      "idx": 723,
+      "difficulty": "hard",
+      "input": "SUNBURST HOSPITALITY CORP",
+      "expected": "CHOICE HOTELS INTERNATIONAL INC /DE",
+      "got": "SUNBURST HOSPITAL Corp"
+    },
+    {
+      "idx": 724,
+      "difficulty": "hard",
+      "input": "WAI INC",
+      "expected": "ONEOK INC /NEW/",
+      "got": "WAI INC"
+    },
+    {
+      "idx": 727,
+      "difficulty": "hard",
+      "input": "UNITED  RENTALS  INC, the Company",
+      "expected": "UNITED RENTALS, INC.",
+      "got": "UNITED RENTALS, INC"
+    },
+    {
+      "idx": 729,
+      "difficulty": "hard",
+      "input": "MAXLINEAR, Inc. /DE/",
+      "expected": "MAXLINEAR, INC",
+      "got": "MAXLINEAR, Inc. /DE/"
+    },
+    {
+      "idx": 732,
+      "difficulty": "hard",
+      "input": "dMY Technology Group, Inc.",
+      "expected": "Rush Street Interactive, Inc.",
+      "got": "DMY Technology Group, Inc."
+    },
+    {
+      "idx": 733,
+      "difficulty": "hard",
+      "input": "J1 Holdings Inc.",
+      "expected": "Grab Holdings Ltd",
+      "got": "J1 Holdings Inc."
+    },
+    {
+      "idx": 739,
+      "difficulty": "hard",
+      "input": "H.J. Heinz Holding Corp",
+      "expected": "Kraft Heinz Co",
+      "got": "H.J. Heinz Holding Corp"
+    },
+    {
+      "idx": 741,
+      "difficulty": "hard",
+      "input": "REPUBLIC WASTE INDUSTRIES INC",
+      "expected": "AUTONATION, INC.",
+      "got": "REPUBLIC WASTE INDUSTRIES INC"
+    },
+    {
+      "idx": 750,
+      "difficulty": "hard",
+      "input": "Floor AND Decor Holdings Inc., a Delaware corporation",
+      "expected": "Floor & Decor Holdings, Inc.",
+      "got": "Floor Decor Holdings Inc."
+    },
+    {
+      "idx": 751,
+      "difficulty": "hard",
+      "input": "BRINKER  INTERNATIONAL,  Inc., a Delaware corporation",
+      "expected": "BRINKER INTERNATIONAL, INC",
+      "got": "BRINKER INTERNATIONAL, INC."
+    },
+    {
+      "idx": 754,
+      "difficulty": "hard",
+      "input": "Maxlinear Inc /formerly/",
+      "expected": "MAXLINEAR, INC",
+      "got": "MAXLINAR, INC"
+    },
+    {
+      "idx": 756,
+      "difficulty": "hard",
+      "input": "Core  AND  Main  Incorporated.",
+      "expected": "Core & Main, Inc.",
+      "got": ""
+    },
+    {
+      "idx": 759,
+      "difficulty": "hard",
+      "input": "MACOM Technology Solutions Holdings, INC /formerly/",
+      "expected": "MACOM Technology Solutions Holdings, Inc.",
+      "got": "MACOM Technology Solutions, Inc."
+    },
+    {
+      "idx": 770,
+      "difficulty": "hard",
+      "input": "ROKU INC /DE/",
+      "expected": "ROKU, INC",
+      "got": "ROKU, INC."
+    },
+    {
+      "idx": 772,
+      "difficulty": "easy",
+      "input": "Sanrio Company, Ltd./ADR, a Delaware corporation",
+      "expected": "Sanrio Company, Ltd./ADR",
+      "got": "Sanrio Company Ltd./ADR"
+    },
+    {
+      "idx": 776,
+      "difficulty": "easy",
+      "input": "Coeur Mining INC, the Company",
+      "expected": "Coeur Mining, Inc.",
+      "got": "Coeur Mining Inc."
+    },
+    {
+      "idx": 779,
+      "difficulty": "hard",
+      "input": "LOUISIANA-PACIFIC, CORP /DE/",
+      "expected": "LOUISIANA-PACIFIC CORP",
+      "got": "LOUISIANA-PACIFIC CORP /DE/"
+    },
+    {
+      "idx": 782,
+      "difficulty": "easy",
+      "input": "New Oriental Education & Technology Group, Inc,",
+      "expected": "New Oriental Education & Technology Group Inc.",
+      "got": "New Oriental Education & Technology Group, Inc."
+    },
+    {
+      "idx": 785,
+      "difficulty": "hard",
+      "input": "dba ENTERPRISE  PRODUCTS  PARTNERS,  Limited  Partnership",
+      "expected": "ENTERPRISE PRODUCTS PARTNERS L.P.",
+      "got": ""
+    },
+    {
+      "idx": 788,
+      "difficulty": "hard",
+      "input": "CENDANT CORP",
+      "expected": "AVIS BUDGET GROUP, INC.",
+      "got": "CENDANT CORP"
+    },
+    {
+      "idx": 794,
+      "difficulty": "easy",
+      "input": "ACI WORLDWIDE, INC..",
+      "expected": "ACI WORLDWIDE, INC.",
+      "got": "ACI WORLDWIDE INC"
+    },
+    {
+      "idx": 795,
+      "difficulty": "hard",
+      "input": "Smurfit Westrock, Public Limited Company, a Delaware corporation",
+      "expected": "Smurfit Westrock plc",
+      "got": "SMURIT Westrock"
+    },
+    {
+      "idx": 797,
+      "difficulty": "hard",
+      "input": "EQUITY LIFESTYLE PROPERTIES Inc.,",
+      "expected": "EQUITY LIFESTYLE PROPERTIES INC",
+      "got": "EQUITY LIFESTYLE"
+    },
+    {
+      "idx": 798,
+      "difficulty": "hard",
+      "input": "REGENERON PHARMACEUTICALS Incorporated (fka)",
+      "expected": "REGENERON PHARMACEUTICALS, INC.",
+      "got": "REGENERON PHARMACEUTICALS INC"
+    },
+    {
+      "idx": 801,
+      "difficulty": "hard",
+      "input": "INCYTE CORP /DE/",
+      "expected": "INCYTE CORP",
+      "got": "INCYTE CORP /DE/"
+    },
+    {
+      "idx": 804,
+      "difficulty": "hard",
+      "input": "Waste Connections INC (successor to former entity)",
+      "expected": "Waste Connections, Inc.",
+      "got": "Waste Connections Inc."
+    },
+    {
+      "idx": 808,
+      "difficulty": "hard",
+      "input": "HEALTHEQUITY Inc /DE/",
+      "expected": "HEALTHEQUITY, INC.",
+      "got": "HEALTHEQUITY INC"
+    },
+    {
+      "idx": 816,
+      "difficulty": "hard",
+      "input": "macro bank inc /DE/",
+      "expected": "Macro Bank Inc.",
+      "got": "Macro Bank Inc"
+    },
+    {
+      "idx": 819,
+      "difficulty": "hard",
+      "input": "CUMMINS ENGINE CO INC",
+      "expected": "CUMMINS INC",
+      "got": "CUMMINS ENGINE CO INC"
+    },
+    {
+      "idx": 821,
+      "difficulty": "easy",
+      "input": "Motorola Solutions Inc. (fka)",
+      "expected": "Motorola Solutions, Inc.",
+      "got": "Motorola Solutions Inc."
+    },
+    {
+      "idx": 826,
+      "difficulty": "hard",
+      "input": "Arthur J. Gallagher & Co, the Company",
+      "expected": "Arthur J. Gallagher & Co.",
+      "got": "Arthur J. Gallagher & Co"
+    },
+    {
+      "idx": 827,
+      "difficulty": "hard",
+      "input": "Var  Energi  ASA/ADR,",
+      "expected": "Var Energi ASA/ADR",
+      "got": "Energi ASA/ADR"
+    },
+    {
+      "idx": 830,
+      "difficulty": "easy",
+      "input": "COSTAR GROUP INC (the \"Company\")",
+      "expected": "COSTAR GROUP, INC.",
+      "got": "COSTAR GROUP INC"
+    },
+    {
+      "idx": 833,
+      "difficulty": "easy",
+      "input": "Credo Technology Group Holding Ltd",
+      "expected": "Credo Technology Group Holding Ltd",
+      "got": "Credendo Technology Group Holding Ltd"
+    },
+    {
+      "idx": 836,
+      "difficulty": "hard",
+      "input": "RENTOKIL  INITIAL  PLC  /FI",
+      "expected": "RENTOKIL INITIAL PLC /FI",
+      "got": "RENTOKIL INITIAL PLC"
+    },
+    {
+      "idx": 845,
+      "difficulty": "hard",
+      "input": "super group (sghc) ltd /formerly/",
+      "expected": "Super Group (SGHC) Ltd",
+      "got": "Super Group Ltd"
+    },
+    {
+      "idx": 853,
+      "difficulty": "hard",
+      "input": "MOLSON COORS BREWING CO",
+      "expected": "MOLSON COORS BEVERAGE CO",
+      "got": "MOLSON COORS BEVERAGE GROUP"
+    },
+    {
+      "idx": 865,
+      "difficulty": "hard",
+      "input": "Novus SpinCo 1, Inc.",
+      "expected": "Qnity Electronics, Inc.",
+      "got": "QXO, Inc."
+    },
+    {
+      "idx": 867,
+      "difficulty": "hard",
+      "input": "Morningstar, Inc.",
+      "expected": "Morningstar, Inc.",
+      "got": "Morningstar Inc."
+    },
+    {
+      "idx": 868,
+      "difficulty": "hard",
+      "input": "PRICE T ROWE GROUP, INC /DE/",
+      "expected": "PRICE T ROWE GROUP INC",
+      "got": "PRICE T ROWE GROUP INC /DE/"
+    },
+    {
+      "idx": 874,
+      "difficulty": "easy",
+      "input": "W.W. GRAINGER, INC.",
+      "expected": "W.W. GRAINGER, INC.",
+      "got": "W.W. GRAINGER INC"
+    },
+    {
+      "idx": 877,
+      "difficulty": "hard",
+      "input": "fifth third ban, corp",
+      "expected": "FIFTH THIRD BANCORP",
+      "got": "FEDERAL DEBRAKING TECHNOLOGIES INC"
+    },
+    {
+      "idx": 879,
+      "difficulty": "hard",
+      "input": "USA WASTE SERVICES INC",
+      "expected": "WASTE MANAGEMENT INC",
+      "got": "Waste Connections, Inc."
+    },
+    {
+      "idx": 880,
+      "difficulty": "hard",
+      "input": "APPLE COMPUTER INC/ FA",
+      "expected": "Apple Inc.",
+      "got": "APPLE INC/FA"
+    },
+    {
+      "idx": 883,
+      "difficulty": "hard",
+      "input": "Owens Corning /DE/",
+      "expected": "Owens Corning",
+      "got": "Owens Corning /DE/"
+    },
+    {
+      "idx": 885,
+      "difficulty": "hard",
+      "input": "american financial group, inc.",
+      "expected": "AMERICAN FINANCIAL GROUP INC",
+      "got": "American Financial Group Inc."
+    },
+    {
+      "idx": 903,
+      "difficulty": "easy",
+      "input": "MICRON  TECHNOLOGY  INC (the \"Company\")",
+      "expected": "MICRON TECHNOLOGY INC",
+      "got": "MICRON  TECHNOLOGY  INC"
+    },
+    {
+      "idx": 909,
+      "difficulty": "hard",
+      "input": "CHENIERE ENERGY INC",
+      "expected": "Cheniere Energy, Inc.",
+      "got": "CHENIERE ENERGY INC"
+    },
+    {
+      "idx": 917,
+      "difficulty": "easy",
+      "input": "ESTEE LAUDER COMPANIES, Inc., the Company",
+      "expected": "ESTEE LAUDER COMPANIES INC",
+      "got": "ESTEE LAUDER COMPANIES, INC."
+    },
+    {
+      "idx": 918,
+      "difficulty": "easy",
+      "input": "LAM RESEARCH CORP /formerly/",
+      "expected": "LAM RESEARCH CORP",
+      "got": "LAM RESEARCH CORP /FEDERAL"
+    },
+    {
+      "idx": 922,
+      "difficulty": "hard",
+      "input": "Autodesk Inc",
+      "expected": "Autodesk, Inc.",
+      "got": "Autodesk Inc."
+    },
+    {
+      "idx": 923,
+      "difficulty": "hard",
+      "input": "Klaviyo Inc - formerly known as",
+      "expected": "Klaviyo, Inc.",
+      "got": "Klaviyo Inc."
+    },
+    {
+      "idx": 925,
+      "difficulty": "hard",
+      "input": "OREILLY AUTOMOTIVE INC",
+      "expected": "O REILLY AUTOMOTIVE INC",
+      "got": "OREILLY AUTOMOTIVE INC"
+    },
+    {
+      "idx": 927,
+      "difficulty": "hard",
+      "input": "dba CROWN HOLDINGS Incorporated",
+      "expected": "CROWN HOLDINGS, INC.",
+      "got": "CROWN HOLDINGS INC"
+    },
+    {
+      "idx": 932,
+      "difficulty": "hard",
+      "input": "CONAGRA BRANDS, Inc,",
+      "expected": "CONAGRA BRANDS INC.",
+      "got": "CONAGRA BRANDS INC"
+    },
+    {
+      "idx": 938,
+      "difficulty": "easy",
+      "input": "dba Core Scientific, Inc./tx",
+      "expected": "Core Scientific, Inc./tx",
+      "got": "Core Scientific Inc."
+    },
+    {
+      "idx": 940,
+      "difficulty": "hard",
+      "input": "CD RADIO INC",
+      "expected": "SIRIUS XM HOLDINGS INC.",
+      "got": "CD RADIO INC"
+    },
+    {
+      "idx": 941,
+      "difficulty": "hard",
+      "input": "BofI Holding, Inc.",
+      "expected": "Axos Financial, Inc.",
+      "got": "BofI Holding Inc."
+    },
+    {
+      "idx": 942,
+      "difficulty": "easy",
+      "input": "VERTIV HOLDINGS CO /DE/",
+      "expected": "Vertiv Holdings Co",
+      "got": "VERTIV HOLDINGS CO /DE/"
+    },
+    {
+      "idx": 944,
+      "difficulty": "easy",
+      "input": "NIKE Incorporated (successor to former entity)",
+      "expected": "NIKE, Inc.",
+      "got": "NIKE INC"
+    },
+    {
+      "idx": 945,
+      "difficulty": "hard",
+      "input": "Medline Inc (successor to former entity)",
+      "expected": "Medline Inc.",
+      "got": "Medline Inc"
+    },
+    {
+      "idx": 948,
+      "difficulty": "hard",
+      "input": "ASE Technology Holding Co. Ltd - formerly known as",
+      "expected": "ASE Technology Holding Co., Ltd.",
+      "got": "ASE Technology Holding Co. Ltd"
+    },
+    {
+      "idx": 950,
+      "difficulty": "hard",
+      "input": "UDR, Inc. /DE/",
+      "expected": "UDR, Inc.",
+      "got": "UDR, Inc. /DE/"
+    },
+    {
+      "idx": 951,
+      "difficulty": "hard",
+      "input": "KULICKE & SOFFA INDUSTRIES, INC., a Delaware corporation",
+      "expected": "KULICKE & SOFFA INDUSTRIES INC",
+      "got": "KULICKE & SOFRA INDUSTRIES INC"
+    },
+    {
+      "idx": 954,
+      "difficulty": "hard",
+      "input": "RUSH  ENTERPRISES  INC  \\TX\\.",
+      "expected": "RUSH ENTERPRISES INC \\TX\\",
+      "got": "RUSH ENTERPRISES INC"
+    },
+    {
+      "idx": 955,
+      "difficulty": "hard",
+      "input": "TERADYNE INC",
+      "expected": "TERADYNE, INC",
+      "got": "TERADYNE INC"
+    },
+    {
+      "idx": 956,
+      "difficulty": "hard",
+      "input": "LOGITECH INTERNATIONAL SA",
+      "expected": "LOGITECH INTERNATIONAL S.A.",
+      "got": "LOGITECH INTERNATIONAL SA"
+    },
+    {
+      "idx": 959,
+      "difficulty": "hard",
+      "input": "SKYWORKS SOLUTIONS, INCORPORATED /DE/",
+      "expected": "SKYWORKS SOLUTIONS, INC.",
+      "got": "SKYWORKS SOLUTIONS, INC. /DE/"
+    },
+    {
+      "idx": 960,
+      "difficulty": "hard",
+      "input": "HUNTINGTON BANCSHARES INC/MD",
+      "expected": "HUNTINGTON BANCSHARES INC /MD/",
+      "got": "HUNTINGTON BANCSHARES INC/MD/"
+    },
+    {
+      "idx": 961,
+      "difficulty": "hard",
+      "input": "BJ's Wholesale Club Holdings, Incorporated - formerly known as",
+      "expected": "BJ's Wholesale Club Holdings, Inc.",
+      "got": "BJ's Wholesale Club Holdings Inc."
+    },
+    {
+      "idx": 964,
+      "difficulty": "hard",
+      "input": "HEALTHEQUITY, INC, the Company",
+      "expected": "HEALTHEQUITY, INC.",
+      "got": "HEALTHEQUITY, INC"
+    },
+    {
+      "idx": 967,
+      "difficulty": "easy",
+      "input": "BRINKER INTERNATIONAL Incorporated (the \"Company\")",
+      "expected": "BRINKER INTERNATIONAL, INC",
+      "got": "BRINKER INTERNATIONAL INC"
+    },
+    {
+      "idx": 970,
+      "difficulty": "hard",
+      "input": "ROYAL CARIBBEAN CRUISES LTD /DE/",
+      "expected": "ROYAL CARIBBEAN CRUISES LTD",
+      "got": "ROYAL CARIBBEAN CRUISES LTD /DE/"
+    },
+    {
+      "idx": 972,
+      "difficulty": "hard",
+      "input": "Ryman  Hospitality  Properties  Inc",
+      "expected": "Ryman Hospitality Properties, Inc.",
+      "got": "Ryman Properties, Inc."
+    },
+    {
+      "idx": 980,
+      "difficulty": "hard",
+      "input": "Klarna Group plc /DE/",
+      "expected": "Klarna Group plc",
+      "got": ""
+    },
+    {
+      "idx": 982,
+      "difficulty": "hard",
+      "input": "BRAZILIAN PETROLEUM CORP",
+      "expected": "PETROBRAS - PETROLEO BRASILEIRO SA",
+      "got": "BROOKFIELD ENERGY LTD"
+    },
+    {
+      "idx": 983,
+      "difficulty": "hard",
+      "input": "AXON ENTERPRISE, Incorporated (the \"Company\")",
+      "expected": "AXON ENTERPRISE, INC.",
+      "got": "AXON ENTERPRISE INC"
+    },
+    {
+      "idx": 988,
+      "difficulty": "hard",
+      "input": "ITT HARTFORD GROUP INC /DE",
+      "expected": "HARTFORD INSURANCE GROUP, INC.",
+      "got": "HARTFORD GROUP INC /DE"
+    },
+    {
+      "idx": 992,
+      "difficulty": "hard",
+      "input": "WELLS FARGO AND COMPANY/MN",
+      "expected": "WELLS FARGO & COMPANY/MN",
+      "got": "WELLS FARGO/MN"
+    },
+    {
+      "idx": 994,
+      "difficulty": "hard",
+      "input": "VIBRA ENERGIA S.A./ADR /formerly/",
+      "expected": "Vibra Energia S.A./ADR",
+      "got": "VIBRA ENERGIA S.A./ADR /ADR"
+    },
+    {
+      "idx": 997,
+      "difficulty": "easy",
+      "input": "Astera Labs Inc,",
+      "expected": "Astera Labs, Inc.",
+      "got": "ASTERA INC"
+    },
+    {
+      "idx": 999,
+      "difficulty": "hard",
+      "input": "dba Tesla INC",
+      "expected": "Tesla, Inc.",
+      "got": "Tesla Inc."
+    },
+    {
+      "idx": 1000,
+      "difficulty": "hard",
+      "input": "DOMINION RESOURCES INC /VA/",
+      "expected": "DOMINION ENERGY, INC",
+      "got": "DOMINION RESOURCES INC /VA/"
+    },
+    {
+      "idx": 1002,
+      "difficulty": "easy",
+      "input": "Affirm Holdings Inc (successor to former entity)",
+      "expected": "Affirm Holdings, Inc.",
+      "got": "Affirm Holdings Inc."
+    },
+    {
+      "idx": 1007,
+      "difficulty": "hard",
+      "input": "VODAFONE GROUP PUBLIC LIMITED COMPANY",
+      "expected": "VODAFONE GROUP PUBLIC LTD CO",
+      "got": "VODAFONE GROUP PUBLIC LTD"
+    },
+    {
+      "idx": 1009,
+      "difficulty": "easy",
+      "input": "AFFILIATED MANAGERS GROUP, Incorporated, a Delaware corporation",
+      "expected": "AFFILIATED MANAGERS GROUP, INC.",
+      "got": "AFFILIATED MANGements INC"
+    },
+    {
+      "idx": 1010,
+      "difficulty": "hard",
+      "input": "FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE",
+      "expected": "FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE",
+      "got": "FEDERAL NATIONAL MORTG GAN"
+    },
+    {
+      "idx": 1011,
+      "difficulty": "hard",
+      "input": "CORN PRODUCTS INTERNATIONAL INC",
+      "expected": "Ingredion Inc",
+      "got": "CORN PRODUCTS INTERNATIONAL INC"
+    },
+    {
+      "idx": 1015,
+      "difficulty": "hard",
+      "input": "COMMERCE  BANCSHARES  INC  /MO/ - formerly known as",
+      "expected": "COMMERCE BANCSHARES INC /MO/",
+      "got": "COMMERCE  BANCSHARES INC /MO/"
+    },
+    {
+      "idx": 1017,
+      "difficulty": "hard",
+      "input": "MADRIGAL PHARMACEUTICALS, INC, the Company",
+      "expected": "MADRIGAL PHARMACEUTICALS, INC.",
+      "got": "MADRIGAL PHARMACEUTICALS INC"
+    },
+    {
+      "idx": 1019,
+      "difficulty": "easy",
+      "input": "ANNALY CAPITAL MANAGEMENT INC /DE/",
+      "expected": "ANNALY CAPITAL MANAGEMENT INC",
+      "got": "ANNALY CAPITAL MANAGEMENT INC /DE/"
+    },
+    {
+      "idx": 1021,
+      "difficulty": "hard",
+      "input": "FTI CONSULTING INC",
+      "expected": "FTI CONSULTING, INC",
+      "got": "FTI CONSULT INC"
+    },
+    {
+      "idx": 1027,
+      "difficulty": "hard",
+      "input": "10x genomics, inc., the Company",
+      "expected": "10x Genomics, Inc.",
+      "got": ""
+    },
+    {
+      "idx": 1031,
+      "difficulty": "hard",
+      "input": "GLOBUS MEDICAL INC /DE/",
+      "expected": "GLOBUS MEDICAL INC",
+      "got": "GLOBUS MEDICAL INC /DE/"
+    },
+    {
+      "idx": 1034,
+      "difficulty": "hard",
+      "input": "ZIMMER BIOMET HOLDINGS, INC.",
+      "expected": "ZIMMER BIOMET HOLDINGS, INC.",
+      "got": "ZIMMER BIOMET HOLDINGS INC"
+    },
+    {
+      "idx": 1035,
+      "difficulty": "hard",
+      "input": "New Cobra Pubco, Inc.",
+      "expected": "Viper Energy, Inc.",
+      "got": "Cobra Pubco, Inc."
+    },
+    {
+      "idx": 1041,
+      "difficulty": "easy",
+      "input": "GOLDMAN SACHS GROUP INC, a Delaware corporation",
+      "expected": "GOLDMAN SACHS GROUP INC",
+      "got": "GOLDMAN SACHS INC"
+    },
+    {
+      "idx": 1042,
+      "difficulty": "hard",
+      "input": "VINFAST  AUTO  LTD..",
+      "expected": "VinFast Auto Ltd.",
+      "got": "VinFast Ltd."
+    },
+    {
+      "idx": 1044,
+      "difficulty": "hard",
+      "input": "GLOBAL PAYMENTS Inc.,",
+      "expected": "GLOBAL PAYMENTS INC",
+      "got": "GLOBAL PAYMENTS INC."
+    },
+    {
+      "idx": 1049,
+      "difficulty": "hard",
+      "input": "Pattern  Group  Incorporated /formerly/",
+      "expected": "Pattern Group Inc.",
+      "got": "Pattern Group"
+    },
+    {
+      "idx": 1051,
+      "difficulty": "hard",
+      "input": "zscaler  inc., the Company",
+      "expected": "Zscaler, Inc.",
+      "got": "ZSCALER INC"
+    },
+    {
+      "idx": 1055,
+      "difficulty": "easy",
+      "input": "MARTIN MARIETTA MATERIALS, Inc., a Delaware corporation",
+      "expected": "MARTIN MARIETTA MATERIALS INC",
+      "got": "MARTIN MARIETRA INC"
+    },
+    {
+      "idx": 1057,
+      "difficulty": "easy",
+      "input": "HENRY SCHEIN INC",
+      "expected": "HENRY SCHEIN INC",
+      "got": "HENRY SCHEIHEHEHEHEHEHEHE"
+    },
+    {
+      "idx": 1058,
+      "difficulty": "hard",
+      "input": "Silver Run Acquisition Corp",
+      "expected": "Permian Resources Corp",
+      "got": "QXO, Inc."
+    },
+    {
+      "idx": 1060,
+      "difficulty": "hard",
+      "input": "Eastern  Bankshares  Inc,",
+      "expected": "Eastern Bankshares, Inc.",
+      "got": "Eastern  Bankshares Inc"
+    },
+    {
+      "idx": 1062,
+      "difficulty": "hard",
+      "input": "STMICROELECTRONICS NV",
+      "expected": "STMicroelectronics N.V.",
+      "got": "STMicroELECTRONICS NV"
+    },
+    {
+      "idx": 1063,
+      "difficulty": "easy",
+      "input": "Cheniere Energy Partners, Limited Partnership /DE/",
+      "expected": "Cheniere Energy Partners, L.P.",
+      "got": "Chenier Energy Partners, Limited Partnership /DE/"
+    },
+    {
+      "idx": 1064,
+      "difficulty": "easy",
+      "input": "Wheaton Precious Metals, CORP",
+      "expected": "Wheaton Precious Metals Corp.",
+      "got": "Wheaton Precious Metals Corp"
+    },
+    {
+      "idx": 1068,
+      "difficulty": "hard",
+      "input": "ALLMERICA FINANCIAL CORP",
+      "expected": "HANOVER INSURANCE GROUP, INC.",
+      "got": "ALLMERICA FINANCIAL CORP"
+    },
+    {
+      "idx": 1071,
+      "difficulty": "hard",
+      "input": "ERICSSON LM TELEPHONE CO /DE/",
+      "expected": "ERICSSON LM TELEPHONE CO",
+      "got": "Erega S.A."
+    },
+    {
+      "idx": 1078,
+      "difficulty": "hard",
+      "input": "BANK OF NOVA SCOTIA /DE/",
+      "expected": "BANK OF NOVA SCOTIA",
+      "got": "BANK OF NOVA SCOTIA /DE/"
+    },
+    {
+      "idx": 1089,
+      "difficulty": "easy",
+      "input": "Global Business Travel Group Inc. (successor to former entity)",
+      "expected": "Global Business Travel Group, Inc.",
+      "got": "Global Business Travel Group Inc."
+    },
+    {
+      "idx": 1092,
+      "difficulty": "hard",
+      "input": "enersys,",
+      "expected": "EnerSys",
+      "got": "Energiesysteme"
+    },
+    {
+      "idx": 1093,
+      "difficulty": "hard",
+      "input": "Praxis  Precision  Medicines  Inc. /formerly/",
+      "expected": "Praxis Precision Medicines, Inc.",
+      "got": "Praxis Precision Medicines Inc."
+    },
+    {
+      "idx": 1096,
+      "difficulty": "hard",
+      "input": "SOUTHERN PERU COPPER HOLDING CO",
+      "expected": "SOUTHERN COPPER CORP/",
+      "got": "SOUTHERN COPPER INC"
+    },
+    {
+      "idx": 1097,
+      "difficulty": "hard",
+      "input": "Smurfit WestRock Ltd",
+      "expected": "Smurfit Westrock plc",
+      "got": "Smurfit Westrock Ltd"
+    },
+    {
+      "idx": 1101,
+      "difficulty": "easy",
+      "input": "SS&C Technologies Holdings, Inc..",
+      "expected": "SS&C Technologies Holdings Inc",
+      "got": "SS&C Technologies Holdings Inc."
+    },
+    {
+      "idx": 1102,
+      "difficulty": "hard",
+      "input": "fti consulting inc (successor to former entity)",
+      "expected": "FTI CONSULTING, INC",
+      "got": "FTI Consulting Inc."
+    },
+    {
+      "idx": 1105,
+      "difficulty": "easy",
+      "input": "Enova International, Inc. /formerly/",
+      "expected": "Enova International, Inc.",
+      "got": "Enova International Inc."
+    },
+    {
+      "idx": 1106,
+      "difficulty": "hard",
+      "input": "ROKU Incorporated (successor to former entity)",
+      "expected": "ROKU, INC",
+      "got": "ROKU, INC."
+    },
+    {
+      "idx": 1107,
+      "difficulty": "hard",
+      "input": "TERADYNE, INC.",
+      "expected": "TERADYNE, INC",
+      "got": "TERADYNE INC"
+    },
+    {
+      "idx": 1108,
+      "difficulty": "hard",
+      "input": "Garrett Transportation Systems Inc.",
+      "expected": "Garrett Motion Inc.",
+      "got": "Garrett Motion Technologies, Inc."
+    },
+    {
+      "idx": 1109,
+      "difficulty": "hard",
+      "input": "NetApp INC /DE/",
+      "expected": "NetApp, Inc.",
+      "got": "NetApp Inc"
+    },
+    {
+      "idx": 1117,
+      "difficulty": "hard",
+      "input": "pacs group inc. - formerly known as",
+      "expected": "PACS Group, Inc.",
+      "got": "PACS INC."
+    },
+    {
+      "idx": 1122,
+      "difficulty": "easy",
+      "input": "dba Axos Financial INC",
+      "expected": "Axos Financial, Inc.",
+      "got": "Axos Financial Inc."
+    },
+    {
+      "idx": 1129,
+      "difficulty": "hard",
+      "input": "Lineage Inc. /DE/",
+      "expected": "Lineage, Inc.",
+      "got": "Lineage, Inc. /DE/"
+    },
+    {
+      "idx": 1132,
+      "difficulty": "hard",
+      "input": "1847432 Alberta ULC",
+      "expected": "Ovintiv Inc.",
+      "got": "Alberta ULC"
+    },
+    {
+      "idx": 1137,
+      "difficulty": "hard",
+      "input": "Kodiak  Gas  Services  Incorporated (fka)",
+      "expected": "Kodiak Gas Services, Inc.",
+      "got": "Kodiak Gas Services Inc."
+    },
+    {
+      "idx": 1138,
+      "difficulty": "hard",
+      "input": "Belimo Holding Ag/Adr",
+      "expected": "BELIMO Holding AG/ADR",
+      "got": "Bemis Holding AG/ADR"
+    },
+    {
+      "idx": 1139,
+      "difficulty": "hard",
+      "input": "HYSEQ INC",
+      "expected": "Oruka Therapeutics, Inc.",
+      "got": "HYSEQ INC"
+    },
+    {
+      "idx": 1140,
+      "difficulty": "hard",
+      "input": "Hudbay Minerals Inc (successor to former entity)",
+      "expected": "Hudbay Minerals Inc.",
+      "got": "Hudbay Minerals Inc"
+    },
+    {
+      "idx": 1141,
+      "difficulty": "easy",
+      "input": "Bausch & Lomb CORP (successor to former entity)",
+      "expected": "Bausch & Lomb Corp",
+      "got": "Bausen & Lomb Corp"
+    },
+    {
+      "idx": 1142,
+      "difficulty": "hard",
+      "input": "BLACK HILLS HOLDING CORP",
+      "expected": "BLACK HILLS CORP /SD/",
+      "got": "BLACK HILLS CORP"
+    },
+    {
+      "idx": 1149,
+      "difficulty": "hard",
+      "input": "Archrock, Inc. (fka)",
+      "expected": "Archrock, Inc.",
+      "got": "ARCH ROCK INC."
+    },
+    {
+      "idx": 1155,
+      "difficulty": "hard",
+      "input": "dba Simpson Manufacturing Co. INC",
+      "expected": "Simpson Manufacturing Co., Inc.",
+      "got": "Simpson Manufacturing Co"
+    },
+    {
+      "idx": 1157,
+      "difficulty": "hard",
+      "input": "METTLER TOLEDO INTERNATIONAL INC",
+      "expected": "METTLER TOLEDO INTERNATIONAL INC/",
+      "got": "METTLER TOLEDO INTERNATIONAL INC"
+    },
+    {
+      "idx": 1158,
+      "difficulty": "hard",
+      "input": "RTZ CORPORATION PLC",
+      "expected": "RIO TINTO PLC",
+      "got": "RTZ PLC"
+    },
+    {
+      "idx": 1163,
+      "difficulty": "easy",
+      "input": "CF Industries Holdings, Inc.",
+      "expected": "CF Industries Holdings, Inc.",
+      "got": "CF Industries Holdings Inc."
+    },
+    {
+      "idx": 1166,
+      "difficulty": "hard",
+      "input": "BRITISH AEROSPACE PUBLIC LTD CO /FI/",
+      "expected": "BAE SYSTEMS PLC /FI/",
+      "got": "BRITISH AEROSPACE PUBLIC LTD CO /FI/"
+    },
+    {
+      "idx": 1170,
+      "difficulty": "easy",
+      "input": "TYSON FOODS, INC - formerly known as",
+      "expected": "TYSON FOODS, INC.",
+      "got": "TYSON FOODS INC"
+    },
+    {
+      "idx": 1178,
+      "difficulty": "hard",
+      "input": "Owl Rock Capital Corp",
+      "expected": "Blue Owl Capital Corp",
+      "got": "Owl Capital Corp"
+    },
+    {
+      "idx": 1184,
+      "difficulty": "easy",
+      "input": "United Airlines Holdings, Inc.,",
+      "expected": "United Airlines Holdings, Inc.",
+      "got": "UNITED AIRLINES HOLDINGS INC"
+    },
+    {
+      "idx": 1190,
+      "difficulty": "hard",
+      "input": "RPM INC/OH/",
+      "expected": "RPM INTERNATIONAL INC/DE/",
+      "got": "RPM IND/DE/"
+    },
+    {
+      "idx": 1191,
+      "difficulty": "hard",
+      "input": "Clearway Energy INC /formerly/",
+      "expected": "Clearway Energy, Inc.",
+      "got": "Clearway Energy Inc."
+    },
+    {
+      "idx": 1202,
+      "difficulty": "hard",
+      "input": "Warner Bros. Discovery Incorporated /formerly/",
+      "expected": "Warner Bros. Discovery, Inc.",
+      "got": "Warner Bros. Discovery Inc."
+    },
+    {
+      "idx": 1211,
+      "difficulty": "hard",
+      "input": "EDP ENERGIAS DE PORTUGAL SA,",
+      "expected": "EDP ENERGIAS DE PORTUGAL SA",
+      "got": "EDP ENERGIRES SA"
+    },
+    {
+      "idx": 1219,
+      "difficulty": "easy",
+      "input": "Geely Automobile Holdings Limited/ADR (fka)",
+      "expected": "Geely Automobile Holdings Limited/ADR",
+      "got": "Geely Automobile Holdings Ltd/ADR"
+    },
+    {
+      "idx": 1220,
+      "difficulty": "easy",
+      "input": "VICI PROPERTIES Incorporated",
+      "expected": "VICI PROPERTIES INC.",
+      "got": "VICI PROPERTIES INC"
+    },
+    {
+      "idx": 1223,
+      "difficulty": "hard",
+      "input": "Bilibili Inc /formerly/",
+      "expected": "Bilibili Inc.",
+      "got": "Bilibili Inc"
+    },
+    {
+      "idx": 1224,
+      "difficulty": "easy",
+      "input": "TENET HEALTHCARE CORP /formerly/",
+      "expected": "TENET HEALTHCARE CORP",
+      "got": "TENET HEALTHCARE CORP /DE"
+    },
+    {
+      "idx": 1226,
+      "difficulty": "hard",
+      "input": "Cheniere Energy Partners, L.P..",
+      "expected": "Cheniere Energy Partners, L.P.",
+      "got": "Chenier Energy Partners, L.P."
+    },
+    {
+      "idx": 1230,
+      "difficulty": "hard",
+      "input": "bok financial corp /formerly/",
+      "expected": "BOK FINANCIAL CORP",
+      "got": "BOK FINANCIAL CORP /NEW/"
+    },
+    {
+      "idx": 1233,
+      "difficulty": "hard",
+      "input": "WILLIAMS COMPANIES Incorporated, a Delaware corporation",
+      "expected": "WILLIAMS COMPANIES, INC.",
+      "got": "WILLIAMS COMPANIES INC"
+    },
+    {
+      "idx": 1237,
+      "difficulty": "hard",
+      "input": "UL Solutions Inc., a Delaware corporation",
+      "expected": "UL Solutions Inc.",
+      "got": "UL Solutions, Inc."
+    },
+    {
+      "idx": 1241,
+      "difficulty": "hard",
+      "input": "MARKEL HOLDINGS INC",
+      "expected": "MARKEL GROUP INC.",
+      "got": "MARKEL GROUP LTD"
+    },
+    {
+      "idx": 1245,
+      "difficulty": "hard",
+      "input": "COUPANG INC, a Delaware corporation",
+      "expected": "Coupang, Inc.",
+      "got": "COUPANG INC"
+    },
+    {
+      "idx": 1247,
+      "difficulty": "hard",
+      "input": "ENERGY CO OF MINAS GERAIS /DE/",
+      "expected": "ENERGY CO OF MINAS GERAIS",
+      "got": "ENERGY CO OF MINAS GERAIS /DE/"
+    },
+    {
+      "idx": 1256,
+      "difficulty": "hard",
+      "input": "sofi technologies, inc. /DE/",
+      "expected": "SoFi Technologies, Inc.",
+      "got": "SoFITI"
+    },
+    {
+      "idx": 1257,
+      "difficulty": "hard",
+      "input": "Gartner Inc., a Delaware corporation",
+      "expected": "GARTNER INC",
+      "got": "Gartner Inc."
+    },
+    {
+      "idx": 1258,
+      "difficulty": "easy",
+      "input": "BUNZL PLC /DE/",
+      "expected": "BUNZL PLC",
+      "got": "BUNZL PLC /DE/"
+    },
+    {
+      "idx": 1259,
+      "difficulty": "easy",
+      "input": "Morningstar, Inc., the Company",
+      "expected": "Morningstar, Inc.",
+      "got": "Morningstar Inc."
+    },
+    {
+      "idx": 1261,
+      "difficulty": "easy",
+      "input": "Rubrik Incorporated",
+      "expected": "Rubrik, Inc.",
+      "got": "Rubrik Inc."
+    },
+    {
+      "idx": 1263,
+      "difficulty": "hard",
+      "input": "Nutrien Ltd, the Company",
+      "expected": "Nutrien Ltd.",
+      "got": "Nutrien Ltd"
+    },
+    {
+      "idx": 1264,
+      "difficulty": "hard",
+      "input": "STATOIL ASA",
+      "expected": "EQUINOR ASA",
+      "got": "STATOIL ASA"
+    },
+    {
+      "idx": 1267,
+      "difficulty": "easy",
+      "input": "KIMBERLY CLARK CORP /DE/",
+      "expected": "KIMBERLY CLARK CORP",
+      "got": "KIMBERLY CLIMER CORP /DE/"
+    },
+    {
+      "idx": 1272,
+      "difficulty": "easy",
+      "input": "brinker international, inc - formerly known as",
+      "expected": "BRINKER INTERNATIONAL, INC",
+      "got": "BRINKER INTERNATIONAL INC"
+    },
+    {
+      "idx": 1273,
+      "difficulty": "hard",
+      "input": "dba ONTO INNOVATION INC",
+      "expected": "ONTO INNOVATION INC.",
+      "got": "ONTO INNOVATION INC"
+    },
+    {
+      "idx": 1276,
+      "difficulty": "hard",
+      "input": "FNB CORP/PA",
+      "expected": "FNB CORP/PA/",
+      "got": "FNB CORP/PA"
+    },
+    {
+      "idx": 1277,
+      "difficulty": "hard",
+      "input": "Brown Forman Corp /DE/",
+      "expected": "BROWN FORMAN CORP",
+      "got": "BROWN FORMAN CORP /DE/"
+    },
+    {
+      "idx": 1279,
+      "difficulty": "easy",
+      "input": "dba CENOVUS ENERGY Incorporated",
+      "expected": "CENOVUS ENERGY INC.",
+      "got": "CENOVUS ENERGY INC"
+    },
+    {
+      "idx": 1290,
+      "difficulty": "easy",
+      "input": "Uber Technologies, Inc, a Delaware corporation",
+      "expected": "Uber Technologies, Inc",
+      "got": "Uber Technologies, Inc."
+    },
+    {
+      "idx": 1292,
+      "difficulty": "hard",
+      "input": "Bank of the Ozarks",
+      "expected": "Bank OZK",
+      "got": "Bank of the Ozarks"
+    },
+    {
+      "idx": 1294,
+      "difficulty": "easy",
+      "input": "NUCOR Corporation /DE/",
+      "expected": "NUCOR CORP",
+      "got": "NUOR CORP"
+    },
+    {
+      "idx": 1297,
+      "difficulty": "hard",
+      "input": "dba LABCORP HOLDINGS, Inc.",
+      "expected": "LABCORP HOLDINGS INC.",
+      "got": "LABCORP HOLDINGS INC"
+    },
+    {
+      "idx": 1298,
+      "difficulty": "hard",
+      "input": "Mastercard  INC, the Company",
+      "expected": "Mastercard Inc",
+      "got": "Mastercard Inc."
+    },
+    {
+      "idx": 1306,
+      "difficulty": "easy",
+      "input": "Evergy INC - formerly known as",
+      "expected": "Evergy, Inc.",
+      "got": "Evergy Inc."
+    }
+  ]
+}

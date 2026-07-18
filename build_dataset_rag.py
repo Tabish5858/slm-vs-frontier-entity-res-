@@ -1,8 +1,10 @@
 """
-Build RAG-aware training dataset: each example includes a candidate list
-in the prompt, teaching the model to SELECT from candidates rather than
-GENERATE from memory. This is how entity resolution works in production.
+[SHELVED — OUT OF SCOPE] RAG-aware training dataset with candidate lists.
+Experimental approach that achieved only 73% accuracy — insufficient compared
+to the direct fine-tuning approach (87.7%). Kept as reference only.
 
+The winning dataset builder is in build_dataset_v3.py.
+"""
 For each training example:
   1. The correct company is always in the candidate list
   2. K-1 random "distractor" companies are also included

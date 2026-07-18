@@ -1,5 +1,7 @@
 adapters/
+adapters_v3/
 adapters_rag/
+adapters_7b/
 models/
 .cache/
 __pycache__/

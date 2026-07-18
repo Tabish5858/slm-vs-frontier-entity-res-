@@ -1,6 +1,11 @@
 """
-Hybrid entity resolution: fuzzy search + heuristic cleaning + model fallback.
-No training needed — just better matching.
+[SHELVED — OUT OF SCOPE] Hybrid entity resolution: fuzzy search + heuristic cleaning.
+This is a rule-based lookup table, NOT a fine-tuned LLM. It achieves 100% accuracy
+but is NOT a valid submission for the Covent LLM Challenge (no model inference,
+trained/tested on overlapping EDGAR data). Kept as an ablation footnote only.
+
+The winning submission model is in evaluate.py → call_finetuned_model()
+using ./adapters_v3 (rank=32, 2800 iters, 87.7% accuracy).
 
 Usage:
   python evaluate_hybrid.py --test ./data/test.jsonl --n 200

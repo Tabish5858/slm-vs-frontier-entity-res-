@@ -60,7 +60,7 @@ def call_finetuned_model(user_prompt: str, system_prompt: str) -> str:
         from mlx_lm import load
         _ft_model, _ft_tokenizer = load(
             "./models/qwen2.5-3b-instruct-4bit",
-            adapter_path="./adapters",
+            adapter_path="./adapters_v3",
         )
     from mlx_lm import generate
     prompt = _ft_tokenizer.apply_chat_template(
