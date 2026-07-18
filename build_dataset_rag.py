@@ -1,9 +1,11 @@
 """
-[SHELVED — OUT OF SCOPE] RAG-aware training dataset with candidate lists.
-Experimental approach that achieved only 73% accuracy — insufficient compared
-to the direct fine-tuning approach (87.7%). Kept as reference only.
+[SHELVED — NOT PART OF FINAL SUBMISSION] Early RAG training dataset using random
+distractor companies (not real retrieval results). Achieved only 73% because the
+training distribution didn't match the real retrieval distribution at inference.
+Kept as reference only.
 
-The winning dataset builder is in build_dataset_v3.py.
+The winning training pipeline uses actual fuzzy-search retrieval results as
+distractors (see build_dataset_rag_v2 logic, invoked inline during training).
 """
 For each training example:
   1. The correct company is always in the candidate list

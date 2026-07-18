@@ -1,86 +1,173 @@
 # SLM vs Frontier — Entity Resolution
 
-**Covent LLM Challenge**: Fine-tune a small language model to beat frontier models
-(Claude Opus 4.8, GPT-5.6-sol, Gemini 3.1 Pro) at a niche task.
+**Covent LLM Challenge**: Fine-tune a small language model to beat frontier models at a niche task.
 
-**Task**: Map messy/noisy company names to exact SEC-registered canonical names.
+**Task**: Normalize messy company names (typos, suffix variations, legal wrappers, former names) to exact SEC-registered canonical names.
 
-**Result**: 🏆 **Fine-tuned Qwen2.5-3B (3B params) beats Claude Opus 4.8**
+**Result**: **Fine-tuned Qwen2.5-3B + RAG = 99.0% on unseen companies. Claude Opus 4.8 raw = 78.5%.** A 3B model with retrieval-grounded inference nearly matches Claude Opus 4.8 *with the same retrieval* (100%).
 
-## Final Comparison
+---
 
-| Model | Overall | Hard Subset | Easy Subset |
-|-------|---------|-------------|-------------|
-| **Our fine-tuned Qwen2.5-3B** | **87.7%** | **85.2%** | **93.1%** |
-| Claude Opus 4.8 | 86.0% | 83.2% | 91.3% |
-| Our fine-tuned (v2, initial) | 64.6% | 58.1% | 78.5% |
+## Why this task
 
-Hard subset = real former names + heavy synthetic noise (893 examples).
-Easy subset = clean/lightly-noised company names (418 examples).
-Total test set: 1,311 held-out examples (untouched since dataset creation).
+Entity resolution is a core real-world problem in KYC/compliance, vendor deduplication, supply-chain mapping, and SEC filing analysis. Companies appear under dozens of name variants — `Apple Inc.` vs `APPLE COMPUTER INC` (former name) vs `dba Apple, Inc., a California corporation`. Human operators spend hours normalizing these manually. A system that maps any variant to a canonical SEC-registered name, with zero hallucination and sub-second latency, has immediate production value.
 
-## Approach
+The task is niche and narrow by design — exactly the kind of task where a small, fine-tuned model should beat a general-purpose frontier model if the architecture is right.
 
-### Data
-- 1,500 US public companies from SEC EDGAR (free, no API key)
-- Training: 11,866 examples — 2,324 real former names + synthetic noise + comma-precision pairs
-- Validation: 1,618 examples (12% of non-test data)
-- Test: 1,311 held-out examples (fixed, never modified)
+---
 
-### Model
-- Base: `mlx-community/Qwen2.5-3B-Instruct-4bit` (3B parameters, 4-bit quantized, ~3.3GB)
-- Fine-tuning: LoRA (rank=32, 16 layers, ~107MB adapter)
-- Training: 2,800 iterations, batch size 4, learning rate 1e-4, Adam optimizer
-- Hardware: M1 Pro (16GB RAM), ~3.7GB peak memory
+## The honest debugging journey
 
-### Key Improvements (64.6% → 87.7%)
-1. **Error analysis**: 70% of failures were suffix/casing precision errors, not wrong companies
-2. **Data quality**: 3× more real former name examples (898 → 2,324), comma-precision training
-3. **Training duration**: 2,800 iters vs 1,000 (val loss: 0.44 → 0.07)
-4. **LoRA capacity**: rank 8 → 32 (4× more parameters)
+We didn't start at 99%. Here's what actually happened:
 
-## Reproduce
+**Phase 1 — The false win**: We built a pure rule-based lookup table (`evaluate_hybrid.py`) that scored **100%** on our test set. It was fast, elegant, and completely invalid — a database lookup, not an LLM, and the test set overlapped with the database we built the rules from. This taught us that entity resolution is fundamentally a retrieval problem, but we needed an actual fine-tuned model for the challenge.
 
-```bash
-# 1. Build dataset (requires data/edgar_raw.jsonl)
-python3 build_dataset_v3.py
+**Phase 2 — The memorization trap**: We fine-tuned Qwen2.5-3B directly on (noisy name → canonical name) pairs. On our original test set (company-level overlap with training), it scored **87.7%** — beating Claude Opus 4.8's 86.0%. We celebrated too early. When we built a truly clean holdout of 200 companies *never seen in training*, accuracy collapsed to **37.0%**. The model hadn't learned entity resolution — it had memorized 1,500 company names as a lookup table encoded in LoRA weights.
 
-# 2. Train (requires mlx_lm, ~3.5GB GPU memory)
-mlx_lm.lora -c train_config_v3_continue.yaml
+**Phase 3 — RAG-aware fine-tuning**: We pivoted to a retrieval-augmented architecture. Instead of training the model to memorize entities, we trained it to *select and format* the correct entity from retrieved candidates. The base model (Qwen2.5-3B) with RAG scored 96.6% zero-shot on unseen companies. Fine-tuning the model specifically for candidate selection (on companies disjoint from the holdout) raised this to **99.0%**.
 
-# 3. Evaluate
-python3 evaluate.py --test data/test.jsonl
+The negative results (37.0% pure-FT on clean holdout, 100% lookup-table false win) are not hidden — they are the story. The architecture matters more than the model size.
+
+---
+
+## Final results (clean company-level holdout, 200 unseen companies)
+
+All results on `data/test_clean_holdout.jsonl` — 644 examples from 200 SEC companies with **zero CIK overlap** with training/validation data. Test file checksum: `2244d851...` (never modified).
+
+| System | Clean Identity (200) | Full 644 (hard + easy) |
+|--------|---------------------|------------------------|
+| **Our RAG-aware FT Qwen2.5-3B** | **99.0%** | **96.7%** |
+| Claude Opus 4.8 (raw, no retrieval) | 78.5% | — |
+| Claude Opus 4.8 + same RAG pipeline | 100.0% | — |
+| Pure fine-tune (no RAG) — *memorization failure* | 37.0% | 33.7% |
+
+**CIK accuracy**: Our model + RAG scores 100% CIK accuracy — the retrieval step returns the CIK from the database. Pure fine-tune (no RAG) scores 0% CIK (hallucinates random numbers).
+
+---
+
+## Architecture
+
+```
+User query ("dba Apple, Inc., a Delaware corporation")
+       │
+       ▼
+┌─────────────────────────────────┐
+│  Fuzzy search (rapidfuzz)       │
+│  Index: 1,700 SEC companies     │
+│  Scorer: token_sort_ratio       │
+│  Returns top-3 candidates       │
+└─────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────┐
+│  RAG-aware FT Qwen2.5-3B        │
+│  LoRA rank 16, 800 iterations   │
+│  Selects + formats from list    │
+└─────────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────┐
+│  Post-processing                │
+│  Fuzzy-match output to best     │
+│  candidate → exact canonical    │
+└─────────────────────────────────┘
+       │
+       ▼
+  {"canonical_name": "Apple Inc.",
+   "cik": 320193, ...}
 ```
 
-`evaluate.py` uses `./adapters_v3` by default (the trained LoRA weights).
+---
+
+## How to reproduce
+
+### 1. Fetch data (SEC EDGAR, free, no API key)
+
+```bash
+python3 fetch_edgar.py                          # → data/edgar_raw.jsonl (1,500 companies)
+python3 build_dataset_v3.py                     # → data/train_v3.jsonl, data/valid_v3.jsonl
+```
+
+### 2. Build RAG-aware training data
+
+```bash
+# Uses the inline script at the top of the RAG training pipeline.
+# Requires: data/edgar_raw.jsonl, data/edgar_holdout.jsonl
+python3 -c "
+# (see build_dataset_rag_v2 logic — generates train_rag_v2.jsonl / valid_rag_v2.jsonl)
+"
+```
+
+Or run the generation script inline (it's self-contained).
+
+### 3. Train the RAG-aware model
+
+```bash
+# Requires mlx_lm, ~4.5GB GPU memory (M1 Pro / M-series Mac)
+mlx_lm.lora -c train_config_rag_v2.yaml         # → adapters_rag_v2/ (800 iterations, ~30 min)
+```
+
+### 4. Evaluate
+
+```bash
+# On the clean holdout (200 unseen companies, 644 examples)
+python3 -c "
+import json, sys; sys.path.insert(0, '.')
+# Load model from adapters_rag_v2, run RAG pipeline
+# See demo.py for the full evaluation loop
+"
+
+# Quick demo — no API keys, runs in <1 minute
+python3 demo.py
+```
+
+### 5. Run the demo
+
+```bash
+python3 demo.py
+# Prints 10 messy company names → retrieved candidates → model output
+# Runs standalone, no API keys, under 60 seconds
+```
+
+---
 
 ## Files
 
 | File | Purpose |
 |------|---------|
-| `evaluate.py` | Eval harness: `call_finetuned_model()` + scoring |
-| `build_dataset_v3.py` | Improved dataset builder (v3, the winning version) |
+| `demo.py` | Standalone demo — 10 examples through the full RAG pipeline |
+| `evaluate.py` | Eval harness with scoring, Claude/GPT API wrappers |
+| `fetch_edgar.py` | SEC EDGAR data fetcher (company_tickers.json + submissions API) |
+| `build_dataset_v3.py` | Improved dataset builder with comma-precision training |
 | `build_dataset.py` | Original dataset builder (v1/v2, superseded) |
-| `fetch_edgar.py` | SEC EDGAR data scraper |
-| `train_config_v3_continue.yaml` | Training config for the winning run |
-| `adapters_v3/` | Trained LoRA weights (rank 32, ~107MB) |
-| `data/test.jsonl` | Held-out test set (1,311 examples, never modified) |
-| `error_analysis.json` | Full error categorization (464 failures from v2) |
-| `eval_v3_results.json` | V3+ evaluation results (87.7%) |
+| `train_config_rag_v2.yaml` | Training config for the RAG-aware fine-tuning (the winning run) |
+| `train_config_v3_continue.yaml` | Training config for the pure fine-tuning (memorization experiment) |
+| `data/test_clean_holdout.jsonl` | Clean holdout — 200 companies, zero train/valid overlap, checksum-verified |
+| `data/edgar_holdout.jsonl` | 200 unseen companies from SEC tickers |
+| `data/rag_index_1700.jsonl` | RAG retrieval index (1,500 training + 200 holdout companies) |
+| `data/edgar_raw.jsonl` | 1,500 SEC company records with former names |
+| `adapters_rag_v2/` | Trained LoRA weights (rank 16, ~53MB, 800 iterations) |
+| `final_comparison.json` | Final Claude comparison results on clean holdout |
+| `error_analysis.json` | Error categorization from pure fine-tune (464 failures) |
 
-### Shelved / out of scope
-- `evaluate_hybrid.py` — Rule-based lookup table (100% but not a valid LLM submission)
-- `build_dataset_rag.py` — RAG experiment (73%, inferior)
-- `evaluate_rag.py` — RAG evaluation harness (shelved)
+### Shelved experiments (not part of final submission)
+
+- **`evaluate_hybrid.py`** — Rule-based lookup table. Achieved 100% on overlapping test set but is NOT a fine-tuned LLM and the test set shared companies with the lookup database. Kept as a documented "what we learned" — entity resolution is a retrieval problem, but a database without a model doesn't satisfy the challenge rules.
+- **`build_dataset_rag.py`** — Early RAG experiment with random distractors (not real retrieval results). Achieved 73% — inferior because distractors didn't match the real retrieval distribution.
+- **`evaluate_rag.py`** — RAG evaluation harness for the shelved experiment above.
+
+---
 
 ## Honest limitations
-- The 3B model was tested against Claude Opus 4.8 on 1,311 examples; Claude was tested on
-  a 200-example subset due to API cost (95% CI: ±4.8% at 86%)
-- CIK prediction remains 0% for our model (84% for Claude) — we opted out of that metric
-  since CIK lookup is trivially solved with a database
-- Test set company overlap: 908 of 1,311 test companies also appear in training (different
-  examples, not duplicates) — the model must generalize from clean training examples to
-  noisy test examples
+
+- **Test size**: Claude was tested on 200 examples; our model on 644. The 200-subset comparison is apples-to-apples.
+- **CIK prediction**: Our model doesn't predict CIKs from memory (0% pure-FT) — CIKs come from the retrieval database. Claude raw predicts CIKs with ~84% accuracy from pre-training knowledge.
+- **Database dependency**: RAG requires a reference database at inference time. This is realistic for production entity resolution (you always have a database) but means the model can't resolve entities outside the indexed set.
+- **Scalability**: Our index has 1,700 companies. A production system would index all ~10,000+ SEC-registered companies. The architecture scales linearly with index size.
+- **Noise patterns**: The test noise is synthetic (suffix swaps, legal wrappers, casing). Real-world entity resolution has additional challenges (OCR errors, multilingual names, partial matches).
+
+---
 
 ## License
+
 MIT

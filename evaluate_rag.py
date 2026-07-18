@@ -1,13 +1,11 @@
 """
-RAG (Retrieval-Augmented Generation) eval: fuzzy-search the company database
-at inference time, present top-K candidates to the model, let it pick the right one.
+[SUPERSEDED — NOT PART OF FINAL SUBMISSION] Early RAG evaluation harness using
+random distractors during training (not real retrieval). Superseded by the inline
+RAG pipeline used in the final eval loop (in demo.py and the evaluation scripts).
 
-This is how entity resolution works in production — you have a database.
-Claude wins because it memorized SEC data during pre-training. With RAG,
-our 3B model should beat Claude without memorization.
-
-Usage:
-  python evaluate_rag.py --test ./data/test.jsonl --n 200 --k 5
+Kept for reference — the core CompanyIndex and RAG prompt structure are still
+used, but the eval harness here is tied to the shelved build_dataset_rag.py format.
+"""
 """
 
 import argparse

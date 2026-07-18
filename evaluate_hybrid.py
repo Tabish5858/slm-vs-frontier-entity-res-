@@ -1,11 +1,14 @@
 """
-[SHELVED — OUT OF SCOPE] Hybrid entity resolution: fuzzy search + heuristic cleaning.
-This is a rule-based lookup table, NOT a fine-tuned LLM. It achieves 100% accuracy
-but is NOT a valid submission for the Covent LLM Challenge (no model inference,
-trained/tested on overlapping EDGAR data). Kept as an ablation footnote only.
+[SHELVED — NOT PART OF FINAL SUBMISSION] Rule-based entity resolution via fuzzy-search
+lookup table. Achieves 100% on overlapping test set but is NOT a fine-tuned LLM and
+the test set shared companies with the lookup database — violates the challenge rule
+that "test set must be different from training." Kept as a documented learning:
+entity resolution IS a retrieval problem, but a database without a model isn't a
+valid LLM submission.
 
-The winning submission model is in evaluate.py → call_finetuned_model()
-using ./adapters_v3 (rank=32, 2800 iters, 87.7% accuracy).
+The winning submission uses RAG-aware fine-tuned Qwen2.5-3B (adapters_rag_v2/).
+See README.md and demo.py for the final approach.
+"""
 
 Usage:
   python evaluate_hybrid.py --test ./data/test.jsonl --n 200
