@@ -1,0 +1,1700 @@
+{"name": "NVIDIA CORP", "cik": 1045810, "entity_type": "operating", "former_names": ["NVIDIA CORP/CA"]}
+{"name": "Apple Inc.", "cik": 320193, "entity_type": "operating", "former_names": ["APPLE INC", "APPLE COMPUTER INC", "APPLE COMPUTER INC/ FA"]}
+{"name": "Alphabet Inc.", "cik": 1652044, "entity_type": "operating", "former_names": []}
+{"name": "MICROSOFT CORP", "cik": 789019, "entity_type": "operating", "former_names": []}
+{"name": "AMAZON COM INC", "cik": 1018724, "entity_type": "operating", "former_names": []}
+{"name": "Broadcom Inc.", "cik": 1730168, "entity_type": "operating", "former_names": ["Broadcom Ltd"]}
+{"name": "Meta Platforms, Inc.", "cik": 1326801, "entity_type": "operating", "former_names": ["Facebook Inc"]}
+{"name": "Tesla, Inc.", "cik": 1318605, "entity_type": "operating", "former_names": ["TESLA MOTORS INC"]}
+{"name": "MICRON TECHNOLOGY INC", "cik": 723125, "entity_type": "operating", "former_names": []}
+{"name": "BERKSHIRE HATHAWAY INC", "cik": 1067983, "entity_type": "operating", "former_names": ["NBH INC"]}
+{"name": "ELI LILLY & Co", "cik": 59478, "entity_type": "operating", "former_names": ["LILLY ELI & CO", "LILLY ELI & CO ET AL"]}
+{"name": "JPMORGAN CHASE & CO", "cik": 19617, "entity_type": "operating", "former_names": ["JPMORGAN CHASE & CO", "J P MORGAN CHASE & CO", "CHASE MANHATTAN CORP /DE/", "CHEMICAL BANKING CORP"]}
+{"name": "Walmart Inc.", "cik": 104169, "entity_type": "operating", "former_names": ["Walmart Inc.", "WAL MART STORES INC"]}
+{"name": "ADVANCED MICRO DEVICES INC", "cik": 2488, "entity_type": "operating", "former_names": []}
+{"name": "ASML HOLDING NV", "cik": 937966, "entity_type": "other", "former_names": ["ASM LITHOGRAPHY HOLDING NV"]}
+{"name": "VISA INC.", "cik": 1403161, "entity_type": "operating", "former_names": []}
+{"name": "JOHNSON & JOHNSON", "cik": 200406, "entity_type": "operating", "former_names": ["JOHNSON & JOHNSON ET AL"]}
+{"name": "ExxonMobil Holdings Corp", "cik": 2115436, "entity_type": "other", "former_names": []}
+{"name": "INTEL CORP", "cik": 50863, "entity_type": "operating", "former_names": []}
+{"name": "Mastercard Inc", "cik": 1141391, "entity_type": "operating", "former_names": []}
+{"name": "APPLIED MATERIALS INC /DE", "cik": 6951, "entity_type": "operating", "former_names": []}
+{"name": "CISCO SYSTEMS, INC.", "cik": 858877, "entity_type": "operating", "former_names": ["CISCO SYSTEMS, INC.", "CISCO SYSTEMS INC"]}
+{"name": "LAM RESEARCH CORP", "cik": 707549, "entity_type": "operating", "former_names": []}
+{"name": "AbbVie Inc.", "cik": 1551152, "entity_type": "operating", "former_names": []}
+{"name": "BANK OF AMERICA CORP /DE/", "cik": 70858, "entity_type": "operating", "former_names": ["BANKAMERICA CORP/DE/", "NATIONSBANK CORP"]}
+{"name": "CATERPILLAR INC", "cik": 18230, "entity_type": "operating", "former_names": []}
+{"name": "COSTCO WHOLESALE CORP /NEW", "cik": 909832, "entity_type": "operating", "former_names": ["COSTCO COMPANIES INC", "PRICE/COSTCO INC"]}
+{"name": "UNITEDHEALTH GROUP INC", "cik": 731766, "entity_type": "operating", "former_names": ["UNITED HEALTHCARE CORP"]}
+{"name": "ORACLE CORP", "cik": 1341439, "entity_type": "operating", "former_names": ["Ozark Holding Inc."]}
+{"name": "GENERAL ELECTRIC CO", "cik": 40545, "entity_type": "operating", "former_names": []}
+{"name": "CHEVRON CORP", "cik": 93410, "entity_type": "operating", "former_names": ["CHEVRONTEXACO CORP"]}
+{"name": "MORGAN STANLEY", "cik": 895421, "entity_type": "operating", "former_names": ["MORGAN STANLEY", "MORGAN STANLEY", "MORGAN STANLEY DEAN WITTER & CO", "MORGAN STANLEY DEAN WITTER DISCOVER & CO", "DEAN WITTER DISCOVER & CO"]}
+{"name": "COCA COLA CO", "cik": 21344, "entity_type": "operating", "former_names": []}
+{"name": "Contemporary Amperex Technology Co., Limited/ADR", "cik": 2070829, "entity_type": "other", "former_names": []}
+{"name": "PROCTER & GAMBLE Co", "cik": 80424, "entity_type": "operating", "former_names": []}
+{"name": "HSBC HOLDINGS PLC", "cik": 1089113, "entity_type": "other", "former_names": ["HSBC HOLDINGS PLC \\"]}
+{"name": "HOME DEPOT, INC.", "cik": 354950, "entity_type": "operating", "former_names": ["HOME DEPOT INC"]}
+{"name": "GOLDMAN SACHS GROUP INC", "cik": 886982, "entity_type": "operating", "former_names": ["GOLDMAN SACHS GROUP INC/"]}
+{"name": "Palantir Technologies Inc.", "cik": 1321655, "entity_type": "operating", "former_names": ["Palantir Technologies Inc"]}
+{"name": "NETFLIX INC", "cik": 1065280, "entity_type": "operating", "former_names": ["NETFLIX COM INC"]}
+{"name": "ARM HOLDINGS PLC /UK", "cik": 1973239, "entity_type": "other", "former_names": ["Arm Holdings Ltd"]}
+{"name": "KLA CORP", "cik": 319201, "entity_type": "operating", "former_names": ["KLA TENCOR CORP", "KLA INSTRUMENTS CORP"]}
+{"name": "Merck & Co., Inc.", "cik": 310158, "entity_type": "operating", "former_names": ["Merck & Co. Inc.", "SCHERING PLOUGH CORP"]}
+{"name": "ROYAL BANK OF CANADA", "cik": 1000275, "entity_type": "other", "former_names": ["ROYAL BANK OF CANADA", "ROYAL BANK OF CANADA \\"]}
+{"name": "Dell Technologies Inc.", "cik": 1571996, "entity_type": "operating", "former_names": ["Dell Technologies Inc", "Denali Holding Inc."]}
+{"name": "NOVARTIS AG", "cik": 1114448, "entity_type": "other", "former_names": []}
+{"name": "Palo Alto Networks Inc", "cik": 1327567, "entity_type": "operating", "former_names": ["Palo Alto Networks Inc"]}
+{"name": "GE Vernova Inc.", "cik": 1996810, "entity_type": "operating", "former_names": ["GE Vernova LLC"]}
+{"name": "TEXAS INSTRUMENTS INC", "cik": 97476, "entity_type": "operating", "former_names": []}
+{"name": "Philip Morris International Inc.", "cik": 1413329, "entity_type": "operating", "former_names": []}
+{"name": "Alibaba Group Holding Ltd", "cik": 1577552, "entity_type": "other", "former_names": []}
+{"name": "RTX Corp", "cik": 101829, "entity_type": "operating", "former_names": ["RAYTHEON TECHNOLOGIES CORP", "UNITED TECHNOLOGIES CORP /DE/"]}
+{"name": "Sandisk Corp", "cik": 2023554, "entity_type": "operating", "former_names": []}
+{"name": "WELLS FARGO & COMPANY/MN", "cik": 72971, "entity_type": "operating", "former_names": ["WELLS FARGO & CO/MN", "NORWEST CORP"]}
+{"name": "ASTRAZENECA PLC", "cik": 901832, "entity_type": "other", "former_names": ["ZENECA GROUP PLC"]}
+{"name": "MITSUBISHI UFJ FINANCIAL GROUP INC", "cik": 67088, "entity_type": "other", "former_names": ["MITSUBISHI TOKYO FINANCIAL GROUP INC", "MITSUBISHI TOKYO FINANCIAL GROUP INC /ADR/"]}
+{"name": "AMERICAN EXPRESS CO", "cik": 4962, "entity_type": "operating", "former_names": []}
+{"name": "LINDE PLC", "cik": 1707925, "entity_type": "operating", "former_names": ["ZAMALIGHT PLC"]}
+{"name": "Kioxia Holdings Corporation/ADR", "cik": 2053383, "entity_type": "other", "former_names": []}
+{"name": "Shell plc", "cik": 1306965, "entity_type": "other", "former_names": ["Royal Dutch Shell plc"]}
+{"name": "Arista Networks, Inc.", "cik": 1596532, "entity_type": "operating", "former_names": []}
+{"name": "CITIGROUP INC", "cik": 831001, "entity_type": "operating", "former_names": ["CITIGROUP INC", "TRAVELERS GROUP INC", "TRAVELERS INC"]}
+{"name": "NOVO NORDISK A S", "cik": 353278, "entity_type": "other", "former_names": []}
+{"name": "BHP Group Ltd", "cik": 811809, "entity_type": "other", "former_names": ["BHP BILLITON LTD", "BHP LTD", "BROKEN HILL PROPRIETARY CO LTD"]}
+{"name": "CrowdStrike Holdings, Inc.", "cik": 1535527, "entity_type": "operating", "former_names": []}
+{"name": "TOYOTA MOTOR CORP/", "cik": 1094517, "entity_type": "other", "former_names": []}
+{"name": "INTERNATIONAL BUSINESS MACHINES CORP", "cik": 51143, "entity_type": "operating", "former_names": []}
+{"name": "T-Mobile US, Inc.", "cik": 1283699, "entity_type": "operating", "former_names": ["METROPCS COMMUNICATIONS INC"]}
+{"name": "TORONTO DOMINION BANK", "cik": 947263, "entity_type": "other", "former_names": []}
+{"name": "Marvell Technology, Inc.", "cik": 1835632, "entity_type": "operating", "former_names": []}
+{"name": "THERMO FISHER SCIENTIFIC INC.", "cik": 97745, "entity_type": "operating", "former_names": ["THERMO ELECTRON CORP"]}
+{"name": "Seagate Technology Holdings plc", "cik": 1137789, "entity_type": "operating", "former_names": ["Seagate Technology plc", "SEAGATE TECHNOLOGY", "Seagate Technology", "SEAGATE TECHNOLOGY HOLDINGS"]}
+{"name": "Banco Santander, S.A.", "cik": 891478, "entity_type": "other", "former_names": ["BANCO SANTANDER SA", "BANCO SANTANDER CENTRAL HISPANO SA", "BANCO SANTANDER S A"]}
+{"name": "AMPHENOL CORP /DE/", "cik": 820313, "entity_type": "operating", "former_names": []}
+{"name": "WESTERN DIGITAL CORP", "cik": 106040, "entity_type": "operating", "former_names": []}
+{"name": "AMGEN INC", "cik": 318154, "entity_type": "operating", "former_names": []}
+{"name": "ANALOG DEVICES INC", "cik": 6281, "entity_type": "operating", "former_names": []}
+{"name": "MCDONALDS CORP", "cik": 63908, "entity_type": "operating", "former_names": []}
+{"name": "QUALCOMM INC/DE", "cik": 804328, "entity_type": "operating", "former_names": []}
+{"name": "NEXTERA ENERGY INC", "cik": 753308, "entity_type": "operating", "former_names": ["FPL GROUP INC"]}
+{"name": "PEPSICO INC", "cik": 77476, "entity_type": "operating", "former_names": []}
+{"name": "SAP SE", "cik": 1000184, "entity_type": "other", "former_names": ["SAP AG", "SAP AKTIENGESELLSCHAFT SYSTEMS APPLICATIONS PRODUCTS IN DATA"]}
+{"name": "TotalEnergies SE", "cik": 879764, "entity_type": "other", "former_names": ["TOTAL SE", "TOTAL S.A.", "TOTAL SA", "TOTAL FINA ELF SA", "TOTAL FINA SA", "TOTAL"]}
+{"name": "RIO TINTO LTD", "cik": 887028, "entity_type": "other", "former_names": []}
+{"name": "VERIZON COMMUNICATIONS INC", "cik": 732712, "entity_type": "operating", "former_names": ["BELL ATLANTIC CORP"]}
+{"name": "SCHWAB CHARLES CORP", "cik": 316709, "entity_type": "operating", "former_names": []}
+{"name": "UBS Group AG", "cik": 1610520, "entity_type": "other", "former_names": []}
+{"name": "UNION PACIFIC CORP", "cik": 100885, "entity_type": "operating", "former_names": []}
+{"name": "BOEING CO", "cik": 12927, "entity_type": "operating", "former_names": []}
+{"name": "Walt Disney Co", "cik": 1744489, "entity_type": "operating", "former_names": ["TWDC Holdco 613 Corp", "TWDC Holdco 613 Corp."]}
+{"name": "BlackRock, Inc.", "cik": 2012383, "entity_type": "operating", "former_names": ["BlackRock, Inc.", "BlackRock Funding, Inc. /DE"]}
+{"name": "WELLTOWER INC.", "cik": 766704, "entity_type": "operating", "former_names": ["HEALTH CARE REIT INC /DE/"]}
+{"name": "SUMITOMO MITSUI FINANCIAL GROUP, INC.", "cik": 1022837, "entity_type": "other", "former_names": ["SUMITOMO MITSUI FINANCIAL GROUP/FI", "SUMITOMO BANK LTD TOKYO     /FI"]}
+{"name": "TJX COMPANIES INC /DE/", "cik": 109198, "entity_type": "operating", "former_names": ["TJX COMPANIES INC /DE/"]}
+{"name": "GILEAD SCIENCES, INC.", "cik": 882095, "entity_type": "operating", "former_names": ["GILEAD SCIENCES INC"]}
+{"name": "SHOPIFY INC.", "cik": 1594805, "entity_type": "operating", "former_names": []}
+{"name": "Interactive Brokers Group, Inc.", "cik": 1381197, "entity_type": "operating", "former_names": []}
+{"name": "CORNING INC /NY", "cik": 24741, "entity_type": "operating", "former_names": []}
+{"name": "Eaton Corp plc", "cik": 1551182, "entity_type": "operating", "former_names": ["Eaton Corp Ltd"]}
+{"name": "DEERE & CO", "cik": 315189, "entity_type": "operating", "former_names": []}
+{"name": "ABBOTT LABORATORIES", "cik": 1800, "entity_type": "operating", "former_names": []}
+{"name": "Anheuser-Busch InBev SA/NV", "cik": 1668717, "entity_type": "other", "former_names": ["Newbelco SA/NV"]}
+{"name": "Blackstone Inc.", "cik": 1393818, "entity_type": "operating", "former_names": ["Blackstone Inc", "Blackstone Group Inc", "Blackstone Group L.P."]}
+{"name": "RIO TINTO PLC", "cik": 863064, "entity_type": "other", "former_names": ["RTZ CORPORATION PLC"]}
+{"name": "SOUTHERN COPPER CORP/", "cik": 1001838, "entity_type": "operating", "former_names": ["SOUTHERN PERU COPPER CORP/", "SOUTHERN PERU COPPER HOLDING CO"]}
+{"name": "AppLovin Corp", "cik": 1751008, "entity_type": "operating", "former_names": []}
+{"name": "Siemens Energy AG/ADR", "cik": 1830056, "entity_type": "other", "former_names": []}
+{"name": "DEUTSCHE TELEKOM AG", "cik": 946770, "entity_type": "other", "former_names": []}
+{"name": "AT&T INC.", "cik": 732717, "entity_type": "operating", "former_names": ["SBC COMMUNICATIONS INC", "SOUTHWESTERN BELL CORP"]}
+{"name": "Uber Technologies, Inc", "cik": 1543151, "entity_type": "operating", "former_names": []}
+{"name": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.", "cik": 842180, "entity_type": "other", "former_names": ["BANCO BILBAO VIZCAYA ARGENTARIA S A"]}
+{"name": "DANAHER CORP /DE/", "cik": 313616, "entity_type": "operating", "former_names": []}
+{"name": "Salesforce, Inc.", "cik": 1108524, "entity_type": "operating", "former_names": ["SALESFORCE.COM, INC.", "SALESFORCE COM INC"]}
+{"name": "PFIZER INC", "cik": 78003, "entity_type": "operating", "former_names": ["PFIZER INC"]}
+{"name": "Prologis, Inc.", "cik": 1045609, "entity_type": "operating", "former_names": ["AMB PROPERTY CORP"]}
+{"name": "Booking Holdings Inc.", "cik": 1075531, "entity_type": "operating", "former_names": ["Priceline Group Inc.", "PRICELINE COM INC"]}
+{"name": "CONOCOPHILLIPS", "cik": 1163165, "entity_type": "operating", "former_names": ["CORVETTEPORSCHE CORP"]}
+{"name": "Chubb Ltd", "cik": 896159, "entity_type": "operating", "former_names": ["ACE LTD", "ACE Ltd"]}
+{"name": "CVS HEALTH Corp", "cik": 64803, "entity_type": "operating", "former_names": ["CVS CAREMARK CORP", "CVS/CAREMARK CORP", "CVS CORP", "MELVILLE CORP"]}
+{"name": "INTUITIVE SURGICAL INC", "cik": 1035267, "entity_type": "operating", "former_names": []}
+{"name": "ADVANTEST CORP", "cik": 1158838, "entity_type": "other", "former_names": []}
+{"name": "HITACHI LTD", "cik": 47710, "entity_type": "other", "former_names": []}
+{"name": "HDFC BANK LTD", "cik": 1144967, "entity_type": "other", "former_names": []}
+{"name": "PROGRESSIVE CORP/OH/", "cik": 80661, "entity_type": "operating", "former_names": []}
+{"name": "UNILEVER PLC", "cik": 217410, "entity_type": "other", "former_names": []}
+{"name": "S&P Global Inc.", "cik": 64040, "entity_type": "operating", "former_names": ["MCGRAW HILL FINANCIAL INC", "MCGRAW-HILL COMPANIES INC", "MCGRAW HILL INC"]}
+{"name": "MIZUHO FINANCIAL GROUP INC", "cik": 1335730, "entity_type": "other", "former_names": []}
+{"name": "CAPITAL ONE FINANCIAL CORP", "cik": 927628, "entity_type": "operating", "former_names": []}
+{"name": "BANK OF MONTREAL /CAN/", "cik": 927971, "entity_type": "operating", "former_names": ["BANK OF MONTREAL /CAN/"]}
+{"name": "British American Tobacco p.l.c.", "cik": 1303523, "entity_type": "other", "former_names": []}
+{"name": "Sony Group Corp", "cik": 313838, "entity_type": "other", "former_names": ["SONY CORP"]}
+{"name": "ENBRIDGE INC", "cik": 895728, "entity_type": "operating", "former_names": ["IPL ENERGY INC"]}
+{"name": "STARBUCKS CORP", "cik": 829224, "entity_type": "operating", "former_names": []}
+{"name": "Fortinet, Inc.", "cik": 1262039, "entity_type": "operating", "former_names": ["FORTINET INC"]}
+{"name": "Parker-Hannifin Corp", "cik": 76334, "entity_type": "operating", "former_names": ["PARKER HANNIFIN CORP"]}
+{"name": "VERTEX PHARMACEUTICALS INC / MA", "cik": 875320, "entity_type": "operating", "former_names": []}
+{"name": "STRYKER CORP", "cik": 310764, "entity_type": "operating", "former_names": []}
+{"name": "PDD Holdings Inc.", "cik": 1737806, "entity_type": "other", "former_names": ["Pinduoduo Inc.", "Walnut Street Group Holding Ltd"]}
+{"name": "LOCKHEED MARTIN CORP", "cik": 936468, "entity_type": "operating", "former_names": ["LOCKHEED MARTIN CORP"]}
+{"name": "BRISTOL MYERS SQUIBB CO", "cik": 14272, "entity_type": "operating", "former_names": []}
+{"name": "LOWES COMPANIES INC", "cik": 60667, "entity_type": "operating", "former_names": []}
+{"name": "ALTRIA GROUP, INC.", "cik": 764180, "entity_type": "operating", "former_names": ["ALTRIA GROUP INC", "PHILIP MORRIS COMPANIES INC"]}
+{"name": "Vertiv Holdings Co", "cik": 1674101, "entity_type": "operating", "former_names": ["GS Acquisition Holdings Corp"]}
+{"name": "PETROBRAS - PETROLEO BRASILEIRO SA", "cik": 1119639, "entity_type": "other", "former_names": ["BRAZILIAN PETROLEUM CORP"]}
+{"name": "Howmet Aerospace Inc.", "cik": 4281, "entity_type": "operating", "former_names": ["Arconic Inc.", "ALCOA INC.", "ALCOA INC", "ALUMINUM CO OF AMERICA"]}
+{"name": "ServiceNow, Inc.", "cik": 1373715, "entity_type": "operating", "former_names": ["SERVICE-NOW.COM"]}
+{"name": "BANK OF NOVA SCOTIA", "cik": 9631, "entity_type": "operating", "former_names": ["BANK OF NOVA SCOTIA /"]}
+{"name": "SOUTHERN CO", "cik": 92122, "entity_type": "operating", "former_names": ["SOUTHERN CO"]}
+{"name": "CANADIAN IMPERIAL BANK OF COMMERCE /CAN/", "cik": 1045520, "entity_type": "other", "former_names": []}
+{"name": "BP PLC", "cik": 313807, "entity_type": "other", "former_names": ["BP AMOCO PLC", "BRITISH PETROLEUM CO PLC", "BRITISH PETROLEUM COMPANY"]}
+{"name": "Trane Technologies plc", "cik": 1466258, "entity_type": "operating", "former_names": ["Ingersoll-Rand plc"]}
+{"name": "INFINEON TECHNOLOGIES AG", "cik": 1107457, "entity_type": "other", "former_names": []}
+{"name": "Bank of New York Mellon Corp", "cik": 1390777, "entity_type": "operating", "former_names": []}
+{"name": "CADENCE DESIGN SYSTEMS INC", "cik": 813672, "entity_type": "operating", "former_names": []}
+{"name": "ICICI BANK LTD", "cik": 1103838, "entity_type": "other", "former_names": []}
+{"name": "Sany Heavy Industries Co., Ltd./ADR", "cik": 2098326, "entity_type": "other", "former_names": []}
+{"name": "Sanofi", "cik": 1121404, "entity_type": "other", "former_names": ["SANOFI-AVENTIS", "SANOFI SYNTHELABO SA"]}
+{"name": "GSK plc", "cik": 1131399, "entity_type": "other", "former_names": ["GLAXOSMITHKLINE PLC"]}
+{"name": "Medtronic plc", "cik": 1613103, "entity_type": "operating", "former_names": ["Medtronic Ltd", "Medtronic Holdings Ltd"]}
+{"name": "EQUINIX INC", "cik": 1101239, "entity_type": "operating", "former_names": []}
+{"name": "NEWMONT Corp /DE/", "cik": 1164727, "entity_type": "operating", "former_names": ["NEWMONT GOLDCORP CORP /DE/", "NEWMONT MINING CORP /DE/", "DELTA HOLDCO CORP"]}
+{"name": "Robinhood Markets, Inc.", "cik": 1783879, "entity_type": "operating", "former_names": []}
+{"name": "PNC FINANCIAL SERVICES GROUP, INC.", "cik": 713676, "entity_type": "operating", "former_names": ["PNC FINANCIAL SERVICES GROUP INC", "PNC BANK CORP"]}
+{"name": "GENERAL DYNAMICS CORP", "cik": 40533, "entity_type": "operating", "former_names": []}
+{"name": "Spotify Technology S.A.", "cik": 1639920, "entity_type": "other", "former_names": []}
+{"name": "QUANTA SERVICES, INC.", "cik": 1050915, "entity_type": "operating", "former_names": ["QUANTA SERVICES INC"]}
+{"name": "Duke Energy CORP", "cik": 1326160, "entity_type": "operating", "former_names": ["Duke Energy Holding Corp.", "Deer Holding Corp."]}
+{"name": "Cloudflare, Inc.", "cik": 1477333, "entity_type": "operating", "former_names": []}
+{"name": "AUTOMATIC DATA PROCESSING INC", "cik": 8670, "entity_type": "operating", "former_names": []}
+{"name": "BROOKFIELD Corp /ON/", "cik": 1001085, "entity_type": "other", "former_names": ["BROOKFIELD ASSET MANAGEMENT INC.", "BRASCAN CORP/", "EDPERBRASCAN CORP"]}
+{"name": "US BANCORP \\DE\\", "cik": 36104, "entity_type": "operating", "former_names": ["FIRST BANK SYSTEM INC"]}
+{"name": "UNITED PARCEL SERVICE INC", "cik": 1090727, "entity_type": "operating", "former_names": []}
+{"name": "Snowflake Inc.", "cik": 1640147, "entity_type": "operating", "former_names": ["Snowflake Computing, Inc."]}
+{"name": "MARRIOTT INTERNATIONAL INC /MD/", "cik": 1048286, "entity_type": "operating", "former_names": ["MARRIOTT INTERNATIONAL INC /MD/", "NEW MARRIOTT MI INC"]}
+{"name": "Monster Beverage Corp", "cik": 865752, "entity_type": "operating", "former_names": ["HANSEN NATURAL CORP"]}
+{"name": "Datadog, Inc.", "cik": 1561550, "entity_type": "operating", "former_names": []}
+{"name": "Itau Unibanco Holding S.A.", "cik": 1132597, "entity_type": "other", "former_names": ["Itau Unibanco Banco Multiplo S.A.", "BANCO ITAU HOLDING FINANCEIRA S A", "BANCO ITAU SA"]}
+{"name": "WASTE MANAGEMENT INC", "cik": 823768, "entity_type": "operating", "former_names": ["USA WASTE SERVICES INC"]}
+{"name": "MCKESSON CORP", "cik": 927653, "entity_type": "operating", "former_names": ["MCKESSON HBOC INC"]}
+{"name": "MERCADOLIBRE INC", "cik": 1099590, "entity_type": "operating", "former_names": []}
+{"name": "ING GROEP NV", "cik": 1039765, "entity_type": "other", "former_names": []}
+{"name": "CSX CORP", "cik": 277948, "entity_type": "operating", "former_names": []}
+{"name": "WILLIAMS COMPANIES, INC.", "cik": 107263, "entity_type": "operating", "former_names": ["WILLIAMS COMPANIES INC"]}
+{"name": "BARCLAYS PLC", "cik": 312069, "entity_type": "other", "former_names": []}
+{"name": "CUMMINS INC", "cik": 26172, "entity_type": "operating", "former_names": ["CUMMINS ENGINE CO INC"]}
+{"name": "Elevance Health, Inc.", "cik": 1156039, "entity_type": "operating", "former_names": ["Anthem, Inc.", "WELLPOINT, INC", "WELLPOINT INC", "ANTHEM INC"]}
+{"name": "Constellation Energy Corp", "cik": 1868275, "entity_type": "operating", "former_names": ["Constellation Newholdco, Inc."]}
+{"name": "KKR & Co. Inc.", "cik": 1404912, "entity_type": "operating", "former_names": ["KKR & Co. L.P."]}
+{"name": "ASE Technology Holding Co., Ltd.", "cik": 1122411, "entity_type": "other", "former_names": ["ASE Industrial Holding Co., Ltd.", "ADVANCED SEMICONDUCTOR ENGINEERING INC"]}
+{"name": "CANADIAN NATURAL RESOURCES Ltd", "cik": 1017413, "entity_type": "other", "former_names": ["CANADIAN NATURAL RESOURCES LTD"]}
+{"name": "FREEPORT-MCMORAN INC", "cik": 831259, "entity_type": "operating", "former_names": ["FREEPORT MCMORAN COPPER & GOLD INC"]}
+{"name": "VALERO ENERGY CORP/TX", "cik": 1035002, "entity_type": "operating", "former_names": ["VALERO REFINING & MARKETING CO"]}
+{"name": "CME GROUP INC.", "cik": 1156375, "entity_type": "operating", "former_names": ["CHICAGO MERCANTILE EXCHANGE HOLDINGS INC"]}
+{"name": "Marathon Petroleum Corp", "cik": 1510295, "entity_type": "operating", "former_names": []}
+{"name": "ADOBE INC.", "cik": 796343, "entity_type": "operating", "former_names": ["ADOBE SYSTEMS INC"]}
+{"name": "Johnson Controls International plc", "cik": 833444, "entity_type": "operating", "former_names": ["TYCO INTERNATIONAL plc", "TYCO INTERNATIONAL LTD", "TYCO INTERNATIONAL LTD /BER/", "ADT LIMITED"]}
+{"name": "Midea Group Co., Ltd./ADR", "cik": 2039784, "entity_type": "other", "former_names": []}
+{"name": "Airbnb, Inc.", "cik": 1559720, "entity_type": "operating", "former_names": ["Airbnb, Inc."]}
+{"name": "MOODYS CORP /DE/", "cik": 1059556, "entity_type": "operating", "former_names": ["DUN & BRADSTREET CORP /DE/", "NEW DUN & BRADSTREET CORP"]}
+{"name": "MARSH & MCLENNAN COMPANIES, INC.", "cik": 62709, "entity_type": "operating", "former_names": ["MARSH & MCLENNAN COMPANIES INC"]}
+{"name": "Lloyds Banking Group plc", "cik": 1160106, "entity_type": "other", "former_names": ["LLOYDS TSB GROUP PLC"]}
+{"name": "EQUINOR ASA", "cik": 1140625, "entity_type": "other", "former_names": ["STATOIL ASA", "STATOILHYDRO ASA"]}
+{"name": "SIMON PROPERTY GROUP INC.", "cik": 1063761, "entity_type": "operating", "former_names": ["SIMON PROPERTY GROUP INC /DE/", "CORPORATE PROPERTY INVESTORS INC"]}
+{"name": "COMCAST CORP", "cik": 1166691, "entity_type": "operating", "former_names": ["AT&T COMCAST CORP"]}
+{"name": "NATIONAL GRID PLC", "cik": 1004315, "entity_type": "other", "former_names": ["NATIONAL GRID TRANSCO PLC", "NATIONAL GRID GROUP PLC"]}
+{"name": "Accenture plc", "cik": 1467373, "entity_type": "operating", "former_names": ["Accenture plc"]}
+{"name": "SYNOPSYS INC", "cik": 883241, "entity_type": "operating", "former_names": []}
+{"name": "DoorDash, Inc.", "cik": 1792789, "entity_type": "operating", "former_names": ["DoorDash, Inc.", "DoorDash Inc"]}
+{"name": "NetEase, Inc.", "cik": 1110646, "entity_type": "other", "former_names": ["NETEASE.COM, INC.", "NETEASE COM INC"]}
+{"name": "ENTERPRISE PRODUCTS PARTNERS L.P.", "cik": 1061219, "entity_type": "operating", "former_names": ["ENTERPRISE PRODUCTS PARTNERS L P", "ENTERPRISES PRODUCTS PARTNERS L P"]}
+{"name": "CANADIAN PACIFIC KANSAS CITY LTD/CN", "cik": 16875, "entity_type": "operating", "former_names": ["CANADIAN PACIFIC RAILWAY LTD/CN", "CANADIAN PACIFIC RAILWAY CO/CN"]}
+{"name": "3M CO", "cik": 66740, "entity_type": "operating", "former_names": ["MINNESOTA MINING & MANUFACTURING CO"]}
+{"name": "SHERWIN WILLIAMS CO", "cik": 89800, "entity_type": "operating", "former_names": []}
+{"name": "Phillips 66", "cik": 1534701, "entity_type": "operating", "former_names": []}
+{"name": "HCA Healthcare, Inc.", "cik": 860730, "entity_type": "operating", "former_names": ["HCA Holdings, Inc.", "HCA INC/TN", "HCA THE HEALTHCARE CO", "HCA-THE HEALTHCARE CO", "COLUMBIA HCA HEALTHCARE CORP", "COLUMBIA HCA HEALTHCARE CORP/", "COLUMBIA HEALTHCARE CORP"]}
+{"name": "Cigna Group", "cik": 1739940, "entity_type": "operating", "former_names": ["Cigna Corp", "Halfmoon Parent, Inc."]}
+{"name": "AMERICA MOVIL SAB DE CV/", "cik": 1129137, "entity_type": "other", "former_names": ["AMERICA MOVIL SA DE CV/", "AMERICA MOVIL SA DE CV"]}
+{"name": "ILLINOIS TOOL WORKS INC", "cik": 49826, "entity_type": "operating", "former_names": []}
+{"name": "AMERICAN TOWER CORP /MA/", "cik": 1053507, "entity_type": "operating", "former_names": ["AMERICAN TOWER SYSTEMS CORP"]}
+{"name": "Intercontinental Exchange, Inc.", "cik": 1571949, "entity_type": "operating", "former_names": ["IntercontinentalExchange Group, Inc."]}
+{"name": "INTUIT INC.", "cik": 896878, "entity_type": "operating", "former_names": ["INTUIT INC"]}
+{"name": "Aon plc", "cik": 315293, "entity_type": "operating", "former_names": ["AON CORP"]}
+{"name": "ECOLAB INC.", "cik": 31462, "entity_type": "operating", "former_names": ["ECOLAB INC"]}
+{"name": "ROYAL CARIBBEAN CRUISES LTD", "cik": 884887, "entity_type": "operating", "former_names": []}
+{"name": "EMERSON ELECTRIC CO", "cik": 32604, "entity_type": "operating", "former_names": []}
+{"name": "Brookfield Asset Management Ltd.", "cik": 1937926, "entity_type": "operating", "former_names": []}
+{"name": "CANADIAN NATIONAL RAILWAY CO", "cik": 16868, "entity_type": "operating", "former_names": []}
+{"name": "CARVANA CO.", "cik": 1690820, "entity_type": "operating", "former_names": []}
+{"name": "Mondelez International, Inc.", "cik": 1103982, "entity_type": "operating", "former_names": ["KRAFT FOODS INC"]}
+{"name": "NORTHROP GRUMMAN CORP /DE/", "cik": 1133421, "entity_type": "operating", "former_names": ["NNG INC"]}
+{"name": "FEDEX CORP", "cik": 1048911, "entity_type": "operating", "former_names": ["FDX CORP"]}
+{"name": "Hilton Worldwide Holdings Inc.", "cik": 1585689, "entity_type": "operating", "former_names": []}
+{"name": "NORFOLK SOUTHERN CORP", "cik": 702165, "entity_type": "operating", "former_names": []}
+{"name": "AMERICAN ELECTRIC POWER CO INC", "cik": 4904, "entity_type": "operating", "former_names": ["AMERICAN ELECTRIC POWER COMPANY INC"]}
+{"name": "EOG RESOURCES INC", "cik": 821189, "entity_type": "operating", "former_names": ["ENRON OIL & GAS CO"]}
+{"name": "COLGATE PALMOLIVE CO", "cik": 21665, "entity_type": "operating", "former_names": ["COLGATE PALMOLIVE CO"]}
+{"name": "CINTAS CORP", "cik": 723254, "entity_type": "operating", "former_names": []}
+{"name": "BAE SYSTEMS PLC /FI/", "cik": 895564, "entity_type": "other", "former_names": ["BRITISH AEROSPACE PUBLIC LTD CO /FI/"]}
+{"name": "SUNCOR ENERGY INC", "cik": 311337, "entity_type": "other", "former_names": ["SUNCOR ENERGY INC."]}
+{"name": "NXP Semiconductors N.V.", "cik": 1413447, "entity_type": "operating", "former_names": ["KASLION Acquisition B.V."]}
+{"name": "KINDER MORGAN, INC.", "cik": 1506307, "entity_type": "operating", "former_names": ["Kinder Morgan Holdco LLC"]}
+{"name": "ENI SPA", "cik": 1002242, "entity_type": "other", "former_names": []}
+{"name": "AGNICO EAGLE MINES LTD", "cik": 2809, "entity_type": "other", "former_names": []}
+{"name": "TC ENERGY CORP", "cik": 1232384, "entity_type": "other", "former_names": ["TRANSCANADA CORP"]}
+{"name": "TRAVELERS COMPANIES, INC.", "cik": 86312, "entity_type": "operating", "former_names": ["ST PAUL TRAVELERS COMPANIES INC", "ST PAUL COMPANIES INC /MN/", "ST PAUL FIRE & MARINE INSURANCE CO/MD"]}
+{"name": "SLB LIMITED/NV", "cik": 87347, "entity_type": "operating", "former_names": ["SCHLUMBERGER LIMITED/NV", "SCHLUMBERGER LTD /NV/", "SCHLUMBERGER LTD /NY/"]}
+{"name": "O REILLY AUTOMOTIVE INC", "cik": 898173, "entity_type": "operating", "former_names": ["OREILLY AUTOMOTIVE INC"]}
+{"name": "HONEYWELL INTERNATIONAL INC", "cik": 773840, "entity_type": "operating", "former_names": ["ALLIEDSIGNAL INC", "ALLIED SIGNAL INC"]}
+{"name": "ROSS STORES, INC.", "cik": 745732, "entity_type": "operating", "former_names": ["ROSS STORES INC"]}
+{"name": "MANULIFE FINANCIAL CORP", "cik": 1086888, "entity_type": "other", "former_names": []}
+{"name": "Apollo Global Management, Inc.", "cik": 1858681, "entity_type": "operating", "former_names": ["Tango Holdings, Inc."]}
+{"name": "Medline Inc.", "cik": 2046386, "entity_type": "operating", "former_names": []}
+{"name": "REGENERON PHARMACEUTICALS, INC.", "cik": 872589, "entity_type": "operating", "former_names": ["REGENERON PHARMACEUTICALS INC"]}
+{"name": "Energy Transfer LP", "cik": 1276187, "entity_type": "operating", "former_names": ["Energy Transfer Equity, L.P.", "LAGRANGE ENERGY LP"]}
+{"name": "CRH PUBLIC LTD CO", "cik": 849395, "entity_type": "operating", "former_names": []}
+{"name": "General Motors Co", "cik": 1467858, "entity_type": "operating", "former_names": []}
+{"name": "Motorola Solutions, Inc.", "cik": 68505, "entity_type": "operating", "former_names": ["MOTOROLA INC"]}
+{"name": "Warner Bros. Discovery, Inc.", "cik": 1437107, "entity_type": "operating", "former_names": ["Discovery, Inc.", "Discovery Communications, Inc."]}
+{"name": "NatWest Group plc", "cik": 844150, "entity_type": "other", "former_names": ["ROYAL BANK OF SCOTLAND GROUP PLC"]}
+{"name": "TransDigm Group INC", "cik": 1260221, "entity_type": "operating", "former_names": ["TD HOLDING CORP"]}
+{"name": "DEUTSCHE BANK AKTIENGESELLSCHAFT", "cik": 1159508, "entity_type": "other", "former_names": []}
+{"name": "MONOLITHIC POWER SYSTEMS INC", "cik": 1280452, "entity_type": "operating", "former_names": []}
+{"name": "REPUBLIC SERVICES, INC.", "cik": 1060391, "entity_type": "operating", "former_names": ["REPUBLIC SERVICES INC"]}
+{"name": "Bloom Energy Corp", "cik": 1664703, "entity_type": "operating", "former_names": []}
+{"name": "Air Products & Chemicals, Inc.", "cik": 2969, "entity_type": "operating", "former_names": ["AIR PRODUCTS & CHEMICALS INC /DE/"]}
+{"name": "Nu Holdings Ltd.", "cik": 1691493, "entity_type": "other", "former_names": []}
+{"name": "UNITED RENTALS, INC.", "cik": 1067701, "entity_type": "operating", "former_names": ["UNITED RENTALS INC /DE"]}
+{"name": "Sea Ltd", "cik": 1703399, "entity_type": "other", "former_names": ["Sea Ltd"]}
+{"name": "Honeywell Aerospace Inc.", "cik": 2089271, "entity_type": "other", "former_names": ["Honeywell Aerospace LLC"]}
+{"name": "DIGITAL REALTY TRUST, INC.", "cik": 1297996, "entity_type": "operating", "former_names": []}
+{"name": "Hewlett Packard Enterprise Co", "cik": 1645590, "entity_type": "operating", "former_names": []}
+{"name": "Arthur J. Gallagher & Co.", "cik": 354190, "entity_type": "operating", "former_names": ["GALLAGHER ARTHUR J & CO"]}
+{"name": "PACCAR INC", "cik": 75362, "entity_type": "operating", "former_names": []}
+{"name": "Ferrari N.V.", "cik": 1648416, "entity_type": "other", "former_names": ["NEW BUSINESS NETHERLANDS N.V."]}
+{"name": "ALLSTATE CORP", "cik": 899051, "entity_type": "operating", "former_names": []}
+{"name": "W.W. GRAINGER, INC.", "cik": 277135, "entity_type": "operating", "former_names": ["GRAINGER W W INC"]}
+{"name": "TRUIST FINANCIAL CORP", "cik": 92230, "entity_type": "operating", "former_names": ["BB&T CORP", "SOUTHERN NATIONAL CORP /NC/"]}
+{"name": "NOKIA CORP", "cik": 924613, "entity_type": "other", "former_names": []}
+{"name": "NIKE, Inc.", "cik": 320187, "entity_type": "operating", "former_names": ["NIKE INC"]}
+{"name": "BOSTON SCIENTIFIC CORP", "cik": 885725, "entity_type": "operating", "former_names": []}
+{"name": "CIENA CORP", "cik": 936395, "entity_type": "operating", "former_names": []}
+{"name": "Astera Labs, Inc.", "cik": 1736297, "entity_type": "operating", "former_names": []}
+{"name": "Lumentum Holdings Inc.", "cik": 1633978, "entity_type": "operating", "former_names": []}
+{"name": "DOMINION ENERGY, INC", "cik": 715957, "entity_type": "operating", "former_names": ["DOMINION ENERGY INC /VA/", "DOMINION RESOURCES INC /VA/"]}
+{"name": "STMicroelectronics N.V.", "cik": 932787, "entity_type": "other", "former_names": ["STMICROELECTRONICS NV", "SGS THOMSON MICROELECTRONICS NV"]}
+{"name": "AFLAC INC", "cik": 4977, "entity_type": "operating", "former_names": []}
+{"name": "Vale S.A.", "cik": 917851, "entity_type": "other", "former_names": ["Vale S.A.", "Companhia Vale do Rio Doce", "VALLEY OF THE RIO DOCE CO", "VALLEY OF THE DOCE RIVER CO"]}
+{"name": "COMFORT SYSTEMS USA INC", "cik": 1035983, "entity_type": "operating", "former_names": ["COMFORT SYSTEMS USA INC"]}
+{"name": "BARRICK MINING CORP", "cik": 756894, "entity_type": "other", "former_names": ["BARRICK GOLD CORP"]}
+{"name": "SEMPRA", "cik": 1032208, "entity_type": "operating", "former_names": ["SEMPRA ENERGY", "MINERAL ENERGY CO"]}
+{"name": "IMPERIAL OIL LTD", "cik": 49938, "entity_type": "operating", "former_names": []}
+{"name": "TARGET CORP", "cik": 27419, "entity_type": "operating", "former_names": ["DAYTON HUDSON CORP"]}
+{"name": "COHERENT CORP.", "cik": 820318, "entity_type": "operating", "former_names": ["II-VI INC"]}
+{"name": "Targa Resources Corp.", "cik": 1389170, "entity_type": "operating", "former_names": ["Targa Resources Corp.", "Targa Resources Investments Inc."]}
+{"name": "UNITED MICROELECTRONICS CORP", "cik": 1033767, "entity_type": "other", "former_names": []}
+{"name": "METLIFE INC", "cik": 1099219, "entity_type": "operating", "former_names": []}
+{"name": "REALTY INCOME CORP", "cik": 726728, "entity_type": "operating", "former_names": []}
+{"name": "Cencora, Inc.", "cik": 1140859, "entity_type": "operating", "former_names": ["AMERISOURCEBERGEN CORP", "AMERISOURCE BERGEN CORP"]}
+{"name": "TE Connectivity plc", "cik": 1385157, "entity_type": "operating", "former_names": ["TE Connectivity Ltd.", "Tyco Electronics Ltd."]}
+{"name": "London Stock Exchange Group plc", "cik": 1842726, "entity_type": "other", "former_names": []}
+{"name": "CARRIER GLOBAL Corp", "cik": 1783180, "entity_type": "operating", "former_names": []}
+{"name": "E.ON SE", "cik": 1136808, "entity_type": "other", "former_names": ["E ON AG"]}
+{"name": "ONEOK INC /NEW/", "cik": 1039684, "entity_type": "operating", "former_names": ["ONEOK INC /NEW/", "WAI INC"]}
+{"name": "GREAT-WEST LIFECO INC.", "cik": 850918, "entity_type": "other", "former_names": ["GREAT WEST LIFECO INC"]}
+{"name": "MPLX LP", "cik": 1552000, "entity_type": "operating", "former_names": []}
+{"name": "RELX PLC", "cik": 929869, "entity_type": "other", "former_names": ["REED ELSEVIER PLC", "REED ELSEVIER NV", "REED INTERNATIONAL PLC"]}
+{"name": "Baker Hughes Co", "cik": 1701605, "entity_type": "operating", "former_names": ["Baker Hughes a GE Co", "Bear Newco, Inc."]}
+{"name": "Corteva, Inc.", "cik": 1755672, "entity_type": "operating", "former_names": []}
+{"name": "Public Storage", "cik": 1393311, "entity_type": "operating", "former_names": []}
+{"name": "DELTA AIR LINES, INC.", "cik": 27904, "entity_type": "operating", "former_names": ["DELTA AIR LINES INC /DE/"]}
+{"name": "TERADYNE, INC", "cik": 97210, "entity_type": "operating", "former_names": ["TERADYNE INC"]}
+{"name": "Keysight Technologies, Inc.", "cik": 1601046, "entity_type": "operating", "former_names": []}
+{"name": "Cheniere Energy, Inc.", "cik": 3570, "entity_type": "operating", "former_names": ["CHENIERE ENERGY INC", "BEXY COMMUNICATIONS INC"]}
+{"name": "FORD MOTOR CO", "cik": 37996, "entity_type": "operating", "former_names": []}
+{"name": "ARGENX SE", "cik": 1697862, "entity_type": "other", "former_names": ["argenx N.V"]}
+{"name": "L3HARRIS TECHNOLOGIES, INC. /DE/", "cik": 202058, "entity_type": "operating", "former_names": ["HARRIS CORP /DE/"]}
+{"name": "OCCIDENTAL PETROLEUM CORP /DE/", "cik": 797468, "entity_type": "operating", "former_names": []}
+{"name": "ENTERGY CORP /DE/", "cik": 65984, "entity_type": "operating", "former_names": ["ENTERGY CORP/FL"]}
+{"name": "CARDINAL HEALTH INC", "cik": 721371, "entity_type": "operating", "former_names": ["CARDINAL DISTRIBUTION INC"]}
+{"name": "Diamondback Energy, Inc.", "cik": 1539838, "entity_type": "operating", "former_names": ["Diamondback Energy, Inc."]}
+{"name": "AMETEK INC/", "cik": 1037868, "entity_type": "operating", "former_names": []}
+{"name": "NUCOR CORP", "cik": 73309, "entity_type": "operating", "former_names": []}
+{"name": "Vistra Corp.", "cik": 1692819, "entity_type": "operating", "former_names": ["Vistra Energy Corp.", "Vistra Energy Corp"]}
+{"name": "FASTENAL CO", "cik": 815556, "entity_type": "operating", "former_names": ["FASTENAL COMPANY"]}
+{"name": "TAKEDA PHARMACEUTICAL CO LTD", "cik": 1395064, "entity_type": "other", "former_names": []}
+{"name": "ROCKWELL AUTOMATION, INC", "cik": 1024478, "entity_type": "operating", "former_names": ["ROCKWELL AUTOMATION INC", "ROCKWELL  AUTOMATION INC", "ROCKWELL INTERNATIONAL CORP", "NEW ROCKWELL INTERNATIONAL CORP"]}
+{"name": "FIFTH THIRD BANCORP", "cik": 35527, "entity_type": "operating", "former_names": []}
+{"name": "ELECTRONIC ARTS INC.", "cik": 712515, "entity_type": "operating", "former_names": ["ELECTRONIC ARTS INC"]}
+{"name": "Edwards Lifesciences Corp", "cik": 1099800, "entity_type": "operating", "former_names": ["CVG CONTROLLED INC"]}
+{"name": "CENOVUS ENERGY INC.", "cik": 1475260, "entity_type": "other", "former_names": []}
+{"name": "ArcelorMittal", "cik": 1243429, "entity_type": "other", "former_names": ["ARCELOR"]}
+{"name": "STATE STREET CORP", "cik": 93751, "entity_type": "operating", "former_names": ["STATE STREET CORP", "STATE STREET Corp", "STATE STREET BOSTON CORP"]}
+{"name": "XCEL ENERGY INC", "cik": 72903, "entity_type": "operating", "former_names": ["NORTHERN STATES POWER CO /MN/"]}
+{"name": "NASDAQ, INC.", "cik": 1120193, "entity_type": "operating", "former_names": ["NASDAQ OMX GROUP, INC.", "NASDAQ STOCK MARKET INC"]}
+{"name": "EBAY INC", "cik": 1065088, "entity_type": "operating", "former_names": []}
+{"name": "DEVON ENERGY CORP/DE", "cik": 1090012, "entity_type": "operating", "former_names": ["DEVON ENERGY CORP", "DEVON DELAWARE CORP"]}
+{"name": "Nebius Group N.V.", "cik": 1513845, "entity_type": "other", "former_names": ["Yandex N.V."]}
+{"name": "Wheaton Precious Metals Corp.", "cik": 1323404, "entity_type": "other", "former_names": ["Silver Wheaton Corp."]}
+{"name": "Rocket Lab Corp", "cik": 1819994, "entity_type": "operating", "former_names": ["Rocket Lab USA, Inc.", "Vector Acquisition Corp"]}
+{"name": "AUTOZONE INC", "cik": 866787, "entity_type": "operating", "former_names": ["AUTOZONE INC"]}
+{"name": "Galderma Group AG/ADR", "cik": 2021390, "entity_type": "other", "former_names": []}
+{"name": "HUMANA INC", "cik": 49071, "entity_type": "operating", "former_names": []}
+{"name": "HEICO CORP", "cik": 46619, "entity_type": "operating", "former_names": []}
+{"name": "EXELON CORP", "cik": 1109357, "entity_type": "operating", "former_names": []}
+{"name": "AMBEV S.A.", "cik": 1565025, "entity_type": "other", "former_names": ["InBev Corporate Holdings Inc."]}
+{"name": "FLEX LTD.", "cik": 866374, "entity_type": "operating", "former_names": ["FLEXTRONICS INTERNATIONAL LTD.", "FLEXTRONICS INTERNATIONAL LTD"]}
+{"name": "Block, Inc.", "cik": 1512673, "entity_type": "operating", "former_names": ["Square, Inc."]}
+{"name": "MICROCHIP TECHNOLOGY INC", "cik": 827054, "entity_type": "operating", "former_names": []}
+{"name": "SUMITOMO ELECTRIC INDUSTRIES LTD/ADR/", "cik": 95227, "entity_type": "other", "former_names": []}
+{"name": "OLD DOMINION FREIGHT LINE, INC.", "cik": 878927, "entity_type": "operating", "former_names": ["OLD DOMINION FREIGHT LINE INC/VA"]}
+{"name": "CHIPOTLE MEXICAN GRILL INC", "cik": 1058090, "entity_type": "operating", "former_names": []}
+{"name": "COCA-COLA EUROPACIFIC PARTNERS plc", "cik": 1650107, "entity_type": "other", "former_names": ["COCA-COLA EUROPEAN PARTNERS plc", "COCA-COLA EUROPEAN PARTNERS LTD", "Spark Orange Ltd"]}
+{"name": "AMERIPRISE FINANCIAL INC", "cik": 820027, "entity_type": "operating", "former_names": ["AMERICAN EXPRESS FINANCIAL CORP", "AMERICAN EXPRESS FINANCIAL ADVISORS", "IDS FINANCIAL CORP/MN/"]}
+{"name": "GARMIN LTD", "cik": 1121788, "entity_type": "operating", "former_names": []}
+{"name": "Ferrovial N.V.", "cik": 1468522, "entity_type": "other", "former_names": ["Ferrovial SE", "Ferrovial, S.A.", "Cintra Concesiones de Infraestructuras de Transporte, S.A."]}
+{"name": "BILI Social International, Inc.", "cik": 1109262, "entity_type": "operating", "former_names": ["Allied Energy, Inc.", "TECHNOL FUEL CONDITIONERS INC", "BRAZILIAN SERVICES COM INC"]}
+{"name": "Ferguson Enterprises Inc. /DE/", "cik": 2011641, "entity_type": "operating", "former_names": []}
+{"name": "MEXICAN ECONOMIC DEVELOPMENT INC", "cik": 1061736, "entity_type": "other", "former_names": []}
+{"name": "Jiangsu Hengrui Pharmaceuticals Co., Ltd./ADR", "cik": 2071868, "entity_type": "other", "former_names": []}
+{"name": "DIAGEO PLC", "cik": 835403, "entity_type": "other", "former_names": []}
+{"name": "Infosys Ltd", "cik": 1067491, "entity_type": "other", "former_names": ["INFOSYS TECHNOLOGIES LTD"]}
+{"name": "Ventas, Inc.", "cik": 740260, "entity_type": "operating", "former_names": ["VENTAS INC", "VENCOR INC"]}
+{"name": "Credo Technology Group Holding Ltd", "cik": 1807794, "entity_type": "operating", "former_names": []}
+{"name": "AXON ENTERPRISE, INC.", "cik": 1069183, "entity_type": "operating", "former_names": ["TASER INTERNATIONAL INC"]}
+{"name": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP", "cik": 943452, "entity_type": "operating", "former_names": ["WABTEC CORP", "WESTINGHOUSE AIR BRAKE CO /DE/"]}
+{"name": "MSCI Inc.", "cik": 1408198, "entity_type": "operating", "former_names": []}
+{"name": "TAKE TWO INTERACTIVE SOFTWARE INC", "cik": 946581, "entity_type": "operating", "former_names": []}
+{"name": "SUN LIFE FINANCIAL INC", "cik": 1097362, "entity_type": "other", "former_names": ["SUN LIFE FINANCIAL SERVICES INC", "SUN LIFE FINANCIAL SERVICES OF CANADA INC"]}
+{"name": "Viking Holdings Ltd", "cik": 1745201, "entity_type": "other", "former_names": []}
+{"name": "ORIX CORP", "cik": 1070304, "entity_type": "other", "former_names": []}
+{"name": "Autodesk, Inc.", "cik": 769397, "entity_type": "operating", "former_names": ["AUTODESK INC"]}
+{"name": "Cerebras Systems Inc.", "cik": 2021728, "entity_type": "operating", "former_names": []}
+{"name": "YUM BRANDS INC", "cik": 1041061, "entity_type": "operating", "former_names": ["TRICON GLOBAL RESTAURANTS INC"]}
+{"name": "CoreWeave, Inc.", "cik": 1769628, "entity_type": "operating", "former_names": ["Atlantic Crypto Corp"]}
+{"name": "Waste Connections, Inc.", "cik": 1318220, "entity_type": "operating", "former_names": ["Progressive Waste Solutions Ltd.", "IESI-BFC Ltd", "BFI Canada Ltd", "BFI Canada Income Fund"]}
+{"name": "KB Financial Group Inc.", "cik": 1445930, "entity_type": "other", "former_names": []}
+{"name": "Haleon plc", "cik": 1900304, "entity_type": "other", "former_names": ["DRVW 2022 Ltd"]}
+{"name": "IDEXX LABORATORIES INC /DE", "cik": 874716, "entity_type": "operating", "former_names": []}
+{"name": "Coinbase Global, Inc.", "cik": 1679788, "entity_type": "operating", "former_names": []}
+{"name": "HORTON D R INC /DE/", "cik": 882184, "entity_type": "operating", "former_names": []}
+{"name": "Live Nation Entertainment, Inc.", "cik": 1335258, "entity_type": "operating", "former_names": ["Live Nation, Inc.", "CCE Spinco, Inc."]}
+{"name": "AMERICAN INTERNATIONAL GROUP, INC.", "cik": 5272, "entity_type": "operating", "former_names": ["AMERICAN INTERNATIONAL GROUP INC"]}
+{"name": "BECTON DICKINSON & CO", "cik": 10795, "entity_type": "operating", "former_names": []}
+{"name": "PayPal Holdings, Inc.", "cik": 1633917, "entity_type": "operating", "former_names": []}
+{"name": "Keurig Dr Pepper Inc.", "cik": 1418135, "entity_type": "operating", "former_names": ["Dr Pepper Snapple Group, Inc.", "CSAB Inc."]}
+{"name": "CSL LTD", "cik": 1274152, "entity_type": "other", "former_names": []}
+{"name": "CONSOLIDATED EDISON INC", "cik": 1047862, "entity_type": "operating", "former_names": []}
+{"name": "Rocket Companies, Inc.", "cik": 1805284, "entity_type": "operating", "former_names": []}
+{"name": "THOMSON REUTERS CORP /CAN/", "cik": 1075124, "entity_type": "other", "former_names": ["THOMSON CORP /CAN/"]}
+{"name": "SWISSCOM AG", "cik": 1069336, "entity_type": "other", "former_names": []}
+{"name": "AngloGold Ashanti PLC", "cik": 1973832, "entity_type": "other", "former_names": ["AngloGold Ashanti (UK) Ltd"]}
+{"name": "PUBLIC SERVICE ENTERPRISE GROUP INC", "cik": 788784, "entity_type": "operating", "former_names": []}
+{"name": "WOODSIDE ENERGY GROUP LTD", "cik": 844551, "entity_type": "other", "former_names": ["WOODSIDE PETROLEUM LTD", "WOODSIDE PETROLEUM LTD                                  /FI"]}
+{"name": "Ares Management Corp", "cik": 1176948, "entity_type": "operating", "former_names": ["ARES MANAGEMENT LP"]}
+{"name": "PRUDENTIAL FINANCIAL INC", "cik": 1137774, "entity_type": "operating", "former_names": []}
+{"name": "CAMECO CORP", "cik": 1009001, "entity_type": "other", "former_names": []}
+{"name": "CBRE GROUP, INC.", "cik": 1138118, "entity_type": "operating", "former_names": ["CB RICHARD ELLIS GROUP INC", "CB RICHARD ELLIS SERVICES INC", "CBRE HOLDING INC"]}
+{"name": "Bayerische Motoren Werke AG/ADR", "cik": 1446250, "entity_type": "other", "former_names": ["Bayerische Motoren Werke AG"]}
+{"name": "SYSCO CORP", "cik": 96021, "entity_type": "operating", "former_names": []}
+{"name": "CELESTICA INC", "cik": 1030894, "entity_type": "operating", "former_names": []}
+{"name": "Archer-Daniels-Midland Co", "cik": 7084, "entity_type": "operating", "former_names": ["Archer-Daniels-Midland Co", "ARCHER DANIELS MIDLAND CO"]}
+{"name": "Revolution Medicines, Inc.", "cik": 1628171, "entity_type": "operating", "former_names": []}
+{"name": "Natera, Inc.", "cik": 1604821, "entity_type": "operating", "former_names": ["Natera, Inc."]}
+{"name": "Roblox Corp", "cik": 1315098, "entity_type": "operating", "former_names": []}
+{"name": "United Airlines Holdings, Inc.", "cik": 100517, "entity_type": "operating", "former_names": ["United Continental Holdings, Inc.", "UAL CORP /DE/"]}
+{"name": "JD.com, Inc.", "cik": 1549802, "entity_type": "other", "former_names": []}
+{"name": "PAYCHEX INC", "cik": 723531, "entity_type": "operating", "former_names": []}
+{"name": "FRANCO NEVADA Corp", "cik": 1456346, "entity_type": "other", "former_names": []}
+{"name": "JBS N.V.", "cik": 1791942, "entity_type": "other", "former_names": ["JBS B.V."]}
+{"name": "Reddit, Inc.", "cik": 1713445, "entity_type": "operating", "former_names": ["Reddit, Inc."]}
+{"name": "Universal Music Group N.V./ADR", "cik": 1890126, "entity_type": "other", "former_names": []}
+{"name": "BANK BRADESCO", "cik": 1160330, "entity_type": "other", "former_names": ["BANK BRADESCO"]}
+{"name": "AGILENT TECHNOLOGIES, INC.", "cik": 1090872, "entity_type": "operating", "former_names": ["AGILENT TECHNOLOGIES INC"]}
+{"name": "PG&E Corp", "cik": 1004980, "entity_type": "operating", "former_names": ["PG&E CORP", "PG&E Corp", "PG&E PARENT CO INC"]}
+{"name": "Vulcan Materials CO", "cik": 1396009, "entity_type": "operating", "former_names": ["Virginia Holdco, Inc."]}
+{"name": "HARTFORD INSURANCE GROUP, INC.", "cik": 874766, "entity_type": "operating", "former_names": ["HARTFORD INSURANCE GROUP, INC.", "HARTFORD FINANCIAL SERVICES GROUP, INC.", "HARTFORD FINANCIAL SERVICES GROUP INC/DE", "ITT HARTFORD GROUP INC /DE"]}
+{"name": "ALNYLAM PHARMACEUTICALS, INC.", "cik": 1178670, "entity_type": "operating", "former_names": ["ALNYLAM PHARMACEUTICALS INC"]}
+{"name": "WEC ENERGY GROUP, INC.", "cik": 783325, "entity_type": "operating", "former_names": ["WISCONSIN ENERGY CORP"]}
+{"name": "Baidu, Inc.", "cik": 1329099, "entity_type": "other", "former_names": ["Baidu.com, Inc."]}
+{"name": "TEVA PHARMACEUTICAL INDUSTRIES LTD", "cik": 818686, "entity_type": "operating", "former_names": ["TEVA PHARMACEUTICAL INDUSTRIES LIMITED"]}
+{"name": "WATERS CORP /DE/", "cik": 1000697, "entity_type": "operating", "former_names": []}
+{"name": "ON SEMICONDUCTOR CORP", "cik": 1097864, "entity_type": "operating", "former_names": ["SCG HOLDING CORP"]}
+{"name": "HONDA MOTOR CO LTD", "cik": 715153, "entity_type": "other", "former_names": []}
+{"name": "Carnival Corp Ltd.", "cik": 815097, "entity_type": "operating", "former_names": ["CARNIVAL CORP", "CARNIVAL CRUISE LINES INC"]}
+{"name": "IRON MOUNTAIN INC", "cik": 1020569, "entity_type": "operating", "former_names": ["IRON MOUNTAIN INC/PA", "PIERCE LEAHY CORP"]}
+{"name": "HUNTINGTON BANCSHARES INC /MD/", "cik": 49196, "entity_type": "operating", "former_names": ["HUNTINGTON BANCSHARES INC /MD/", "HUNTINGTON BANCSHARES INC/MD"]}
+{"name": "Kenvue Inc.", "cik": 1944048, "entity_type": "operating", "former_names": ["JNTL, Inc."]}
+{"name": "KROGER CO", "cik": 56873, "entity_type": "operating", "former_names": []}
+{"name": "VODAFONE GROUP PUBLIC LTD CO", "cik": 839923, "entity_type": "other", "former_names": ["VODAFONE AIRTOUCH PUBLIC LIMITED CO", "VODAFONE GROUP PUBLIC LIMITED CO", "VODAFONE GROUP PUBLIC LIMITED COMPANY"]}
+{"name": "PRUDENTIAL PLC", "cik": 1116578, "entity_type": "other", "former_names": []}
+{"name": "KIMBERLY CLARK CORP", "cik": 55785, "entity_type": "operating", "former_names": []}
+{"name": "M&T BANK CORP", "cik": 36270, "entity_type": "operating", "former_names": ["FIRST EMPIRE STATE CORP"]}
+{"name": "ARCH CAPITAL GROUP LTD.", "cik": 947484, "entity_type": "operating", "former_names": ["ARCH CAPITAL GROUP LTD", "RISK CAPITAL HOLDINGS INC"]}
+{"name": "Strategy Inc", "cik": 1050446, "entity_type": "operating", "former_names": ["MICROSTRATEGY INC", "MICROSTRATEGY Inc"]}
+{"name": "TKO Group Holdings, Inc.", "cik": 1973266, "entity_type": "operating", "former_names": ["New Whale Inc."]}
+{"name": "ROPER TECHNOLOGIES INC", "cik": 882835, "entity_type": "operating", "former_names": ["ROPER TECHNOLOGIES INC", "ROPER INDUSTRIES INC", "ROPER INDUSTRIES INC /DE/"]}
+{"name": "GLOBALFOUNDRIES Inc.", "cik": 1709048, "entity_type": "other", "former_names": []}
+{"name": "HERSHEY CO", "cik": 47111, "entity_type": "operating", "former_names": ["HERSHEY FOODS CORP"]}
+{"name": "ELBIT SYSTEMS LTD", "cik": 1027664, "entity_type": "other", "former_names": []}
+{"name": "IQVIA HOLDINGS INC.", "cik": 1478242, "entity_type": "operating", "former_names": ["Quintiles IMS Holdings, Inc.", "Quintiles Transnational Holdings Inc."]}
+{"name": "MARTIN MARIETTA MATERIALS INC", "cik": 916076, "entity_type": "operating", "former_names": []}
+{"name": "Workday, Inc.", "cik": 1327811, "entity_type": "operating", "former_names": ["Workday Inc", "North Tahoe Power Tools Inc"]}
+{"name": "NORTHERN TRUST CORP", "cik": 73124, "entity_type": "operating", "former_names": []}
+{"name": "CROWN CASTLE INC.", "cik": 1051470, "entity_type": "operating", "former_names": ["CROWN CASTLE INTERNATIONAL CORP"]}
+{"name": "EMCOR Group, Inc.", "cik": 105634, "entity_type": "operating", "former_names": ["EMCOR GROUP INC", "JWP INC/DE/"]}
+{"name": "Restaurant Brands International Inc.", "cik": 1618756, "entity_type": "operating", "former_names": ["9060669 Canada Inc.", "1011773 B.C. Unlimited Liability Co"]}
+{"name": "FAIRFAX FINANCIAL HOLDINGS LTD/ CAN", "cik": 915191, "entity_type": "other", "former_names": ["FAIRFAX FINANCIAL HOLDINGS INC", "FAIRFAX FINANCIAL HOLDINGS LTD"]}
+{"name": "JABIL INC", "cik": 898293, "entity_type": "operating", "former_names": ["JABIL CIRCUIT INC"]}
+{"name": "CENTENE CORP", "cik": 1071739, "entity_type": "operating", "former_names": []}
+{"name": "NetApp, Inc.", "cik": 1002047, "entity_type": "operating", "former_names": ["NETWORK APPLIANCE INC"]}
+{"name": "SHINHAN FINANCIAL GROUP CO LTD", "cik": 1263043, "entity_type": "other", "former_names": []}
+{"name": "STEEL DYNAMICS INC", "cik": 1022671, "entity_type": "operating", "former_names": ["STEEL DYNAMICS INC"]}
+{"name": "ERICSSON LM TELEPHONE CO", "cik": 717826, "entity_type": "other", "former_names": []}
+{"name": "RYANAIR HOLDINGS PLC", "cik": 1038683, "entity_type": "other", "former_names": []}
+{"name": "Ubiquiti Inc.", "cik": 1511737, "entity_type": "operating", "former_names": ["Ubiquiti Networks, Inc."]}
+{"name": "TWILIO INC", "cik": 1447669, "entity_type": "operating", "former_names": []}
+{"name": "Nutrien Ltd.", "cik": 1725964, "entity_type": "other", "former_names": []}
+{"name": "RESONA HOLDINGS INC", "cik": 1447391, "entity_type": "other", "former_names": []}
+{"name": "Venture Global, Inc.", "cik": 2007855, "entity_type": "operating", "former_names": []}
+{"name": "ECOPETROL S.A.", "cik": 1444406, "entity_type": "other", "former_names": []}
+{"name": "RAYMOND JAMES FINANCIAL INC", "cik": 720005, "entity_type": "operating", "former_names": []}
+{"name": "ALCON INC", "cik": 1167379, "entity_type": "other", "former_names": []}
+{"name": "CHUNGHWA TELECOM CO LTD", "cik": 1132924, "entity_type": "other", "former_names": []}
+{"name": "Expedia Group, Inc.", "cik": 1324424, "entity_type": "operating", "former_names": ["Expedia, Inc."]}
+{"name": "Extra Space Storage Inc.", "cik": 1289490, "entity_type": "operating", "former_names": []}
+{"name": "Royalty Pharma plc", "cik": 1802768, "entity_type": "operating", "former_names": []}
+{"name": "Dollarama Inc./ADR", "cik": 2073893, "entity_type": "other", "former_names": []}
+{"name": "BeOne Medicines Ltd.", "cik": 1651308, "entity_type": "operating", "former_names": ["BeiGene, Ltd."]}
+{"name": "Coupang, Inc.", "cik": 1834584, "entity_type": "operating", "former_names": []}
+{"name": "CASEYS GENERAL STORES INC", "cik": 726958, "entity_type": "operating", "former_names": []}
+{"name": "VEEVA SYSTEMS INC", "cik": 1393052, "entity_type": "operating", "former_names": ["VERTICALS ONDEMAND INC"]}
+{"name": "Cheniere Energy Partners, L.P.", "cik": 1383650, "entity_type": "operating", "former_names": []}
+{"name": "AMEREN CORP", "cik": 1002910, "entity_type": "operating", "former_names": []}
+{"name": "DTE ENERGY CO", "cik": 936340, "entity_type": "operating", "former_names": ["DTE HOLDINGS INC"]}
+{"name": "EQT Corp", "cik": 33213, "entity_type": "operating", "former_names": ["EQUITABLE RESOURCES INC /PA/"]}
+{"name": "CREDICORP LTD", "cik": 1001290, "entity_type": "other", "former_names": []}
+{"name": "Zoetis Inc.", "cik": 1555280, "entity_type": "operating", "former_names": []}
+{"name": "Ingersoll Rand Inc.", "cik": 1699150, "entity_type": "operating", "former_names": ["GARDNER DENVER HOLDINGS, INC."]}
+{"name": "Sunbelt Rentals Holdings, Inc.", "cik": 2083785, "entity_type": "operating", "former_names": []}
+{"name": "Qnity Electronics, Inc.", "cik": 2058873, "entity_type": "operating", "former_names": ["Novus SpinCo 1, Inc."]}
+{"name": "ATMOS ENERGY CORP", "cik": 731802, "entity_type": "operating", "former_names": []}
+{"name": "Kraft Heinz Co", "cik": 1637459, "entity_type": "operating", "former_names": ["H.J. Heinz Holding Corp"]}
+{"name": "CITIZENS FINANCIAL GROUP INC/RI", "cik": 759944, "entity_type": "operating", "former_names": ["CITIZENS FINANCIAL GROUP INC/DE"]}
+{"name": "LAS VEGAS SANDS CORP", "cik": 1300514, "entity_type": "operating", "former_names": []}
+{"name": "TechnipFMC plc", "cik": 1681459, "entity_type": "operating", "former_names": ["TechnipFMC Ltd"]}
+{"name": "Fortis Inc.", "cik": 1666175, "entity_type": "other", "former_names": []}
+{"name": "GOLD FIELDS LTD", "cik": 1172724, "entity_type": "other", "former_names": ["GOLD FIELD LTD"]}
+{"name": "TECK RESOURCES LTD", "cik": 886986, "entity_type": "other", "former_names": ["TECK COMINCO LTD", "TECK CORP"]}
+{"name": "TOWER SEMICONDUCTOR LTD", "cik": 928876, "entity_type": "other", "former_names": []}
+{"name": "HALLIBURTON CO", "cik": 45012, "entity_type": "operating", "former_names": []}
+{"name": "ESTEE LAUDER COMPANIES INC", "cik": 1001250, "entity_type": "operating", "former_names": []}
+{"name": "EDISON INTERNATIONAL", "cik": 827052, "entity_type": "operating", "former_names": ["SCECORP"]}
+{"name": "ILLUMINA, INC.", "cik": 1110803, "entity_type": "operating", "former_names": ["ILLUMINA INC"]}
+{"name": "TELEDYNE TECHNOLOGIES INC", "cik": 1094285, "entity_type": "operating", "former_names": []}
+{"name": "PEMBINA PIPELINE CORP", "cik": 1546066, "entity_type": "other", "former_names": []}
+{"name": "VICI PROPERTIES INC.", "cik": 1705696, "entity_type": "operating", "former_names": []}
+{"name": "NRG ENERGY, INC.", "cik": 1013871, "entity_type": "operating", "former_names": ["NRG ENERGY, INC.", "NRG ENERGY INC"]}
+{"name": "Xylem Inc.", "cik": 1524472, "entity_type": "operating", "former_names": ["ITT WCO, Inc."]}
+{"name": "BIOGEN INC.", "cik": 875045, "entity_type": "operating", "former_names": ["BIOGEN IDEC INC.", "BIOGEN IDEC INC", "IDEC PHARMACEUTICALS CORP / DE", "IDEC PHARMACEUTICALS CORP / CA"]}
+{"name": "DOVER Corp", "cik": 29905, "entity_type": "operating", "former_names": []}
+{"name": "CENTERPOINT ENERGY INC", "cik": 1130310, "entity_type": "operating", "former_names": ["CENTERPOINT ENERGY INC", "RELIANT ENERGY REGCO INC"]}
+{"name": "Cboe Global Markets, Inc.", "cik": 1374310, "entity_type": "operating", "former_names": ["CBOE Holdings, Inc."]}
+{"name": "MASTEC INC", "cik": 15615, "entity_type": "operating", "former_names": ["BURNUP & SIMS INC"]}
+{"name": "DEXCOM INC", "cik": 1093557, "entity_type": "operating", "former_names": []}
+{"name": "Texas Pacific Land Corp", "cik": 1811074, "entity_type": "operating", "former_names": []}
+{"name": "CARPENTER TECHNOLOGY CORP", "cik": 17843, "entity_type": "operating", "former_names": []}
+{"name": "NOMURA HOLDINGS INC", "cik": 1163653, "entity_type": "other", "former_names": []}
+{"name": "KINROSS GOLD CORP", "cik": 701818, "entity_type": "other", "former_names": []}
+{"name": "TENARIS SA", "cik": 1190723, "entity_type": "other", "former_names": []}
+{"name": "FAIR ISAAC CORP", "cik": 814547, "entity_type": "operating", "former_names": ["FAIR ISAAC & COMPANY INC"]}
+{"name": "Affirm Holdings, Inc.", "cik": 1820953, "entity_type": "operating", "former_names": []}
+{"name": "EVERSOURCE ENERGY", "cik": 72741, "entity_type": "operating", "former_names": ["NORTHEAST UTILITIES", "NORTHEAST UTILITIES SYSTEM"]}
+{"name": "RESMED INC", "cik": 943819, "entity_type": "operating", "former_names": []}
+{"name": "FIRSTENERGY CORP", "cik": 1031296, "entity_type": "operating", "former_names": []}
+{"name": "CINCINNATI FINANCIAL CORP", "cik": 20286, "entity_type": "operating", "former_names": []}
+{"name": "Otis Worldwide Corp", "cik": 1781335, "entity_type": "operating", "former_names": []}
+{"name": "CURTISS WRIGHT CORP", "cik": 26324, "entity_type": "operating", "former_names": []}
+{"name": "GE HealthCare Technologies Inc.", "cik": 1932393, "entity_type": "operating", "former_names": ["GE Healthcare Holding LLC"]}
+{"name": "Amrize Ltd", "cik": 2035989, "entity_type": "operating", "former_names": ["Evertect AG"]}
+{"name": "EchoStar CORP", "cik": 1415404, "entity_type": "operating", "former_names": ["EchoStar Holding CORP"]}
+{"name": "MongoDB, Inc.", "cik": 1441816, "entity_type": "operating", "former_names": ["10GEN INC"]}
+{"name": "TAPESTRY, INC.", "cik": 1116132, "entity_type": "operating", "former_names": ["COACH INC"]}
+{"name": "WILLIS TOWERS WATSON PLC", "cik": 1140536, "entity_type": "operating", "former_names": ["WILLIS GROUP HOLDINGS PLC", "WILLIS GROUP HOLDINGS LTD"]}
+{"name": "AVALONBAY COMMUNITIES INC", "cik": 915912, "entity_type": "operating", "former_names": ["AVALON BAY COMMUNITIES INC", "BAY APARTMENT COMMUNITIES INC"]}
+{"name": "PPL Corp", "cik": 922224, "entity_type": "operating", "former_names": ["PP&L RESOURCES INC"]}
+{"name": "AST SpaceMobile, Inc.", "cik": 1780312, "entity_type": "operating", "former_names": ["AST SpaceMobile, Inc.", "New Providence Acquisition Corp."]}
+{"name": "BERKLEY W R CORP", "cik": 11544, "entity_type": "operating", "former_names": []}
+{"name": "Okta, Inc.", "cik": 1660134, "entity_type": "operating", "former_names": []}
+{"name": "Trip.com Group Ltd", "cik": 1269238, "entity_type": "other", "former_names": ["CTRIP COM INTERNATIONAL LTD"]}
+{"name": "Moderna, Inc.", "cik": 1682852, "entity_type": "operating", "former_names": ["Moderna Therapeutics, Inc."]}
+{"name": "EQUITY RESIDENTIAL", "cik": 906107, "entity_type": "operating", "former_names": ["EQUITY RESIDENTIAL PROPERTIES TRUST"]}
+{"name": "Chocoladefabriken Lindt & Spruengli AG/ADR", "cik": 1885110, "entity_type": "other", "former_names": []}
+{"name": "FISERV INC", "cik": 798354, "entity_type": "operating", "former_names": []}
+{"name": "Zoom Communications, Inc.", "cik": 1585521, "entity_type": "operating", "former_names": ["Zoom Video Communications, Inc."]}
+{"name": "DOLLAR GENERAL CORP", "cik": 29534, "entity_type": "operating", "former_names": []}
+{"name": "Fresenius SE & Co. KGaA", "cik": 904868, "entity_type": "other", "former_names": ["FRESENIUS SE", "FRESENIUS AKTIENGESELLSCHAFT"]}
+{"name": "COPART INC", "cik": 900075, "entity_type": "operating", "former_names": []}
+{"name": "HUNT J B TRANSPORT SERVICES INC", "cik": 728535, "entity_type": "operating", "former_names": []}
+{"name": "METTLER TOLEDO INTERNATIONAL INC/", "cik": 1037646, "entity_type": "operating", "former_names": ["MT INVESTORS INC/", "METTLER TOLEDO INTERNATIONAL INC", "MT INVESTORS INC"]}
+{"name": "REGIONS FINANCIAL CORP", "cik": 1281761, "entity_type": "operating", "former_names": ["NEW REGIONS FINANCIAL CORP"]}
+{"name": "Symbotic Inc.", "cik": 1837240, "entity_type": "operating", "former_names": ["SVF Investment Corp. 3", "SVF Investment III Corp."]}
+{"name": "nVent Electric plc", "cik": 1720635, "entity_type": "operating", "former_names": []}
+{"name": "WILLIAMS SONOMA INC", "cik": 719955, "entity_type": "operating", "former_names": []}
+{"name": "American Water Works Company, Inc.", "cik": 1410636, "entity_type": "operating", "former_names": []}
+{"name": "LPL Financial Holdings Inc.", "cik": 1397911, "entity_type": "operating", "former_names": ["LPL Investment Holdings Inc."]}
+{"name": "Everpure, Inc.", "cik": 1474432, "entity_type": "operating", "former_names": ["PURE Storage, Inc.", "Pure Storage, Inc.", "Os76, Inc."]}
+{"name": "PPG INDUSTRIES INC", "cik": 79879, "entity_type": "operating", "former_names": []}
+{"name": "ATI INC", "cik": 1018963, "entity_type": "operating", "former_names": ["ALLEGHENY TECHNOLOGIES INC", "ALLEGHENY TELEDYNE INC"]}
+{"name": "Kongsberg Gruppen ASA/ADR", "cik": 1535759, "entity_type": "other", "former_names": []}
+{"name": "WEST PHARMACEUTICAL SERVICES INC", "cik": 105770, "entity_type": "operating", "former_names": ["WEST CO INC"]}
+{"name": "KONINKLIJKE PHILIPS NV", "cik": 313216, "entity_type": "other", "former_names": ["KONINKLIJKE PHILIPS ELECTRONICS NV", "PHILIPS ELECTRONICS N V"]}
+{"name": "Geely Automobile Holdings Limited/ADR", "cik": 1474968, "entity_type": "other", "former_names": []}
+{"name": "HUBBELL INC", "cik": 48898, "entity_type": "operating", "former_names": []}
+{"name": "KEYCORP /NEW/", "cik": 91576, "entity_type": "operating", "former_names": ["KEYCORP/NEW", "SOCIETY CORP"]}
+{"name": "Verisk Analytics, Inc.", "cik": 1442145, "entity_type": "operating", "former_names": []}
+{"name": "Roivant Sciences Ltd.", "cik": 1635088, "entity_type": "operating", "former_names": []}
+{"name": "Rivian Automotive, Inc. / DE", "cik": 1874178, "entity_type": "operating", "former_names": []}
+{"name": "PRICE T ROWE GROUP INC", "cik": 1113169, "entity_type": "operating", "former_names": []}
+{"name": "Synchrony Financial", "cik": 1601712, "entity_type": "operating", "former_names": ["Synchrony Financial"]}
+{"name": "XPO, Inc.", "cik": 1166003, "entity_type": "operating", "former_names": ["XPO Logistics, Inc.", "EXPRESS-1 EXPEDITED SOLUTIONS INC", "SEGMENTZ INC"]}
+{"name": "Zscaler, Inc.", "cik": 1713683, "entity_type": "operating", "former_names": []}
+{"name": "PRINCIPAL FINANCIAL GROUP INC", "cik": 1126328, "entity_type": "operating", "former_names": []}
+{"name": "MARKEL GROUP INC.", "cik": 1096343, "entity_type": "operating", "former_names": ["MARKEL CORP", "MARKEL HOLDINGS INC"]}
+{"name": "MKS INC", "cik": 1049502, "entity_type": "operating", "former_names": ["MKS INSTRUMENTS INC"]}
+{"name": "VERISIGN INC/CA", "cik": 1014473, "entity_type": "operating", "former_names": []}
+{"name": "F5, INC.", "cik": 1048695, "entity_type": "operating", "former_names": ["F5 NETWORKS, INC.", "F5 NETWORKS INC"]}
+{"name": "FIRST CITIZENS BANCSHARES INC /DE/", "cik": 798941, "entity_type": "operating", "former_names": []}
+{"name": "FIRST SOLAR, INC.", "cik": 1274494, "entity_type": "operating", "former_names": ["FIRST SOLAR HOLDINGS LLC"]}
+{"name": "INSMED Inc", "cik": 1104506, "entity_type": "operating", "former_names": []}
+{"name": "DOLLAR TREE, INC.", "cik": 935703, "entity_type": "operating", "former_names": ["DOLLAR TREE INC", "DOLLAR TREE STORES INC"]}
+{"name": "Woodward, Inc.", "cik": 108312, "entity_type": "operating", "former_names": ["WOODWARD GOVERNOR CO"]}
+{"name": "SoFi Technologies, Inc.", "cik": 1818874, "entity_type": "operating", "former_names": ["Social Capital Hedosophia Holdings Corp. V"]}
+{"name": "LOEWS CORP", "cik": 60086, "entity_type": "operating", "former_names": []}
+{"name": "PULTEGROUP INC/MI/", "cik": 822416, "entity_type": "operating", "former_names": ["PULTE HOMES INC/MI/", "PULTE CORP"]}
+{"name": "CORPAY, INC.", "cik": 1175454, "entity_type": "operating", "former_names": ["FLEETCOR TECHNOLOGIES INC"]}
+{"name": "INNIO N.V.", "cik": 2109150, "entity_type": "other", "former_names": ["INNIO Group Holding B.V.", "INNIO Holding GmbH"]}
+{"name": "AXIA Energia S.A.", "cik": 1439124, "entity_type": "other", "former_names": ["BRAZILIAN ELECTRIC POWER CO"]}
+{"name": "INTERCONTINENTAL HOTELS GROUP PLC /NEW/", "cik": 858446, "entity_type": "other", "former_names": ["SIX CONTINENTS PLC", "BASS PUBLIC LIMITED CO"]}
+{"name": "C. H. ROBINSON WORLDWIDE, INC.", "cik": 1043277, "entity_type": "operating", "former_names": ["C H ROBINSON WORLDWIDE INC"]}
+{"name": "Liberty Media Corp", "cik": 1560385, "entity_type": "operating", "former_names": ["Liberty Spinco, Inc."]}
+{"name": "EXPEDITORS INTERNATIONAL OF WASHINGTON INC", "cik": 746515, "entity_type": "operating", "former_names": []}
+{"name": "CMS ENERGY CORP", "cik": 811156, "entity_type": "operating", "former_names": []}
+{"name": "AerCap Holdings N.V.", "cik": 1378789, "entity_type": "other", "former_names": []}
+{"name": "SOUTHWEST AIRLINES CO", "cik": 92380, "entity_type": "operating", "former_names": []}
+{"name": "Fox Corp", "cik": 1754301, "entity_type": "operating", "former_names": ["NEW FOX, INC."]}
+{"name": "MACOM Technology Solutions Holdings, Inc.", "cik": 1493594, "entity_type": "operating", "former_names": ["M/A-COM Technology Solutions Holdings, Inc."]}
+{"name": "BROWN & BROWN, INC.", "cik": 79282, "entity_type": "operating", "former_names": ["BROWN & BROWN, INC", "BROWN & BROWN INC", "POE & BROWN INC"]}
+{"name": "OMNICOM GROUP INC.", "cik": 29989, "entity_type": "operating", "former_names": ["OMNICOM GROUP INC"]}
+{"name": "BioNTech SE", "cik": 1776985, "entity_type": "other", "former_names": []}
+{"name": "INCYTE CORP", "cik": 879169, "entity_type": "operating", "former_names": ["INCYTE INC", "INCYTE GENOMICS INC", "INCYTE PHARMACEUTICALS INC"]}
+{"name": "QUEST DIAGNOSTICS INC", "cik": 1022079, "entity_type": "operating", "former_names": ["CORNING CLINICAL LABORATORIES INC"]}
+{"name": "Atlassian Corp", "cik": 1650372, "entity_type": "operating", "former_names": ["Atlassian Corp Plc"]}
+{"name": "Smurfit Westrock plc", "cik": 2005951, "entity_type": "operating", "former_names": ["Smurfit WestRock Ltd"]}
+{"name": "CHURCH & DWIGHT CO INC /DE/", "cik": 313927, "entity_type": "operating", "former_names": []}
+{"name": "LABCORP HOLDINGS INC.", "cik": 920148, "entity_type": "operating", "former_names": ["LABORATORY CORP OF AMERICA HOLDINGS", "NATIONAL HEALTH LABORATORIES HOLDINGS INC"]}
+{"name": "Veralto Corp", "cik": 1967680, "entity_type": "operating", "former_names": []}
+{"name": "CONSTELLATION BRANDS, INC.", "cik": 16918, "entity_type": "operating", "former_names": ["CONSTELLATION BRANDS INC", "CANANDAIGUA BRANDS INC", "CANANDAIGUA WINE CO INC"]}
+{"name": "DARDEN RESTAURANTS INC", "cik": 940944, "entity_type": "operating", "former_names": []}
+{"name": "Bunge Global SA", "cik": 1996862, "entity_type": "operating", "former_names": []}
+{"name": "HP INC", "cik": 47217, "entity_type": "operating", "former_names": ["HEWLETT PACKARD CO"]}
+{"name": "TELEFONICA BRASIL S.A.", "cik": 1066119, "entity_type": "other", "former_names": ["TELEFONICA BRASIL S.A.", "TELESP HOLDING CO", "TELESP PARTICIPACOES SA"]}
+{"name": "NISOURCE INC.", "cik": 1111711, "entity_type": "operating", "former_names": ["NISOURCE INC/DE", "NEW NISOURCE INC"]}
+{"name": "UNITED THERAPEUTICS Corp", "cik": 1082554, "entity_type": "operating", "former_names": []}
+{"name": "US Foods Holding Corp.", "cik": 1665918, "entity_type": "operating", "former_names": []}
+{"name": "Brookfield Renewable Partners L.P.", "cik": 1533232, "entity_type": "other", "former_names": ["Brookfield Renewable Energy Partners L.P."]}
+{"name": "RALPH LAUREN CORP", "cik": 1037038, "entity_type": "operating", "former_names": ["POLO RALPH LAUREN CORP"]}
+{"name": "DOW INC.", "cik": 1751788, "entity_type": "operating", "former_names": ["Dow Holdings Inc."]}
+{"name": "FedEx Freight Holding Company, Inc.", "cik": 2082247, "entity_type": "other", "former_names": []}
+{"name": "COCA COLA FEMSA SAB DE CV", "cik": 910631, "entity_type": "other", "former_names": ["COCA COLA FEMSA SA DE CV"]}
+{"name": "HEINEKEN HOLDING N V", "cik": 1142231, "entity_type": "other", "former_names": []}
+{"name": "Samsara Inc.", "cik": 1642896, "entity_type": "operating", "former_names": ["Samsara Networks Inc."]}
+{"name": "EDP ENERGIAS DE PORTUGAL SA", "cik": 1039610, "entity_type": "operating", "former_names": ["EDP ELECTRICIDADE DE PORTUGAL SA"]}
+{"name": "Tradeweb Markets Inc.", "cik": 1758730, "entity_type": "operating", "former_names": []}
+{"name": "ENTEGRIS INC", "cik": 1101302, "entity_type": "operating", "former_names": []}
+{"name": "ROLLINS INC", "cik": 84839, "entity_type": "operating", "former_names": []}
+{"name": "Guardant Health, Inc.", "cik": 1576280, "entity_type": "operating", "former_names": []}
+{"name": "FTAI Aviation Ltd.", "cik": 1590364, "entity_type": "operating", "former_names": ["Fortress Transportation & Infrastructure Investors LLC", "Fortress Transportation & Infrastructure Investors Ltd."]}
+{"name": "SharkNinja, Inc.", "cik": 1957132, "entity_type": "operating", "former_names": ["SharkNinja Global SPV, Ltd."]}
+{"name": "ROKU, INC", "cik": 1428439, "entity_type": "operating", "former_names": ["ROKU INC"]}
+{"name": "Fidelity National Information Services, Inc.", "cik": 1136893, "entity_type": "operating", "former_names": ["CERTEGY INC", "EQUIFAX PS INC"]}
+{"name": "EXPAND ENERGY Corp", "cik": 895126, "entity_type": "operating", "former_names": ["CHESAPEAKE ENERGY CORP"]}
+{"name": "COMPANHIA DE SANEAMENTO BASICO DO ESTADO DE SAO PAULO-SABESP", "cik": 1170858, "entity_type": "other", "former_names": []}
+{"name": "Snap-on Inc", "cik": 91440, "entity_type": "operating", "former_names": ["SNAP ON INC", "SNAP ON TOOLS CORP"]}
+{"name": "STERLING INFRASTRUCTURE, INC.", "cik": 874238, "entity_type": "operating", "former_names": ["STERLING CONSTRUCTION CO INC", "OAKHURST CO INC", "OAKHURST CAPITAL INC"]}
+{"name": "Bending Spoons S.p.A.", "cik": 2004711, "entity_type": "other", "former_names": []}
+{"name": "GLOBAL PAYMENTS INC", "cik": 1123360, "entity_type": "operating", "former_names": []}
+{"name": "Burlington Stores, Inc.", "cik": 1579298, "entity_type": "operating", "former_names": ["Burlington Holdings, Inc."]}
+{"name": "CHEMICAL & MINING CO OF CHILE INC", "cik": 909037, "entity_type": "other", "former_names": []}
+{"name": "BANK OF CHILE", "cik": 1161125, "entity_type": "other", "former_names": []}
+{"name": "ESSEX PROPERTY TRUST, INC.", "cik": 920522, "entity_type": "operating", "former_names": ["ESSEX PORTFOLIO LP", "ESSEX PROPERTY TRUST INC"]}
+{"name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP", "cik": 1058290, "entity_type": "operating", "former_names": []}
+{"name": "RB GLOBAL INC.", "cik": 1046102, "entity_type": "operating", "former_names": ["RITCHIE BROS AUCTIONEERS INC"]}
+{"name": "TELENOR ASA", "cik": 1126113, "entity_type": "other", "former_names": []}
+{"name": "STERIS plc", "cik": 1757898, "entity_type": "operating", "former_names": ["STERIS Ltd"]}
+{"name": "EQUIFAX INC", "cik": 33185, "entity_type": "operating", "former_names": ["EQUIFAX INC"]}
+{"name": "TYSON FOODS, INC.", "cik": 100493, "entity_type": "operating", "former_names": ["TYSON FOODS INC"]}
+{"name": "CHARTER COMMUNICATIONS, INC. /MO/", "cik": 1091667, "entity_type": "operating", "former_names": ["CHARTER COMMUNICATIONS INC /MO/"]}
+{"name": "Banco Santander (Brasil) S.A.", "cik": 1471055, "entity_type": "other", "former_names": []}
+{"name": "PACKAGING CORP OF AMERICA", "cik": 75677, "entity_type": "operating", "former_names": []}
+{"name": "TD SYNNEX CORP", "cik": 1177394, "entity_type": "operating", "former_names": ["SYNNEX CORP", "SYNNEX INFORMATION TECHNOLOGIES INC"]}
+{"name": "LENNAR CORP /NEW/", "cik": 920760, "entity_type": "operating", "former_names": ["PACIFIC GREYSTONE CORP /DE/"]}
+{"name": "Ulta Beauty, Inc.", "cik": 1403568, "entity_type": "operating", "former_names": ["Ulta Salon, Cosmetics & Fragrance, Inc."]}
+{"name": "Amer Sports, Inc.", "cik": 1988894, "entity_type": "other", "former_names": []}
+{"name": "Evergy, Inc.", "cik": 1711269, "entity_type": "operating", "former_names": ["Monarch Energy Holding, Inc."]}
+{"name": "BCE INC", "cik": 718940, "entity_type": "other", "former_names": []}
+{"name": "RELIANCE, INC.", "cik": 861884, "entity_type": "operating", "former_names": ["RELIANCE STEEL & ALUMINUM CO"]}
+{"name": "Sartorius AG/ADR", "cik": 1715801, "entity_type": "other", "former_names": []}
+{"name": "SBA COMMUNICATIONS CORP", "cik": 1034054, "entity_type": "operating", "former_names": []}
+{"name": "Amcor plc", "cik": 1748790, "entity_type": "operating", "former_names": ["ARCTIC JERSEY Ltd"]}
+{"name": "ALLIANT ENERGY CORP", "cik": 352541, "entity_type": "operating", "former_names": ["ALLIANT ENERGY CORP", "INTERSTATE ENERGY CORP", "WPL HOLDINGS INC"]}
+{"name": "Hesai Group", "cik": 1861737, "entity_type": "other", "former_names": []}
+{"name": "GENERAL MILLS INC", "cik": 40704, "entity_type": "operating", "former_names": []}
+{"name": "YPF SOCIEDAD ANONIMA", "cik": 904851, "entity_type": "other", "former_names": []}
+{"name": "LENNOX INTERNATIONAL INC", "cik": 1069202, "entity_type": "operating", "former_names": []}
+{"name": "INTERNATIONAL PAPER CO /NEW/", "cik": 51434, "entity_type": "operating", "former_names": []}
+{"name": "Grupo Cibest S.A.", "cik": 2058897, "entity_type": "other", "former_names": []}
+{"name": "INTERNATIONAL FLAVORS & FRAGRANCES INC", "cik": 51253, "entity_type": "operating", "former_names": []}
+{"name": "Western Midstream Partners, LP", "cik": 1423902, "entity_type": "operating", "former_names": ["Western Gas Equity Partners, LP", "WGR Holdings LLC"]}
+{"name": "DICK'S SPORTING GOODS, INC.", "cik": 1089063, "entity_type": "operating", "former_names": ["DICKS SPORTING GOODS INC"]}
+{"name": "Viatris Inc", "cik": 1792044, "entity_type": "operating", "former_names": ["Upjohn Inc"]}
+{"name": "Talen Energy Corp", "cik": 1622536, "entity_type": "operating", "former_names": []}
+{"name": "LyondellBasell Industries N.V.", "cik": 1489393, "entity_type": "operating", "former_names": []}
+{"name": "Flutter Entertainment plc", "cik": 1635327, "entity_type": "operating", "former_names": ["Stars Group Inc.", "Amaya Inc."]}
+{"name": "RBC Bearings INC", "cik": 1324948, "entity_type": "operating", "former_names": []}
+{"name": "SITIME Corp", "cik": 1451809, "entity_type": "operating", "former_names": []}
+{"name": "Fortive Corp", "cik": 1659166, "entity_type": "operating", "former_names": []}
+{"name": "LATTICE SEMICONDUCTOR CORP", "cik": 855658, "entity_type": "operating", "former_names": []}
+{"name": "CF Industries Holdings, Inc.", "cik": 1324404, "entity_type": "operating", "former_names": []}
+{"name": "PAN AMERICAN SILVER CORP", "cik": 771992, "entity_type": "other", "former_names": []}
+{"name": "WIPRO LTD", "cik": 1123799, "entity_type": "other", "former_names": []}
+{"name": "CEMEX SAB DE CV", "cik": 1076378, "entity_type": "other", "former_names": ["CEMEX SA DE CV"]}
+{"name": "ZTO Express (Cayman) Inc.", "cik": 1677250, "entity_type": "other", "former_names": []}
+{"name": "Rubrik, Inc.", "cik": 1943896, "entity_type": "operating", "former_names": ["Rubrik, Inc."]}
+{"name": "DuPont de Nemours, Inc.", "cik": 1666700, "entity_type": "operating", "former_names": ["DowDuPont Inc."]}
+{"name": "AKAMAI TECHNOLOGIES INC", "cik": 1086222, "entity_type": "operating", "former_names": []}
+{"name": "CDW Corp", "cik": 1402057, "entity_type": "operating", "former_names": ["VH Holdings, Inc."]}
+{"name": "Super Micro Computer, Inc.", "cik": 1375365, "entity_type": "operating", "former_names": []}
+{"name": "EAST WEST BANCORP INC", "cik": 1069157, "entity_type": "operating", "former_names": []}
+{"name": "KE Holdings Inc.", "cik": 1809587, "entity_type": "other", "former_names": []}
+{"name": "Invitation Homes Inc.", "cik": 1687229, "entity_type": "operating", "former_names": []}
+{"name": "APi Group Corp", "cik": 1796209, "entity_type": "operating", "former_names": []}
+{"name": "ROGERS COMMUNICATIONS INC", "cik": 733099, "entity_type": "other", "former_names": []}
+{"name": "Madison Air Solutions Corp", "cik": 2098430, "entity_type": "operating", "former_names": []}
+{"name": "Hyatt Hotels Corp", "cik": 1468174, "entity_type": "operating", "former_names": []}
+{"name": "UL Solutions Inc.", "cik": 1901440, "entity_type": "operating", "former_names": ["UL Solutions Inc.", "UL Inc."]}
+{"name": "Arxis, Inc.", "cik": 2093536, "entity_type": "operating", "former_names": []}
+{"name": "Performance Food Group Co", "cik": 1618673, "entity_type": "operating", "former_names": []}
+{"name": "GENMAB A/S", "cik": 1434265, "entity_type": "other", "former_names": []}
+{"name": "ZIMMER BIOMET HOLDINGS, INC.", "cik": 1136869, "entity_type": "operating", "former_names": ["ZIMMER HOLDINGS INC"]}
+{"name": "ITT INC.", "cik": 216228, "entity_type": "operating", "former_names": ["ITT CORP", "ITT Corp", "ITT INDUSTRIES INC"]}
+{"name": "Ascendis Pharma A/S", "cik": 1612042, "entity_type": "other", "former_names": []}
+{"name": "BEST BUY CO INC", "cik": 764478, "entity_type": "operating", "former_names": []}
+{"name": "MAGNA INTERNATIONAL INC", "cik": 749098, "entity_type": "other", "former_names": []}
+{"name": "Fabrinet", "cik": 1408710, "entity_type": "operating", "former_names": []}
+{"name": "Toast, Inc.", "cik": 1650164, "entity_type": "operating", "former_names": []}
+{"name": "NEUROCRINE BIOSCIENCES INC", "cik": 914475, "entity_type": "operating", "former_names": []}
+{"name": "NVR INC", "cik": 906163, "entity_type": "operating", "former_names": []}
+{"name": "AMKOR TECHNOLOGY, INC.", "cik": 1047127, "entity_type": "operating", "former_names": ["AMKOR TECHNOLOGY INC"]}
+{"name": "Quantinuum Inc.", "cik": 2110105, "entity_type": "other", "former_names": []}
+{"name": "FRANKLIN RESOURCES INC", "cik": 38777, "entity_type": "operating", "former_names": []}
+{"name": "WEYERHAEUSER CO", "cik": 106535, "entity_type": "operating", "former_names": []}
+{"name": "KIMCO REALTY CORP", "cik": 879101, "entity_type": "operating", "former_names": []}
+{"name": "GENUINE PARTS CO", "cik": 40987, "entity_type": "operating", "former_names": []}
+{"name": "Joint Stock Co Kaspi.kz", "cik": 1985487, "entity_type": "other", "former_names": []}
+{"name": "BROADRIDGE FINANCIAL SOLUTIONS, INC.", "cik": 1383312, "entity_type": "operating", "former_names": ["BROADRIDGE FINANCIAL SOLUTIONS, INC.", "BROADRIDGE FINANCIAL SOLUTIONS, LLC", "BSG LLC"]}
+{"name": "ANNALY CAPITAL MANAGEMENT INC", "cik": 1043219, "entity_type": "operating", "former_names": ["ANNALY MORTGAGE MANAGEMENT INC"]}
+{"name": "Permian Resources Corp", "cik": 1658566, "entity_type": "operating", "former_names": ["Centennial Resource Development, Inc.", "Silver Run Acquisition Corp"]}
+{"name": "Circle Internet Group, Inc.", "cik": 1876042, "entity_type": "operating", "former_names": ["Circle Internet Financial Ltd", "Circle Internet Finance Public Ltd Co", "CIrcle Acquisition Public Ltd Co"]}
+{"name": "PLAINS ALL AMERICAN PIPELINE LP", "cik": 1070423, "entity_type": "operating", "former_names": []}
+{"name": "TPG Inc.", "cik": 1880661, "entity_type": "operating", "former_names": ["TPG Partners, LLC"]}
+{"name": "EMERA INC", "cik": 1127248, "entity_type": "other", "former_names": []}
+{"name": "MILLICOM INTERNATIONAL CELLULAR SA", "cik": 912958, "entity_type": "other", "former_names": []}
+{"name": "Stellantis N.V.", "cik": 1605484, "entity_type": "other", "former_names": ["Fiat Chrysler Automobiles N.V.", "Fiat Investments N.V."]}
+{"name": "WESCO INTERNATIONAL INC", "cik": 929008, "entity_type": "operating", "former_names": ["CDW HOLDING CORP"]}
+{"name": "ROYAL GOLD INC", "cik": 85535, "entity_type": "operating", "former_names": ["ROYAL GOLD INC /DE/"]}
+{"name": "Coeur Mining, Inc.", "cik": 215466, "entity_type": "operating", "former_names": ["COEUR D ALENE MINES CORP"]}
+{"name": "BWX Technologies, Inc.", "cik": 1486957, "entity_type": "operating", "former_names": ["Babcock & Wilcox Co"]}
+{"name": "IDEX CORP /DE/", "cik": 832101, "entity_type": "operating", "former_names": []}
+{"name": "TELUS CORP", "cik": 868675, "entity_type": "other", "former_names": ["TELUS CORPORATION"]}
+{"name": "BridgeBio Pharma, Inc.", "cik": 1743881, "entity_type": "operating", "former_names": ["BridgeBio Pharma LLC"]}
+{"name": "Tourmaline Oil Corp/ADR", "cik": 2071881, "entity_type": "other", "former_names": []}
+{"name": "Carlyle Group Inc.", "cik": 1527166, "entity_type": "operating", "former_names": ["Carlyle Group L.P."]}
+{"name": "DiDi Global Inc.", "cik": 1764757, "entity_type": "other", "former_names": ["Xiaoju Kuaizhi Inc."]}
+{"name": "WATSCO INC", "cik": 105016, "entity_type": "operating", "former_names": []}
+{"name": "BAWAG Group AG/ADR", "cik": 1968385, "entity_type": "other", "former_names": []}
+{"name": "SS&C Technologies Holdings Inc", "cik": 1402436, "entity_type": "operating", "former_names": []}
+{"name": "HOST HOTELS & RESORTS, INC.", "cik": 1070750, "entity_type": "operating", "former_names": ["HOST MARRIOTT CORP/", "HMC MERGER CORP"]}
+{"name": "Nextpower Inc.", "cik": 1852131, "entity_type": "operating", "former_names": ["Nextracker Inc.", "Nextracker LLC"]}
+{"name": "ASR Nederland N.V./ADR", "cik": 1719117, "entity_type": "other", "former_names": []}
+{"name": "BALL Corp", "cik": 9389, "entity_type": "operating", "former_names": []}
+{"name": "CLEAN HARBORS INC", "cik": 822818, "entity_type": "operating", "former_names": []}
+{"name": "NORDSON CORP", "cik": 72331, "entity_type": "operating", "former_names": []}
+{"name": "W. P. Carey Inc.", "cik": 1025378, "entity_type": "operating", "former_names": ["W P CAREY & CO LLC", "CAREY W P & CO LLC", "CAREY DIVERSIFIED LLC", "CAREY DIVERSIFIED PROPERTIES LLC"]}
+{"name": "BANCO SANTANDER CHILE", "cik": 1027552, "entity_type": "other", "former_names": ["BANK SANTIAGO"]}
+{"name": "LAMAR ADVERTISING CO/NEW", "cik": 1090425, "entity_type": "operating", "former_names": ["LAMAR NEW HOLDING CO"]}
+{"name": "SCREEN Holdings Co., Ltd./ADR", "cik": 1544379, "entity_type": "other", "former_names": ["Dainippon Screen Mfg. Co., Ltd./ADR"]}
+{"name": "TRACTOR SUPPLY CO /DE/", "cik": 916365, "entity_type": "operating", "former_names": []}
+{"name": "Gen Digital Inc.", "cik": 849399, "entity_type": "operating", "former_names": ["NortonLifeLock Inc.", "SYMANTEC CORP"]}
+{"name": "ONTO INNOVATION INC.", "cik": 704532, "entity_type": "operating", "former_names": ["NANOMETRICS INC"]}
+{"name": "Ovintiv Inc.", "cik": 1792580, "entity_type": "operating", "former_names": ["1847432 Alberta ULC"]}
+{"name": "WOLTERS KLUWER N V /FI", "cik": 861967, "entity_type": "other", "former_names": ["WOLTERS KLUWER N V                                      /FI"]}
+{"name": "TENET HEALTHCARE CORP", "cik": 70318, "entity_type": "operating", "former_names": ["NATIONAL MEDICAL ENTERPRISES INC /NV/"]}
+{"name": "LATAM AIRLINES GROUP S.A.", "cik": 1047716, "entity_type": "other", "former_names": ["Lan Airlines SA", "LAN CHILE SA"]}
+{"name": "MASCO CORP /DE/", "cik": 62996, "entity_type": "operating", "former_names": []}
+{"name": "Daiwa Securities Group Inc.", "cik": 1481045, "entity_type": "other", "former_names": []}
+{"name": "Grab Holdings Ltd", "cik": 1855612, "entity_type": "other", "former_names": ["J1 Holdings Inc."]}
+{"name": "POSCO HOLDINGS INC.", "cik": 889132, "entity_type": "other", "former_names": ["POSCO", "POHANG IRON & STEEL CO LTD"]}
+{"name": "TEXTRON INC", "cik": 217346, "entity_type": "operating", "former_names": []}
+{"name": "Viper Energy, Inc.", "cik": 2074176, "entity_type": "operating", "former_names": ["New Cobra Pubco, Inc."]}
+{"name": "Medpace Holdings, Inc.", "cik": 1668397, "entity_type": "operating", "former_names": []}
+{"name": "REINSURANCE GROUP OF AMERICA INC", "cik": 898174, "entity_type": "operating", "former_names": []}
+{"name": "SUN COMMUNITIES INC", "cik": 912593, "entity_type": "operating", "former_names": []}
+{"name": "CALIFORNIA FIRST LEASING CORP", "cik": 803016, "entity_type": "operating", "former_names": ["CALIFORNIA FIRST NATIONAL BANCORP", "AMPLICON INC"]}
+{"name": "NOVA LTD.", "cik": 1109345, "entity_type": "other", "former_names": ["NOVA MEASURING INSTRUMENTS LTD"]}
+{"name": "Aramark", "cik": 1584509, "entity_type": "operating", "former_names": ["ARAMARK Holdings Corp"]}
+{"name": "DT Midstream, Inc.", "cik": 1842022, "entity_type": "operating", "former_names": []}
+{"name": "SOMNIGROUP INTERNATIONAL INC.", "cik": 1206264, "entity_type": "operating", "former_names": ["TEMPUR SEALY INTERNATIONAL, INC.", "TEMPUR PEDIC INTERNATIONAL INC", "TWI HOLDINGS INC"]}
+{"name": "Pinnacle Financial Partners, Inc.", "cik": 2082866, "entity_type": "operating", "former_names": ["Steel Newco Inc."]}
+{"name": "JACOBS SOLUTIONS INC.", "cik": 52988, "entity_type": "operating", "former_names": ["JACOBS ENGINEERING GROUP INC /DE/"]}
+{"name": "ALBEMARLE CORP", "cik": 915913, "entity_type": "operating", "former_names": []}
+{"name": "WOORI FINANCIAL GROUP INC.", "cik": 1264136, "entity_type": "other", "former_names": ["WOORI BANK", "WOORI FINANCE HOLDINGS CO LTD"]}
+{"name": "OMEGA HEALTHCARE INVESTORS INC", "cik": 888491, "entity_type": "operating", "former_names": []}
+{"name": "Nutanix, Inc.", "cik": 1618732, "entity_type": "operating", "former_names": []}
+{"name": "NEWS CORP", "cik": 1564708, "entity_type": "operating", "former_names": ["New Newscorp Inc", "New Newscorp LLC"]}
+{"name": "REGENCY CENTERS CORP", "cik": 910606, "entity_type": "operating", "former_names": ["REGENCY REALTY CORP"]}
+{"name": "James Hardie Industries plc", "cik": 1159152, "entity_type": "operating", "former_names": ["JAMES HARDIE INDUSTRIES SE", "JAMES HARDIE INDUSTRIES N.V.", "HARDIE JAMES INDUSTRIES NV"]}
+{"name": "QXO, Inc.", "cik": 1236275, "entity_type": "operating", "former_names": ["SilverSun Technologies, Inc.", "TREY RESOURCES INC", "TREY INDUSTRIES INC"]}
+{"name": "Yum China Holdings, Inc.", "cik": 1673358, "entity_type": "operating", "former_names": ["Yum! China Holding, Inc."]}
+{"name": "DAVITA INC.", "cik": 927066, "entity_type": "operating", "former_names": ["DAVITA HEALTHCARE PARTNERS INC.", "DAVITA INC", "TOTAL RENAL CARE HOLDINGS INC"]}
+{"name": "RENTOKIL INITIAL PLC /FI", "cik": 930157, "entity_type": "other", "former_names": ["RENTOKIL INITIAL PLC                                    /FI"]}
+{"name": "HEALTHPEAK PROPERTIES, INC.", "cik": 765880, "entity_type": "operating", "former_names": ["HCP, INC.", "HEALTH CARE PROPERTY INVESTORS INC"]}
+{"name": "HF Sinclair Corp", "cik": 1915657, "entity_type": "operating", "former_names": []}
+{"name": "DECKERS OUTDOOR CORP", "cik": 910521, "entity_type": "operating", "former_names": []}
+{"name": "UDR, Inc.", "cik": 74208, "entity_type": "operating", "former_names": ["UNITED DOMINION REALTY TRUST INC"]}
+{"name": "Jazz Pharmaceuticals plc", "cik": 1232524, "entity_type": "operating", "former_names": ["JAZZ PHARMACEUTICALS INC"]}
+{"name": "Puig Brands S.A./ADR", "cik": 2029472, "entity_type": "other", "former_names": []}
+{"name": "JONES LANG LASALLE INC", "cik": 1037976, "entity_type": "operating", "former_names": ["LASALLE PARTNERS INC"]}
+{"name": "BLUE OWL CAPITAL INC.", "cik": 1823945, "entity_type": "operating", "former_names": ["ALTIMAR ACQUISITION CORP."]}
+{"name": "KOREA ELECTRIC POWER CORP", "cik": 887225, "entity_type": "other", "former_names": ["KOREA ELECTRIC POWER CORPORATION"]}
+{"name": "EVEREST GROUP, LTD.", "cik": 1095073, "entity_type": "operating", "former_names": ["EVEREST RE GROUP LTD", "EVEREST REINSURANCE GROUP LTD"]}
+{"name": "TTM TECHNOLOGIES INC", "cik": 1116942, "entity_type": "operating", "former_names": []}
+{"name": "TransUnion", "cik": 1552033, "entity_type": "operating", "former_names": ["TransUnion Holding Company, Inc."]}
+{"name": "IonQ, Inc.", "cik": 1824920, "entity_type": "operating", "former_names": ["dMY Technology Group, Inc. III"]}
+{"name": "Lytus Technologies Holdings PTV. Ltd.", "cik": 1816319, "entity_type": "other", "former_names": []}
+{"name": "Sprott Physical Gold Trust", "cik": 1477049, "entity_type": "other", "former_names": []}
+{"name": "LOGITECH INTERNATIONAL S.A.", "cik": 1032975, "entity_type": "operating", "former_names": ["LOGITECH INTERNATIONAL SA"]}
+{"name": "Warner Music Group Corp.", "cik": 1319161, "entity_type": "operating", "former_names": []}
+{"name": "Lens Technology Co., Ltd./ADR", "cik": 2098381, "entity_type": "other", "former_names": []}
+{"name": "MCCORMICK & CO INC", "cik": 63754, "entity_type": "operating", "former_names": ["MCCORMICK & CO INC"]}
+{"name": "PTC INC.", "cik": 857005, "entity_type": "operating", "former_names": ["PARAMETRIC TECHNOLOGY CORP"]}
+{"name": "Tencent Music Entertainment Group", "cik": 1744676, "entity_type": "other", "former_names": []}
+{"name": "PERSHING SQUARE INC.", "cik": 2026053, "entity_type": "operating", "former_names": ["PERSHING SQUARE HOLDCO, L.P."]}
+{"name": "CHECK POINT SOFTWARE TECHNOLOGIES LTD", "cik": 1015922, "entity_type": "other", "former_names": []}
+{"name": "Unum Group", "cik": 5513, "entity_type": "operating", "former_names": ["UNUMPROVIDENT CORP", "PROVIDENT COMPANIES INC /DE/", "PROVIDENT COMPANIES INC /TN/", "PROVIDENT LIFE & ACCIDENT INSURANCE CO OF AMERICA"]}
+{"name": "Toll Brothers, Inc.", "cik": 794170, "entity_type": "operating", "former_names": ["TOLL BROTHERS INC"]}
+{"name": "GFL Environmental Inc.", "cik": 1780232, "entity_type": "other", "former_names": ["GFL Environmental Holdings Inc."]}
+{"name": "REGAL REXNORD CORP", "cik": 82811, "entity_type": "operating", "former_names": ["REGAL BELOIT CORP"]}
+{"name": "EXELIXIS, INC.", "cik": 939767, "entity_type": "operating", "former_names": ["EXELIXIS INC"]}
+{"name": "PERUSAHAAN PERSEROAN PERSERO PT TELEKOMUNIKASI INDONESIA TBK", "cik": 1001807, "entity_type": "other", "former_names": ["TELECOMMUNICATIONS INDONESIA"]}
+{"name": "Ally Financial Inc.", "cik": 40729, "entity_type": "operating", "former_names": ["GMAC INC.", "GMAC LLC", "GENERAL MOTORS ACCEPTANCE CORP"]}
+{"name": "GLOBE LIFE INC.", "cik": 320335, "entity_type": "operating", "former_names": ["TORCHMARK CORP"]}
+{"name": "American Homes 4 Rent", "cik": 1562401, "entity_type": "operating", "former_names": []}
+{"name": "Corebridge Financial, Inc.", "cik": 1889539, "entity_type": "operating", "former_names": ["SAFG Retirement Services, Inc."]}
+{"name": "CNA FINANCIAL CORP", "cik": 21175, "entity_type": "operating", "former_names": []}
+{"name": "LINCOLN ELECTRIC HOLDINGS INC", "cik": 59527, "entity_type": "operating", "former_names": ["LINCOLN ELECTRIC HOLDINGS INC", "LINCOLN ELECTRIC CO"]}
+{"name": "ASSURANT, INC.", "cik": 1267238, "entity_type": "operating", "former_names": ["ASSURANT INC"]}
+{"name": "Futu Holdings Ltd", "cik": 1754581, "entity_type": "other", "former_names": []}
+{"name": "CGI INC", "cik": 1061574, "entity_type": "other", "former_names": ["CGI GROUP INC"]}
+{"name": "IREN Ltd", "cik": 1878848, "entity_type": "operating", "former_names": ["Iris Energy Ltd", "Iris Energy Pty Ltd"]}
+{"name": "BrightSpring Health Services, Inc.", "cik": 1865782, "entity_type": "operating", "former_names": []}
+{"name": "Sunoco LP", "cik": 1552275, "entity_type": "operating", "former_names": ["Susser Petroleum Partners LP"]}
+{"name": "STANLEY BLACK & DECKER, INC.", "cik": 93556, "entity_type": "operating", "former_names": ["STANLEY WORKS"]}
+{"name": "RENAISSANCERE HOLDINGS LTD", "cik": 913144, "entity_type": "operating", "former_names": []}
+{"name": "Unity Software Inc.", "cik": 1810806, "entity_type": "operating", "former_names": []}
+{"name": "CARLISLE COMPANIES INC", "cik": 790051, "entity_type": "operating", "former_names": []}
+{"name": "HORMEL FOODS CORP /DE/", "cik": 48465, "entity_type": "operating", "former_names": ["HORMEL GEO A & CO"]}
+{"name": "ARES CAPITAL CORP", "cik": 1287750, "entity_type": "operating", "former_names": []}
+{"name": "Pacific Airport Group", "cik": 1347557, "entity_type": "other", "former_names": []}
+{"name": "U-Haul Holding Co /NV/", "cik": 4457, "entity_type": "operating", "former_names": ["AMERCO /NV/"]}
+{"name": "COOPER COMPANIES, INC.", "cik": 711404, "entity_type": "operating", "former_names": ["COOPER COMPANIES INC"]}
+{"name": "Leidos Holdings, Inc.", "cik": 1336920, "entity_type": "operating", "former_names": ["SAIC, Inc."]}
+{"name": "Fidelity National Financial, Inc.", "cik": 1331875, "entity_type": "operating", "former_names": ["Fidelity National Title Group, Inc."]}
+{"name": "lululemon athletica inc.", "cik": 1397187, "entity_type": "operating", "former_names": ["Lululemon Corp."]}
+{"name": "GENERAC HOLDINGS INC.", "cik": 1474735, "entity_type": "operating", "former_names": []}
+{"name": "Evercore Inc.", "cik": 1360901, "entity_type": "operating", "former_names": ["Evercore Partners Inc."]}
+{"name": "DigitalOcean Holdings, Inc.", "cik": 1582961, "entity_type": "operating", "former_names": ["Digital Ocean, Inc."]}
+{"name": "PINNACLE WEST CAPITAL CORP", "cik": 764622, "entity_type": "operating", "former_names": []}
+{"name": "Solventum Corp", "cik": 1964738, "entity_type": "operating", "former_names": ["3M Health Care Co"]}
+{"name": "AEGON LTD.", "cik": 769218, "entity_type": "other", "former_names": ["AEGON NV"]}
+{"name": "SEMTECH CORP", "cik": 88941, "entity_type": "operating", "former_names": []}
+{"name": "RPM INTERNATIONAL INC/DE/", "cik": 110621, "entity_type": "operating", "former_names": ["RPM INC/OH/"]}
+{"name": "Dynatrace, Inc.", "cik": 1773383, "entity_type": "operating", "former_names": ["Dynatrace Holdings LLC"]}
+{"name": "BORGWARNER INC", "cik": 908255, "entity_type": "operating", "former_names": ["BORG WARNER AUTOMOTIVE INC"]}
+{"name": "Figma, Inc.", "cik": 1579878, "entity_type": "operating", "former_names": []}
+{"name": "ICON PLC", "cik": 1060955, "entity_type": "other", "former_names": ["ICON PLC  /ADR/"]}
+{"name": "Fresenius Medical Care AG", "cik": 1333141, "entity_type": "other", "former_names": ["Fresenius Medical Care AG & Co. KGaA"]}
+{"name": "Toromont Industries Ltd./ADR", "cik": 2072098, "entity_type": "other", "former_names": []}
+{"name": "Equitable Holdings, Inc.", "cik": 1333986, "entity_type": "operating", "former_names": ["AXA Equitable Holdings, Inc.", "AXA AMERICA HOLDINGS, INC."]}
+{"name": "Virtu Financial, Inc.", "cik": 1592386, "entity_type": "operating", "former_names": []}
+{"name": "EQUITY LIFESTYLE PROPERTIES INC", "cik": 895417, "entity_type": "operating", "former_names": ["MANUFACTURED HOME COMMUNITIES INC"]}
+{"name": "AGNC Investment Corp.", "cik": 1423689, "entity_type": "operating", "former_names": ["American Capital Agency Corp"]}
+{"name": "MUELLER INDUSTRIES INC", "cik": 89439, "entity_type": "operating", "former_names": []}
+{"name": "Alcoa Corp", "cik": 1675149, "entity_type": "operating", "former_names": ["Alcoa Upstream Corp"]}
+{"name": "XPENG INC.", "cik": 1810997, "entity_type": "other", "former_names": []}
+{"name": "CNH Industrial N.V.", "cik": 1567094, "entity_type": "operating", "former_names": ["FI CBM Holdings N.V."]}
+{"name": "Gaming & Leisure Properties, Inc.", "cik": 1575965, "entity_type": "operating", "former_names": []}
+{"name": "ALIGN TECHNOLOGY INC", "cik": 1097149, "entity_type": "operating", "former_names": []}
+{"name": "Invesco Ltd.", "cik": 914208, "entity_type": "operating", "former_names": ["Invesco Asset Management Deutschland GMBH", "Invesco Ltd", "INVESCO PLC/LONDON/", "AMVESCAP PLC/LONDON/", "AMVESCAP /LONDON/", "INVESCO PLC /LONDON"]}
+{"name": "H World Group Ltd", "cik": 1483994, "entity_type": "other", "former_names": ["Huazhu Group Ltd", "China Lodging Group, Ltd"]}
+{"name": "PENSKE AUTOMOTIVE GROUP, INC.", "cik": 1019849, "entity_type": "operating", "former_names": ["UNITED AUTO GROUP INC"]}
+{"name": "BELIMO Holding AG/ADR", "cik": 2109234, "entity_type": "other", "former_names": []}
+{"name": "On Holding AG", "cik": 1858985, "entity_type": "other", "former_names": []}
+{"name": "Forgent Power Solutions, Inc.", "cik": 2080126, "entity_type": "operating", "former_names": []}
+{"name": "SMITH & NEPHEW PLC", "cik": 845982, "entity_type": "other", "former_names": []}
+{"name": "Enlight Renewable Energy Ltd.", "cik": 1922641, "entity_type": "other", "former_names": []}
+{"name": "DEUTSCHE LUFTHANSA A G                                  /FI", "cik": 1049724, "entity_type": "other", "former_names": []}
+{"name": "NIO Inc.", "cik": 1736541, "entity_type": "other", "former_names": []}
+{"name": "PINTEREST, INC.", "cik": 1506293, "entity_type": "operating", "former_names": ["Cold Brew Labs Inc."]}
+{"name": "ERIE INDEMNITY CO", "cik": 922621, "entity_type": "operating", "former_names": []}
+{"name": "Elanco Animal Health Inc", "cik": 1739104, "entity_type": "operating", "former_names": []}
+{"name": "Crane Co", "cik": 1944013, "entity_type": "operating", "former_names": []}
+{"name": "MOLINA HEALTHCARE, INC.", "cik": 1179929, "entity_type": "operating", "former_names": ["MOLINA HEALTHCARE INC"]}
+{"name": "DYCOM INDUSTRIES INC", "cik": 67215, "entity_type": "operating", "former_names": []}
+{"name": "DraftKings Inc.", "cik": 1883685, "entity_type": "operating", "former_names": ["New Duke Holdco, Inc."]}
+{"name": "Penumbra Inc", "cik": 1321732, "entity_type": "operating", "former_names": []}
+{"name": "TYLER TECHNOLOGIES INC", "cik": 860731, "entity_type": "operating", "former_names": ["TYLER CORP /NEW/"]}
+{"name": "Texas Roadhouse, Inc.", "cik": 1289460, "entity_type": "operating", "former_names": []}
+{"name": "Wise Group plc", "cik": 2099039, "entity_type": "other", "former_names": []}
+{"name": "REVVITY, INC.", "cik": 31791, "entity_type": "operating", "former_names": ["PERKINELMER INC", "EG&G INC"]}
+{"name": "ZEBRA TECHNOLOGIES CORP", "cik": 877212, "entity_type": "operating", "former_names": ["ZEBRA TECHNOLOGIES CORP/DE"]}
+{"name": "MOOG INC.", "cik": 67887, "entity_type": "operating", "former_names": ["MOOG INC"]}
+{"name": "WEBSTER FINANCIAL CORP", "cik": 801337, "entity_type": "operating", "former_names": []}
+{"name": "MADRIGAL PHARMACEUTICALS, INC.", "cik": 1157601, "entity_type": "operating", "former_names": ["MADRIGAL PHARMACEUTICALS, INC.", "SYNTA PHARMACEUTICALS CORP"]}
+{"name": "YARA INTERNATIONAL ASA", "cik": 1279956, "entity_type": "other", "former_names": []}
+{"name": "TFI International Inc.", "cik": 1588823, "entity_type": "other", "former_names": ["TransForce Inc. \\ Quebec Canada"]}
+{"name": "Li Auto Inc.", "cik": 1791706, "entity_type": "other", "former_names": ["Leading Ideal Inc."]}
+{"name": "Aptiv PLC", "cik": 1521332, "entity_type": "operating", "former_names": ["Delphi Automotive PLC"]}
+{"name": "ALAMOS GOLD INC", "cik": 1178819, "entity_type": "other", "former_names": ["ALAMOS MINERALS LTD"]}
+{"name": "GRACO INC", "cik": 42888, "entity_type": "operating", "former_names": []}
+{"name": "PENTAIR plc", "cik": 77360, "entity_type": "operating", "former_names": ["PENTAIR LTD", "PENTAIR INC"]}
+{"name": "MODINE MANUFACTURING CO", "cik": 67347, "entity_type": "operating", "former_names": []}
+{"name": "ADVANCED ENERGY INDUSTRIES INC", "cik": 927003, "entity_type": "operating", "former_names": []}
+{"name": "CROWN HOLDINGS, INC.", "cik": 1219601, "entity_type": "operating", "former_names": ["CROWN HOLDINGS INC"]}
+{"name": "IES Holdings, Inc.", "cik": 1048268, "entity_type": "operating", "former_names": ["Integrated Electrical Services, Inc.", "INTEGRATED ELECTRICAL SERVICES INC"]}
+{"name": "FIRST HORIZON CORP", "cik": 36966, "entity_type": "operating", "former_names": ["FIRST HORIZON NATIONAL CORP", "FIRST TENNESSEE NATIONAL CORP"]}
+{"name": "Knight-Swift Transportation Holdings Inc.", "cik": 1492691, "entity_type": "operating", "former_names": ["SWIFT TRANSPORTATION Co", "SWIFT TRANSPORTATION CO", "SWIFT HOLDINGS CORP."]}
+{"name": "APPLIED INDUSTRIAL TECHNOLOGIES INC", "cik": 109563, "entity_type": "operating", "former_names": ["BEARINGS INC /OH/"]}
+{"name": "GoDaddy Inc.", "cik": 1609711, "entity_type": "operating", "former_names": []}
+{"name": "APA Corp", "cik": 1841666, "entity_type": "operating", "former_names": []}
+{"name": "Axsome Therapeutics, Inc.", "cik": 1579428, "entity_type": "operating", "former_names": []}
+{"name": "TRIMBLE INC.", "cik": 864749, "entity_type": "operating", "former_names": ["TRIMBLE NAVIGATION LTD /CA/"]}
+{"name": "Avery Dennison Corp", "cik": 8818, "entity_type": "operating", "former_names": ["AVERY DENNISON CORPORATION"]}
+{"name": "SK TELECOM CO LTD", "cik": 1015650, "entity_type": "other", "former_names": []}
+{"name": "Brookfield Wealth Solutions Ltd.", "cik": 1837429, "entity_type": "other", "former_names": ["Brookfield Reinsurance Ltd.", "Brookfield Asset Management Reinsurance Partners Ltd."]}
+{"name": "Summit Therapeutics Inc.", "cik": 1599298, "entity_type": "operating", "former_names": ["Summit Therapeutics plc", "Summit Corp plc"]}
+{"name": "BXP, Inc.", "cik": 1037540, "entity_type": "operating", "former_names": ["BOSTON PROPERTIES INC"]}
+{"name": "VICOR CORP", "cik": 751978, "entity_type": "operating", "former_names": []}
+{"name": "Sprott Physical Silver Trust", "cik": 1494728, "entity_type": "other", "former_names": []}
+{"name": "MGM Resorts International", "cik": 789570, "entity_type": "operating", "former_names": ["MGM MIRAGE", "MGM GRAND INC"]}
+{"name": "Aurora Innovation, Inc.", "cik": 1828108, "entity_type": "operating", "former_names": ["Reinvent Technology Partners Y"]}
+{"name": "Var Energi ASA/ADR", "cik": 1919275, "entity_type": "other", "former_names": []}
+{"name": "BROWN FORMAN CORP", "cik": 14693, "entity_type": "operating", "former_names": []}
+{"name": "Leonardo DRS, Inc.", "cik": 1833756, "entity_type": "operating", "former_names": []}
+{"name": "NEW YORK TIMES CO", "cik": 71691, "entity_type": "operating", "former_names": []}
+{"name": "Abivax S.A.", "cik": 1956827, "entity_type": "other", "former_names": []}
+{"name": "Wayfair Inc.", "cik": 1616707, "entity_type": "operating", "former_names": []}
+{"name": "Coca-Cola Consolidated, Inc.", "cik": 317540, "entity_type": "operating", "former_names": ["COCA COLA BOTTLING CO CONSOLIDATED /DE/"]}
+{"name": "AMERICAN FINANCIAL GROUP INC", "cik": 1042046, "entity_type": "operating", "former_names": ["AMERICAN FINANCIAL GROUP HOLDINGS INC"]}
+{"name": "J M SMUCKER Co", "cik": 91419, "entity_type": "operating", "former_names": ["SMUCKER J M CO"]}
+{"name": "BUNZL PLC", "cik": 1072397, "entity_type": "other", "former_names": []}
+{"name": "Compass Sub North, Inc.", "cik": 2103884, "entity_type": "other", "former_names": []}
+{"name": "Allegion plc", "cik": 1579241, "entity_type": "operating", "former_names": []}
+{"name": "WATTS WATER TECHNOLOGIES INC", "cik": 795403, "entity_type": "operating", "former_names": ["WATTS WATER TECHNOLOGIES INC", "WATTS INDUSTRIES INC"]}
+{"name": "Guidewire Software, Inc.", "cik": 1528396, "entity_type": "operating", "former_names": ["Guidewire Software, Inc."]}
+{"name": "STIFEL FINANCIAL CORP", "cik": 720672, "entity_type": "operating", "former_names": []}
+{"name": "EMBRAER S.A.", "cik": 1355444, "entity_type": "other", "former_names": ["Embraer - Empresa Brasileira de Aeronautica S.A.", "EMPRESA BRASILEIRA DE AERONAUTICA S.A.", "Rio Han Holding"]}
+{"name": "Legence Corp.", "cik": 2052568, "entity_type": "operating", "former_names": []}
+{"name": "ADVANCED DRAINAGE SYSTEMS, INC.", "cik": 1604028, "entity_type": "operating", "former_names": []}
+{"name": "SEI INVESTMENTS CO", "cik": 350894, "entity_type": "operating", "former_names": ["SEI CORP"]}
+{"name": "SAIA INC", "cik": 1177702, "entity_type": "operating", "former_names": ["SCS TRANSPORTATION INC"]}
+{"name": "Owens Corning", "cik": 1370946, "entity_type": "operating", "former_names": ["Owens Corning (Reorganized) Inc."]}
+{"name": "BJ's Wholesale Club Holdings, Inc.", "cik": 1531152, "entity_type": "operating", "former_names": ["Beacon Holding Inc."]}
+{"name": "RAMBUS INC", "cik": 917273, "entity_type": "operating", "former_names": []}
+{"name": "CLOROX CO /DE/", "cik": 21076, "entity_type": "operating", "former_names": ["CLOROX CO /DE/"]}
+{"name": "BIOMARIN PHARMACEUTICAL INC", "cik": 1048477, "entity_type": "operating", "former_names": []}
+{"name": "Magnum Ice Cream Co N.V.", "cik": 2071668, "entity_type": "other", "former_names": ["Magnum Ice Cream Co B.V.", "Magnum Ice Cream Company B.V."]}
+{"name": "EASTGROUP PROPERTIES INC", "cik": 49600, "entity_type": "operating", "former_names": ["EASTGROUP PROPERTIES II INC", "EASTGROUP PROPERTIES"]}
+{"name": "COSTAR GROUP, INC.", "cik": 1057352, "entity_type": "operating", "former_names": ["COSTAR GROUP, INC.", "COSTAR GROUP INC", "REALTY INFORMATION GROUP INC"]}
+{"name": "Dutch Bros Inc.", "cik": 1866581, "entity_type": "operating", "former_names": []}
+{"name": "Murphy USA Inc.", "cik": 1573516, "entity_type": "operating", "former_names": []}
+{"name": "CAMDEN PROPERTY TRUST", "cik": 906345, "entity_type": "operating", "former_names": []}
+{"name": "Maplebear Inc.", "cik": 1579091, "entity_type": "operating", "former_names": []}
+{"name": "OBIC Co., Ltd./ADR", "cik": 2077146, "entity_type": "other", "former_names": []}
+{"name": "American Healthcare REIT, Inc.", "cik": 1632970, "entity_type": "operating", "former_names": ["Griffin-American Healthcare REIT IV, Inc.", "Griffin-American Healthcare REIT 4, Inc."]}
+{"name": "AKZO NOBEL NV", "cik": 3124, "entity_type": "other", "former_names": []}
+{"name": "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.", "cik": 1100682, "entity_type": "operating", "former_names": ["CHARLES RIVER LABORATORIES INTERNATIONAL INC", "CHARLES RIVER LABORATORIES HOLDINGS INC"]}
+{"name": "BAXTER INTERNATIONAL INC", "cik": 10456, "entity_type": "operating", "former_names": []}
+{"name": "HUNTINGTON INGALLS INDUSTRIES, INC.", "cik": 1501585, "entity_type": "operating", "former_names": ["HUNTINGTON INGALLS INDUSTRIES, INC.", "New Ships, Inc."]}
+{"name": "BIO-TECHNE Corp", "cik": 842023, "entity_type": "operating", "former_names": ["TECHNE CORP /MN/"]}
+{"name": "SANMINA CORP", "cik": 897723, "entity_type": "operating", "former_names": ["SANMINA-SCI CORP", "SANMINA CORP/DE"]}
+{"name": "CYTOKINETICS INC", "cik": 1061983, "entity_type": "operating", "former_names": []}
+{"name": "HASBRO, INC.", "cik": 46080, "entity_type": "operating", "former_names": ["HASBRO INC"]}
+{"name": "JFrog Ltd", "cik": 1800667, "entity_type": "operating", "former_names": ["JFrog Ltd"]}
+{"name": "INSULET CORP", "cik": 1145197, "entity_type": "operating", "former_names": []}
+{"name": "Hut 8 Corp.", "cik": 1964789, "entity_type": "operating", "former_names": []}
+{"name": "Lineage, Inc.", "cik": 1868159, "entity_type": "operating", "former_names": ["Lineage Growth Properties, Inc."]}
+{"name": "Essential Utilities, Inc.", "cik": 78128, "entity_type": "operating", "former_names": ["AQUA AMERICA INC", "PHILADELPHIA SUBURBAN CORP"]}
+{"name": "Jefferies Financial Group Inc.", "cik": 96223, "entity_type": "operating", "former_names": ["Jefferies Financial Group Inc.", "LEUCADIA NATIONAL CORP"]}
+{"name": "WINTRUST FINANCIAL CORP", "cik": 1015328, "entity_type": "operating", "former_names": []}
+{"name": "SERVICE CORP INTERNATIONAL", "cik": 89089, "entity_type": "operating", "former_names": ["SERVICE CORPORATION INTERNATIONAL"]}
+{"name": "MINEBEA MITSUMI Inc.", "cik": 1034983, "entity_type": "other", "former_names": ["MINEBEA CO LTD", "MINEBEA CO LTD                                           /FI"]}
+{"name": "SPX Technologies, Inc.", "cik": 88205, "entity_type": "operating", "former_names": ["SPX CORP"]}
+{"name": "UMB FINANCIAL CORP", "cik": 101382, "entity_type": "operating", "former_names": ["UNITED MISSOURI BANCSHARES INC"]}
+{"name": "POPULAR, INC.", "cik": 763901, "entity_type": "operating", "former_names": ["POPULAR INC", "BANPONCE CORP"]}
+{"name": "TIM S.A.", "cik": 1826168, "entity_type": "other", "former_names": []}
+{"name": "Antero Midstream Corp", "cik": 1623925, "entity_type": "operating", "former_names": ["Antero Midstream GP LP", "Antero Resources Midstream Management LLC"]}
+{"name": "RYAN SPECIALTY HOLDINGS, INC.", "cik": 1849253, "entity_type": "operating", "former_names": ["RYAN SPECIALTY GROUP HOLDINGS, INC.", "MAVERICK SPECIALTY, INC."]}
+{"name": "COGNEX CORP", "cik": 851205, "entity_type": "operating", "former_names": []}
+{"name": "HUBSPOT INC", "cik": 1404655, "entity_type": "operating", "former_names": []}
+{"name": "DR REDDYS LABORATORIES LTD", "cik": 1135951, "entity_type": "other", "former_names": []}
+{"name": "Encompass Health Corp", "cik": 785161, "entity_type": "operating", "former_names": ["HEALTHSOUTH CORP", "HEALTHSOUTH REHABILITATION CORP"]}
+{"name": "FEDERAL REALTY INVESTMENT TRUST", "cik": 34903, "entity_type": "operating", "former_names": []}
+{"name": "Silicon Motion Technology CORP", "cik": 1329394, "entity_type": "other", "former_names": []}
+{"name": "FIVE BELOW, INC", "cik": 1177609, "entity_type": "operating", "former_names": ["FIVE BELOW INC", "CHEAP HOLDINGS INC"]}
+{"name": "VALMONT INDUSTRIES INC", "cik": 102729, "entity_type": "operating", "former_names": []}
+{"name": "AES CORP", "cik": 874761, "entity_type": "operating", "former_names": ["AES CORPORATION"]}
+{"name": "Tempus AI, Inc.", "cik": 1717115, "entity_type": "operating", "former_names": ["Tempus Labs, Inc."]}
+{"name": "ANTERO RESOURCES Corp", "cik": 1433270, "entity_type": "operating", "former_names": ["ANTERO RESOURCES APPALACHIAN CORP", "ANTERO RESOURCES BARNETT CORP"]}
+{"name": "ARROW ELECTRONICS, INC.", "cik": 7536, "entity_type": "operating", "former_names": ["ARROW ELECTRONICS, INC", "ARROW ELECTRONICS INC"]}
+{"name": "American Airlines Group Inc.", "cik": 6201, "entity_type": "operating", "former_names": ["AMR CORP"]}
+{"name": "LITTELFUSE INC /DE", "cik": 889331, "entity_type": "operating", "former_names": []}
+{"name": "Paramount Skydance Corp", "cik": 2041610, "entity_type": "operating", "former_names": ["New Pluto Global, Inc."]}
+{"name": "HECLA MINING CO/DE/", "cik": 719413, "entity_type": "operating", "former_names": []}
+{"name": "JACK HENRY & ASSOCIATES INC", "cik": 779152, "entity_type": "operating", "former_names": ["HENRY JACK & ASSOCIATES INC"]}
+{"name": "DONALDSON Co INC", "cik": 29644, "entity_type": "operating", "former_names": []}
+{"name": "RYDER SYSTEM INC", "cik": 85961, "entity_type": "operating", "former_names": []}
+{"name": "VIAVI SOLUTIONS INC.", "cik": 912093, "entity_type": "operating", "former_names": ["JDS UNIPHASE CORP /CA/", "UNIPHASE CORP /CA/"]}
+{"name": "ZIONS BANCORPORATION, NATIONAL ASSOCIATION /UT/", "cik": 109380, "entity_type": "operating", "former_names": ["ZIONS BANCORPORATION /UT/"]}
+{"name": "Globalstar, Inc.", "cik": 1366868, "entity_type": "operating", "former_names": []}
+{"name": "ARROWHEAD PHARMACEUTICALS, INC.", "cik": 879407, "entity_type": "operating", "former_names": ["ARROWHEAD RESEARCH CORP", "INTERACTIVE GROUP INC", "INTERACTIVE INC"]}
+{"name": "DOMINOS PIZZA INC", "cik": 1286681, "entity_type": "operating", "former_names": []}
+{"name": "CACI INTERNATIONAL INC /DE/", "cik": 16058, "entity_type": "operating", "former_names": ["CACI INTERNATIONAL INC /DE/"]}
+{"name": "GLOBUS MEDICAL INC", "cik": 1237831, "entity_type": "operating", "former_names": []}
+{"name": "OGE ENERGY CORP.", "cik": 1021635, "entity_type": "operating", "former_names": ["OGE ENERGY CORP"]}
+{"name": "SIRIUS XM HOLDINGS INC.", "cik": 908937, "entity_type": "operating", "former_names": ["SIRIUS XM HOLDINGS INC.", "SIRIUS XM RADIO INC.", "SIRIUS SATELLITE RADIO INC", "CD RADIO INC"]}
+{"name": "OLD NATIONAL BANCORP /IN/", "cik": 707179, "entity_type": "operating", "former_names": ["OLD NATIONAL TRUST CO", "OLD NATIONAL BANCORP"]}
+{"name": "PayPay Corp", "cik": 2080845, "entity_type": "other", "former_names": []}
+{"name": "Krystal Biotech, Inc.", "cik": 1711279, "entity_type": "operating", "former_names": []}
+{"name": "Suzano S.A.", "cik": 909327, "entity_type": "other", "former_names": ["Suzano Papel e Celulose S.A.", "COMPANHIA SUZANO DE PAPEL E CELULOSE                    /FI"]}
+{"name": "OLD REPUBLIC INTERNATIONAL CORP", "cik": 74260, "entity_type": "operating", "former_names": []}
+{"name": "Apogee Therapeutics, Inc.", "cik": 1974640, "entity_type": "operating", "former_names": ["Apogee Therapeutics, LLC"]}
+{"name": "GameStop Corp.", "cik": 1326380, "entity_type": "operating", "former_names": ["GSC Holdings Corp."]}
+{"name": "CHART INDUSTRIES INC", "cik": 892553, "entity_type": "operating", "former_names": []}
+{"name": "APPLIED OPTOELECTRONICS, INC.", "cik": 1158114, "entity_type": "operating", "former_names": ["APPLIED OPTOELECTRONICS INC"]}
+{"name": "Solstice Advanced Materials Inc.", "cik": 2064953, "entity_type": "operating", "former_names": ["Solstice Advanced Materials, LLC"]}
+{"name": "Hudbay Minerals Inc.", "cik": 1322422, "entity_type": "other", "former_names": []}
+{"name": "PEARSON PLC", "cik": 938323, "entity_type": "other", "former_names": []}
+{"name": "WYNN RESORTS LTD", "cik": 1174922, "entity_type": "operating", "former_names": []}
+{"name": "CULLEN/FROST BANKERS, INC.", "cik": 39263, "entity_type": "operating", "former_names": ["CULLEN FROST BANKERS INC"]}
+{"name": "WESTLAKE CORP", "cik": 1262823, "entity_type": "operating", "former_names": ["WESTLAKE CHEMICAL CORP"]}
+{"name": "Element Solutions Inc", "cik": 1590714, "entity_type": "operating", "former_names": ["Platform Specialty Products Corp"]}
+{"name": "SouthState Bank Corp", "cik": 764038, "entity_type": "operating", "former_names": ["SouthState Corp", "SOUTH STATE Corp", "FIRST FINANCIAL HOLDINGS, INC.", "SCBT FINANCIAL CORP", "FIRST NATIONAL CORP /SC/"]}
+{"name": "HENRY SCHEIN INC", "cik": 1000228, "entity_type": "operating", "former_names": ["SCHEIN HENRY INC"]}
+{"name": "Nuvalent, Inc.", "cik": 1861560, "entity_type": "operating", "former_names": []}
+{"name": "DARLING INGREDIENTS INC.", "cik": 916540, "entity_type": "operating", "former_names": ["DARLING INTERNATIONAL INC"]}
+{"name": "ACUITY INC. (DE)", "cik": 1144215, "entity_type": "operating", "former_names": ["ACUITY BRANDS INC", "L&C SPINCO INC"]}
+{"name": "ENSIGN GROUP, INC", "cik": 1125376, "entity_type": "operating", "former_names": []}
+{"name": "Brixmor Property Group Inc.", "cik": 1581068, "entity_type": "operating", "former_names": []}
+{"name": "ALLEGRO MICROSYSTEMS, INC.", "cik": 866291, "entity_type": "operating", "former_names": ["ALLEGRO MICROSYSTEMS, INC.", "ALLEGRO MICROSYSTEMS INC"]}
+{"name": "CORCEPT THERAPEUTICS INC", "cik": 1088856, "entity_type": "operating", "former_names": []}
+{"name": "TIMKEN CO", "cik": 98362, "entity_type": "operating", "former_names": []}
+{"name": "SMITHFIELD FOODS INC", "cik": 91388, "entity_type": "operating", "former_names": []}
+{"name": "AFFILIATED MANAGERS GROUP, INC.", "cik": 1004434, "entity_type": "operating", "former_names": ["AFFILIATED MANAGERS GROUP INC"]}
+{"name": "BENTLEY SYSTEMS INC", "cik": 1031308, "entity_type": "operating", "former_names": []}
+{"name": "Primerica, Inc.", "cik": 1475922, "entity_type": "operating", "former_names": []}
+{"name": "VIASAT INC", "cik": 797721, "entity_type": "operating", "former_names": []}
+{"name": "Gildan Activewear Inc.", "cik": 1061894, "entity_type": "other", "former_names": ["GILDAN ACTIVEWEAR INC"]}
+{"name": "CareTrust REIT, Inc.", "cik": 1590717, "entity_type": "operating", "former_names": []}
+{"name": "TERAWULF INC.", "cik": 1083301, "entity_type": "operating", "former_names": ["IKONICS CORP", "CHROMALINE CORP"]}
+{"name": "HARMONY GOLD MINING CO LTD", "cik": 1023514, "entity_type": "other", "former_names": []}
+{"name": "Galaxy Digital Inc.", "cik": 1859392, "entity_type": "operating", "former_names": ["Galaxy Digital Pubco Inc."]}
+{"name": "Freedom Holding Corp.", "cik": 924805, "entity_type": "operating", "former_names": ["BMB MUNAI INC", "INTERUNION FINANCIAL CORP"]}
+{"name": "Allison Transmission Holdings Inc", "cik": 1411207, "entity_type": "operating", "former_names": ["Allison Transmission Holdings Inc"]}
+{"name": "DOCUSIGN, INC.", "cik": 1261333, "entity_type": "operating", "former_names": ["DOCUSIGN INC"]}
+{"name": "AGREE REALTY CORP", "cik": 917251, "entity_type": "operating", "former_names": []}
+{"name": "MANHATTAN ASSOCIATES INC", "cik": 1056696, "entity_type": "operating", "former_names": []}
+{"name": "HOULIHAN LOKEY, INC.", "cik": 1302215, "entity_type": "operating", "former_names": ["HOULIHAN LOKEY HOWARD & ZUKIN INC"]}
+{"name": "Luckin Coffee Inc.", "cik": 1767582, "entity_type": "other", "former_names": ["Luckin Coffee Inc."]}
+{"name": "KRATOS DEFENSE & SECURITY SOLUTIONS, INC.", "cik": 1069258, "entity_type": "operating", "former_names": ["WIRELESS FACILITIES INC"]}
+{"name": "COLUMBIA BANKING SYSTEM, INC.", "cik": 887343, "entity_type": "operating", "former_names": ["COLUMBIA BANKING SYSTEM INC"]}
+{"name": "Life Time Group Holdings, Inc.", "cik": 1869198, "entity_type": "operating", "former_names": []}
+{"name": "AAON, INC.", "cik": 824142, "entity_type": "operating", "former_names": ["AAON INC"]}
+{"name": "GAMES WORKSHOP GROUP PLC/ADR", "cik": 2062522, "entity_type": "other", "former_names": []}
+{"name": "Kymera Therapeutics, Inc.", "cik": 1815442, "entity_type": "operating", "former_names": ["Kymera Therapeutics, Inc."]}
+{"name": "Madison Square Garden Sports Corp.", "cik": 1636519, "entity_type": "operating", "former_names": ["Madison Square Garden Co", "MSG SPINCO, INC."]}
+{"name": "Oscar Health, Inc.", "cik": 1568651, "entity_type": "operating", "former_names": ["Oscar Health, Inc.", "Mulberry Health Inc."]}
+{"name": "Liberty Live Holdings, Inc.", "cik": 2078416, "entity_type": "operating", "former_names": []}
+{"name": "CubeSmart", "cik": 1298675, "entity_type": "operating", "former_names": ["U-Store-It Trust"]}
+{"name": "Azbil Corporation/ADR", "cik": 2108185, "entity_type": "other", "former_names": []}
+{"name": "StandardAero, Inc.", "cik": 2025410, "entity_type": "operating", "former_names": ["Dynasty Parent Co., Inc."]}
+{"name": "FirstCash Holdings, Inc.", "cik": 840489, "entity_type": "operating", "former_names": ["FIRSTCASH, INC", "FIRST CASH FINANCIAL SERVICES INC", "FIRST CASH INC"]}
+{"name": "BITMINE IMMERSION TECHNOLOGIES, INC.", "cik": 1829311, "entity_type": "operating", "former_names": ["Sandy Springs Holdings, Inc."]}
+{"name": "Planet Labs PBC", "cik": 1836833, "entity_type": "operating", "former_names": ["dMY Technology Group, Inc. IV"]}
+{"name": "IONIS PHARMACEUTICALS INC", "cik": 874015, "entity_type": "operating", "former_names": ["ISIS PHARMACEUTICALS INC"]}
+{"name": "MP Materials Corp. / DE", "cik": 1801368, "entity_type": "operating", "former_names": ["Fortress Value Acquisition Corp."]}
+{"name": "StoneX Group Inc.", "cik": 913760, "entity_type": "operating", "former_names": ["INTL FCSTONE INC.", "INTERNATIONAL ASSETS HOLDING CORP"]}
+{"name": "LEVI STRAUSS & CO", "cik": 94845, "entity_type": "operating", "former_names": []}
+{"name": "GARTNER INC", "cik": 749251, "entity_type": "operating", "former_names": ["GARTNER GROUP INC"]}
+{"name": "AUTOLIV INC", "cik": 1034670, "entity_type": "operating", "former_names": ["AUTOLIV INC"]}
+{"name": "Full Truck Alliance Co. Ltd.", "cik": 1838413, "entity_type": "other", "former_names": []}
+{"name": "BRUKER CORP", "cik": 1109354, "entity_type": "operating", "former_names": ["BRUKER BIOSCIENCES CORP", "BRUKER DALTONICS INC"]}
+{"name": "FORMFACTOR INC", "cik": 1039399, "entity_type": "operating", "former_names": []}
+{"name": "OSHKOSH CORP", "cik": 775158, "entity_type": "operating", "former_names": ["OSHKOSH TRUCK CORP"]}
+{"name": "Pandora A/S / ADR", "cik": 1505880, "entity_type": "other", "former_names": []}
+{"name": "GERDAU S.A.", "cik": 1073404, "entity_type": "other", "former_names": ["GERDAU SA"]}
+{"name": "NNN REIT, INC.", "cik": 751364, "entity_type": "operating", "former_names": ["NATIONAL RETAIL PROPERTIES, INC.", "COMMERCIAL NET LEASE REALTY INC"]}
+{"name": "Praxis Precision Medicines, Inc.", "cik": 1689548, "entity_type": "operating", "former_names": []}
+{"name": "Trade Desk, Inc.", "cik": 1671933, "entity_type": "operating", "former_names": []}
+{"name": "SPIE SA/ADR", "cik": 2083221, "entity_type": "other", "former_names": []}
+{"name": "FACTSET RESEARCH SYSTEMS INC", "cik": 1013237, "entity_type": "operating", "former_names": []}
+{"name": "HALOZYME THERAPEUTICS, INC.", "cik": 1159036, "entity_type": "operating", "former_names": ["HALOZYME THERAPEUTICS INC", "GLOBAL YACHT SERVICES INC"]}
+{"name": "ENERGY CO OF PARANA", "cik": 1041792, "entity_type": "other", "former_names": []}
+{"name": "GLAUKOS Corp", "cik": 1192448, "entity_type": "operating", "former_names": []}
+{"name": "Voya Financial, Inc.", "cik": 1535929, "entity_type": "operating", "former_names": ["ING U.S., Inc."]}
+{"name": "Match Group, Inc.", "cik": 891103, "entity_type": "operating", "former_names": ["IAC/INTERACTIVECORP", "INTERACTIVECORP", "USA INTERACTIVE", "USA NETWORKS INC", "HSN INC", "SILVER KING COMMUNICATIONS INC"]}
+{"name": "Norwegian Cruise Line Holdings Ltd.", "cik": 1513761, "entity_type": "operating", "former_names": []}
+{"name": "Crinetics Pharmaceuticals, Inc.", "cik": 1658247, "entity_type": "operating", "former_names": []}
+{"name": "FLOWSERVE CORP", "cik": 30625, "entity_type": "operating", "former_names": ["DURCO INTERNATIONAL INC", "DURIRON CO INC"]}
+{"name": "FIRST INDUSTRIAL REALTY TRUST INC", "cik": 921825, "entity_type": "operating", "former_names": []}
+{"name": "Ternium S.A.", "cik": 1342874, "entity_type": "other", "former_names": []}
+{"name": "UNIVERSAL HEALTH SERVICES INC", "cik": 352915, "entity_type": "operating", "former_names": []}
+{"name": "WESTERN ALLIANCE BANCORPORATION", "cik": 1212545, "entity_type": "operating", "former_names": ["WESTERN ALLIANCE BANCORPORATION"]}
+{"name": "TORO CO", "cik": 737758, "entity_type": "operating", "former_names": []}
+{"name": "AECOM", "cik": 868857, "entity_type": "operating", "former_names": ["AECOM TECHNOLOGY CORP"]}
+{"name": "Core & Main, Inc.", "cik": 1856525, "entity_type": "operating", "former_names": []}
+{"name": "Primo Brands Corp", "cik": 2042694, "entity_type": "operating", "former_names": []}
+{"name": "Spyre Therapeutics, Inc.", "cik": 1636282, "entity_type": "operating", "former_names": ["Aeglea BioTherapeutics, Inc."]}
+{"name": "Compass, Inc.", "cik": 1563190, "entity_type": "operating", "former_names": ["Urban Compass, Inc."]}
+{"name": "PROSPERITY BANCSHARES INC", "cik": 1068851, "entity_type": "operating", "former_names": []}
+{"name": "XP Inc.", "cik": 1787425, "entity_type": "other", "former_names": []}
+{"name": "ARGAN INC", "cik": 100591, "entity_type": "operating", "former_names": ["PUROFLOW INC"]}
+{"name": "SKYWORKS SOLUTIONS, INC.", "cik": 4127, "entity_type": "operating", "former_names": ["SKYWORKS SOLUTIONS INC", "ALPHA INDUSTRIES INC"]}
+{"name": "Sanrio Company, Ltd./ADR", "cik": 1584273, "entity_type": "other", "former_names": []}
+{"name": "GRUPO FINANCIERO GALICIA SA", "cik": 1114700, "entity_type": "other", "former_names": []}
+{"name": "SailPoint, Inc.", "cik": 2030781, "entity_type": "operating", "former_names": ["SailPoint Parent, LP"]}
+{"name": "Keisei Electric Railway Co. Ltd/ADR", "cik": 2107989, "entity_type": "other", "former_names": []}
+{"name": "IAMGOLD CORP", "cik": 1203464, "entity_type": "other", "former_names": []}
+{"name": "QIAGEN N.V.", "cik": 1015820, "entity_type": "other", "former_names": ["QIAGEN NV"]}
+{"name": "Laopu Gold Co. Ltd./ADR", "cik": 2068440, "entity_type": "other", "former_names": []}
+{"name": "RANGE RESOURCES CORP", "cik": 315852, "entity_type": "operating", "former_names": ["LOMAK PETROLEUM INC"]}
+{"name": "POWELL INDUSTRIES INC", "cik": 80420, "entity_type": "operating", "former_names": []}
+{"name": "Alkermes plc.", "cik": 1520262, "entity_type": "operating", "former_names": ["ANTLER SCIENCE TWO PLC", "Antler Science Two Ltd"]}
+{"name": "Frontline plc", "cik": 913290, "entity_type": "other", "former_names": ["FRONTLINE LTD /", "LONDON & OVERSEAS FREIGHTERS LTD"]}
+{"name": "ESCO TECHNOLOGIES INC", "cik": 866706, "entity_type": "operating", "former_names": ["ESCO ELECTRONICS CORP"]}
+{"name": "COMMERCE BANCSHARES INC /MO/", "cik": 22356, "entity_type": "operating", "former_names": []}
+{"name": "Kinetik Holdings Inc.", "cik": 1692787, "entity_type": "operating", "former_names": ["Altus Midstream Co", "Kayne Anderson Acquisition Corp"]}
+{"name": "TG THERAPEUTICS, INC.", "cik": 1001316, "entity_type": "operating", "former_names": ["MANHATTAN PHARMACEUTICALS INC", "ATLANTIC TECHNOLOGY VENTURES INC", "ATLANTIC PHARMACEUTICALS INC"]}
+{"name": "Jackson Financial Inc.", "cik": 1822993, "entity_type": "operating", "former_names": []}
+{"name": "IDACORP INC", "cik": 1057877, "entity_type": "operating", "former_names": []}
+{"name": "BOK FINANCIAL CORP", "cik": 875357, "entity_type": "operating", "former_names": ["BOK FINANCIAL CORP ET AL"]}
+{"name": "Protagonist Therapeutics, Inc", "cik": 1377121, "entity_type": "operating", "former_names": ["Protagonist Therapeutics Inc", "Protagonist Inc"]}
+{"name": "Mobileye Global Inc.", "cik": 1910139, "entity_type": "operating", "former_names": ["Mobileye Holdings Inc."]}
+{"name": "FIRST MAJESTIC SILVER CORP", "cik": 1308648, "entity_type": "other", "former_names": ["FIRST MAJESTIC RESOURCE CORP"]}
+{"name": "SOUTHEAST AIRPORT GROUP", "cik": 1123452, "entity_type": "other", "former_names": []}
+{"name": "Chewy, Inc.", "cik": 1766502, "entity_type": "operating", "former_names": []}
+{"name": "KT CORP", "cik": 892450, "entity_type": "other", "former_names": ["KOREA TELECOM CORP"]}
+{"name": "SMITH A O CORP", "cik": 91142, "entity_type": "operating", "former_names": []}
+{"name": "AXIS CAPITAL HOLDINGS LTD", "cik": 1214816, "entity_type": "operating", "former_names": ["AXIS CAPITAL HOLDINGS L"]}
+{"name": "ImmunityBio, Inc.", "cik": 1326110, "entity_type": "operating", "former_names": ["NantKwest, Inc.", "Conkwest, Inc.", "ZelleRx Corp"]}
+{"name": "New Oriental Education & Technology Group Inc.", "cik": 1372920, "entity_type": "other", "former_names": []}
+{"name": "Nitori Holdings Co., Ltd.", "cik": 1801729, "entity_type": "other", "former_names": []}
+{"name": "MAXLINEAR, INC", "cik": 1288469, "entity_type": "operating", "former_names": ["MAXLINEAR INC"]}
+{"name": "AGCO CORP /DE", "cik": 880266, "entity_type": "operating", "former_names": []}
+{"name": "ALEXANDRIA REAL ESTATE EQUITIES, INC.", "cik": 1035443, "entity_type": "operating", "former_names": ["ALEXANDRIA REAL ESTATE EQUITIES, INC.", "ALEXANDRIA REAL ESTATE EQUITIES INC"]}
+{"name": "REPLIGEN CORP", "cik": 730272, "entity_type": "operating", "former_names": []}
+{"name": "Hess Midstream LP", "cik": 1789832, "entity_type": "operating", "former_names": []}
+{"name": "Clearway Energy, Inc.", "cik": 1567683, "entity_type": "operating", "former_names": ["NRG Yield, Inc.", "NRG Yieldco, Inc."]}
+{"name": "APTARGROUP, INC.", "cik": 896622, "entity_type": "operating", "former_names": ["APTARGROUP INC"]}
+{"name": "Rexford Industrial Realty, Inc.", "cik": 1571283, "entity_type": "operating", "former_names": ["Rexford Industrial, Inc."]}
+{"name": "DILLARD'S, INC.", "cik": 28917, "entity_type": "operating", "former_names": ["DILLARDS INC", "DILLARD DEPARTMENT STORES INC"]}
+{"name": "Birkenstock Holding plc", "cik": 1977102, "entity_type": "other", "former_names": ["Birkenstock Holding Ltd", "Birkenstock Group Ltd"]}
+{"name": "CAVA GROUP, INC.", "cik": 1639438, "entity_type": "operating", "former_names": []}
+{"name": "Vaxcyte, Inc.", "cik": 1649094, "entity_type": "operating", "former_names": ["SutroVax, Inc."]}
+{"name": "Applied Digital Corp.", "cik": 1144879, "entity_type": "operating", "former_names": ["Applied Digital Corp.", "Applied Blockchain, Inc.", "Applied Science Products, Inc.", "FLIGHT SAFETY TECHNOLOGIES INC", "REEL STAFF INC"]}
+{"name": "Chime Financial, Inc.", "cik": 1795586, "entity_type": "operating", "former_names": []}
+{"name": "Cipher Digital Inc.", "cik": 1819989, "entity_type": "operating", "former_names": ["Cipher Mining Inc.", "GOOD WORKS ACQUISITION CORP."]}
+{"name": "VALLEY NATIONAL BANCORP", "cik": 714310, "entity_type": "operating", "former_names": []}
+{"name": "TETRA TECH INC", "cik": 831641, "entity_type": "operating", "former_names": []}
+{"name": "Hims & Hers Health, Inc.", "cik": 1773751, "entity_type": "operating", "former_names": ["Oaktree Acquisition Corp."]}
+{"name": "Builders FirstSource, Inc.", "cik": 1316835, "entity_type": "operating", "former_names": []}
+{"name": "CAE INC", "cik": 1173382, "entity_type": "other", "former_names": []}
+{"name": "Oklo Inc.", "cik": 1849056, "entity_type": "operating", "former_names": ["AltC Acquisition Corp."]}
+{"name": "BIO-RAD LABORATORIES, INC.", "cik": 12208, "entity_type": "operating", "former_names": ["BIO RAD LABORATORIES INC"]}
+{"name": "VORNADO REALTY TRUST", "cik": 899689, "entity_type": "operating", "former_names": []}
+{"name": "Immunovant, Inc.", "cik": 1764013, "entity_type": "operating", "former_names": ["Health Sciences Acquisitions Corp"]}
+{"name": "BRINKER INTERNATIONAL, INC", "cik": 703351, "entity_type": "operating", "former_names": ["BRINKER INTERNATIONAL INC"]}
+{"name": "Zurn Elkay Water Solutions Corp", "cik": 1439288, "entity_type": "operating", "former_names": ["Zurn Water Solutions Corp", "Rexnord Corp", "Rexnord Holdings, Inc"]}
+{"name": "HEALTHEQUITY, INC.", "cik": 1428336, "entity_type": "operating", "former_names": ["HEALTHEQUITY INC"]}
+{"name": "Ryman Hospitality Properties, Inc.", "cik": 1040829, "entity_type": "operating", "former_names": ["GAYLORD ENTERTAINMENT CO /DE", "NEW GAYLORD ENTERTAINMENT CO"]}
+{"name": "LINCOLN NATIONAL CORP", "cik": 59558, "entity_type": "operating", "former_names": ["LINCOLN NATIONAL CORP ET AL"]}
+{"name": "STANTEC INC", "cik": 1131383, "entity_type": "other", "former_names": []}
+{"name": "South Bow Corp", "cik": 2019061, "entity_type": "other", "former_names": []}
+{"name": "Rush Street Interactive, Inc.", "cik": 1793659, "entity_type": "operating", "former_names": ["dMY Technology Group, Inc."]}
+{"name": "CARMAX INC", "cik": 1170010, "entity_type": "operating", "former_names": []}
+{"name": "Kinsale Capital Group, Inc.", "cik": 1669162, "entity_type": "operating", "former_names": []}
+{"name": "BUENAVENTURA MINING CO INC", "cik": 1013131, "entity_type": "other", "former_names": []}
+{"name": "ETSY INC", "cik": 1370637, "entity_type": "operating", "former_names": []}
+{"name": "UGI CORP /PA/", "cik": 884614, "entity_type": "operating", "former_names": ["UGI CORP /NEW/"]}
+{"name": "Vibra Energia S.A./ADR", "cik": 1000377, "entity_type": "other", "former_names": ["Petrobras Distribuidora/ADR"]}
+{"name": "Simpson Manufacturing Co., Inc.", "cik": 920371, "entity_type": "operating", "former_names": ["SIMPSON MANUFACTURING CO INC /CA/"]}
+{"name": "MACERICH CO", "cik": 912242, "entity_type": "operating", "former_names": []}
+{"name": "Celsius Holdings, Inc.", "cik": 1341766, "entity_type": "operating", "former_names": ["VECTOR VENTURES CORP."]}
+{"name": "Snap Inc", "cik": 1564408, "entity_type": "operating", "former_names": ["Snap Inc", "Snapchat Inc"]}
+{"name": "EASTMAN CHEMICAL CO", "cik": 915389, "entity_type": "operating", "former_names": []}
+{"name": "KIRBY CORP", "cik": 56047, "entity_type": "operating", "former_names": []}
+{"name": "ServiceTitan, Inc.", "cik": 1638826, "entity_type": "operating", "former_names": []}
+{"name": "Booz Allen Hamilton Holding Corp", "cik": 1443646, "entity_type": "operating", "former_names": ["EXPLORER HOLDING CORP"]}
+{"name": "HEXCEL CORP /DE/", "cik": 717605, "entity_type": "operating", "former_names": []}
+{"name": "POOL CORP", "cik": 945841, "entity_type": "operating", "former_names": ["SCP POOL CORP"]}
+{"name": "Riot Platforms, Inc.", "cik": 1167419, "entity_type": "operating", "former_names": ["Riot Blockchain, Inc.", "Bioptix, Inc.", "Venaxis, Inc.", "AspenBio Pharma, Inc.", "ASPENBIO INC"]}
+{"name": "STAG Industrial, Inc.", "cik": 1479094, "entity_type": "operating", "former_names": []}
+{"name": "ELDORADO GOLD CORP /FI", "cik": 918608, "entity_type": "other", "former_names": ["ELDORADO GOLD CORP                                      /FI"]}
+{"name": "Avantor, Inc.", "cik": 1722482, "entity_type": "operating", "former_names": ["Vail Holdco Corp"]}
+{"name": "Super Group (SGHC) Ltd", "cik": 1878057, "entity_type": "other", "former_names": []}
+{"name": "Joby Aviation, Inc.", "cik": 1819848, "entity_type": "operating", "former_names": ["Reinvent Technology Partners"]}
+{"name": "NATIONAL FUEL GAS CO", "cik": 70145, "entity_type": "operating", "former_names": []}
+{"name": "PIMCO Dynamic Income Fund", "cik": 1510599, "entity_type": "other", "former_names": []}
+{"name": "Equinox Gold Corp.", "cik": 1756607, "entity_type": "other", "former_names": []}
+{"name": "Ralliant Corp", "cik": 2041385, "entity_type": "operating", "former_names": ["NPTG Holdings Corp"]}
+{"name": "HANOVER INSURANCE GROUP, INC.", "cik": 944695, "entity_type": "operating", "former_names": ["ALLMERICA FINANCIAL CORP"]}
+{"name": "RHYTHM PHARMACEUTICALS, INC.", "cik": 1649904, "entity_type": "operating", "former_names": ["RHYTHM METABOLIC, INC."]}
+{"name": "Fervo Energy Co", "cik": 1853868, "entity_type": "operating", "former_names": []}
+{"name": "Terreno Realty Corp", "cik": 1476150, "entity_type": "operating", "former_names": []}
+{"name": "Sprott Physical Gold & Silver Trust", "cik": 1726122, "entity_type": "other", "former_names": []}
+{"name": "Central Bancompany, Inc.", "cik": 2065601, "entity_type": "operating", "former_names": []}
+{"name": "TEREX CORP", "cik": 97216, "entity_type": "operating", "former_names": []}
+{"name": "Qorvo, Inc.", "cik": 1604778, "entity_type": "operating", "former_names": ["Rocky Holding, Inc."]}
+{"name": "EnerSys", "cik": 1289308, "entity_type": "operating", "former_names": []}
+{"name": "ZILLOW GROUP, INC.", "cik": 1617640, "entity_type": "operating", "former_names": ["Zebra Holdco Inc."]}
+{"name": "Klarna Group plc", "cik": 2003292, "entity_type": "other", "former_names": []}
+{"name": "Mirum Pharmaceuticals, Inc.", "cik": 1759425, "entity_type": "operating", "former_names": []}
+{"name": "MOSAIC CO", "cik": 1285785, "entity_type": "operating", "former_names": ["GLOBAL NUTRITION SOLUTIONS INC"]}
+{"name": "Healthcare Realty Trust Inc", "cik": 1360604, "entity_type": "operating", "former_names": ["HEALTHCARE TRUST OF AMERICA, INC.", "Healthcare Trust of America Holdings, LP", "Grubb & Ellis Healthcare REIT, Inc.", "NNN Healthcare/Office REIT, Inc."]}
+{"name": "Bilibili Inc.", "cik": 1723690, "entity_type": "other", "former_names": []}
+{"name": "VinFast Auto Ltd.", "cik": 1913510, "entity_type": "other", "former_names": ["VinFast Auto Pte. Ltd.", "Vinfast Trading & Investment Pte. Ltd."]}
+{"name": "MOLSON COORS BEVERAGE CO", "cik": 24545, "entity_type": "operating", "former_names": ["MOLSON COORS BREWING CO", "COORS ADOLPH CO"]}
+{"name": "AeroVironment Inc", "cik": 1368622, "entity_type": "operating", "former_names": []}
+{"name": "LITHIA MOTORS INC", "cik": 1023128, "entity_type": "operating", "former_names": []}
+{"name": "Vista Energy, S.A.B. de C.V.", "cik": 1762506, "entity_type": "other", "former_names": ["Vista Oil & Gas, S.A.B. de C.V."]}
+{"name": "COMMERCIAL METALS Co", "cik": 22444, "entity_type": "operating", "former_names": []}
+{"name": "SILICON LABORATORIES INC.", "cik": 1038074, "entity_type": "operating", "former_names": ["SILICON LABORATORIES INC"]}
+{"name": "FEDERAL SIGNAL CORP /DE/", "cik": 277509, "entity_type": "operating", "former_names": []}
+{"name": "GAP INC", "cik": 39911, "entity_type": "operating", "former_names": []}
+{"name": "PBF Energy Inc.", "cik": 1534504, "entity_type": "operating", "former_names": []}
+{"name": "LANDSTAR SYSTEM INC", "cik": 853816, "entity_type": "operating", "former_names": []}
+{"name": "Sprouts Farmers Market, Inc.", "cik": 1575515, "entity_type": "operating", "former_names": ["Sprouts Farmers Markets, LLC"]}
+{"name": "JBT MAREL Corp", "cik": 1433660, "entity_type": "operating", "former_names": ["John Bean Technologies CORP"]}
+{"name": "Albertsons Companies, Inc.", "cik": 1646972, "entity_type": "operating", "former_names": []}
+{"name": "First American Financial Corp", "cik": 1472787, "entity_type": "operating", "former_names": []}
+{"name": "Arcosa, Inc.", "cik": 1739445, "entity_type": "operating", "former_names": []}
+{"name": "Core Scientific, Inc./tx", "cik": 1839341, "entity_type": "operating", "former_names": ["Power & Digital Infrastructure Acquisition Corp."]}
+{"name": "D-Wave Quantum Inc.", "cik": 1907982, "entity_type": "operating", "former_names": []}
+{"name": "Clear Secure, Inc.", "cik": 1856314, "entity_type": "operating", "former_names": []}
+{"name": "SM Energy Co", "cik": 893538, "entity_type": "operating", "former_names": ["ST MARY LAND & EXPLORATION CO"]}
+{"name": "AVNET INC", "cik": 8858, "entity_type": "operating", "former_names": []}
+{"name": "PACS Group, Inc.", "cik": 2001184, "entity_type": "operating", "former_names": []}
+{"name": "FLUOR CORP", "cik": 1124198, "entity_type": "operating", "former_names": []}
+{"name": "Enpro Inc.", "cik": 1164863, "entity_type": "operating", "former_names": ["ENPRO INDUSTRIES, INC", "ENPRO INDUSTRIES INC"]}
+{"name": "DROPBOX, INC.", "cik": 1467623, "entity_type": "operating", "former_names": ["Evenflow, Inc."]}
+{"name": "PLEXUS CORP", "cik": 785786, "entity_type": "operating", "former_names": []}
+{"name": "Everus Construction Group, Inc.", "cik": 2015845, "entity_type": "operating", "former_names": []}
+{"name": "InterDigital, Inc.", "cik": 1405495, "entity_type": "operating", "former_names": []}
+{"name": "OneMain Holdings, Inc.", "cik": 1584207, "entity_type": "operating", "former_names": ["Springleaf Holdings, Inc.", "Springleaf Holdings, LLC"]}
+{"name": "SASOL LTD", "cik": 314590, "entity_type": "other", "former_names": ["SASOL LTD/ADR/"]}
+{"name": "FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE", "cik": 310522, "entity_type": "operating", "former_names": ["FEDERAL NATIONAL MORTGAGE ASSOCIATION"]}
+{"name": "CAMTEK LTD", "cik": 1109138, "entity_type": "other", "former_names": []}
+{"name": "Kodiak Gas Services, Inc.", "cik": 1767042, "entity_type": "operating", "former_names": ["Frontier TopCo, Inc."]}
+{"name": "MSC INDUSTRIAL DIRECT CO INC", "cik": 1003078, "entity_type": "operating", "former_names": []}
+{"name": "CIRRUS LOGIC, INC.", "cik": 772406, "entity_type": "operating", "former_names": ["CIRRUS LOGIC INC"]}
+{"name": "Chord Energy Corp", "cik": 1486159, "entity_type": "operating", "former_names": ["Oasis Petroleum Inc."]}
+{"name": "Lottomatica Group S.p.A./ADR", "cik": 2041918, "entity_type": "other", "former_names": []}
+{"name": "Axalta Coating Systems Ltd.", "cik": 1616862, "entity_type": "operating", "former_names": []}
+{"name": "Hinge Health, Inc.", "cik": 1673743, "entity_type": "operating", "former_names": []}
+{"name": "NOV Inc.", "cik": 1021860, "entity_type": "operating", "former_names": ["NATIONAL OILWELL VARCO INC", "NATIONAL OILWELL INC"]}
+{"name": "Bachem Holding AG/ADR", "cik": 1968378, "entity_type": "other", "former_names": []}
+{"name": "QMMM Holdings Ltd", "cik": 1971542, "entity_type": "other", "former_names": []}
+{"name": "NEWMARKET CORP", "cik": 1282637, "entity_type": "operating", "former_names": []}
+{"name": "CONAGRA BRANDS INC.", "cik": 23217, "entity_type": "operating", "former_names": ["CONAGRA FOODS INC /DE/", "CONAGRA INC /DE/"]}
+{"name": "easyJet plc", "cik": 1470419, "entity_type": "other", "former_names": []}
+{"name": "LEAR CORP", "cik": 842162, "entity_type": "operating", "former_names": ["LEAR CORP /DE/", "LEAR SEATING CORP"]}
+{"name": "ACM Research, Inc.", "cik": 1680062, "entity_type": "operating", "former_names": []}
+{"name": "Liquidia Corp", "cik": 1819576, "entity_type": "operating", "former_names": []}
+{"name": "ESSENTIAL PROPERTIES REALTY TRUST, INC.", "cik": 1728951, "entity_type": "operating", "former_names": []}
+{"name": "SentinelOne, Inc.", "cik": 1583708, "entity_type": "operating", "former_names": ["Sentinel Labs, Inc."]}
+{"name": "GLACIER BANCORP, INC.", "cik": 868671, "entity_type": "operating", "former_names": ["GLACIER BANCORP INC"]}
+{"name": "Ingram Micro Holding Corp", "cik": 1897762, "entity_type": "operating", "former_names": []}
+{"name": "FNB CORP/PA/", "cik": 37808, "entity_type": "operating", "former_names": ["FNB CORP/FL/", "FNB CORP/PA"]}
+{"name": "Loar Holdings Inc.", "cik": 2000178, "entity_type": "operating", "former_names": ["Loar Holdings, LLC"]}
+{"name": "Archrock, Inc.", "cik": 1389050, "entity_type": "operating", "former_names": ["EXTERRAN HOLDINGS INC.", "Iliad Holdings, INC"]}
+{"name": "Southwest Gas Holdings, Inc.", "cik": 1692115, "entity_type": "operating", "former_names": []}
+{"name": "FirstService Corp", "cik": 1637810, "entity_type": "other", "former_names": ["New FSV Corp"]}
+{"name": "Paycom Software, Inc.", "cik": 1590955, "entity_type": "operating", "former_names": []}
+{"name": "ORMAT TECHNOLOGIES, INC.", "cik": 1296445, "entity_type": "operating", "former_names": []}
+{"name": "DPC Holdings Ltd", "cik": 2107018, "entity_type": "other", "former_names": []}
+{"name": "PJT Partners Inc.", "cik": 1626115, "entity_type": "operating", "former_names": ["PJT Partners Inc."]}
+{"name": "Gates Industrial Corp plc", "cik": 1718512, "entity_type": "operating", "former_names": []}
+{"name": "Intercorp Financial Services Inc.", "cik": 1615903, "entity_type": "other", "former_names": []}
+{"name": "PILGRIMS PRIDE CORP", "cik": 802481, "entity_type": "operating", "former_names": []}
+{"name": "Vipshop Holdings Ltd", "cik": 1529192, "entity_type": "other", "former_names": []}
+{"name": "ARMSTRONG WORLD INDUSTRIES INC", "cik": 7431, "entity_type": "operating", "former_names": []}
+{"name": "Navan, Inc.", "cik": 1639723, "entity_type": "operating", "former_names": ["TripActions, Inc."]}
+{"name": "Taylor Morrison Home Corp", "cik": 1562476, "entity_type": "operating", "former_names": []}
+{"name": "Rockwool A/S/ADR", "cik": 1969729, "entity_type": "other", "former_names": []}
+{"name": "Figure Technology Solutions, Inc.", "cik": 2064124, "entity_type": "operating", "former_names": ["Figure Technology Solutions, Inc.", "FT Intermediate, Inc."]}
+{"name": "Noble Corp plc", "cik": 1895262, "entity_type": "operating", "former_names": ["Noble Finco Ltd"]}
+{"name": "Paylocity Holding Corp", "cik": 1591698, "entity_type": "operating", "former_names": []}
+{"name": "Lantheus Holdings, Inc.", "cik": 1521036, "entity_type": "operating", "former_names": ["Lantheus MI Holdings, Inc."]}
+{"name": "National Storage Affiliates Trust", "cik": 1618563, "entity_type": "operating", "former_names": []}
+{"name": "MOHAWK INDUSTRIES INC", "cik": 851968, "entity_type": "operating", "former_names": ["MOHAWK INDUSTRIES INC."]}
+{"name": "MYR GROUP INC.", "cik": 700923, "entity_type": "operating", "former_names": ["MYR GROUP INC.", "MYR GROUP INC", "MYERS L E CO GROUP"]}
+{"name": "CAMPBELL'S Co", "cik": 16732, "entity_type": "operating", "former_names": ["CAMPBELL SOUP CO"]}
+{"name": "Lumen Technologies, Inc.", "cik": 18926, "entity_type": "operating", "former_names": ["CENTURYLINK, INC", "CENTURYTEL INC", "CENTURY TELEPHONE ENTERPRISES INC"]}
+{"name": "Acushnet Holdings Corp.", "cik": 1672013, "entity_type": "operating", "former_names": []}
+{"name": "RAYONIER INC", "cik": 52827, "entity_type": "operating", "former_names": ["ITT RAYONIER INC"]}
+{"name": "PROCORE TECHNOLOGIES, INC.", "cik": 1611052, "entity_type": "operating", "former_names": []}
+{"name": "AUTONATION, INC.", "cik": 350698, "entity_type": "operating", "former_names": ["AUTONATION INC /FL", "REPUBLIC INDUSTRIES INC", "REPUBLIC WASTE INDUSTRIES INC"]}
+{"name": "V F CORP", "cik": 103379, "entity_type": "operating", "former_names": ["V F CORP/NC", "V F CORP /PA/"]}
+{"name": "Xenon Pharmaceuticals Inc.", "cik": 1582313, "entity_type": "operating", "former_names": []}
+{"name": "Cogent Biosciences, Inc.", "cik": 1622229, "entity_type": "operating", "former_names": ["Unum Therapeutics Inc.", "Unum Therapeutics, Inc."]}
+{"name": "Solaris Energy Infrastructure, Inc.", "cik": 1697500, "entity_type": "operating", "former_names": ["Solaris Oilfield Infrastructure, Inc."]}
+{"name": "Elastic N.V.", "cik": 1707753, "entity_type": "operating", "former_names": ["Elasticsearch Global BV"]}
+{"name": "PTC THERAPEUTICS, INC.", "cik": 1070081, "entity_type": "operating", "former_names": ["PTC THERAPEUTICS INC"]}
+{"name": "Matador Resources Co", "cik": 1520006, "entity_type": "operating", "former_names": []}
+{"name": "MSA Safety Inc", "cik": 66570, "entity_type": "operating", "former_names": ["MINE SAFETY APPLIANCES CO"]}
+{"name": "CHEMED CORP", "cik": 19584, "entity_type": "operating", "former_names": ["ROTO-ROOTER INC"]}
+{"name": "CREDIT ACCEPTANCE CORP", "cik": 885550, "entity_type": "operating", "former_names": ["CREDIT ACCEPTANCE CORPORATION"]}
+{"name": "Red Rock Resorts, Inc.", "cik": 1653653, "entity_type": "operating", "former_names": ["Red Rock Resorts, Inc.", "Station Casinos Corp."]}
+{"name": "Morningstar, Inc.", "cik": 1289419, "entity_type": "operating", "former_names": []}
+{"name": "Global-E Online Ltd.", "cik": 1835963, "entity_type": "other", "former_names": []}
+{"name": "ICL Group Ltd.", "cik": 941221, "entity_type": "other", "former_names": ["ISRAEL CHEMICALS LTD"]}
+{"name": "Scholar Rock Holding Corp", "cik": 1727196, "entity_type": "operating", "former_names": []}
+{"name": "GDS Holdings Ltd", "cik": 1526125, "entity_type": "other", "former_names": []}
+{"name": "Lamb Weston Holdings, Inc.", "cik": 1679273, "entity_type": "operating", "former_names": []}
+{"name": "Sensata Technologies Holding plc", "cik": 1477294, "entity_type": "operating", "former_names": ["Sensata Technologies Holding N.V.", "Sensata Technologies Holding B.V."]}
+{"name": "BLACKBERRY Ltd", "cik": 1070235, "entity_type": "operating", "former_names": ["BLACKBERRY Ltd", "RESEARCH IN MOTION LTD"]}
+{"name": "Schneider National, Inc.", "cik": 1692063, "entity_type": "operating", "former_names": []}
+{"name": "Crocs, Inc.", "cik": 1334036, "entity_type": "operating", "former_names": []}
+{"name": "Victoria's Secret & Co.", "cik": 1856437, "entity_type": "operating", "former_names": ["Victorias Secret & Co"]}
+{"name": "VISHAY INTERTECHNOLOGY INC", "cik": 103730, "entity_type": "operating", "former_names": []}
+{"name": "Shimadzu Corporation/ADR", "cik": 1648512, "entity_type": "other", "former_names": []}
+{"name": "Matson, Inc.", "cik": 3453, "entity_type": "operating", "former_names": ["ALEXANDER & BALDWIN INC"]}
+{"name": "Enact Holdings, Inc.", "cik": 1823529, "entity_type": "operating", "former_names": ["Genworth Mortgage Holdings, Inc."]}
+{"name": "BOYD GAMING CORP", "cik": 906553, "entity_type": "operating", "former_names": []}
+{"name": "Maase Inc.", "cik": 1750264, "entity_type": "other", "former_names": ["Highest Performances Holdings Inc.", "PUYI, INC."]}
+{"name": "LKQ CORP", "cik": 1065696, "entity_type": "operating", "former_names": ["LKQ CORP"]}
+{"name": "GATX CORP", "cik": 40211, "entity_type": "operating", "former_names": []}
+{"name": "Brookfield Business Corp", "cik": 1654795, "entity_type": "other", "former_names": ["Brookfield Business Partners L.P."]}
+{"name": "UNITED BANKSHARES INC/WV", "cik": 729986, "entity_type": "operating", "former_names": ["UNITED BANKSHARES INC/WV"]}
+{"name": "Sony Financial Group Inc./ADR", "cik": 2084022, "entity_type": "other", "former_names": []}
+{"name": "Kanzhun Ltd", "cik": 1842827, "entity_type": "other", "former_names": []}
+{"name": "TXNM ENERGY INC", "cik": 1108426, "entity_type": "operating", "former_names": ["PNM RESOURCES INC", "PNM RESOURCES", "MANZANO CORP"]}
+{"name": "STARWOOD PROPERTY TRUST, INC.", "cik": 1465128, "entity_type": "operating", "former_names": []}
+{"name": "EAGLE MATERIALS INC", "cik": 918646, "entity_type": "operating", "former_names": ["CENTEX CONSTRUCTION PRODUCTS INC"]}
+{"name": "Brookfield Renewable Corp", "cik": 1791863, "entity_type": "other", "former_names": []}
+{"name": "ULTRAPAR HOLDINGS INC", "cik": 1094972, "entity_type": "other", "former_names": ["ULTRAPAR HOLDINGS INC"]}
+{"name": "Mitsubishi Gas Chemical Company, Inc./ADR", "cik": 2079706, "entity_type": "other", "former_names": []}
+{"name": "Janus Living, Inc.", "cik": 2100805, "entity_type": "operating", "former_names": ["Janus Parent, LLC"]}
+{"name": "CG Oncology, Inc.", "cik": 1991792, "entity_type": "operating", "former_names": []}
+{"name": "FLAGSTAR BANK, NATIONAL ASSOCIATION", "cik": 910073, "entity_type": "operating", "former_names": ["FLAGSTAR FINANCIAL, INC.", "NEW YORK COMMUNITY BANCORP, INC.", "NEW YORK COMMUNITY BANCORP INC", "QUEENS COUNTY BANCORP INC"]}
+{"name": "APPFOLIO INC", "cik": 1433195, "entity_type": "operating", "former_names": []}
+{"name": "UiPath, Inc.", "cik": 1734722, "entity_type": "operating", "former_names": []}
+{"name": "Sibanye Stillwater Ltd", "cik": 1786909, "entity_type": "other", "former_names": []}
+{"name": "ENERGY CO OF MINAS GERAIS", "cik": 1157557, "entity_type": "other", "former_names": []}
+{"name": "NexGen Energy Ltd.", "cik": 1698535, "entity_type": "other", "former_names": []}
+{"name": "DESCARTES SYSTEMS GROUP INC", "cik": 1050140, "entity_type": "other", "former_names": []}
+{"name": "COMMVAULT SYSTEMS INC", "cik": 1169561, "entity_type": "operating", "former_names": []}
+{"name": "Ingredion Inc", "cik": 1046257, "entity_type": "operating", "former_names": ["CORN PRODUCTS INTERNATIONAL INC"]}
+{"name": "HANCOCK WHITNEY CORP", "cik": 750577, "entity_type": "operating", "former_names": ["HANCOCK HOLDING CO"]}
+{"name": "CASELLA WASTE SYSTEMS INC", "cik": 911177, "entity_type": "operating", "former_names": []}
+{"name": "PORTLAND GENERAL ELECTRIC CO /OR/", "cik": 784977, "entity_type": "operating", "former_names": []}
+{"name": "MERCURY SYSTEMS INC", "cik": 1049521, "entity_type": "operating", "former_names": ["MERCURY COMPUTER SYSTEMS INC"]}
+{"name": "Victory Capital Holdings, Inc.", "cik": 1570827, "entity_type": "operating", "former_names": []}
+{"name": "Karman Holdings Inc.", "cik": 2040127, "entity_type": "operating", "former_names": ["TCFIII SPACECO HOLDINGS LLC"]}
+{"name": "Definium Therapeutics, Inc.", "cik": 1813814, "entity_type": "operating", "former_names": ["Mind Medicine (MindMed) Inc."]}
+{"name": "Caesars Entertainment, Inc.", "cik": 1590895, "entity_type": "operating", "former_names": ["Eldorado Resorts, Inc.", "Eclair Holdings Co"]}
+{"name": "MERCURY GENERAL CORP", "cik": 64996, "entity_type": "operating", "former_names": []}
+{"name": "LIGAND PHARMACEUTICALS INC", "cik": 886163, "entity_type": "operating", "former_names": ["LIGAND PHARMACEUTICALS"]}
+{"name": "Floor & Decor Holdings, Inc.", "cik": 1507079, "entity_type": "operating", "former_names": ["FDO Holdings, Inc."]}
+{"name": "LandBridge Co LLC", "cik": 1995807, "entity_type": "operating", "former_names": []}
+{"name": "Eregli Demir ve Celik Fabrikalari TAS/ADR", "cik": 1454144, "entity_type": "other", "former_names": []}
+{"name": "MGIC INVESTMENT CORP", "cik": 876437, "entity_type": "operating", "former_names": []}
+{"name": "Installed Building Products, Inc.", "cik": 1580905, "entity_type": "operating", "former_names": []}
+{"name": "MIDDLEBY Corp", "cik": 769520, "entity_type": "operating", "former_names": []}
+{"name": "Ameris Bancorp", "cik": 351569, "entity_type": "operating", "former_names": ["ABC BANCORP"]}
+{"name": "STANDARD LIFE PLC", "cik": 1370418, "entity_type": "other", "former_names": []}
+{"name": "Mobility Global Inc.", "cik": 2090312, "entity_type": "other", "former_names": ["S&P Global Mobility Holding Co"]}
+{"name": "Erasca, Inc.", "cik": 1761918, "entity_type": "operating", "former_names": []}
+{"name": "SOLV Energy, Inc.", "cik": 2065636, "entity_type": "operating", "former_names": []}
+{"name": "Essent Group Ltd.", "cik": 1448893, "entity_type": "operating", "former_names": []}
+{"name": "Duolingo, Inc.", "cik": 1562088, "entity_type": "operating", "former_names": []}
+{"name": "Fortune Brands Innovations, Inc.", "cik": 1519751, "entity_type": "operating", "former_names": ["Fortune Brands Home & Security, Inc.", "Fortune Brands Home & Security LLC"]}
+{"name": "Copa Holdings, S.A.", "cik": 1345105, "entity_type": "other", "former_names": []}
+{"name": "Atlantic Union Bankshares Corp", "cik": 883948, "entity_type": "operating", "former_names": ["UNION BANKSHARES CORP", "Union Bankshares Corp", "UNION FIRST MARKET BANKSHARES CORP"]}
+{"name": "Enel Chile S.A.", "cik": 1659939, "entity_type": "other", "former_names": ["Enersis Chile S.A."]}
+{"name": "PRICESMART INC", "cik": 1041803, "entity_type": "operating", "former_names": []}
+{"name": "KITE REALTY GROUP TRUST", "cik": 1286043, "entity_type": "operating", "former_names": []}
+{"name": "Macy's, Inc.", "cik": 794367, "entity_type": "operating", "former_names": ["FEDERATED DEPARTMENT STORES INC /DE/"]}
+{"name": "NICE Ltd.", "cik": 1003935, "entity_type": "other", "former_names": ["NICE SYSTEMS LTD"]}
+{"name": "Sezzle Inc.", "cik": 1662991, "entity_type": "operating", "former_names": ["Sezzle Inc."]}
+{"name": "NEW JERSEY RESOURCES CORP", "cik": 356309, "entity_type": "operating", "former_names": []}
+{"name": "URBAN OUTFITTERS INC", "cik": 912615, "entity_type": "operating", "former_names": []}
+{"name": "TELECOM ARGENTINA SA", "cik": 932470, "entity_type": "other", "former_names": ["TELECOM ARGENTINA STET FRANCE TELECOM SA"]}
+{"name": "Garrett Motion Inc.", "cik": 1735707, "entity_type": "operating", "former_names": ["Garrett Transportation Systems Inc."]}
+{"name": "Enphase Energy, Inc.", "cik": 1463101, "entity_type": "operating", "former_names": []}
+{"name": "RUSH ENTERPRISES INC \\TX\\", "cik": 1012019, "entity_type": "operating", "former_names": []}
+{"name": "Lyft, Inc.", "cik": 1759509, "entity_type": "operating", "former_names": []}
+{"name": "PLAINS GP HOLDINGS LP", "cik": 1581990, "entity_type": "operating", "former_names": []}
+{"name": "Phillips Edison & Company, Inc.", "cik": 1476204, "entity_type": "operating", "former_names": ["PHILLIPS EDISON GROCERY CENTER REIT I, INC.", "Phillips Edison - ARC Shopping Center REIT Inc."]}
+{"name": "VSE CORP", "cik": 102752, "entity_type": "operating", "former_names": []}
+{"name": "BELITE BIO, INC", "cik": 1889109, "entity_type": "other", "former_names": ["BELITE BIO, INC"]}
+{"name": "Weatherford International plc", "cik": 1603923, "entity_type": "operating", "former_names": ["Weatherford International Ltd"]}
+{"name": "Macro Bank Inc.", "cik": 1347426, "entity_type": "other", "former_names": ["Macro Bansud Bank Inc."]}
+{"name": "HOME BANCSHARES INC", "cik": 1331520, "entity_type": "operating", "former_names": []}
+{"name": "WYNDHAM HOTELS & RESORTS, INC.", "cik": 1722684, "entity_type": "operating", "former_names": []}
+{"name": "OUTFRONT Media Inc.", "cik": 1579877, "entity_type": "operating", "former_names": ["OUTFRONT Media Inc.", "CBS OUTDOOR AMERICAS INC."]}
+{"name": "Ariston Holding N.V./ADR", "cik": 2044984, "entity_type": "other", "former_names": []}
+{"name": "Transocean Ltd.", "cik": 1451505, "entity_type": "operating", "former_names": []}
+{"name": "Grupo Aval Acciones Y Valores S.A.", "cik": 1504764, "entity_type": "other", "former_names": []}
+{"name": "SSR MINING INC.", "cik": 921638, "entity_type": "operating", "former_names": ["SILVER STANDARD RESOURCES INC"]}
+{"name": "PARSONS CORP", "cik": 275880, "entity_type": "operating", "former_names": ["PARSON CORP"]}
+{"name": "SELECTIVE INSURANCE GROUP INC", "cik": 230557, "entity_type": "operating", "former_names": []}
+{"name": "Churchill Downs Inc", "cik": 20212, "entity_type": "operating", "former_names": []}
+{"name": "ASSOCIATED BANC-CORP", "cik": 7789, "entity_type": "operating", "former_names": []}
+{"name": "Enova International, Inc.", "cik": 1529864, "entity_type": "operating", "former_names": ["Enova International, Inc."]}
+{"name": "Triple Flag Precious Metals Corp.", "cik": 1829726, "entity_type": "other", "former_names": []}
+{"name": "KULICKE & SOFFA INDUSTRIES INC", "cik": 56978, "entity_type": "operating", "former_names": []}
+{"name": "BLACK HILLS CORP /SD/", "cik": 1130464, "entity_type": "operating", "former_names": ["BLACK HILLS HOLDING CORP"]}
+{"name": "10x Genomics, Inc.", "cik": 1770787, "entity_type": "operating", "former_names": []}
+{"name": "Twist Bioscience Corp", "cik": 1581280, "entity_type": "operating", "former_names": []}
+{"name": "Netskope Inc", "cik": 2063196, "entity_type": "operating", "former_names": []}
+{"name": "TAL Education Group", "cik": 1499620, "entity_type": "other", "former_names": []}
+{"name": "TELEFLEX INC", "cik": 96943, "entity_type": "operating", "former_names": []}
+{"name": "Bausch & Lomb Corp", "cik": 1860742, "entity_type": "operating", "former_names": []}
+{"name": "BillionToOne, Inc.", "cik": 2070849, "entity_type": "operating", "former_names": []}
+{"name": "DSC Holdings Ltd.", "cik": 1966041, "entity_type": "other", "former_names": []}
+{"name": "QUALYS, INC.", "cik": 1107843, "entity_type": "operating", "former_names": ["QUALYS INC"]}
+{"name": "GXO Logistics, Inc.", "cik": 1852244, "entity_type": "operating", "former_names": []}
+{"name": "VARONIS SYSTEMS INC", "cik": 1361113, "entity_type": "operating", "former_names": []}
+{"name": "Pattern Group Inc.", "cik": 1811935, "entity_type": "operating", "former_names": ["Covalent Group, Inc."]}
+{"name": "ACI WORLDWIDE, INC.", "cik": 935036, "entity_type": "operating", "former_names": ["TRANSACTION SYSTEMS ARCHITECTS INC"]}
+{"name": "Gitlab Inc.", "cik": 1653482, "entity_type": "operating", "former_names": []}
+{"name": "AVIS BUDGET GROUP, INC.", "cik": 723612, "entity_type": "operating", "former_names": ["CENDANT CORP", "CUC INTERNATIONAL INC /DE/"]}
+{"name": "RLI CORP", "cik": 84246, "entity_type": "operating", "former_names": []}
+{"name": "Zeta Global Holdings Corp.", "cik": 1851003, "entity_type": "operating", "former_names": []}
+{"name": "RESIDEO TECHNOLOGIES, INC.", "cik": 1740332, "entity_type": "operating", "former_names": ["RESIDEO TECHNOLOGIES, INC.", "HH Spinco Inc."]}
+{"name": "Construction Partners, Inc.", "cik": 1718227, "entity_type": "operating", "former_names": []}
+{"name": "WEST FRASER TIMBER CO., LTD", "cik": 1402388, "entity_type": "other", "former_names": []}
+{"name": "CLEVELAND-CLIFFS INC.", "cik": 764065, "entity_type": "operating", "former_names": ["CLIFFS NATURAL RESOURCES INC.", "CLEVELAND CLIFFS INC"]}
+{"name": "StepStone Group Inc.", "cik": 1796022, "entity_type": "operating", "former_names": []}
+{"name": "Axos Financial, Inc.", "cik": 1299709, "entity_type": "operating", "former_names": ["BofI Holding, Inc."]}
+{"name": "Dianthus Therapeutics, Inc. /DE/", "cik": 1690585, "entity_type": "operating", "former_names": ["Magenta Therapeutics, Inc."]}
+{"name": "LAUREATE EDUCATION, INC.", "cik": 912766, "entity_type": "operating", "former_names": ["SYLVAN LEARNING SYSTEMS INC"]}
+{"name": "Bank OZK", "cik": 1569650, "entity_type": "other", "former_names": ["Bank of the Ozarks"]}
+{"name": "AMDOCS LTD", "cik": 1062579, "entity_type": "other", "former_names": []}
+{"name": "Reynolds Consumer Products Inc.", "cik": 1786431, "entity_type": "operating", "former_names": []}
+{"name": "OPEN TEXT CORP", "cik": 1002638, "entity_type": "operating", "former_names": []}
+{"name": "Blue Owl Capital Corp", "cik": 1655888, "entity_type": "operating", "former_names": ["Owl Rock Capital Corp"]}
+{"name": "Blackstone Secured Lending Fund", "cik": 1736035, "entity_type": "operating", "former_names": ["Blackstone / GSO Secured Lending Fund"]}
+{"name": "Valaris Ltd", "cik": 314808, "entity_type": "operating", "former_names": ["Valaris plc", "Ensco Rowan plc", "Ensco plc", "Ensco International plc", "ENSCO INTERNATIONAL INC", "ENERGY SERVICE COMPANY INC"]}
+{"name": "Stevanato Group S.p.A.", "cik": 1849853, "entity_type": "other", "former_names": []}
+{"name": "OR Royalties Inc.", "cik": 1627272, "entity_type": "other", "former_names": ["Osisko Gold Royalties LTD"]}
+{"name": "Xometry, Inc.", "cik": 1657573, "entity_type": "operating", "former_names": []}
+{"name": "ESAB Corp", "cik": 1877322, "entity_type": "operating", "former_names": []}
+{"name": "Rigetti Computing, Inc.", "cik": 1838359, "entity_type": "operating", "former_names": ["Supernova Partners Acquisition Co II, Ltd."]}
+{"name": "Lemonade, Inc.", "cik": 1691421, "entity_type": "operating", "former_names": []}
+{"name": "WEX Inc.", "cik": 1309108, "entity_type": "operating", "former_names": ["Wright Express CORP"]}
+{"name": "Perimeter Solutions, Inc.", "cik": 1880319, "entity_type": "operating", "former_names": ["Perimeter Solutions, SA"]}
+{"name": "NEXSTAR MEDIA GROUP, INC.", "cik": 1142417, "entity_type": "operating", "former_names": ["NEXSTAR BROADCASTING GROUP INC"]}
+{"name": "WHITE MOUNTAINS INSURANCE GROUP LTD", "cik": 776867, "entity_type": "operating", "former_names": ["WHITE MOUNTAINS INSURANCE GROUP INC", "FUND AMERICAN ENTERPRISES HOLDINGS INC"]}
+{"name": "Amneal Pharmaceuticals, Inc.", "cik": 1723128, "entity_type": "operating", "former_names": ["Atlas Holdings, Inc."]}
+{"name": "MakeMyTrip Ltd", "cik": 1495153, "entity_type": "other", "former_names": []}
+{"name": "AAR CORP", "cik": 1750, "entity_type": "operating", "former_names": []}
+{"name": "OceanaGold Corp", "cik": 1487326, "entity_type": "other", "former_names": []}
+{"name": "GRANITE CONSTRUCTION INC", "cik": 861459, "entity_type": "operating", "former_names": []}
+{"name": "Travere Therapeutics, Inc.", "cik": 1438533, "entity_type": "operating", "former_names": ["Retrophin, Inc.", "Desert Gateway, Inc."]}
+{"name": "SONOCO PRODUCTS CO", "cik": 91767, "entity_type": "operating", "former_names": []}
+{"name": "NOVANTA INC", "cik": 1076930, "entity_type": "operating", "former_names": ["GSI GROUP INC", "GSI LUMONICS INC", "GSI LUMONICS", "LUMONICS INC"]}
+{"name": "GOLAR LNG LTD", "cik": 1207179, "entity_type": "other", "former_names": []}
+{"name": "MATERION Corp", "cik": 1104657, "entity_type": "operating", "former_names": ["BRUSH ENGINEERED MATERIALS INC"]}
+{"name": "BGC Group, Inc.", "cik": 1094831, "entity_type": "operating", "former_names": ["BGC Partners, Inc.", "ESPEED INC"]}
+{"name": "Celanese Corp", "cik": 1306830, "entity_type": "operating", "former_names": []}
+{"name": "Klaviyo, Inc.", "cik": 1835830, "entity_type": "operating", "former_names": []}
+{"name": "LOUISIANA-PACIFIC CORP", "cik": 60519, "entity_type": "operating", "former_names": ["LOUISIANA PACIFIC CORP"]}
+{"name": "Frontdoor, Inc.", "cik": 1727263, "entity_type": "operating", "former_names": ["AHS Holding Company, Inc."]}
+{"name": "Central North Airport Group", "cik": 1378239, "entity_type": "other", "former_names": []}
+{"name": "Oruka Therapeutics, Inc.", "cik": 907654, "entity_type": "operating", "former_names": ["ARCA biopharma, Inc.", "NUVELO INC", "HYSEQ INC"]}
+{"name": "VAIL RESORTS INC", "cik": 812011, "entity_type": "operating", "former_names": ["GILLETT HOLDINGS INC"]}
+{"name": "PEGASYSTEMS INC", "cik": 1013857, "entity_type": "operating", "former_names": []}
+{"name": "Iridium Communications Inc.", "cik": 1418819, "entity_type": "operating", "former_names": ["GHL Acquisition Corp."]}
+{"name": "Tokyo Metro Co., Ltd./ADR", "cik": 2044863, "entity_type": "other", "former_names": []}
+{"name": "ALASKA AIR GROUP, INC.", "cik": 766421, "entity_type": "operating", "former_names": ["ALASKA AIR GROUP INC"]}
+{"name": "Dave Inc./DE", "cik": 1841408, "entity_type": "operating", "former_names": ["VPC Impact Acquisition Holdings III, Inc."]}
+{"name": "BALCHEM CORP", "cik": 9326, "entity_type": "operating", "former_names": []}
+{"name": "H&R BLOCK INC", "cik": 12659, "entity_type": "operating", "former_names": []}
+{"name": "Barratt Developments PLC/ADR", "cik": 1516324, "entity_type": "other", "former_names": []}
+{"name": "Rithm Capital Corp.", "cik": 1556593, "entity_type": "operating", "former_names": ["New Residential Investment Corp.", "Spinco Inc."]}
+{"name": "TURKCELL ILETISIM HIZMETLERI A S", "cik": 1071321, "entity_type": "other", "former_names": []}
+{"name": "Alliance Laundry Holdings Inc.", "cik": 1317685, "entity_type": "operating", "former_names": ["ALH Holding Inc.", "ALH Holding Inc"]}
+{"name": "URANIUM ENERGY CORP", "cik": 1334933, "entity_type": "operating", "former_names": []}
+{"name": "Sotera Health Co", "cik": 1822479, "entity_type": "operating", "former_names": ["Sotera Health Topco, Inc."]}
+{"name": "COUSINS PROPERTIES INC", "cik": 25232, "entity_type": "operating", "former_names": []}
+{"name": "Magnolia Oil & Gas Corp", "cik": 1698990, "entity_type": "operating", "former_names": ["TPG Pace Energy Holdings Corp."]}
+{"name": "Graham Holdings Co", "cik": 104889, "entity_type": "operating", "former_names": ["WASHINGTON POST CO"]}
+{"name": "RADIAN GROUP INC", "cik": 890926, "entity_type": "operating", "former_names": ["CMAC INVESTMENT CORP"]}
+{"name": "PIPER SANDLER COMPANIES", "cik": 1230245, "entity_type": "operating", "former_names": ["PIPER JAFFRAY COMPANIES"]}
+{"name": "GENTEX CORP", "cik": 355811, "entity_type": "operating", "former_names": []}
+{"name": "Genpact LTD", "cik": 1398659, "entity_type": "operating", "former_names": []}
+{"name": "Amentum Holdings, Inc.", "cik": 2011286, "entity_type": "operating", "former_names": ["Amazon Holdco Inc."]}
+{"name": "B2GOLD CORP", "cik": 1429937, "entity_type": "other", "former_names": []}
+{"name": "BRUNSWICK CORP", "cik": 14930, "entity_type": "operating", "former_names": []}
+{"name": "ICAHN ENTERPRISES L.P.", "cik": 813762, "entity_type": "operating", "former_names": ["AMERICAN REAL ESTATE PARTNERS L P"]}
+{"name": "CRISPR Therapeutics AG", "cik": 1674416, "entity_type": "operating", "former_names": ["CRISPR Therapeutics AG"]}
+{"name": "MURPHY OIL CORP", "cik": 717423, "entity_type": "operating", "former_names": ["MURPHY OIL CORP /DE"]}
+{"name": "RadNet, Inc.", "cik": 790526, "entity_type": "operating", "former_names": ["RadNet, Inc.", "PRIMEDEX HEALTH SYSTEMS INC"]}
+{"name": "Shift4 Payments, Inc.", "cik": 1794669, "entity_type": "operating", "former_names": ["Shift4 Payments, Inc."]}
+{"name": "Celcuity Inc.", "cik": 1603454, "entity_type": "operating", "former_names": ["Celcuity LLC"]}
+{"name": "UNIFIRST CORP", "cik": 717954, "entity_type": "operating", "former_names": []}
+{"name": "ONE Gas, Inc.", "cik": 1587732, "entity_type": "operating", "former_names": []}
+{"name": "Sabra Health Care REIT, Inc.", "cik": 1492298, "entity_type": "operating", "former_names": []}
+{"name": "FIRST FINANCIAL BANKSHARES INC", "cik": 36029, "entity_type": "operating", "former_names": []}
+{"name": "Moelis & Co", "cik": 1596967, "entity_type": "operating", "former_names": []}
+{"name": "TFS Financial CORP", "cik": 1381668, "entity_type": "operating", "former_names": []}
+{"name": "Legend Biotech Corp", "cik": 1801198, "entity_type": "other", "former_names": []}
+{"name": "Sphere Entertainment Co.", "cik": 1795250, "entity_type": "operating", "former_names": ["Madison Square Garden Entertainment Corp.", "MSG ENTERTAINMENT SPINCO, INC."]}
+{"name": "ADT Inc.", "cik": 1703056, "entity_type": "operating", "former_names": ["ADT Inc.", "ADT, Inc.", "Prime Security Services Parent, Inc."]}
+{"name": "Main Street Capital CORP", "cik": 1396440, "entity_type": "operating", "former_names": []}
+{"name": "Versant Media Group, Inc.", "cik": 2067876, "entity_type": "operating", "former_names": []}
+{"name": "RENK Group AG/ADR", "cik": 2093907, "entity_type": "other", "former_names": []}
+{"name": "HA Sustainable Infrastructure Capital, Inc.", "cik": 1561894, "entity_type": "operating", "former_names": ["Hannon Armstrong Sustainable Infrastructure Capital, Inc."]}
+{"name": "Remitly Global, Inc.", "cik": 1782170, "entity_type": "operating", "former_names": []}
+{"name": "Colliers International Group Inc.", "cik": 913353, "entity_type": "operating", "former_names": ["FIRSTSERVICE CORP"]}
+{"name": "Global Business Travel Group, Inc.", "cik": 1820872, "entity_type": "operating", "former_names": ["Apollo Strategic Growth Capital"]}
+{"name": "Meritage Homes CORP", "cik": 833079, "entity_type": "operating", "former_names": ["MERITAGE CORP", "MONTEREY HOMES CORP", "HOMEPLEX MORTGAGE INVESTMENTS CORP"]}
+{"name": "CHOICE HOTELS INTERNATIONAL INC /DE", "cik": 1046311, "entity_type": "operating", "former_names": ["SUNBURST HOSPITALITY CORP", "CHOICE HOTELS INTERNATIONAL INC/", "CHOICE HOTELS FRANCHISING INC"]}
+{"name": "VALVOLINE INC", "cik": 1674910, "entity_type": "operating", "former_names": []}
+{"name": "Brookfield Infrastructure Corp", "cik": 1788348, "entity_type": "other", "former_names": []}
+{"name": "HERC HOLDINGS INC", "cik": 1364479, "entity_type": "operating", "former_names": ["HERTZ GLOBAL HOLDINGS INC"]}
+{"name": "SENSIENT TECHNOLOGIES CORP", "cik": 310142, "entity_type": "operating", "former_names": ["UNIVERSAL FOODS CORP"]}
+{"name": "Ottobock SE & Co. KGaA/ADR", "cik": 2094691, "entity_type": "other", "former_names": []}
+{"name": "BBB FOODS INC", "cik": 1978954, "entity_type": "other", "former_names": []}
+{"name": "CNO Financial Group, Inc.", "cik": 1224608, "entity_type": "operating", "former_names": ["CONSECO INC"]}
+{"name": "CECO ENVIRONMENTAL CORP", "cik": 3197, "entity_type": "operating", "former_names": []}
+{"name": "SYNAPTICS Inc", "cik": 817720, "entity_type": "operating", "former_names": []}
+{"name": "WillScot Holdings Corp", "cik": 1647088, "entity_type": "operating", "former_names": ["WillScot Mobile Mini Holdings Corp.", "WillScot Corp", "Double Eagle Acquisition Corp.", "Double Eagle Acquisitions Corp."]}
+{"name": "Eastern Bankshares, Inc.", "cik": 1810546, "entity_type": "operating", "former_names": []}
+{"name": "Science Applications International Corp", "cik": 1571123, "entity_type": "operating", "former_names": ["SAIC Gemini, Inc."]}
+{"name": "FTI CONSULTING, INC", "cik": 887936, "entity_type": "operating", "former_names": ["FTI CONSULTING INC", "FORENSIC TECHNOLOGIES INTERNATIONAL CORP"]}
+{"name": "Caris Life Sciences, Inc.", "cik": 2019410, "entity_type": "operating", "former_names": []}
+{"name": "SPIRE INC", "cik": 1126956, "entity_type": "operating", "former_names": ["LACLEDE GROUP INC"]}
+{"name": "Kiniksa Pharmaceuticals International, plc", "cik": 1730430, "entity_type": "operating", "former_names": ["Kiniksa Pharmaceuticals, Ltd."]}
+{"name": "Air Water Ventures Ltd", "cik": 2092314, "entity_type": "unknown", "former_names": []}
+{"name": "NOVAVAX INC", "cik": 1000694, "entity_type": "unknown", "former_names": []}
+{"name": "Firefly Aerospace Inc.", "cik": 1860160, "entity_type": "unknown", "former_names": []}
+{"name": "Enthusiast Gaming Holdings Inc. / Canada", "cik": 1854233, "entity_type": "unknown", "former_names": []}
+{"name": "Eledon Pharmaceuticals, Inc.", "cik": 1404281, "entity_type": "unknown", "former_names": []}
+{"name": "First Bancorp, Inc /ME/", "cik": 765207, "entity_type": "unknown", "former_names": []}
+{"name": "Commercial Bancgroup, Inc.", "cik": 1981546, "entity_type": "unknown", "former_names": []}
+{"name": "ClearBridge Energy Midstream Opportunity Fund Inc.", "cik": 1517518, "entity_type": "unknown", "former_names": []}
+{"name": "Mirasol Resources Ltd", "cik": 1301854, "entity_type": "unknown", "former_names": []}
+{"name": "Turning Point Brands, Inc.", "cik": 1290677, "entity_type": "unknown", "former_names": []}
+{"name": "Orion Bliss Corp.", "cik": 1854183, "entity_type": "unknown", "former_names": []}
+{"name": "FULLNET COMMUNICATIONS INC", "cik": 1092570, "entity_type": "unknown", "former_names": []}
+{"name": "BREAD FINANCIAL HOLDINGS, INC.", "cik": 1101215, "entity_type": "unknown", "former_names": []}
+{"name": "BioRestorative Therapies, Inc.", "cik": 1505497, "entity_type": "unknown", "former_names": []}
+{"name": "Stoke Therapeutics, Inc.", "cik": 1623526, "entity_type": "unknown", "former_names": []}
+{"name": "Iveda Solutions, Inc.", "cik": 1397183, "entity_type": "unknown", "former_names": []}
+{"name": "Heidmar Maritime Holdings Corp.", "cik": 2029471, "entity_type": "unknown", "former_names": []}
+{"name": "Warby Parker Inc.", "cik": 1504776, "entity_type": "unknown", "former_names": []}
+{"name": "AVISTA CORP", "cik": 104918, "entity_type": "unknown", "former_names": []}
+{"name": "Genius Sports Ltd", "cik": 1834489, "entity_type": "unknown", "former_names": []}
+{"name": "Gores Holdings X, Inc. / CI", "cik": 1986817, "entity_type": "unknown", "former_names": []}
+{"name": "Renalytix plc", "cik": 1811115, "entity_type": "unknown", "former_names": []}
+{"name": "Turbo Energy, S.A.", "cik": 1963439, "entity_type": "unknown", "former_names": []}
+{"name": "Grayscale Decentralized Finance (DeFi) Fund LLC", "cik": 1874907, "entity_type": "unknown", "former_names": []}
+{"name": "ANDINA BOTTLING CO INC", "cik": 925261, "entity_type": "unknown", "former_names": []}
+{"name": "Aclarion, Inc.", "cik": 1635077, "entity_type": "unknown", "former_names": []}
+{"name": "Nuvectis Pharma, Inc.", "cik": 1875558, "entity_type": "unknown", "former_names": []}
+{"name": "Compass Diversified Holdings", "cik": 1345126, "entity_type": "unknown", "former_names": []}
+{"name": "Beijer Ref AB/ADR", "cik": 2116276, "entity_type": "unknown", "former_names": []}
+{"name": "MID AMERICA APARTMENT COMMUNITIES INC.", "cik": 912595, "entity_type": "unknown", "former_names": []}
+{"name": "Fenbo Holdings Ltd", "cik": 1957001, "entity_type": "unknown", "former_names": []}
+{"name": "NSTS Bancorp, Inc.", "cik": 1881592, "entity_type": "unknown", "former_names": []}
+{"name": "KKR Income Opportunities Fund", "cik": 1515940, "entity_type": "unknown", "former_names": []}
+{"name": "Pyxis Tankers Inc.", "cik": 1640043, "entity_type": "unknown", "former_names": []}
+{"name": "Abits Group Inc", "cik": 1864055, "entity_type": "unknown", "former_names": []}
+{"name": "Cresco Labs Inc.", "cik": 1832928, "entity_type": "unknown", "former_names": []}
+{"name": "Perfect Corp.", "cik": 1899830, "entity_type": "unknown", "former_names": []}
+{"name": "Alternative Strategies Income Fund", "cik": 1496254, "entity_type": "unknown", "former_names": []}
+{"name": "Viking Therapeutics, Inc.", "cik": 1607678, "entity_type": "unknown", "former_names": []}
+{"name": "EDP Renewables S.A./ADR", "cik": 1516534, "entity_type": "unknown", "former_names": []}
+{"name": "Valuence Merger Corp. I", "cik": 1892747, "entity_type": "unknown", "former_names": []}
+{"name": "Heritage Insurance Holdings, Inc.", "cik": 1598665, "entity_type": "unknown", "former_names": []}
+{"name": "CHINA PETROLEUM & CHEMICAL CORP", "cik": 1123658, "entity_type": "unknown", "former_names": []}
+{"name": "BioStem Technologies, Inc.", "cik": 1658678, "entity_type": "unknown", "former_names": []}
+{"name": "Corbus Pharmaceuticals Holdings, Inc.", "cik": 1595097, "entity_type": "unknown", "former_names": []}
+{"name": "Gloo Holdings, Inc.", "cik": 2069785, "entity_type": "unknown", "former_names": []}
+{"name": "MITEK SYSTEMS INC", "cik": 807863, "entity_type": "unknown", "former_names": []}
+{"name": "Ocugen, Inc.", "cik": 1372299, "entity_type": "unknown", "former_names": []}
+{"name": "General Purpose Acquisition Corp.", "cik": 2085408, "entity_type": "unknown", "former_names": []}
+{"name": "Costamare Inc.", "cik": 1503584, "entity_type": "unknown", "former_names": []}
+{"name": "Proem Acquisition Corp. I", "cik": 2087446, "entity_type": "unknown", "former_names": []}
+{"name": "CENTRAL SECURITIES CORP", "cik": 18748, "entity_type": "unknown", "former_names": []}
+{"name": "IOVANCE BIOTHERAPEUTICS, INC.", "cik": 1425205, "entity_type": "unknown", "former_names": []}
+{"name": "New Horizon Aircraft Ltd.", "cik": 1930021, "entity_type": "unknown", "former_names": []}
+{"name": "LINCOLN EDUCATIONAL SERVICES CORP", "cik": 1286613, "entity_type": "unknown", "former_names": []}
+{"name": "INNOVATE Corp.", "cik": 1006837, "entity_type": "unknown", "former_names": []}
+{"name": "Nature's Miracle Holding Inc.", "cik": 1947861, "entity_type": "unknown", "former_names": []}
+{"name": "NUVEEN NEW YORK MUNICIPAL VALUE FUND", "cik": 818850, "entity_type": "unknown", "former_names": []}
+{"name": "FOCUS UNIVERSAL INC.", "cik": 1590418, "entity_type": "unknown", "former_names": []}
+{"name": "Claros Mortgage Trust, Inc.", "cik": 1666291, "entity_type": "unknown", "former_names": []}
+{"name": "Bakkt, Inc.", "cik": 1820302, "entity_type": "unknown", "former_names": []}
+{"name": "Enerflex Ltd.", "cik": 1904856, "entity_type": "unknown", "former_names": []}
+{"name": "Athena Technology Acquisition Corp. II", "cik": 1882198, "entity_type": "unknown", "former_names": []}
+{"name": "Vroom, Inc.", "cik": 1580864, "entity_type": "unknown", "former_names": []}
+{"name": "Clean Energy Technologies, Inc.", "cik": 1329606, "entity_type": "unknown", "former_names": []}
+{"name": "First Tracks Biotherapeutics, Inc.", "cik": 2091349, "entity_type": "unknown", "former_names": []}
+{"name": "Knowledge Atlas Technology Joint Stock Co Limited/ADR", "cik": 2109545, "entity_type": "unknown", "former_names": []}
+{"name": "SunPower Inc.", "cik": 1838987, "entity_type": "unknown", "former_names": []}
+{"name": "ALAMO GROUP INC", "cik": 897077, "entity_type": "unknown", "former_names": []}
+{"name": "Data Storage Corp", "cik": 1419951, "entity_type": "unknown", "former_names": []}
+{"name": "CS Disco, Inc.", "cik": 1625641, "entity_type": "unknown", "former_names": []}
+{"name": "Archimedes Tech SPAC Partners II Co.", "cik": 2028516, "entity_type": "unknown", "former_names": []}
+{"name": "Bubblr Inc.", "cik": 1873722, "entity_type": "unknown", "former_names": []}
+{"name": "Emmaus Life Sciences, Inc.", "cik": 822370, "entity_type": "unknown", "former_names": []}
+{"name": "CapForce Inc.", "cik": 1293818, "entity_type": "unknown", "former_names": []}
+{"name": "New Horizon Aircraft Ltd.", "cik": 1930021, "entity_type": "unknown", "former_names": []}
+{"name": "PPX Mining Corp.", "cik": 1384831, "entity_type": "unknown", "former_names": []}
+{"name": "NV Gold Corp", "cik": 1607807, "entity_type": "unknown", "former_names": []}
+{"name": "NOAH HOLDINGS LTD", "cik": 1499543, "entity_type": "unknown", "former_names": []}
+{"name": "Polestar Automotive Holding UK PLC", "cik": 1884082, "entity_type": "unknown", "former_names": []}
+{"name": "Okeanis Eco Tankers Corp.", "cik": 1964954, "entity_type": "unknown", "former_names": []}
+{"name": "MAGNITE, INC.", "cik": 1595974, "entity_type": "unknown", "former_names": []}
+{"name": "TCL Electronics Holdings Limited/ADR", "cik": 2073804, "entity_type": "unknown", "former_names": []}
+{"name": "FOSTER L B CO", "cik": 352825, "entity_type": "unknown", "former_names": []}
+{"name": "Myseum.AI, Inc.", "cik": 1648960, "entity_type": "unknown", "former_names": []}
+{"name": "Cantor Equity Partners I, Inc.", "cik": 2027708, "entity_type": "unknown", "former_names": []}
+{"name": "Tyra Biosciences, Inc.", "cik": 1863127, "entity_type": "unknown", "former_names": []}
+{"name": "Mercury NZ Ltd./ADR", "cik": 2062807, "entity_type": "unknown", "former_names": []}
+{"name": "APARTMENT INVESTMENT & MANAGEMENT CO", "cik": 922864, "entity_type": "unknown", "former_names": []}
+{"name": "Global Bio-chem Technology Group Co. Ltd / ADR", "cik": 1454475, "entity_type": "unknown", "former_names": []}
+{"name": "Via Transportation, Inc.", "cik": 1603015, "entity_type": "unknown", "former_names": []}
+{"name": "Fluent, Inc.", "cik": 1460329, "entity_type": "unknown", "former_names": []}
+{"name": "Organogenesis Holdings Inc.", "cik": 1661181, "entity_type": "unknown", "former_names": []}
+{"name": "Grace Therapeutics, Inc.", "cik": 1444192, "entity_type": "unknown", "former_names": []}
+{"name": "Samos Energy Acquisition Corp", "cik": 2125567, "entity_type": "unknown", "former_names": []}
+{"name": "Calisa Acquisition Corp", "cik": 2026767, "entity_type": "unknown", "former_names": []}
+{"name": "NET Power Inc.", "cik": 1845437, "entity_type": "unknown", "former_names": []}
+{"name": "HomeTrust Bancshares, Inc.", "cik": 1538263, "entity_type": "unknown", "former_names": []}
+{"name": "Flaherty & Crumrine PREFERRED & INCOME OPPORTUNITY FUND INC", "cik": 882071, "entity_type": "unknown", "former_names": []}
+{"name": "SPECIAL OPPORTUNITIES FUND, INC.", "cik": 897802, "entity_type": "unknown", "former_names": []}
+{"name": "MSC INCOME FUND, INC.", "cik": 1535778, "entity_type": "unknown", "former_names": []}
+{"name": "Bumrungrad Hospital Public Co Limited/ADR", "cik": 1547870, "entity_type": "unknown", "former_names": []}
+{"name": "ZIPRECRUITER, INC.", "cik": 1617553, "entity_type": "unknown", "former_names": []}
+{"name": "SOLVAY S A /ADR/", "cik": 930826, "entity_type": "unknown", "former_names": []}
+{"name": "HCM IV Acquisition Corp.", "cik": 2089982, "entity_type": "unknown", "former_names": []}
+{"name": "Nuvau Minerals Corp", "cik": 2003813, "entity_type": "unknown", "former_names": []}
+{"name": "Fortior Technology (Shenzhen) Co., Ltd./ADR", "cik": 2098710, "entity_type": "unknown", "former_names": []}
+{"name": "NEWELL BRANDS INC.", "cik": 814453, "entity_type": "unknown", "former_names": []}
+{"name": "FUSE GROUP HOLDING INC.", "cik": 1636051, "entity_type": "unknown", "former_names": []}
+{"name": "Market Technology Acquisition Corp", "cik": 2133136, "entity_type": "unknown", "former_names": []}
+{"name": "KRONOS WORLDWIDE INC", "cik": 1257640, "entity_type": "unknown", "former_names": []}
+{"name": "ECA Marcellus Trust I", "cik": 1487798, "entity_type": "unknown", "former_names": []}
+{"name": "BANK OF SOUTH CAROLINA CORP", "cik": 1007273, "entity_type": "unknown", "former_names": []}
+{"name": "Ranger Energy Services, Inc.", "cik": 1699039, "entity_type": "unknown", "former_names": []}
+{"name": "MidCap Financial Investment Corp", "cik": 1278752, "entity_type": "unknown", "former_names": []}
+{"name": "Nasus Pharma Ltd", "cik": 2029039, "entity_type": "unknown", "former_names": []}
+{"name": "Lahontan Gold Corp.", "cik": 1921582, "entity_type": "unknown", "former_names": []}
+{"name": "McKinley Acquisition Corp", "cik": 2067592, "entity_type": "unknown", "former_names": []}
+{"name": "Spartacus Acquisition Corp. II", "cik": 2097364, "entity_type": "unknown", "former_names": []}
+{"name": "Noba Bank Group AG/ADR", "cik": 2093618, "entity_type": "unknown", "former_names": []}
+{"name": "Louis Hachette Group/ADR", "cik": 2063675, "entity_type": "unknown", "former_names": []}
+{"name": "Techlott Inc.", "cik": 1568969, "entity_type": "unknown", "former_names": []}
+{"name": "JOHNSON OUTDOORS INC", "cik": 788329, "entity_type": "unknown", "former_names": []}
+{"name": "Global-Smart.Tech Inc.", "cik": 1940243, "entity_type": "unknown", "former_names": []}
+{"name": "CODEXIS, INC.", "cik": 1200375, "entity_type": "unknown", "former_names": []}
+{"name": "Ninepoint Energy Fund", "cik": 1951593, "entity_type": "unknown", "former_names": []}
+{"name": "National Healthcare Properties, Inc.", "cik": 1561032, "entity_type": "unknown", "former_names": []}
+{"name": "DigitalBridge Group, Inc.", "cik": 1679688, "entity_type": "unknown", "former_names": []}
+{"name": "KENNAMETAL INC", "cik": 55242, "entity_type": "unknown", "former_names": []}
+{"name": "Flaherty & Crumrine Dynamic Preferred & Income Fund Inc", "cik": 1559991, "entity_type": "unknown", "former_names": []}
+{"name": "Mountain Crest Acquisition Corp. V", "cik": 1859035, "entity_type": "unknown", "former_names": []}
+{"name": "HAEMONETICS CORP", "cik": 313143, "entity_type": "unknown", "former_names": []}
+{"name": "Agriculture & Natural Solutions Acquisition Corp", "cik": 1854149, "entity_type": "unknown", "former_names": []}
+{"name": "TCW STRATEGIC INCOME FUND INC", "cik": 809559, "entity_type": "unknown", "former_names": []}
+{"name": "LION COPPER & GOLD CORP.", "cik": 1339688, "entity_type": "unknown", "former_names": []}
+{"name": "Archimedes Tech SPAC Partners II Co.", "cik": 2028516, "entity_type": "unknown", "former_names": []}
+{"name": "NEKTAR THERAPEUTICS", "cik": 906709, "entity_type": "unknown", "former_names": []}
+{"name": "YORK WATER CO", "cik": 108985, "entity_type": "unknown", "former_names": []}
+{"name": "Wintergreen Acquisition Corp.", "cik": 2053927, "entity_type": "unknown", "former_names": []}
+{"name": "Art Technology Acquisition Corp.", "cik": 2086545, "entity_type": "unknown", "former_names": []}
+{"name": "Zoned Properties, Inc.", "cik": 1279620, "entity_type": "unknown", "former_names": []}
+{"name": "ProShares Trust II", "cik": 1415311, "entity_type": "unknown", "former_names": []}
+{"name": "Emerald Holding, Inc.", "cik": 1579214, "entity_type": "unknown", "former_names": []}
+{"name": "UTAH MEDICAL PRODUCTS INC", "cik": 706698, "entity_type": "unknown", "former_names": []}
+{"name": "FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND", "cik": 1810523, "entity_type": "unknown", "former_names": []}
+{"name": "Chery Automobile Co., Ltd./ADR", "cik": 2094687, "entity_type": "unknown", "former_names": []}
+{"name": "Medicus Pharma Ltd.", "cik": 1997296, "entity_type": "unknown", "former_names": []}
+{"name": "Caesarstone Ltd.", "cik": 1504379, "entity_type": "unknown", "former_names": []}
+{"name": "GABELLI GLOBAL UTILITY & INCOME TRUST", "cik": 1282957, "entity_type": "unknown", "former_names": []}
+{"name": "Capital Power Corp/ADR", "cik": 2071911, "entity_type": "unknown", "former_names": []}
+{"name": "Southern Cross Acquisition II Corp.", "cik": 2133239, "entity_type": "unknown", "former_names": []}
+{"name": "Triller Group Inc.", "cik": 1769624, "entity_type": "unknown", "former_names": []}
+{"name": "EQUITY BANCSHARES INC", "cik": 1227500, "entity_type": "unknown", "former_names": []}
+{"name": "Roman DBDR Acquisition Corp. II", "cik": 2032528, "entity_type": "unknown", "former_names": []}
+{"name": "MOZAYYX Acquisition Corp.", "cik": 2097376, "entity_type": "unknown", "former_names": []}
+{"name": "ENCISION INC", "cik": 930775, "entity_type": "unknown", "former_names": []}
+{"name": "AiXin Life International, Inc.", "cik": 835662, "entity_type": "unknown", "former_names": []}
+{"name": "Ostin Technology Group Co., Ltd.", "cik": 1803407, "entity_type": "unknown", "former_names": []}
+{"name": "Datavault AI Inc.", "cik": 1682149, "entity_type": "unknown", "former_names": []}
+{"name": "Synbio International, Inc.", "cik": 1292490, "entity_type": "unknown", "former_names": []}
+{"name": "ADDENTAX GROUP CORP.", "cik": 1650101, "entity_type": "unknown", "former_names": []}
+{"name": "Scorpio Gold Corp", "cik": 1467093, "entity_type": "unknown", "former_names": []}
+{"name": "Soluna Holdings, Inc", "cik": 64463, "entity_type": "unknown", "former_names": []}
+{"name": "TOP SHIPS INC.", "cik": 1296484, "entity_type": "unknown", "former_names": []}
+{"name": "Central Plains Bancshares, Inc.", "cik": 1979332, "entity_type": "unknown", "former_names": []}
+{"name": "SPRUCE BIOSCIENCES, INC.", "cik": 1683553, "entity_type": "unknown", "former_names": []}
+{"name": "Bankwell Financial Group, Inc.", "cik": 1505732, "entity_type": "unknown", "former_names": []}
+{"name": "AMERICAN PUBLIC EDUCATION INC", "cik": 1201792, "entity_type": "unknown", "former_names": []}
+{"name": "Digital Brands Group, Inc.", "cik": 1668010, "entity_type": "unknown", "former_names": []}
+{"name": "K-TECH SOLUTIONS CO LTD", "cik": 2049187, "entity_type": "unknown", "former_names": []}
+{"name": "ENERPAC TOOL GROUP CORP", "cik": 6955, "entity_type": "unknown", "former_names": []}
+{"name": "Brookfield Property Partners L.P.", "cik": 1545772, "entity_type": "unknown", "former_names": []}
+{"name": "Disc Medicine, Inc.", "cik": 1816736, "entity_type": "unknown", "former_names": []}
+{"name": "Bridger Aerospace Group Holdings, Inc.", "cik": 1941536, "entity_type": "unknown", "former_names": []}
+{"name": "GRUPO TELEVISA, S.A.B.", "cik": 912892, "entity_type": "unknown", "former_names": []}
+{"name": "APPlife Digital Solutions Inc", "cik": 1755101, "entity_type": "unknown", "former_names": []}
+{"name": "SpringBig Holdings, Inc.", "cik": 1801602, "entity_type": "unknown", "former_names": []}
+{"name": "GREAT SOUTHERN BANCORP, INC.", "cik": 854560, "entity_type": "unknown", "former_names": []}
+{"name": "Prime Impact Acquisition I", "cik": 1819175, "entity_type": "unknown", "former_names": []}
+{"name": "BRB Foods Inc.", "cik": 1976870, "entity_type": "unknown", "former_names": []}
+{"name": "CITIUS ONCOLOGY, INC.", "cik": 1851484, "entity_type": "unknown", "former_names": []}
+{"name": "Innovative Payment Solutions, Inc.", "cik": 1591913, "entity_type": "unknown", "former_names": []}
+{"name": "ENDEAVOUR SILVER CORP", "cik": 1277866, "entity_type": "unknown", "former_names": []}
+{"name": "FURY GOLD MINES LTD", "cik": 1514597, "entity_type": "unknown", "former_names": []}
+{"name": "Pathfinder Bancorp, Inc.", "cik": 1609065, "entity_type": "unknown", "former_names": []}
+{"name": "Clearmind Medicine Inc.", "cik": 1892500, "entity_type": "unknown", "former_names": []}
+{"name": "BioXcel Therapeutics, Inc.", "cik": 1720893, "entity_type": "unknown", "former_names": []}
+{"name": "UNIVERSAL SAFETY PRODUCTS, INC.", "cik": 102109, "entity_type": "unknown", "former_names": []}
+{"name": "ACCO BRANDS Corp", "cik": 712034, "entity_type": "unknown", "former_names": []}
+{"name": "Bolt Biotherapeutics, Inc.", "cik": 1641281, "entity_type": "unknown", "former_names": []}
+{"name": "Jackson Acquisition Co II", "cik": 2039058, "entity_type": "unknown", "former_names": []}
+{"name": "Peace Acquisition Corp.", "cik": 2088626, "entity_type": "unknown", "former_names": []}
+{"name": "Waystar Holding Corp.", "cik": 1990354, "entity_type": "unknown", "former_names": []}
+{"name": "Forbright, Inc.", "cik": 1925062, "entity_type": "unknown", "former_names": []}
+{"name": "MGX Resources Limited/ADR", "cik": 1537543, "entity_type": "unknown", "former_names": []}
+{"name": "STAAR SURGICAL CO", "cik": 718937, "entity_type": "unknown", "former_names": []}
+{"name": "COTWO ADVISORS PHYSICAL EUROPEAN CARBON ALLOWANCE TRUST", "cik": 1958928, "entity_type": "unknown", "former_names": []}
+{"name": "Vend Marketplaces ASA/ADR", "cik": 1451561, "entity_type": "unknown", "former_names": []}
+{"name": "Lifeloc Technologies, Inc", "cik": 1493137, "entity_type": "unknown", "former_names": []}
+{"name": "Nextel Medical Corp.", "cik": 1492448, "entity_type": "unknown", "former_names": []}

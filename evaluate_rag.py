@@ -92,6 +92,7 @@ def build_rag_user_prompt(messy_input: str, candidates: list, k: int) -> str:
 
 # ── model calling (reuses evaluate.py functions) ─────────────────
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import evaluate
 
 def call_ft_rag(user_prompt: str, system_prompt: str) -> str:
