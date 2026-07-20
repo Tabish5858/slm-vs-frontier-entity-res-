@@ -1,0 +1,24 @@
+# Training config for CoT-enhanced pure-FT (build_dataset_v4_cot)
+# Goal: beat 37% on clean holdout without RAG
+model: mlx-community/Qwen2.5-3B-Instruct-4bit
+train: true
+data: ./data_v4
+fine_tune_type: lora
+optimizer: adam
+mask_prompt: true
+num_layers: 16
+batch_size: 4
+iters: 3000
+val_batches: 50
+learning_rate: 1.0e-4
+steps_per_report: 100
+steps_per_eval: 200
+save_every: 400
+adapter_path: ./adapters_v4_cot
+max_seq_length: 1536
+seed: 42
+grad_checkpoint: true
+lora_parameters:
+  rank: 32
+  dropout: 0.0
+  scale: 20.0

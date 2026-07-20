@@ -21,3 +21,8 @@ data_v3/
 # Temp files
 data/holdout_ciks.json
 *.log
+data/train_v4_cot.jsonl
+data/valid_v4_cot.jsonl
+data_v4/
+cot_holdout_results.json
+adapters_v4_cot/
